@@ -3,23 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Literature - NMP Resources</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Locations - NMP Resources</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <h1>NMP Resources</h1>
     <!-- Navigation Bar -->
     <div class="navbar">
-        <a href="index.html" class="active">Home</a>
+        <a href="index.html">Home</a>
         <a href="episodes.html">Episodes</a>
         <a href="literature.html">Literature</a>
-        <a href="locations.html">Locations</a>
+        <a href="locations.html" class="active">Locations</a>
         <a href="guests.html">Guests</a>
         <a href="https://www.nordicmythologypodcast.com" target="_blank">NMP</a>
         <a href="https://www.hornsofodin.com" target="_blank">Horns of Odin</a>
     </div>
 
-    <h1>Literature</h1>
-    <p>Information about literature related to Nordic mythology and the podcast will go here.</p>
+    <h1>Locations</h1>
+    <ul id="location-list"></ul>
+
+    <script>
+        async function fetchLocations() {
+            const response = await fetch('/get-locations');
+            const locations = await response.json();
+            populateLocations(locations);
+        }
+
+        function populateLocations(locations) {
+            const list = document.getElementById('location-list');
+            list.innerHTML = ''; // Clear previous content
+            locations.forEach(location => {
+                const listItem = document.createElement('li');
+                listItem.textContent = location;
+                list.appendChild(listItem);
+            });
+        }
+
+        // Fetch locations on page load
+        fetchLocations();
+    </script>
 </body>
 </html>
