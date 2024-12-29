@@ -59,7 +59,7 @@ h1, h2, h3 {
 
 /* Hero Section */
 .hero {
-    background: url('css/nmp banner Resources.JPG') no-repeat center center/cover; /* Ensure the path is correct */
+    background: url('css/nmp_banner_resources.JPG') no-repeat center center/cover; /* Ensure the path is correct */
     height: 500px;
     display: flex;
     justify-content: center;
