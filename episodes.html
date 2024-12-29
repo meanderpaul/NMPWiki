@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Episodes - NMP Resources</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <h1>NMP Resources</h1>
     <!-- Navigation Bar -->
     <div class="navbar">
-        <a href="index.html" class="active">Home</a>
-        <a href="episodes.html">Episodes</a>
+        <a href="index.html">Home</a>
+        <a href="episodes.html" class="active">Episodes</a>
         <a href="literature.html">Literature</a>
         <a href="locations.html">Locations</a>
         <a href="guests.html">Guests</a>
@@ -33,88 +33,3 @@
                 }
             });
             const data = await response.json();
-            return data.results;
-        }
-
-        function sanitizeInput(input) {
-            const div = document.createElement('div');
-            div.textContent = input;
-            return div.innerHTML;
-        }
-
-        function sanitizeAndSearch() {
-            const searchInput = document.getElementById('searchInput').value;
-            const sanitizedInput = sanitizeInput(searchInput);
-            searchEpisodes(sanitizedInput);
-        }
-
-        function renderEpisodes(episodes) {
-            const contentDiv = document.getElementById('content');
-            contentDiv.innerHTML = ''; // Clear previous results
-
-            const episodesByYear = episodes.reduce((acc, episode) => {
-                const year = new Date(episode.pub_date_ms).getFullYear();
-                if (!acc[year]) {
-                    acc[year] = [];
-                }
-                acc[year].push(episode);
-                return acc;
-            }, {});
-
-            Object.keys(episodesByYear).sort((a, b) => b - a).forEach(year => {
-                const yearSection = document.createElement('div');
-                yearSection.classList.add('year-section');
-
-                const yearHeader = document.createElement('h2');
-                yearHeader.textContent = year;
-                yearSection.appendChild(yearHeader);
-
-                episodesByYear[year].forEach(ep => {
-                    const episodeDiv = document.createElement('div');
-                    episodeDiv.classList.add('episode');
-
-                    const episodeTitle = document.createElement('h3');
-                    episodeTitle.textContent = `Episode #${ep.id}: ${ep.title}`;
-                    episodeDiv.appendChild(episodeTitle);
-
-                    const episodeDate = document.createElement('p');
-                    episodeDate.innerHTML = `<strong>Date:</strong> ${new Date(ep.pub_date_ms).toLocaleDateString()}`;
-                    episodeDiv.appendChild(episodeDate);
-
-                    const episodeHosts = document.createElement('p');
-                    episodeHosts.innerHTML = `<strong>Hosts:</strong> [Host(s)]`; // Update with actual host data if available
-                    episodeDiv.appendChild(episodeHosts);
-
-                    const episodeGuests = document.createElement('p');
-                    episodeGuests.innerHTML = `<strong>Guests:</strong> [Guest(s)]`; // Update with actual guest data if available
-                    episodeDiv.appendChild(episodeGuests);
-
-                    const episodeDescription = document.createElement('p');
-                    episodeDescription.innerHTML = `<strong>Description:</strong> ${ep.description}`;
-                    episodeDiv.appendChild(episodeDescription);
-
-                    yearSection.appendChild(episodeDiv);
-                });
-
-                contentDiv.appendChild(yearSection);
-            });
-        }
-
-        function searchEpisodes(query) {
-            fetchEpisodes().then(episodes => {
-                const filteredEpisodes = episodes.filter(ep => {
-                    return ep.title.toLowerCase().includes(query.toLowerCase()) ||
-                           ep.description.toLowerCase().includes(query.toLowerCase());
-                });
-                renderEpisodes(filteredEpisodes);
-            }).catch(error => {
-                console.error('Error fetching episodes:', error);
-            });
-        }
-
-        fetchEpisodes().then(renderEpisodes).catch(error => {
-            console.error('Error fetching episodes:', error);
-        });
-    </script>
-</body>
-</html>
