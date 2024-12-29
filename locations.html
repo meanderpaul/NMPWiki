@@ -22,25 +22,6 @@
     <h1>Locations</h1>
     <ul id="location-list"></ul>
 
-    <script>
-        async function fetchLocations() {
-            const response = await fetch('/get-locations');
-            const locations = await response.json();
-            populateLocations(locations);
-        }
-
-        function populateLocations(locations) {
-            const list = document.getElementById('location-list');
-            list.innerHTML = ''; // Clear previous content
-            locations.forEach(location => {
-                const listItem = document.createElement('li');
-                listItem.textContent = location;
-                list.appendChild(listItem);
-            });
-        }
-
-        // Fetch locations on page load
-        fetchLocations();
-    </script>
+    
 </body>
 </html>
