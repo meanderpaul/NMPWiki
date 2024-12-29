@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NMP Resources</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #4CAF50;
+        }
+        .year-section {
+            margin-bottom: 20px;
+        }
+        .episode {
+            margin-bottom: 10px;
+        }
+        .episode h3 {
+            margin: 0;
+            color: #333;
+        }
+        .episode p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>NMP Resources</h1>
+    <div id="content"></div>
+
+    <script>
+        async function fetchEpisodes() {
+            const response = await fetch('https://listen-api.listennotes.com/api/v2/search?q=NMP Resources&sort_by_date=0&type=episode', {
+                headers: {
+                    'X-ListenAPI-Key': 'YOUR_API_KEY'
+                }
+            });
+            const data = await response.json();
+            return data.results;
+        }
+
+        function renderEpisodes(episodes) {
+            const contentDiv = document.getElementById('content');
+
+            const episodesByYear = episodes.reduce((acc, episode) => {
+                const year = new Date(episode.pub_date_ms).getFullYear();
+                if (!acc[year]) {
+                    acc[year] = [];
+                }
+                acc[year].push(episode);
+                return acc;
+            }, {});
+
+            Object.keys(episodesByYear).sort((a, b) => b - a).forEach(year => {
+                const yearSection = document.createElement('div');
+                yearSection.classList.add('year-section');
+
+                const yearHeader = document.createElement('h2');
+                yearHeader.textContent = year;
+                yearSection.appendChild(yearHeader);
+
+                episodesByYear[year].forEach(ep => {
+                    const episodeDiv = document.createElement('div');
+                    episodeDiv.classList.add('episode');
+
+                    const episodeTitle = document.createElement('h3');
+                    episodeTitle.textContent = `Episode #${ep.id}: ${ep.title}`;
+                    episodeDiv.appendChild(episodeTitle);
+
+                    const episodeDate = document.createElement('p');
+                    episodeDate.innerHTML = `<strong>Date:</strong> ${new Date(ep.pub_date_ms).toLocaleDateString()}`;
+                    episodeDiv.appendChild(episodeDate);
+
+                    const episodeHosts = document.createElement('p');
+                    episodeHosts.innerHTML = `<strong>Hosts:</strong> [Host(s)]`; // Update with actual host data if available
+                    episodeDiv.appendChild(episodeHosts);
+
+                    const episodeGuests = document.createElement('p');
+                    episodeGuests.innerHTML = `<strong>Guests:</strong> [Guest(s)]`; // Update with actual guest data if available
+                    episodeDiv.appendChild(episodeGuests);
+
+                    yearSection.appendChild(episodeDiv);
+                });
+
+                contentDiv.appendChild(yearSection);
+            });
+        }
+
+        fetchEpisodes().then(renderEpisodes).catch(error => {
+            console.error('Error fetching episodes:', error);
+        });
+    </script>
+</body>
+</html>
