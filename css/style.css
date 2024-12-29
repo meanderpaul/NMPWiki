@@ -7,6 +7,15 @@ body {
     padding: 0;
 }
 
+/* Episode Styling */
+.episode {
+    background-color: #333;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    color: white;
+}
+
 /* Typography */
 h1, h2, h3 {
     color: #f2f2f2;
