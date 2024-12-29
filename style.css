@@ -1,21 +1,23 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
+    background-color: #333;
+    color: #f2f2f2;
 }
 
 h1 {
     text-align: center;
-    color: #4CAF50;
+    color: #f2f2f2;
 }
 
 h2 {
-    color: #333;
+    color: #ccc;
 }
 
 .navbar {
     display: flex;
     justify-content: center;
-    background-color: #333;
+    background-color: #222;
     padding: 0;
     list-style: none;
     margin: 0;
@@ -31,12 +33,12 @@ h2 {
 }
 
 .navbar a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: #444;
+    color: #f2f2f2;
 }
 
 .navbar a.active {
-    background-color: #4CAF50;
+    background-color: #555;
     color: white;
 }
 
@@ -50,11 +52,12 @@ h2 {
 
 .episode h3 {
     margin: 0;
-    color: #333;
+    color: #ccc;
 }
 
 .episode p {
     margin: 5px 0;
+    color: #ddd;
 }
 
 #searchInput {
@@ -62,4 +65,7 @@ h2 {
     padding: 10px;
     width: 100%;
     box-sizing: border-box;
+    background-color: #444;
+    color: #f2f2f2;
+    border: 1px solid #555;
 }
