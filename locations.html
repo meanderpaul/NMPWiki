@@ -10,16 +10,37 @@
     <h1>NMP Resources</h1>
     <!-- Navigation Bar -->
     <div class="navbar">
-        <a href="index.html" class="active">Home</a>
+        <a href="index.html">Home</a>
         <a href="episodes.html">Episodes</a>
         <a href="literature.html">Literature</a>
-        <a href="locations.html">Locations</a>
+        <a href="locations.html" class="active">Locations</a>
         <a href="guests.html">Guests</a>
         <a href="https://www.nordicmythologypodcast.com" target="_blank">NMP</a>
         <a href="https://www.hornsofodin.com" target="_blank">Horns of Odin</a>
     </div>
 
     <h1>Locations</h1>
-    <p>Information about significant locations discussed in the podcast will go here.</p>
+    <ul id="location-list"></ul>
+
+    <script>
+        async function fetchLocations() {
+            const response = await fetch('/get-locations');
+            const locations = await response.json();
+            populateLocations(locations);
+        }
+
+        function populateLocations(locations) {
+            const list = document.getElementById('location-list');
+            list.innerHTML = ''; // Clear previous content
+            locations.forEach(location => {
+                const listItem = document.createElement('li');
+                listItem.textContent = location;
+                list.appendChild(listItem);
+            });
+        }
+
+        // Fetch locations on page load
+        fetchLocations();
+    </script>
 </body>
 </html>
