@@ -10,9 +10,9 @@
         .hero {
             background: url('css/nmp_banner_resources.jpg') no-repeat center center;
             background-size: contain; /* Ensure the image fits within the borders */
-            height: 50vh; /* Default to 50% of viewport height */
-            width: 100%;
-            max-height: 500px; /* Maximum height */
+            height: 25vh; /* Smaller height */
+            width: 125%; /* Increase width to 125% */
+            max-height: 250px; /* Maximum height */
             padding-top: 50px; /* Add padding to prevent cutoff */
             display: flex;
             justify-content: center;
@@ -30,25 +30,25 @@
         /* Responsive Design */
         @media (max-width: 1200px) {
             .hero {
-                height: 40vh; /* Adjusted height for larger screens */
+                height: 20vh; /* Adjusted height for larger screens */
             }
         }
 
         @media (max-width: 768px) {
             .hero {
-                height: 30vh; /* Adjusted height for medium screens */
+                height: 15vh; /* Adjusted height for medium screens */
             }
         }
 
         @media (max-width: 480px) {
             .hero {
-                height: 20vh; /* Adjusted height for small screens */
+                height: 10vh; /* Adjusted height for small screens */
             }
         }
 
         @media (max-width: 320px) {
             .hero {
-                height: 15vh; /* Adjusted height for very small screens */
+                height: 7.5vh; /* Adjusted height for very small screens */
             }
         }
     </style>
@@ -56,6 +56,9 @@
 <body>
     <div class="hero">
         <div class="hero-content">
+            <!-- Content if needed -->
+            <h1>Welcome to NMP Resources</h1>
+            <p>Your go-to source for everything related to the Nordic Mythology Podcast.</p>
         </div>
     </div>
 
