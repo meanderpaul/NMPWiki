@@ -25,9 +25,11 @@ jobs:
         run: node fetchEpisodes.js
         
       - name: Commit and push changes
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add data/episodes.json
           git commit -m 'Update episodes data'
-          git push
+          git push https://$GH_PAT@github.com/${{ github.repository }}.git HEAD:${{ github.ref }}
