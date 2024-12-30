@@ -193,3 +193,14 @@
             if (guestName === 'N/A' && title) {
                 const titleGuestMatch = title.match(/with (.+?)(\.|,|;|\n|$)/i);
                 if (titleGuestMatch) {
+                    guestName = titleGuestMatch[1].trim();
+                }
+            }
+            
+            return guestName;
+        }
+
+        window.onload = fetchEpisodesFromFile;
+    </script>
+</body>
+</html>
