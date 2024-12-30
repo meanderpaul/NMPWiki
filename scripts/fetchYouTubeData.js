@@ -1,10 +1,10 @@
 async function fetchYouTubeData() {
     const apiKey = 'AIzaSyCblwXPE3a7niqWNtanwdTjHWPQqcDp8r8'; // Your API key
-    const channelid = 'UCKSGsloyMpiQlfr5ZCoB3eQ'; //channel id found under share channel
+    const channelId = 'UC7TwsyeTrpcklktLkwB4FYA'; // Replace with the actual channel ID
     const searchUrl = 'https://www.googleapis.com/youtube/v3/search';
     const searchParams = new URLSearchParams({
         part: 'snippet',
-        channelid: channelid,
+        channelId: channelId,
         type: 'video',
         maxResults: 50,
         key: apiKey
@@ -24,20 +24,27 @@ async function fetchYouTubeData() {
             return;
         }
 
-        // Fetch detailed video data
+        // Fetch detailed video data, including duration
         const videoDetails = await Promise.all(data.items.map(async video => {
             const videoId = video.id.videoId;
-            const videoDetailsUrl = `https://www.googleapis.com/youtube/v3/videos?part=snippet,statistics&id=${videoId}&key=${apiKey}`;
+            const videoDetailsUrl = `https://www.googleapis.com/youtube/v3/videos?part=snippet,contentDetails,statistics&id=${videoId}&key=${apiKey}`;
             const videoResponse = await fetch(videoDetailsUrl);
             const videoData = await videoResponse.json();
             return videoData.items[0];
         }));
 
+        // Filter videos by duration (only include videos longer than 1 hour)
+        const filteredVideos = videoDetails.filter(video => {
+            const duration = video.contentDetails.duration;
+            const hours = parseInt(duration.match(/(\d+)H/)) || 0;
+            return hours >= 1;
+        });
+
         // Sort videos by published date
-        videoDetails.sort((a, b) => new Date(b.snippet.publishedAt) - new Date(a.snippet.publishedAt));
+        filteredVideos.sort((a, b) => new Date(b.snippet.publishedAt) - new Date(a.snippet.publishedAt));
 
         // Group videos by year
-        const episodesByYear = videoDetails.reduce((acc, video) => {
+        const episodesByYear = filteredVideos.reduce((acc, video) => {
             const year = new Date(video.snippet.publishedAt).getFullYear();
             acc[year] = acc[year] || [];
             acc[year].push(video);
