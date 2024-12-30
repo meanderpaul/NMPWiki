@@ -1,1 +1,42 @@
 
+[
+    {
+        "kind": "youtube#playlistItem",
+        "etag": "etag_placeholder",
+        "id": "videoId_placeholder",
+        "snippet": {
+            "publishedAt": "2023-01-01T00:00:00Z",
+            "channelId": "channelId_placeholder",
+            "title": "Episode Title Placeholder",
+            "description": "Episode description placeholder. Guest: Guest Name Placeholder.",
+            "thumbnails": {
+                "default": {
+                    "url": "https://via.placeholder.com/120x90",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://via.placeholder.com/320x180",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://via.placeholder.com/480x360",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Channel Title Placeholder",
+            "playlistId": "playlistId_placeholder",
+            "position": 0,
+            "resourceId": {
+                "kind": "youtube#video",
+                "videoId": "videoId_placeholder"
+            }
+        },
+        "contentDetails": {
+            "videoId": "videoId_placeholder",
+            "videoPublishedAt": "2023-01-01T00:00:00Z"
+        }
+    }
+]
