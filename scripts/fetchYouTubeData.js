@@ -43,13 +43,23 @@ async function fetchYouTubeData() {
             return acc;
         }, {});
 
-        // Display sorted videos by year
-        for (const [year, videos] of Object.entries(episodesByYear)) {
+        // Display total episode count
+        const totalEpisodes = videoDetails.length;
+        const totalCounter = document.createElement('h2');
+        totalCounter.textContent = `Total Episodes: ${totalEpisodes}`;
+        totalCounter.classList.add('total-counter');
+        episodesContainer.appendChild(totalCounter);
+
+        // Display sorted videos by year, with the most recent year at the top
+        const sortedYears = Object.keys(episodesByYear).sort((a, b) => b - a);
+
+        for (const year of sortedYears) {
+            const videos = episodesByYear[year];
             const yearContainer = document.createElement('div');
             yearContainer.classList.add('year-container');
 
             const yearHeader = document.createElement('h2');
-            yearHeader.textContent = `${year} (${videos.length} episodes)`;
+            yearHeader.textContent = year;
             yearHeader.classList.add('year-header');
             yearHeader.onclick = () => {
                 const yearContent = yearContainer.querySelector('.year-content');
