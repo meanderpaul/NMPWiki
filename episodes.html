@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-        <style>
+    <style>
         .hero {
             background: url('css/nmp_banner_resources.jpg') no-repeat center center;
             background-size: contain; /* Ensure the image fits within the borders */
@@ -52,12 +52,33 @@
                 height: 7.5vh; /* Adjusted height for very small screens */
             }
         }
-            
-            .total-counter {
-    text-align: center;
-    color: #4CAF50;
-    margin-bottom: 20px;
-}
+
+        .total-counter {
+            text-align: center;
+            color: #4CAF50;
+            margin-bottom: 20px;
+        }
+
+        .year-header {
+            cursor: pointer;
+            background-color: #f1f1f1;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .year-content {
+            display: none;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .episode {
+            margin-bottom: 15px;
+        }
 
     </style>
 </head>
@@ -66,8 +87,6 @@
         <div class="hero-content">
         </div>
     </div>
-</head>
-<body>
     <!-- Navigation Bar -->
     <div class="navbar">
         <a href="index.html">Home</a>
@@ -83,10 +102,79 @@
         <!-- Episodes will be dynamically loaded here by JavaScript -->
     </div>
 
-
-
     <!-- Include the JavaScript to fetch and display YouTube data -->
-    <script src="scripts/fetchYouTubeData.js"></script>
+    <script>
+        async function fetchEpisodesFromFile() {
+            try {
+                const response = await fetch('data/episodes.json');
+                const episodes = await response.json();
+                const episodesContainer = document.getElementById('episodes-container');
+                
+                if (episodesContainer) {
+                    episodesContainer.innerHTML = '';
+
+                    const totalEpisodes = episodes.length;
+                    const totalCounter = document.createElement('h2');
+                    totalCounter.textContent = `Total Episodes: ${totalEpisodes}`;
+                    totalCounter.classList.add('total-counter');
+                    episodesContainer.appendChild(totalCounter);
+
+                    const episodesByYear = episodes.reduce((acc, episode) => {
+                        const year = new Date(episode.snippet.publishedAt).getFullYear();
+                        acc[year] = acc[year] || [];
+                        acc[year].push(episode);
+                        return acc;
+                    }, {});
+                    const sortedYears = Object.keys(episodesByYear).sort((a, b) => b - a);
+
+                    for (const year of sortedYears) {
+                        const yearContainer = document.createElement('div');
+                        yearContainer.classList.add('year-container');
+
+                        const yearHeader = document.createElement('h2');
+                        yearHeader.textContent = year;
+                        yearHeader.classList.add('year-header');
+                        yearHeader.onclick = () => {
+                            const yearContent = yearContainer.querySelector('.year-content');
+                            yearContent.style.display = yearContent.style.display === 'none' ? 'block' : 'none';
+                        };
+                        yearContainer.appendChild(yearHeader);
+
+                        const yearContent = document.createElement('div');
+                        yearContent.classList.add('year-content');
+
+                        const sortedEpisodes = episodesByYear[year].sort((a, b) => new Date(b.snippet.publishedAt) - new Date(a.snippet.publishedAt));
+
+                        for (const episode of sortedEpisodes) {
+                            const episodeElement = document.createElement('div');
+                            episodeElement.classList.add('episode');
+
+                            episodeElement.innerHTML = `
+                                <h3>${episode.snippet.title}</h3>
+                                <p><strong>Episode Number:</strong> ${episode.snippet.title.match(/\d+/) || 'N/A'}</p>
+                                <p><strong>Guest Name:</strong> ${extractGuestName(episode.snippet.description)}</p>
+                                <p><strong>Description:</strong> ${episode.snippet.description}</p>
+                                <p><strong>Published At:</strong> ${new Date(episode.snippet.publishedAt).toLocaleDateString()}</p>
+                            `;
+                            yearContent.appendChild(episodeElement);
+                        }
+
+                        yearContent.style.display = 'none'; // Initially collapse year sections
+                        yearContainer.appendChild(yearContent);
+                        episodesContainer.appendChild(yearContainer);
+                    }
+                }
+            } catch (error) {
+                console.error('Error fetching episodes from file:', error);
+            }
+        }
+
+        function extractGuestName(description) {
+            const guestMatch = description.match(/guest[:]? (.+)/i);
+            return guestMatch ? guestMatch[1] : 'N/A';
+        }
+
+        window.onload = fetchEpisodesFromFile;
+    </script>
 </body>
-    
 </html>
