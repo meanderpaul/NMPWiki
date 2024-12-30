@@ -105,7 +105,12 @@
         async function fetchEpisodesFromFile() {
             try {
                 const response = await fetch('data/episodes.json');
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
                 const episodes = await response.json();
+                console.log('Fetched episodes:', episodes); // Debug log
+
                 const episodesContainer = document.getElementById('episodes-container');
                 
                 if (episodesContainer) {
@@ -119,6 +124,7 @@
 
                     // Filter out nulls from the data set
                     const filteredEpisodes = episodes.filter(episode => episode !== null);
+                    console.log('Filtered episodes:', filteredEpisodes); // Debug log
 
                     const episodesByYear = filteredEpisodes.reduce((acc, episode) => {
                         if (!episode) {
@@ -135,6 +141,7 @@
                         acc[year].push(episode);
                         return acc;
                     }, {});
+                    console.log('Episodes by year:', episodesByYear); // Debug log
 
                     const sortedYears = Object.keys(episodesByYear).sort((a, b) => b - a);
 
