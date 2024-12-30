@@ -6,6 +6,58 @@
     <title>Episodes - NMP Resources</title>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <style>
+        .hero {
+            background: url('css/nmp_banner_resources.jpg') no-repeat center center;
+            background-size: contain; /* Ensure the image fits within the borders */
+            height: 25vh; /* Smaller height */
+            width: 100%; /* Default width */
+            max-height: 250px; /* Maximum height */
+            padding-top: 50px; /* Add padding to prevent cutoff */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+
+        .hero-content {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 1200px) {
+            .hero {
+                height: 20vh; /* Adjusted height for larger screens */
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hero {
+                height: 15vh; /* Adjusted height for medium screens */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero {
+                height: 10vh; /* Adjusted height for small screens */
+            }
+        }
+
+        @media (max-width: 320px) {
+            .hero {
+                height: 7.5vh; /* Adjusted height for very small screens */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <div class="hero-content">
+        </div>
+    </div>
 </head>
 <body>
     <!-- Navigation Bar -->
