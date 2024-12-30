@@ -1,9 +1,10 @@
 async function fetchYouTubeData() {
     const apiKey = 'AIzaSyCblwXPE3a7niqWNtanwdTjHWPQqcDp8r8'; // Your API key
+    const channelid = 'UCKSGsloyMpiQlfr5ZCoB3eQ'; //channel id found under share channel
     const searchUrl = 'https://www.googleapis.com/youtube/v3/search';
     const searchParams = new URLSearchParams({
-        q: 'Nordic Mythology Podcast',
         part: 'snippet',
+        channelid: channelid,
         type: 'video',
         maxResults: 50,
         key: apiKey
