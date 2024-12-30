@@ -1,5 +1,5 @@
 async function fetchYouTubeData() {
-    const apiKey = 'AIzaSyCblwXPE3a7niqWNtanwdTjHWPQqcDp8r8';
+    const apiKey = 'AIzaSyCblwXPE3a7niqWNtanwdTjHWPQqcDp8r8'; // Your API key
     const searchUrl = 'https://www.googleapis.com/youtube/v3/search';
     const searchParams = new URLSearchParams({
         q: 'Nordic Mythology Podcast',
