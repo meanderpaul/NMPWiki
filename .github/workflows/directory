@@ -1,0 +1,16 @@
+/my-website
+├── /css
+│   ├── style.css
+├── /js
+│   ├── main.js
+├── /data
+│   ├── episodes.json   # This file will be auto-updated by the GitHub Action
+├── .github
+│   ├── /workflows
+│   │   ├── update-data.yml
+├── index.html
+├── fetchEpisodes.js    # Script for GitHub Action to fetch episode data
+├── package.json
+├── README.md
+├── server.js           # Optional, if you decide to use a server
+├── vercel.json         # Optional, if you decide to deploy to Vercel
