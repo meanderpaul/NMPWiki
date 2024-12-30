@@ -1,6 +1,6 @@
 async function fetchYouTubeData() {
     const apiKey = 'AIzaSyCblwXPE3a7niqWNtanwdTjHWPQqcDp8r8'; // Your API key
-    const channelId = 'UC7TwsyeTrpcklktLkwB4FYA'; // Replace with the actual channel ID
+    const channelId = 'UCKSGsloyMpiQlfr5ZCoB3eQ'; // Replace with the actual channel ID
     const searchUrl = 'https://www.googleapis.com/youtube/v3/search';
     const searchParams = new URLSearchParams({
         part: 'snippet',
