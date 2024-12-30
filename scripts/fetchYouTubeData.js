@@ -23,27 +23,62 @@ async function fetchYouTubeData() {
             return;
         }
 
-        for (const video of data.items) {
+        // Fetch detailed video data
+        const videoDetails = await Promise.all(data.items.map(async video => {
             const videoId = video.id.videoId;
             const videoDetailsUrl = `https://www.googleapis.com/youtube/v3/videos?part=snippet,statistics&id=${videoId}&key=${apiKey}`;
             const videoResponse = await fetch(videoDetailsUrl);
             const videoData = await videoResponse.json();
-            const videoItem = videoData.items[0];
+            return videoData.items[0];
+        }));
 
-            const episodeElement = document.createElement('div');
-            episodeElement.classList.add('episode');
+        // Sort videos by published date
+        videoDetails.sort((a, b) => new Date(b.snippet.publishedAt) - new Date(a.snippet.publishedAt));
 
-            episodeElement.innerHTML = `
-                <h3>${videoItem.snippet.title}</h3>
-                <p><strong>Episode Number:</strong> ${video.snippet.title.match(/\d+/) || 'N/A'}</p>
-                <p><strong>Guest Name:</strong> ${extractGuestName(videoItem.snippet.description)}</p>
-                <p><strong>Description:</strong> ${videoItem.snippet.description}</p>
-                <p><strong>Published At:</strong> ${new Date(videoItem.snippet.publishedAt).toLocaleDateString()}</p>
-                <p><strong>View Count:</strong> ${videoItem.statistics.viewCount}</p>
-                <p><strong>Like Count:</strong> ${videoItem.statistics.likeCount}</p>
-            `;
-            episodesContainer.appendChild(episodeElement);
+        // Group videos by year
+        const episodesByYear = videoDetails.reduce((acc, video) => {
+            const year = new Date(video.snippet.publishedAt).getFullYear();
+            acc[year] = acc[year] || [];
+            acc[year].push(video);
+            return acc;
+        }, {});
+
+        // Display sorted videos by year
+        for (const [year, videos] of Object.entries(episodesByYear)) {
+            const yearContainer = document.createElement('div');
+            yearContainer.classList.add('year-container');
+
+            const yearHeader = document.createElement('h2');
+            yearHeader.textContent = year;
+            yearHeader.classList.add('year-header');
+            yearHeader.onclick = () => {
+                const yearContent = yearContainer.querySelector('.year-content');
+                yearContent.style.display = yearContent.style.display === 'none' ? 'block' : 'none';
+            };
+            yearContainer.appendChild(yearHeader);
+
+            const yearContent = document.createElement('div');
+            yearContent.classList.add('year-content');
+
+            for (const videoItem of videos) {
+                const episodeElement = document.createElement('div');
+                episodeElement.classList.add('episode');
+
+                episodeElement.innerHTML = `
+                    <h3>${videoItem.snippet.title}</h3>
+                    <p><strong>Episode Number:</strong> ${videoItem.snippet.title.match(/\d+/) || 'N/A'}</p>
+                    <p><strong>Guest Name:</strong> ${extractGuestName(videoItem.snippet.description)}</p>
+                    <p><strong>Description:</strong> ${videoItem.snippet.description}</p>
+                    <p><strong>Published At:</strong> ${new Date(videoItem.snippet.publishedAt).toLocaleDateString()}</p>
+                `;
+                yearContent.appendChild(episodeElement);
+            }
+
+            yearContent.style.display = 'none'; // Initially collapse year sections
+            yearContainer.appendChild(yearContent);
+            episodesContainer.appendChild(yearContainer);
         }
+
         console.log("Episodes added to the DOM."); // Log for debugging
     } catch (error) {
         console.error('Error fetching YouTube data:', error);
