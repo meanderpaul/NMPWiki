@@ -8,12 +8,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
         .hero {
-            background: url('css/nmp_banner_resources.jpg') no-repeat center center/cover;
+            background: url('css/nmp_banner_resources.jpg') no-repeat center center;
+            background-size: contain; /* Ensure the image fits within the borders */
             height: 50vh; /* Default to 50% of viewport height */
             width: 100%;
-            max-height: 250px; /* Maximum height */
-            padding-top: 125px; /* Add padding to prevent cutoff */
-            background-size: cover;
+            max-height: 500px; /* Maximum height */
+            padding-top: 50px; /* Add padding to prevent cutoff */
             display: flex;
             justify-content: center;
             align-items: center;
@@ -21,19 +21,46 @@
             text-align: center;
         }
 
-        
+        .hero-content {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 1200px) {
+            .hero {
+                height: 40vh; /* Adjusted height for larger screens */
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hero {
+                height: 30vh; /* Adjusted height for medium screens */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero {
+                height: 20vh; /* Adjusted height for small screens */
+            }
+        }
+
+        @media (max-width: 320px) {
+            .hero {
+                height: 15vh; /* Adjusted height for very small screens */
+            }
+        }
     </style>
 </head>
-
 <body>
-<div class="hero">
-    <div class="hero-content">
-        <!-- Content if needed -->
-        <h1>Welcome to NMP Resources</h1>
-        <p>Your go-to source for everything related to the Nordic Mythology Podcast.</p>
+    <div class="hero">
+        <div class="hero-content">
+            <!-- Content if needed -->
+            <h1>Welcome to NMP Resources</h1>
+            <p>Your go-to source for everything related to the Nordic Mythology Podcast.</p>
+        </div>
     </div>
-</div>
-
 
     <!-- Navigation Bar -->
     <div class="navbar">
