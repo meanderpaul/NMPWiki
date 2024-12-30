@@ -1,11 +1,10 @@
 async function fetchYouTubeData() {
     const apiKey = 'AIzaSyCblwXPE3a7niqWNtanwdTjHWPQqcDp8r8'; // Your API key
-    const channelId = 'UCKSGsloyMpiQlfr5ZCoB3eQ'; // Replace with the actual channel ID
-    const searchUrl = 'https://www.googleapis.com/youtube/v3/search';
-    const searchParams = new URLSearchParams({
-        part: 'snippet',
-        channelId: channelId,
-        type: 'video',
+    const playlistId = 'PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj'; // Playlist ID for the specific playlist
+    const playlistItemsUrl = 'https://www.googleapis.com/youtube/v3/playlistItems';
+    const playlistItemsParams = new URLSearchParams({
+        part: 'snippet,contentDetails',
+        playlistId: playlistId,
         maxResults: 50,
         key: apiKey
     });
@@ -13,7 +12,7 @@ async function fetchYouTubeData() {
     console.log("Fetching data from YouTube API..."); // Log for debugging
 
     try {
-        const response = await fetch(`${searchUrl}?${searchParams}`);
+        const response = await fetch(`${playlistItemsUrl}?${playlistItemsParams}`);
         console.log("API response received."); // Log for debugging
         const data = await response.json();
         console.log("Data parsed successfully:", data); // Log for debugging
@@ -25,9 +24,9 @@ async function fetchYouTubeData() {
         }
 
         // Fetch detailed video data, including duration
-        const videoDetails = await Promise.all(data.items.map(async video => {
-            const videoId = video.id.videoId;
-            const videoDetailsUrl = `https://www.googleapis.com/youtube/v3/videos?part=snippet,contentDetails,statistics&id=${videoId}&key=${apiKey}`;
+        const videoDetails = await Promise.all(data.items.map(async item => {
+            const videoId = item.contentDetails.videoId;
+            const videoDetailsUrl = `https://www.googleapis.com/youtube/v3/videos?part=snippet,contentDetails&id=${videoId}&key=${apiKey}`;
             const videoResponse = await fetch(videoDetailsUrl);
             const videoData = await videoResponse.json();
             return videoData.items[0];
@@ -36,7 +35,8 @@ async function fetchYouTubeData() {
         // Filter videos by duration (only include videos longer than 1 hour)
         const filteredVideos = videoDetails.filter(video => {
             const duration = video.contentDetails.duration;
-            const hours = parseInt(duration.match(/(\d+)H/)) || 0;
+            const match = duration.match(/PT(\d+)H(\d+)M(\d+)S/);
+            const hours = match ? parseInt(match[1], 10) : 0;
             return hours >= 1;
         });
 
