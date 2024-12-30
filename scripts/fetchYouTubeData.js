@@ -49,7 +49,7 @@ async function fetchYouTubeData() {
             yearContainer.classList.add('year-container');
 
             const yearHeader = document.createElement('h2');
-            yearHeader.textContent = year;
+            yearHeader.textContent = `${year} (${videos.length} episodes)`;
             yearHeader.classList.add('year-header');
             yearHeader.onclick = () => {
                 const yearContent = yearContainer.querySelector('.year-content');
