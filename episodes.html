@@ -102,98 +102,102 @@
 
     <!-- Include the JavaScript to fetch and display YouTube data -->
     <script>
-        async function fetchEpisodesFromFile() {
-            try {
-                const response = await fetch('data/episodes.json');
-                const episodes = await response.json();
-                const episodesContainer = document.getElementById('episodes-container');
-                
-                if (episodesContainer) {
-                    episodesContainer.innerHTML = '';
+    async function fetchEpisodesFromFile() {
+        try {
+            const response = await fetch('data/episodes.json');
+            const episodes = await response.json();
+            const episodesContainer = document.getElementById('episodes-container');
+            
+            if (episodesContainer) {
+                episodesContainer.innerHTML = '';
 
-                    const totalEpisodes = episodes.length;
-                    const totalCounter = document.createElement('h2');
-                    totalCounter.textContent = `Total Episodes: ${totalEpisodes}`;
-                    totalCounter.classList.add('total-counter');
-                    episodesContainer.appendChild(totalCounter);
+                const totalEpisodes = episodes.length;
+                const totalCounter = document.createElement('h2');
+                totalCounter.textContent = `Total Episodes: ${totalEpisodes}`;
+                totalCounter.classList.add('total-counter');
+                episodesContainer.appendChild(totalCounter);
 
-                    const episodesByYear = episodes.reduce((acc, episode) => {
-                        if (!episode.snippet) {
-                            console.error('Episode missing snippet:', episode);
-                            return acc;
-                        }
-
-                        const year = new Date(episode.snippet.publishedAt).getFullYear();
-                        acc[year] = acc[year] || [];
-                        acc[year].push(episode);
+                const episodesByYear = episodes.reduce((acc, episode) => {
+                    if (!episode) {
+                        console.error('Null episode encountered:', episode);
                         return acc;
-                    }, {});
-
-                    const sortedYears = Object.keys(episodesByYear).sort((a, b) => b - a);
-
-                    for (const year of sortedYears) {
-                        const yearContainer = document.createElement('div');
-                        yearContainer.classList.add('year-container');
-
-                        const yearHeader = document.createElement('h2');
-                        yearHeader.textContent = year;
-                        yearHeader.classList.add('year-header');
-                        yearHeader.onclick = () => {
-                            const yearContent = yearContainer.querySelector('.year-content');
-                            yearContent.style.display = yearContent.style.display === 'none' ? 'block' : 'none';
-                        };
-                        yearContainer.appendChild(yearHeader);
-
-                        const yearContent = document.createElement('div');
-                        yearContent.classList.add('year-content');
-
-                        for (const episode of episodesByYear[year]) {
-                            const episodeElement = document.createElement('div');
-                            episodeElement.classList.add('episode');
-
-                            episodeElement.innerHTML = `
-                                <h3>${episode.snippet.title || 'No title'}</h3>
-                                <p><strong>Episode Number:</strong> ${episode.snippet.title.match(/\d+/) || 'N/A'}</p>
-                                <p><strong>Guest Name:</strong> ${extractGuestName(episode.snippet.description, episode.snippet.title)}</p>
-                                <p><strong>Description:</strong> ${episode.snippet.description || 'No description available'}</p>
-                                <p><strong>Published At:</strong> ${new Date(episode.snippet.publishedAt).toLocaleDateString()}</p>
-                            `;
-                            yearContent.appendChild(episodeElement);
-                        }
-
-                        yearContent.style.display = 'none'; // Initially collapse year sections
-                        yearContainer.appendChild(yearContent);
-                        episodesContainer.appendChild(yearContainer);
                     }
+                    if (!episode.snippet) {
+                        console.error('Episode missing snippet:', episode);
+                        return acc;
+                    }
+
+                    const year = new Date(episode.snippet.publishedAt).getFullYear();
+                    acc[year] = acc[year] || [];
+                    acc[year].push(episode);
+                    return acc;
+                }, {});
+
+                const sortedYears = Object.keys(episodesByYear).sort((a, b) => b - a);
+
+                for (const year of sortedYears) {
+                    const yearContainer = document.createElement('div');
+                    yearContainer.classList.add('year-container');
+
+                    const yearHeader = document.createElement('h2');
+                    yearHeader.textContent = year;
+                    yearHeader.classList.add('year-header');
+                    yearHeader.onclick = () => {
+                        const yearContent = yearContainer.querySelector('.year-content');
+                        yearContent.style.display = yearContent.style.display === 'none' ? 'block' : 'none';
+                    };
+                    yearContainer.appendChild(yearHeader);
+
+                    const yearContent = document.createElement('div');
+                    yearContent.classList.add('year-content');
+
+                    for (const episode of episodesByYear[year]) {
+                        const episodeElement = document.createElement('div');
+                        episodeElement.classList.add('episode');
+
+                        episodeElement.innerHTML = `
+                            <h3>${episode.snippet.title || 'No title'}</h3>
+                            <p><strong>Episode Number:</strong> ${episode.snippet.title.match(/\d+/) || 'N/A'}</p>
+                            <p><strong>Guest Name:</strong> ${extractGuestName(episode.snippet.description, episode.snippet.title)}</p>
+                            <p><strong>Description:</strong> ${episode.snippet.description || 'No description available'}</p>
+                            <p><strong>Published At:</strong> ${new Date(episode.snippet.publishedAt).toLocaleDateString()}</p>
+                        `;
+                        yearContent.appendChild(episodeElement);
+                    }
+
+                    yearContent.style.display = 'none'; // Initially collapse year sections
+                    yearContainer.appendChild(yearContent);
+                    episodesContainer.appendChild(yearContainer);
                 }
-            } catch (error) {
-                console.error('Error fetching episodes from file:', error);
+            }
+        } catch (error) {
+            console.error('Error fetching episodes from file:', error);
+        }
+    }
+
+    function extractGuestName(description, title) {
+        let guestName = 'N/A';
+        
+        // Try to extract guest name from description
+        if (description) {
+            const descriptionGuestMatch = description.match(/guest[:]? (.+?)(\.|,|;|\n|$)/i);
+            if (descriptionGuestMatch) {
+                guestName = descriptionGuestMatch[1].trim();
             }
         }
-
-        function extractGuestName(description, title) {
-            let guestName = 'N/A';
-            
-            // Try to extract guest name from description
-            if (description) {
-                const descriptionGuestMatch = description.match(/guest[:]? (.+?)(\.|,|;|\n|$)/i);
-                if (descriptionGuestMatch) {
-                    guestName = descriptionGuestMatch[1].trim();
-                }
+        
+        // Fallback to extracting guest name from title if not found in description
+        if (guestName === 'N/A' && title) {
+            const titleGuestMatch = title.match(/with (.+?)(\.|,|;|\n|$)/i);
+            if (titleGuestMatch) {
+                guestName = titleGuestMatch[1].trim();
             }
-            
-            // Fallback to extracting guest name from title if not found in description
-            if (guestName === 'N/A' && title) {
-                const titleGuestMatch = title.match(/with (.+?)(\.|,|;|\n|$)/i);
-                if (titleGuestMatch) {
-                    guestName = titleGuestMatch[1].trim();
-                }
-            }
-            
-            return guestName;
         }
+        
+        return guestName;
+    }
 
-        window.onload = fetchEpisodesFromFile;
-    </script>
+    window.onload = fetchEpisodesFromFile;
+</script>
 </body>
 </html>
