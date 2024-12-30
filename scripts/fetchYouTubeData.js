@@ -9,11 +9,19 @@ async function fetchYouTubeData() {
         key: apiKey
     });
 
+    console.log("Fetching data from YouTube API..."); // Log for debugging
+
     try {
         const response = await fetch(`${searchUrl}?${searchParams}`);
+        console.log("API response received."); // Log for debugging
         const data = await response.json();
+        console.log("Data parsed successfully:", data); // Log for debugging
 
         const episodesContainer = document.getElementById('episodes-container');
+        if (!episodesContainer) {
+            console.error("episodes-container element not found."); // Log for debugging
+            return;
+        }
 
         for (const video of data.items) {
             const videoId = video.id.videoId;
@@ -31,9 +39,12 @@ async function fetchYouTubeData() {
                 <p><strong>Guest Name:</strong> ${extractGuestName(videoItem.snippet.description)}</p>
                 <p><strong>Description:</strong> ${videoItem.snippet.description}</p>
                 <p><strong>Published At:</strong> ${new Date(videoItem.snippet.publishedAt).toLocaleDateString()}</p>
-            ';
+                <p><strong>View Count:</strong> ${videoItem.statistics.viewCount}</p>
+                <p><strong>Like Count:</strong> ${videoItem.statistics.likeCount}</p>
+            `;
             episodesContainer.appendChild(episodeElement);
         }
+        console.log("Episodes added to the DOM."); // Log for debugging
     } catch (error) {
         console.error('Error fetching YouTube data:', error);
     }
