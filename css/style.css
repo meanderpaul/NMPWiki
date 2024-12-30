@@ -59,15 +59,12 @@ h1, h2, h3 {
 
 /* Hero Section */
 .hero {
-    background: url('css/nmp_banner_resources.JPG') no-repeat center center/cover; /* Ensure the path is correct */
-    height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    text-align: center;
+    background: url('css/nmp_banner_resources.jpg') no-repeat center center/cover;
+    height: 100vh; /* Adjust to full viewport height */
+    width: 100vw; /* Adjust to full viewport width */
 }
 
+/* Hero Content */
 .hero-content {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 20px;
