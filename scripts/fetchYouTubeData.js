@@ -31,9 +31,7 @@ async function fetchYouTubeData() {
                 <p><strong>Guest Name:</strong> ${extractGuestName(videoItem.snippet.description)}</p>
                 <p><strong>Description:</strong> ${videoItem.snippet.description}</p>
                 <p><strong>Published At:</strong> ${new Date(videoItem.snippet.publishedAt).toLocaleDateString()}</p>
-                <p><strong>View Count:</strong> ${videoItem.statistics.viewCount}</p>
-                <p><strong>Like Count:</strong> ${videoItem.statistics.likeCount}</p>
-            `;
+            ';
             episodesContainer.appendChild(episodeElement);
         }
     } catch (error) {
