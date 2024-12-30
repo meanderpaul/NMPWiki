@@ -26,10 +26,11 @@ jobs:
         
       - name: Commit and push changes
         env:
-          GH_PAT: ${{ secrets.GH_PAT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
           git add data/episodes.json
           git commit -m 'Update episodes data'
-          git push https://$GH_PAT@github.com/${{ github.repository }}.git HEAD:${{ github.ref }}
+          git push origin HEAD:${{ github.ref }}
