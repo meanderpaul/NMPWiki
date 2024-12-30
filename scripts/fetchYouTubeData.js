@@ -32,19 +32,11 @@ async function fetchYouTubeData() {
             return videoData.items[0];
         }));
 
-        // Filter videos by duration (only include videos longer than 1 hour)
-        const filteredVideos = videoDetails.filter(video => {
-            const duration = video.contentDetails.duration;
-            const match = duration.match(/PT(\d+)H(\d+)M(\d+)S/);
-            const hours = match ? parseInt(match[1], 10) : 0;
-            return hours >= 1;
-        });
-
-        // Sort videos by published date
-        filteredVideos.sort((a, b) => new Date(b.snippet.publishedAt) - new Date(a.snippet.publishedAt));
+        // Sort videos by published date (newest at the top)
+        videoDetails.sort((a, b) => new Date(b.snippet.publishedAt) - new Date(a.snippet.publishedAt));
 
         // Group videos by year
-        const episodesByYear = filteredVideos.reduce((acc, video) => {
+        const episodesByYear = videoDetails.reduce((acc, video) => {
             const year = new Date(video.snippet.publishedAt).getFullYear();
             acc[year] = acc[year] || [];
             acc[year].push(video);
