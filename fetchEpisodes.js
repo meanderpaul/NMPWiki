@@ -18,10 +18,12 @@ async function fetchEpisodes() {
         });
 
         try {
+            console.log(`Fetching from YouTube API with params: ${playlistItemsParams.toString()}`);
             const response = await fetch(`${playlistItemsUrl}?${playlistItemsParams}`);
             const data = await response.json();
             
-            // Log the received data for debugging
+            // Log response status and data
+            console.log(`Response Status: ${response.status}`);
             console.log('Received data:', JSON.stringify(data, null, 2));
 
             // Filter out items that do not have a snippet
