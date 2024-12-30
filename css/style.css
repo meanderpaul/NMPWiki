@@ -59,24 +59,47 @@ h1, h2, h3 {
 
 /* Hero Section */
 .hero {
-    background: url('/css/nmp_banner_resources.jpg') no-repeat center center/cover;
-    height: 100vh; /* Full viewport height */
-    width: 100vw; /* Full viewport width */
+    background: url('css/nmp_banner_resources.jpg') no-repeat center center/cover;
+    height: 50vh; /* Default to 50% of viewport height */
+    width: 100%;
+    max-height: 500px; /* Maximum height */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
 }
 
-/* Hero Content */
 .hero-content {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 20px;
     border-radius: 10px;
 }
 
-/* Card Layout (Example) */
-.card {
-    background-color: #333;
-    padding: 20px;
-    margin: 20px 0;
-    border-radius: 5px;
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .hero {
+        height: 40vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        height: 30vh;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero {
+        height: 20vh;
+    }
+}
+
+@media (max-width: 320px) {
+    .hero {
+        height: 15vh;
+    }
 }
 
 /* Footer */
@@ -88,14 +111,4 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
-    }
-    .container {
-        padding: 10px;
-    }
 }
