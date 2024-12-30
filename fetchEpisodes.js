@@ -20,7 +20,11 @@ async function fetchEpisodes() {
         try {
             const response = await fetch(`${playlistItemsUrl}?${playlistItemsParams}`);
             const data = await response.json();
-            allVideos = allVideos.concat(data.items);
+            
+            // Filter out items that do not have a snippet
+            const validItems = data.items.filter(item => item.snippet);
+            allVideos = allVideos.concat(validItems);
+            
             nextPageToken = data.nextPageToken;
         } catch (error) {
             console.error('Error fetching YouTube data:', error);
@@ -35,4 +39,3 @@ async function fetchEpisodes() {
 fetchEpisodes().catch(error => {
     console.error('Error fetching episodes:', error);
 });
-
