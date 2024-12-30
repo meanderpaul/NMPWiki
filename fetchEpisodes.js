@@ -21,6 +21,9 @@ async function fetchEpisodes() {
             const response = await fetch(`${playlistItemsUrl}?${playlistItemsParams}`);
             const data = await response.json();
             
+            // Log the received data for debugging
+            console.log('Received data:', JSON.stringify(data, null, 2));
+
             // Filter out items that do not have a snippet
             const validItems = data.items.filter(item => item.snippet);
             allVideos = allVideos.concat(validItems);
@@ -31,6 +34,10 @@ async function fetchEpisodes() {
             break;
         }
     } while (nextPageToken);
+
+    if (allVideos.length === 0) {
+        console.error('No valid episodes found.');
+    }
 
     fs.writeFileSync('data/episodes.json', JSON.stringify(allVideos, null, 2));
     console.log('Episodes data saved to data/episodes.json');
