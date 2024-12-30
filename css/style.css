@@ -59,9 +59,9 @@ h1, h2, h3 {
 
 /* Hero Section */
 .hero {
-    background: url('css/nmp_banner_resources.jpg') no-repeat center center/cover;
-    height: 100vh; /* Adjust to full viewport height */
-    width: 100vw; /* Adjust to full viewport width */
+    background: url('/css/nmp_banner_resources.jpg') no-repeat center center/cover;
+    height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
 }
 
 /* Hero Content */
