@@ -107,7 +107,7 @@
                 const response = await fetch('data/episodes.json');
                 const episodes = await response.json();
                 const episodesContainer = document.getElementById('episodes-container');
-
+                
                 if (episodesContainer) {
                     episodesContainer.innerHTML = '';
 
@@ -118,11 +118,17 @@
                     episodesContainer.appendChild(totalCounter);
 
                     const episodesByYear = episodes.reduce((acc, episode) => {
-                        const year = new Date(episode.snippet?.publishedAt).getFullYear();
-                        if (!acc[year]) acc[year] = [];
+                        if (!episode.snippet) {
+                            console.error('Episode missing snippet:', episode);
+                            return acc;
+                        }
+
+                        const year = new Date(episode.snippet.publishedAt).getFullYear();
+                        acc[year] = acc[year] || [];
                         acc[year].push(episode);
                         return acc;
                     }, {});
+
                     const sortedYears = Object.keys(episodesByYear).sort((a, b) => b - a);
 
                     for (const year of sortedYears) {
@@ -141,18 +147,16 @@
                         const yearContent = document.createElement('div');
                         yearContent.classList.add('year-content');
 
-                        const sortedEpisodes = episodesByYear[year].sort((a, b) => new Date(b.snippet?.publishedAt) - new Date(a.snippet?.publishedAt));
-
-                        for (const episode of sortedEpisodes) {
+                        for (const episode of episodesByYear[year]) {
                             const episodeElement = document.createElement('div');
                             episodeElement.classList.add('episode');
 
                             episodeElement.innerHTML = `
-                                <h3>${episode.snippet?.title ?? 'No title'}</h3>
-                                <p><strong>Episode Number:</strong> ${episode.snippet?.title.match(/\d+/) || 'N/A'}</p>
-                                <p><strong>Guest Name:</strong> ${extractGuestName(episode.snippet?.description)}</p>
-                                <p><strong>Description:</strong> ${episode.snippet?.description ?? 'No description available'}</p>
-                                <p><strong>Published At:</strong> ${new Date(episode.snippet?.publishedAt).toLocaleDateString()}</p>
+                                <h3>${episode.snippet.title || 'No title'}</h3>
+                                <p><strong>Episode Number:</strong> ${episode.snippet.title.match(/\d+/) || 'N/A'}</p>
+                                <p><strong>Guest Name:</strong> ${extractGuestName(episode.snippet.description, episode.snippet.title)}</p>
+                                <p><strong>Description:</strong> ${episode.snippet.description || 'No description available'}</p>
+                                <p><strong>Published At:</strong> ${new Date(episode.snippet.publishedAt).toLocaleDateString()}</p>
                             `;
                             yearContent.appendChild(episodeElement);
                         }
@@ -167,9 +171,26 @@
             }
         }
 
-        function extractGuestName(description) {
-            const guestMatch = description ? description.match(/guest[:]? (.+)/i) : null;
-            return guestMatch ? guestMatch[1] : 'N/A';
+        function extractGuestName(description, title) {
+            let guestName = 'N/A';
+            
+            // Try to extract guest name from description
+            if (description) {
+                const descriptionGuestMatch = description.match(/guest[:]? (.+?)(\.|,|;|\n|$)/i);
+                if (descriptionGuestMatch) {
+                    guestName = descriptionGuestMatch[1].trim();
+                }
+            }
+            
+            // Fallback to extracting guest name from title if not found in description
+            if (guestName === 'N/A' && title) {
+                const titleGuestMatch = title.match(/with (.+?)(\.|,|;|\n|$)/i);
+                if (titleGuestMatch) {
+                    guestName = titleGuestMatch[1].trim();
+                }
+            }
+            
+            return guestName;
         }
 
         window.onload = fetchEpisodesFromFile;
