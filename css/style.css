@@ -60,9 +60,9 @@ h1, h2, h3 {
 /* Hero Section */
 .hero {
     background: url('css/nmp_banner_resources.jpg') no-repeat center center/cover;
-    height: 50vh; /* Default to 50% of viewport height */
+    height: 25vh; /* Cut to 25% of the viewport height */
     width: 100%;
-    max-height: 500px; /* Maximum height */
+    max-height: 250px; /* Maximum height set to half */
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -80,25 +80,25 @@ h1, h2, h3 {
 /* Responsive Design */
 @media (max-width: 1200px) {
     .hero {
-        height: 40vh;
+        height: 20vh; /* Adjusted to half */
     }
 }
 
 @media (max-width: 768px) {
     .hero {
-        height: 30vh;
+        height: 15vh; /* Adjusted to half */
     }
 }
 
 @media (max-width: 480px) {
     .hero {
-        height: 20vh;
+        height: 10vh; /* Adjusted to half */
     }
 }
 
 @media (max-width: 320px) {
     .hero {
-        height: 15vh;
+        height: 7.5vh; /* Adjusted to half */
     }
 }
 
