@@ -14,11 +14,14 @@ async function fetchEpisodesFromFile() {
             episodesContainer.appendChild(totalCounter);
 
             const episodesByYear = episodes.reduce((acc, episode) => {
-                if (episode.snippet) {
-                    const year = new Date(episode.snippet.publishedAt).getFullYear();
-                    acc[year] = acc[year] || [];
-                    acc[year].push(episode);
+                if (!episode.snippet) {
+                    console.error('Episode missing snippet:', episode);
+                    return acc;
                 }
+
+                const year = new Date(episode.snippet.publishedAt).getFullYear();
+                acc[year] = acc[year] || [];
+                acc[year].push(episode);
                 return acc;
             }, {});
 
