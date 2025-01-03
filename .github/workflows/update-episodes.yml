@@ -36,11 +36,17 @@ jobs:
     - name: Run Fetch Episodes Script
       run: node fetch-episodes.mjs
 
+    - name: Check for Changes
+      id: git_status
+      run: |
+        git add data/episodes.json
+        git diff --quiet || echo "has_changes=true" >> $GITHUB_ENV
+
     - name: Commit and Push Changes
+      if: env.has_changes == 'true'
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git add data/episodes.json
         git commit -m 'Update episodes.json'
         git pull --rebase
         git push
