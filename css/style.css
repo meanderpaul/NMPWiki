@@ -1,119 +1,45 @@
-/* Global Styles */
-body {
-    font-family: 'Roboto', Arial, sans-serif;
-    background-color: #202020;
-    color: #f2f2f2;
-    margin: 0;
-    padding: 0;
-}
-
-/* Typography */
-h1, h2, h3 {
-    color: #f2f2f2;
-}
-
-/* Navigation Bar */
-.navbar {
-    background-color: #333;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-}
-
-.navbar a {
-    float: none;
-    display: inline-block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.navbar a:hover {
-    background-color: #555;
-    color: white;
-}
-
-.navbar a.active {
-    background-color: #4CAF50;
-    color: white;
-}
-
-/* Container and Sections */
-.container {
-    padding: 20px;
-}
-
-.section {
-    margin-bottom: 40px;
-}
-
-/* Episode Container */
-#episodes-container {
-    padding: 20px;
-}
-
-/* Episode Styling */
-.episode {
-    background-color: #333;
-    padding: 20px;
-    margin: 20px 0;
+/* Add background color and padding for the year header */
+.year-header {
+    cursor: pointer;
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
     border-radius: 5px;
-    color: white;
+    text-align: center;
 }
 
+/* Style the year content section */
+.year-content {
+    display: none; /* Initially hidden */
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #333; /* Background for episode content */
+    color: #fff; /* Text color for episode content */
+}
+
+/* Add some spacing and styling for episode details */
+.episode {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #222;
+    border-radius: 5px;
+}
+
+/* Style the episode title */
 .episode h3 {
     color: #4CAF50;
 }
 
+/* Style the episode details */
 .episode p {
     margin: 5px 0;
 }
 
+/* Ensure strong elements are readable */
 .episode strong {
     color: #f2f2f2;
-}
-
-/* Footer */
-footer {
-    background-color: #333;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 20px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
-
-/* Responsive Design */
-@media (max-width: 1200px) {
-    .hero {
-        height: 20vh;
-    }
-}
-
-@media (max-width: 768px) {
-    .hero {
-        height: 15vh;
-    }
-}
-
-@media (max-width: 480px) {
-    .hero {
-        height: 10vh;
-    }
-}
-
-@media (max-width: 320px) {
-    .hero {
-        height: 7.5vh;
-    }
-
-    #episodes-container {
-        padding: 10px;
-    }
-
-    .episode {
-        padding: 15px;
-    }
 }
