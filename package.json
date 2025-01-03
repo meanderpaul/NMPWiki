@@ -2,10 +2,10 @@
   "name": "youtube-episode-fetcher",
   "version": "1.0.0",
   "description": "A project to fetch and display episodes from the Nordic Mythology Podcast YouTube playlist.",
-  "main": "fetchEpisodes.js",
+  "main": "fetch-episodes.js",
   "scripts": {
     "start": "node server.js",
-    "fetch": "node fetchEpisodes.js"
+    "fetch": "node fetch-episodes.js"
   },
   "dependencies": {
     "dotenv": "^10.0.0",
