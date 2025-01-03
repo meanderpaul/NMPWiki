@@ -1,0 +1,241 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"openai: ",
+				"OpenAI: Chat Model Select"
+			],
+			[
+				"package control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"gitsavvy:",
+				"GitSavvy: help"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"gitsa",
+				"GitSavvy: help"
+			],
+			[
+				"package control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Paulj/Documents/GitHub/Babyt/requirements.txt",
+		"/C/Users/Paulj/Documents/GitHub/Babyt/vd.py",
+		"/C/Users/Paulj/Documents/GitHub/Babyt/ve.py",
+		"/C/Users/Paulj/Documents/GitHub/Babyt/cut.py",
+		"/C/Users/Paulj/Documents/GitHub/Babyt/BabyT.py",
+		"/C/Users/Paulj/Documents/GitHub/Babyt/url_scanner.py",
+		"/C/Users/Paulj/Documents/GitHub/Babyt/README.md",
+		"/C/Users/Paulj/Downloads/BabyT.py",
+		"/C/Users/Paulj/Downloads/vd.py",
+		"/C/Users/Paulj/Downloads/ve.py",
+		"/C/Users/Paulj/Desktop/pwnagotchi/pwnagotchi/ai/evaluate_model.py",
+		"/C/Users/Paulj/Desktop/pwnagotchi/pwnagotchi/setup.sh",
+		"/C/Users/Paulj/Desktop/pwnagotchi/pwnagotchi/ai/deploy_model.py",
+		"/C/Users/Paulj/Desktop/pwnagotchi/pwnagotchi/requirements.txt",
+		"/C/Users/Paulj/Documents/GitHub/pwnagotchi/pwnagotchi/test_protobuf_import.py",
+		"/C/Users/Paulj/Documents/GitHub/pwnagotchi/pwnagotchi/ai_test.py",
+		"/C/Users/Paulj/Documents/GitHub/pwnagotchi/pwnagotchi/ai/ai_inference.py",
+		"/C/Users/Paulj/Documents/GitHub/pwnagotchi/pwnagotchi/ai/epoch.py",
+		"/C/Users/Paulj/Documents/GitHub/pwnagotchi/pwnagotchi/ai/anomaly_detection.py",
+		"/C/Users/Paulj/Documents/GitHub/pwnagotchi/pwnagotchi/ai/evaluate_model.py",
+		"/C/Users/Paulj/Documents/GitHub/pwnagotchi/pwnagotchi/ai/test_protobuf.py",
+		"/C/Users/Paulj/Documents/GitHub/pwnagotchi/pwnagotchi/defaults.toml",
+		"/C/Users/Paulj/Documents/GitHub/pwnagotchi/pwnagotchi/ai/main.py",
+		"/C/Users/Paulj/Documents/GitHub/pwnagotchi/pwnagotchi/ai/behavior_adjustment.py",
+		"/C/Users/Paulj/Documents/GitHub/pwnagotchi/pwnagotchi/ai/context_detection.py",
+		"/C/Users/Paulj/Documents/GitHub/pwnagotchi/pwnagotchi/ai/retrain_pipeline.sh",
+		"/C/Users/Paulj/Documents/GitHub/pwnagotchi/pwnagotchi/ai/recreate_anomaly.py",
+		"/C/Users/Paulj/Documents/GitHub/pwnagotchi/pwnagotchi/ai/deploy_model.py",
+		"/C/Users/Paulj/Documents/GitHub/pwnagotchi/pwnagotchi/ai/retrain_model.py",
+		"/C/Users/Paulj/Documents/GitHub/pwnagotchi/pwnagotchi/ai/preprocess_data.py",
+		"/C/Users/Paulj/Documents/GitHub/NMPWiki/episodes.html",
+		"/C/Users/Paulj/Documents/GitHub/NMPWiki/guests.html",
+		"/C/Users/Paulj/Documents/GitHub/NMPWiki/package.json",
+		"/C/Users/Paulj/Desktop/Coding/Cold wallet/theme.py",
+		"/C/Users/Paulj/Desktop/Coding/Cold wallet/main.py",
+		"/C/Users/Paulj/Desktop/Cold wallet/main.py",
+		"/C/Users/Paulj/Desktop/Cold wallet/gui.py",
+		"/C/Users/Paulj/Desktop/Cold wallet/theme_config.py",
+		"/C/Users/Paulj/Desktop/Cold wallet/autorun.inf",
+		"/C/Users/Paulj/Desktop/Cold wallet/requirements.txt",
+		"/C/Users/Paulj/Desktop/Cold wallet/utils/helpers.py",
+		"/C/Users/Paulj/Desktop/Cold wallet/config/settings.py",
+		"/C/Users/Paulj/Desktop/Cold wallet/crypto/cryptography.py",
+		"/C/Users/Paulj/Desktop/Cold wallet/gui/crypto_management.py",
+		"/C/Users/Paulj/Desktop/Cold wallet/gui/pin_entry.py",
+		"/C/Users/Paulj/Desktop/Cold wallet/config/data.json",
+		"/C/Users/Paulj/Desktop/Cold wallet/gui/helpers.py",
+		"/C/Users/Paulj/Desktop/Cold wallet/update_build.bat",
+		"/C/Users/Paulj/Desktop/Cold wallet/gui_pin_management.py",
+		"/C/Users/Paulj/Desktop/Cold wallet/encryption_key_management.py",
+		"/C/Users/Paulj/Documents/GitHub/Website/script.js"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "episodes.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 256.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
