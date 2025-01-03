@@ -1,6 +1,9 @@
-const fetch = require('node-fetch');
-const fs = require('fs');
-require('dotenv').config(); // Ensure you have dotenv package to manage environment variables
+// fetch-episodes.mjs
+import fetch from 'node-fetch';
+import fs from 'fs/promises';
+import { config } from 'dotenv';
+
+config(); // Ensure you have dotenv package to manage environment variables
 
 async function fetchEpisodes() {
     const apiKey = process.env.YOUTUBE_API_KEY; // Your API key from environment variables
@@ -45,10 +48,15 @@ async function fetchEpisodes() {
 
     if (allVideos.length === 0) {
         console.error('No valid episodes found.');
+    } else {
+        // Write data to episodes.json
+        try {
+            await fs.writeFile('data/episodes.json', JSON.stringify(allVideos, null, 2));
+            console.log('Episodes data saved to data/episodes.json');
+        } catch (writeError) {
+            console.error('Error writing episodes.json:', writeError);
+        }
     }
-
-    fs.writeFileSync('data/episodes.json', JSON.stringify(allVideos, null, 2));
-    console.log('Episodes data saved to data/episodes.json');
 }
 
 fetchEpisodes().catch(error => {
