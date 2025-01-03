@@ -40,15 +40,13 @@ jobs:
       id: git_status
       run: |
         git add data/episodes.json
-      # uncomment below for testing
-      #  git diff --quiet || echo "has_changes=true" >> $GITHUB_ENV
+      
     - name: Commit and Push Changes
       if: env.has_changes == 'true'
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         git commit -m 'Update episodes.json'
-      #  git pull --rebase
         git push
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
