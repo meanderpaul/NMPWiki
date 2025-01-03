@@ -56,13 +56,18 @@ h1, h2, h3 {
 /* Year Header Styling */
 .year-header {
     cursor: pointer;
-    background-color: #202020;
-    color: #202020;
+    background-color: #202020; /* Match the site's background */
+    color: #fff; /* Ensure text color is white for better visibility */
     padding: 10px;
     margin: 5px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
     text-align: center;
+    transition: background-color 0.3s;
+}
+
+.year-header:hover {
+    background-color: #333; /* Slightly darker on hover for visual feedback */
 }
 
 /* Year Content Styling */
@@ -72,9 +77,34 @@ h1, h2, h3 {
     margin: 5px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: #333; /* Background for episode content */
+    background-color: #202020; /* Match the site's background */
     color: #fff; /* Text color for episode content */
 }
+
+/* Episode Styling */
+.episode {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #222; /* Slightly darker to create a card-like effect */
+    border-radius: 5px;
+}
+
+/* Style the episode title */
+.episode h3 {
+    color: #4CAF50; /* Highlight the episode title */
+}
+
+/* Style the episode details */
+.episode p {
+    margin: 5px 0;
+    color: #f2f2f2; /* Ensure readability */
+}
+
+/* Ensure strong elements are readable */
+.episode strong {
+    color: #f2f2f2;
+}
+
 
 /* Episode Styling */
 .episode {
