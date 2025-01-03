@@ -30,8 +30,7 @@ async function fetchEpisodesFromFile() {
                 return acc;
             }, {});
 
-            const sortedYears = Object.keys(episodesByYear).sort((a, b) => a - b); // Ascending order
-            console.log("Sorted years:", sortedYears);
+            const sortedYears = Object.keys(episodesByYear).sort((a, b) => b - a); // Descending order
 
             for (const year of sortedYears) {
                 const yearContainer = document.createElement('div');
@@ -49,9 +48,8 @@ async function fetchEpisodesFromFile() {
                 const yearContent = document.createElement('div');
                 yearContent.classList.add('year-content');
 
-                // Sort episodes within the year in ascending order
-                episodesByYear[year].sort((a, b) => new Date(a.snippet.publishedAt) - new Date(b.snippet.publishedAt));
-                console.log(`Sorted episodes for year ${year}:`, episodesByYear[year]);
+                // Sort episodes within the year in descending order
+                episodesByYear[year].sort((a, b) => new Date(b.snippet.publishedAt) - new Date(a.snippet.publishedAt));
 
                 for (const episode of episodesByYear[year]) {
                     const episodeElement = document.createElement('div');
