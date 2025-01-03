@@ -1,57 +1,6 @@
 [
   {
     "kind": "youtube#playlistItem",
-    "etag": "oikDu1W_ged85MfkwHpQFzip0EM",
-    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai41NkI0NEY2RDEwNTU3Q0M2",
-    "snippet": {
-      "publishedAt": "2021-01-15T22:23:54Z",
-      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
-      "title": "Assassins Creed Valhalla; Making The Music with Einar Selvik",
-      "description": "This weeks guest needs no introduction. It's Einar Selvik the front man of the amazing Wardruna! He's fresh off of working on the music for the upcoming Assassins Creed Valhalla and was kind enough to sit down with Mathias and Daniel to discuss the experience, as well as Wardrunas upcoming album.\n\nBut that's just the jumping off point. From there the discussion will range into general artistic attitudes and the creative process, his surprise voice over cameo in Assassins Creed, and the positives and negatives of Ubisofts interpretation of the Viking material. The answers will be as complicated as they are entertaining.",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/dXjziX-C0G0/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/dXjziX-C0G0/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/dXjziX-C0G0/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/dXjziX-C0G0/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/dXjziX-C0G0/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      },
-      "channelTitle": "Nordic Mythology Podcast",
-      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 0,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "dXjziX-C0G0"
-      },
-      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
-      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
-    },
-    "contentDetails": {
-      "videoId": "dXjziX-C0G0",
-      "videoPublishedAt": "2021-01-02T10:33:09Z"
-    }
-  },
-  {
-    "kind": "youtube#playlistItem",
     "etag": "LGiYJGF5zoSBd9dwcE6s1017VeQ",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4yODlGNEE0NkRGMEEzMEQy",
     "snippet": {
