@@ -1,3 +1,5 @@
+console.log("main.js script loaded!");
+
 async function fetchEpisodesFromFile() {
     try {
         const response = await fetch('data/episodes.json');
