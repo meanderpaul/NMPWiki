@@ -1,0 +1,37 @@
+name: Update Episodes JSON
+
+on:
+  schedule:
+    - cron: '0 0 * * 0' # Runs every Sunday at midnight
+  push:
+    branches:
+      - main
+
+jobs:
+  update-episodes:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '14' # Use the version of Node.js you need
+
+    - name: Install Dependencies
+      run: npm install
+
+    - name: Run Fetch Episodes Script
+      run: node fetch-episodes.mjs
+
+    - name: Commit and Push Changes
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add data/episodes.json
+        git commit -m 'Update episodes.json'
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
