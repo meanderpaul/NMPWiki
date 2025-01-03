@@ -40,7 +40,8 @@ jobs:
       id: git_status
       run: |
         git add data/episodes.json
-        git diff --quiet || echo "has_changes=true" >> $GITHUB_ENV
+      # uncomment below for testing
+      #  git diff --quiet || echo "has_changes=true" >> $GITHUB_ENV
 
     - name: Commit and Push Changes
       if: env.has_changes == 'true'
