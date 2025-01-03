@@ -132,6 +132,9 @@
                     const yearContent = document.createElement('div');
                     yearContent.classList.add('year-content');
 
+                    // Sort episodes within the year in descending order
+                    episodesByYear[year].sort((a, b) => new Date(b.snippet.publishedAt) - new Date(a.snippet.publishedAt));
+
                     for (const episode of episodesByYear[year]) {
                         const episodeElement = document.createElement('div');
                         episodeElement.classList.add('episode');
