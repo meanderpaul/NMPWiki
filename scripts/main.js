@@ -1,11 +1,14 @@
 console.log("main.js script loaded!");
 
 async function fetchEpisodesFromFile() {
+    console.log("Fetching episodes from file...");
     try {
         const response = await fetch('data/episodes.json');
+        console.log("Fetch response:", response);
         const episodes = await response.json();
+        console.log("Episodes data:", episodes);
+
         const episodesContainer = document.getElementById('episodes-container');
-        
         if (episodesContainer) {
             episodesContainer.innerHTML = '';
 
