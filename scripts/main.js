@@ -18,6 +18,7 @@ async function fetchEpisodesFromFile() {
             totalCounter.classList.add('total-counter');
             episodesContainer.appendChild(totalCounter);
 
+            // Group episodes by year
             const episodesByYear = episodes.reduce((acc, episode) => {
                 if (!episode.snippet) {
                     console.error('Episode missing snippet:', episode);
@@ -29,8 +30,12 @@ async function fetchEpisodesFromFile() {
                 acc[year].push(episode);
                 return acc;
             }, {});
+            
+            console.log("Episodes grouped by year:", episodesByYear);
 
-            const sortedYears = Object.keys(episodesByYear).sort((a, b) => b - a); // Descending order
+            // Sort years in descending order
+            const sortedYears = Object.keys(episodesByYear).sort((a, b) => b - a);
+            console.log("Sorted years:", sortedYears);
 
             for (const year of sortedYears) {
                 const yearContainer = document.createElement('div');
@@ -50,6 +55,7 @@ async function fetchEpisodesFromFile() {
 
                 // Sort episodes within the year in descending order
                 episodesByYear[year].sort((a, b) => new Date(b.snippet.publishedAt) - new Date(a.snippet.publishedAt));
+                console.log(`Sorted episodes for year ${year}:`, episodesByYear[year]);
 
                 for (const episode of episodesByYear[year]) {
                     const episodeElement = document.createElement('div');
