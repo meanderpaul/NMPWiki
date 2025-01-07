@@ -88,10 +88,12 @@
         async function fetchEpisodesFromFile() {
             try {
                 const response = await fetch('data/episodes.json');
+                console.log(`Fetch response status: ${response.status}`);
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
                 const episodes = await response.json();
+                console.log('Fetched episodes:', episodes);
 
                 if (!Array.isArray(episodes)) {
                     throw new Error('Invalid data format');
