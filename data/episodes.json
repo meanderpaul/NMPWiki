@@ -1,3 +1,10 @@
 [
-
+    {
+        "snippet": {
+            "title": "Episode Title",
+            "description": "Episode Description",
+            "publishedAt": "2025-01-07T00:00:00Z"
+        }
+    },
+    ...
 ]
