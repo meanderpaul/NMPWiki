@@ -7,6 +7,9 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write
+
 jobs:
   update-episodes:
     runs-on: ubuntu-latest
@@ -20,37 +23,18 @@ jobs:
       with:
         node-version: '14' # Use the version of Node.js you need
 
-    - name: Cache node_modules
-      id: cache-node-modules
-      uses: actions/cache@v4
-      with:
-        path: node_modules
-        key: ${{ runner.os }}-node-modules-${{ hashFiles('**/package-lock.json') }}
-        restore-keys: |
-          ${{ runner.os }}-node-modules-
-
     - name: Install Dependencies
       run: npm install
-      if: steps.cache-node-modules.outputs.cache-hit != 'true'
 
     - name: Run Fetch Episodes Script
       run: node fetch-episodes.mjs
-
-    - name: Stash Unstaged Changes
-      run: |
-        git stash --include-untracked
 
     - name: Commit and Push Changes
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         git add data/episodes.json
-        git commit -m 'Update data/episodes.json' || { echo "Nothing to commit"; exit 0; }
-        git pull --rebase
+        git commit -m 'Update data/episodes.json' || echo "Nothing to commit"
         git push
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-    - name: Apply Stashed Changes
-      run: |
-        git stash pop
