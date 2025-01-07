@@ -32,6 +32,7 @@ jobs:
     - name: Check for Changes
       id: check_changes
       run: |
+        git add data/episodes.json
         git diff --exit-code > diff_output.log || echo "changes" > changes_detected
       continue-on-error: true
 
