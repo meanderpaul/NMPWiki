@@ -36,23 +36,21 @@ jobs:
     - name: Run Fetch Episodes Script
       run: node fetch-episodes.mjs
 
-  - name: Stash Unstaged Changes
-    run: |
-      git stash --include-untracked
+    - name: Stash Unstaged Changes
+      run: |
+        git stash --include-untracked
 
-  - name: Commit and Push Changes
-    if: failure()
-    run: |
-      git config --global user.name 'github-actions[bot]'
-      git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-      git add data/episodes.json
-      git commit -m 'Update data/episodes.json' || { echo "Nothing to commit"; exit 0; }
-      git pull --rebase
-      git push
-    env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Commit and Push Changes
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add data/episodes.json
+        git commit -m 'Update data/episodes.json' || { echo "Nothing to commit"; exit 0; }
+        git pull --rebase
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-  - name: Apply Stashed Changes
-    if: success()
-    run: |
-      git stash pop
+    - name: Apply Stashed Changes
+      run: |
+        git stash pop
