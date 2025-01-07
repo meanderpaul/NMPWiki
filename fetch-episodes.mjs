@@ -6,7 +6,7 @@ import { config } from 'dotenv';
 config(); // Ensure you have dotenv package to manage environment variables
 
 async function fetchEpisodes() {
-    const apiKey = process.env.YOUTUBE_API_KEY; // Your API key from environment variables
+    const apiKey = AIzaSyCblwXPE3a7niqWNtanwdTjHWPQqcDp8r8; // Your API key from environment variables AIzaSyCblwXPE3a7niqWNtanwdTjHWPQqcDp8r8 process.env.YOUTUBE_API_KEY
     const playlistId = 'PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj'; // Playlist ID
     const playlistItemsUrl = 'https://www.googleapis.com/youtube/v3/playlistItems';
     let nextPageToken = '';
