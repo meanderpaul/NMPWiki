@@ -27,16 +27,20 @@ jobs:
       run: node fetch-episodes.mjs
 
     - name: Check for Changes
-      id: git_status
+      id: check_changes
       run: |
-        git diff --exit-code || echo "changes"
+        git diff --exit-code || echo "changes" > changes_detected
+        git diff --exit-code > diff_output.log
+        continue-on-error: true
 
     - name: Commit and Push Changes
-      if: steps.git_status.outputs.diff != ''
+      if: steps.check_changes.outputs.diff_output == 'failure'
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add data/episodes.json
         git commit -m 'Update data/episodes.json'
         git push
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
