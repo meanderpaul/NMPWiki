@@ -109,14 +109,18 @@
                 episodesContainer.appendChild(totalCounter);
 
                 const filteredEpisodes = episodes.filter(episode => episode !== null);
+                console.log('Filtered episodes:', filteredEpisodes);
+
                 const episodesByYear = filteredEpisodes.reduce((acc, episode) => {
                     const year = new Date(episode.snippet.publishedAt).getFullYear();
                     acc[year] = acc[year] || [];
                     acc[year].push(episode);
                     return acc;
                 }, {});
+                console.log('Episodes by year:', episodesByYear);
 
                 const sortedYears = Object.keys(episodesByYear).sort((a, b) => b - a);
+                console.log('Sorted years:', sortedYears);
 
                 for (const year of sortedYears) {
                     const yearContainer = document.createElement('div');
@@ -138,6 +142,7 @@
                     episodesByYear[year].sort((a, b) => new Date(b.snippet.publishedAt) - new Date(a.snippet.publishedAt));
 
                     for (const episode of episodesByYear[year]) {
+                        console.log('Processing episode:', episode);
                         const episodeElement = document.createElement('div');
                         episodeElement.classList.add('episode');
 
