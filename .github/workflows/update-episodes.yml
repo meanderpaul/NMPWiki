@@ -23,6 +23,9 @@ jobs:
     - name: Install Dependencies
       run: npm install
 
+    - name: Set up Environment Variables
+      run: echo "YOUTUBE_API_KEY=${{ secrets.YOUTUBE_API_KEY }}" >> $GITHUB_ENV
+
     - name: Run Fetch Episodes Script
       run: node fetch-episodes.mjs
 
@@ -38,7 +41,7 @@ jobs:
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         git add data/episodes.json
-        git commit -m 'Update data/episodes.json'
+        git commit -m 'Update episodes.json'
         git push
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
