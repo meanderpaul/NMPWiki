@@ -64,8 +64,8 @@ jobs:
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git add sorted_guests.html
-        git commit -m 'Update sorted_guests.html' || echo "Nothing to commit"
+        git add guests.html
+        git commit -m 'Update guests.html' || echo "Nothing to commit"
         git push
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
