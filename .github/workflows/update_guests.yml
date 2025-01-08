@@ -18,25 +18,23 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v2
 
-    - name: Set up Python
-      uses: actions/setup-python@v2
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
       with:
-        python-version: '3.x'
+        node-version: '14' # Use the version of Node.js you need
 
     - name: Install Dependencies
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y python3 python3-pip
+      run: npm install
 
-    - name: Run Update Guests Script
-      run: python update_guests.py
+    - name: Run Generate Guests Script
+      run: node generateGuests.js
 
     - name: Commit and Push Changes
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git add guests.html
-        git commit -m 'Update guests.html' || echo "Nothing to commit"
+        git add data/guests.json
+        git commit -m 'Update data/guests.json' || echo "Nothing to commit"
         git push
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
