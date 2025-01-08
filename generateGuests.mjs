@@ -30,7 +30,7 @@ try {
   
   // Helper function to clean and normalize guest names
   const cleanGuestName = (name) => name
-    .replace(/(?:Guest|Guildmaster|Part|Episode|Ep)/gi, '') // Remove unwanted terms
+    .replace(/(?:Guest|Guildmaster|Part|Episode|Ep|Return of the Ham|Pt)/gi, '') // Remove unwanted terms
     .replace(/[-\d]/g, '') // Remove dashes and digits
     .trim()
     .replace(/[^a-zA-Z\s]/g, '');
