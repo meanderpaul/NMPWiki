@@ -69,9 +69,16 @@
         <a href="https://www.hornsofodin.com" target="_blank">Horns of Odin</a>
     </div>
 
-    <div class="container">
-        <div id="guests-container"></div>
-    </div>
+    <div id="guests-container">
+    <!-- Guest names will be inserted here -->
+    <script>
+        fetch('sorted_guests.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('guests-container').innerHTML = data;
+            });
+    </script>
+</div>
 
  
 </body>
