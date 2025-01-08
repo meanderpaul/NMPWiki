@@ -52,6 +52,20 @@
             }
         }
 
+        .alphabet-nav {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+
+        .alphabet-nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
         .grid-container {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -85,23 +99,48 @@
         <a href="https://www.hornsofodin.com" target="_blank">Horns of Odin</a>
     </div>
 
+    <!-- Alphabet Navigation -->
+    <div class="alphabet-nav" id="alphabet-nav"></div>
+
     <div class="container">
         <div class="grid-container" id="guests-container"></div>
     </div>
 
     <script>
+        const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+        const alphabetNav = document.getElementById('alphabet-nav');
+        const guestsContainer = document.getElementById('guests-container');
+
+        alphabet.forEach(letter => {
+            const link = document.createElement('a');
+            link.href = '#';
+            link.textContent = letter;
+            link.addEventListener('click', () => filterGuests(letter));
+            alphabetNav.appendChild(link);
+        });
+
         fetch('data/guests.json')
             .then(response => response.json())
             .then(guests => {
-                const container = document.getElementById('guests-container');
-                guests.forEach(guest => {
-                    const gridItem = document.createElement('div');
-                    gridItem.className = 'grid-item';
-                    gridItem.textContent = `${guest.name} - ${guest.episodes} episode(s)`;
-                    container.appendChild(gridItem);
-                });
+                window.guests = guests; // Store guests globally for filtering
+                displayGuests(guests);
             })
             .catch(error => console.error('Error fetching guests:', error));
+
+        function displayGuests(guests) {
+            guestsContainer.innerHTML = '';
+            guests.forEach(guest => {
+                const gridItem = document.createElement('div');
+                gridItem.className = 'grid-item';
+                gridItem.textContent = `${guest.name} - ${guest.episodes} episode(s)`;
+                guestsContainer.appendChild(gridItem);
+            });
+        }
+
+        function filterGuests(letter) {
+            const filteredGuests = window.guests.filter(guest => guest.name.startsWith(letter));
+            displayGuests(filteredGuests);
+        }
     </script>
 </body>
 </html>
