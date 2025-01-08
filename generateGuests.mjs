@@ -30,7 +30,8 @@ try {
   
   // Helper function to clean and normalize guest names
   const cleanGuestName = (name) => name
-    .replace(/(?:Guest|Guildmaster|Part)/gi, '') // Remove unwanted terms
+    .replace(/(?:Guest|Guildmaster|Part|Episode|Ep)/gi, '') // Remove unwanted terms
+    .replace(/[-\d]/g, '') // Remove dashes and digits
     .trim()
     .replace(/[^a-zA-Z\s]/g, '');
 
@@ -40,7 +41,7 @@ try {
     console.log(`Processing episode title: ${title}`);
 
     // Extract guest names and split by "and", "&", or "with"
-    const guestNames = title.match(/with (.+?)(?:\s*NMP|\s*\d|$)/i);
+    const guestNames = title.match(/with (.+?)(?:\s*NMP|\s*$)/i);
     if (guestNames && guestNames[1]) {
       const guests = guestNames[1]
         .split(/and|&|with/i)
