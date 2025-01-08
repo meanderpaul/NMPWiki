@@ -30,7 +30,7 @@
     </div>
 
     <script>
-        fetch('data/guests.html')
+        fetch('guests.html')
             .then(response => response.text())
             .then(html => {
                 document.getElementById('guests-container').innerHTML = html;
