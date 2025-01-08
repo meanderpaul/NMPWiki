@@ -28,16 +28,22 @@ try {
   // Create a map to store guest appearances
   const guestMap = {};
   
+  // Helper function to clean and normalize guest names
+  const cleanGuestName = (name) => name.trim().replace(/[^a-zA-Z\s]/g, '');
+
   // Iterate through episodes to count guest appearances
   episodes.forEach(episode => {
     const title = episode.snippet.title;
     console.log(`Processing episode title: ${title}`);
 
-    // Updated regex to match guest names only and exclude other details
-    const guestNames = title.match(/with (.+?)\s*(?:NMP|\d|$)/i);
-
-    if (guestNames && guestNames[1]) { // Check if guest names are found
-      const guests = guestNames[1].split('and').map(name => name.trim());
+    // Extract guest names and split by "and", "&", or "with"
+    const guestNames = title.match(/with (.+?)(?:\s*NMP|\s*\d|$)/i);
+    if (guestNames && guestNames[1]) {
+      const guests = guestNames[1]
+        .split(/and|&|with/i)
+        .map(name => cleanGuestName(name))
+        .filter(name => name.length > 0); // Remove any empty names
+      
       console.log(`Extracted guests from title: ${guests.join(', ')}`);
       
       guests.forEach(guest => {
