@@ -70,6 +70,17 @@ try {
   
   console.log('Guest map:', guestMap);
 
+  // Create JSON data for guests
+  const guestsArray = Object.keys(guestMap).map(guest => ({
+    name: guest,
+    episodes: guestMap[guest]
+  }));
+
+  // Write guests.json
+  const guestsJsonPath = path.join(__dirname, 'data', 'guests.json');
+  await fs.writeFile(guestsJsonPath, JSON.stringify(guestsArray, null, 2));
+  console.log('guests.json has been generated!');
+
   // Create a map of guests grouped by the first letter
   const groupedGuests = {};
   Object.keys(guestMap).forEach(guest => {
@@ -103,8 +114,8 @@ try {
   });
   tableHTML += '</tbody></table>';
 
-  // Write the HTML table to a file
-  const guestsTablePath = path.join(__dirname, 'data', 'guests.html');
+  // Write the HTML table to a file in the root directory
+  const guestsTablePath = path.join(__dirname, 'guests.html');
   await fs.writeFile(guestsTablePath, tableHTML);
 
   console.log('guests.html has been generated with the table!');
