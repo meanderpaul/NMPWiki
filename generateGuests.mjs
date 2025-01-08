@@ -69,28 +69,45 @@ try {
   });
   
   console.log('Guest map:', guestMap);
-  
-  // Convert the guest map to an array of guest objects
-  const guests = Object.keys(guestMap).map(guest => ({
-    name: guest,
-    episodes: guestMap[guest]
-  }));
-  
-  console.log('Guests array:', guests);
-  
-  // Only write to guests.json if guests array is not empty
-  if (guests.length > 0) {
-    // Sort guests alphabetically by name
-    guests.sort((a, b) => a.name.localeCompare(b.name));
-    
-    // Write the sorted guest list to data/guests.json
-    const guestsPath = path.join(__dirname, 'data', 'guests.json');
-    await fs.writeFile(guestsPath, JSON.stringify(guests, null, 2));
-    
-    console.log('guests.json has been generated and sorted!');
-  } else {
-    console.error('Error: No guests found to write to guests.json');
-  }
+
+  // Create a map of guests grouped by the first letter
+  const groupedGuests = {};
+  Object.keys(guestMap).forEach(guest => {
+    const firstLetter = guest[0].toUpperCase();
+    if (!groupedGuests[firstLetter]) {
+      groupedGuests[firstLetter] = [];
+    }
+    groupedGuests[firstLetter].push({ name: guest, episodes: guestMap[guest] });
+  });
+
+  console.log('Grouped guests:', groupedGuests);
+
+  // Create HTML table
+  let tableHTML = '<table><tbody>';
+  const letters = Object.keys(groupedGuests).sort();
+  letters.forEach(letter => {
+    const guests = groupedGuests[letter];
+    tableHTML += `<tr><td colspan="4"><strong>${letter}</strong></td></tr>`;
+    for (let i = 0; i < guests.length; i += 4) {
+      tableHTML += '<tr>';
+      for (let j = 0; j < 4; j++) {
+        const guest = guests[i + j];
+        if (guest) {
+          tableHTML += `<td>${guest.name} - ${guest.episodes} episode(s)</td>`;
+        } else {
+          tableHTML += '<td></td>';
+        }
+      }
+      tableHTML += '</tr>';
+    }
+  });
+  tableHTML += '</tbody></table>';
+
+  // Write the HTML table to a file
+  const guestsTablePath = path.join(__dirname, 'data', 'guests.html');
+  await fs.writeFile(guestsTablePath, tableHTML);
+
+  console.log('guests.html has been generated with the table!');
 } catch (error) {
   console.error('Error processing episodes or generating guests:', error);
 }
