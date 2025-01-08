@@ -64,6 +64,10 @@
     "episodes": 1
   },
   {
+    "name": "Brute Norse ",
+    "episodes": 1
+  },
+  {
     "name": "Carolyne Larrington",
     "episodes": 1
   },
@@ -126,6 +130,14 @@
   {
     "name": "Ed Gamester",
     "episodes": 2
+  },
+  {
+    "name": "Ed Gamester ",
+    "episodes": 1
+  },
+  {
+    "name": "Ed Gamester Pt",
+    "episodes": 1
   },
   {
     "name": "Einar Selvik",
@@ -196,26 +208,6 @@
     "episodes": 1
   },
   {
-    "name": "Guest Brute Norse ",
-    "episodes": 1
-  },
-  {
-    "name": "Guest Ed Gamester Pt",
-    "episodes": 1
-  },
-  {
-    "name": "Guest Jenifer Snook ",
-    "episodes": 1
-  },
-  {
-    "name": "Guest Ruben Terlouw ",
-    "episodes": 2
-  },
-  {
-    "name": "Guildmaster Ed Gamester Part",
-    "episodes": 1
-  },
-  {
     "name": "Guy Dugmore",
     "episodes": 1
   },
@@ -257,6 +249,10 @@
   },
   {
     "name": "Jannicke WieseHansen",
+    "episodes": 1
+  },
+  {
+    "name": "Jenifer Snook ",
     "episodes": 1
   },
   {
@@ -464,6 +460,10 @@
     "episodes": 1
   },
   {
+    "name": "Ruben Terlouw ",
+    "episodes": 2
+  },
+  {
     "name": "Rune Hjarn Rasmussen",
     "episodes": 1
   },
@@ -500,7 +500,7 @@
     "episodes": 2
   },
   {
-    "name": "special guest Heilung ",
+    "name": "special  Heilung ",
     "episodes": 1
   },
   {
