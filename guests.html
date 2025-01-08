@@ -5,11 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guests - NMP Resources</title>
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        .hero {
+            background: url('css/nmp_banner_resources.jpg') no-repeat center center;
+            background-size: contain; /* Ensure the image fits within the borders */
+            height: 25vh; /* Smaller height */
+            width: 100%; /* Default width */
+            max-height: 250px; /* Maximum height */
+            padding-top: 50px; /* Add padding to prevent cutoff */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+
+        .hero-content {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 1200px) {
+            .hero {
+                height: 20vh; /* Adjusted height for larger screens */
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hero {
+                height: 15vh; /* Adjusted height for medium screens */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero {
+                height: 10vh; /* Adjusted height for small screens */
+            }
+        }
+
+        @media (max-width: 320px) {
+            .hero {
+                height: 7.5vh; /* Adjusted height for very small screens */
+            }
+        }
+    </style>
 </head>
 <body>
     <div class="hero">
         <div class="hero-content">
-            <h1>Guest List</h1>
         </div>
     </div>
 
@@ -29,10 +74,19 @@
     </div>
 
     <script>
-        fetch('data/guests.html')
-            .then(response => response.text())
-            .then(html => {
-                document.getElementById('guests-container').innerHTML = html;
+        fetch('data/guests.json')
+            .then(response => response.json())
+            .then(guests => {
+                const container = document.getElementById('guests-container');
+                const list = document.createElement('ul');
+
+                guests.forEach(guest => {
+                    const listItem = document.createElement('li');
+                    listItem.textContent = `${guest.name} - ${guest.episodes} episode(s)`;
+                    list.appendChild(listItem);
+                });
+
+                container.appendChild(list);
             })
             .catch(error => console.error('Error fetching guests:', error));
     </script>
