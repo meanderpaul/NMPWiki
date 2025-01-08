@@ -1,4 +1,4 @@
-name: Update Episodes and Guests JSON
+name: Update Episodes JSON
 
 on:
   schedule:
@@ -24,11 +24,8 @@ jobs:
         node-version: '14' # Use the version of Node.js you need
 
     - name: Install Dependencies
-      run:  |
-        npm install
-        python3 install
-        pip install
-        
+      run: npm install
+
     - name: Run Fetch Episodes Script
       run: node fetch-episodes.mjs
 
@@ -38,37 +35,6 @@ jobs:
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         git add data/episodes.json
         git commit -m 'Update data/episodes.json' || echo "Nothing to commit"
-        git push
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-  update-guests:
-    runs-on: ubuntu-latest
-    needs: update-episodes
-
-    steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v2
-
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.x'
-
-    - name: Install Python Dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt # If you have a requirements file
-
-    - name: Run Update Guests Script
-      run: python update_guests.py
-
-    - name: Commit and Push Changes
-      run: |
-        git config --global user.name 'github-actions[bot]'
-        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git add guests.html
-        git commit -m 'Update guests.html' || echo "Nothing to commit"
         git push
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
