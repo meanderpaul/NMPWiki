@@ -69,19 +69,34 @@ try {
   
   console.log('Guests array:', guests);
   
-  // Only write to guests.json if guests array is not empty
+  // Write the sorted guest list to data/guests.json
   if (guests.length > 0) {
     // Sort guests alphabetically by name
     guests.sort((a, b) => a.name.localeCompare(b.name));
     
-    // Write the sorted guest list to data/guests.json
     const guestsPath = path.join(__dirname, 'data', 'guests.json');
     await fs.writeFile(guestsPath, JSON.stringify(guests, null, 2));
-    
     console.log('guests.json has been generated and sorted!');
   } else {
     console.error('Error: No guests found to write to guests.json');
   }
+
+  // Generate HTML for grid layout
+  let gridHTML = '<div class="grid-container">';
+  guests.forEach(guest => {
+    gridHTML += `
+      <div class="grid-item">
+        ${guest.name} - ${guest.episodes} episode(s)
+      </div>
+    `;
+  });
+  gridHTML += '</div>';
+
+  // Write the HTML grid to a file in the root directory
+  const guestsGridPath = path.join(__dirname, 'guests.html');
+  await fs.writeFile(guestsGridPath, gridHTML);
+
+  console.log('guests.html has been generated with the grid layout!');
 } catch (error) {
   console.error('Error processing episodes or generating guests:', error);
 }
