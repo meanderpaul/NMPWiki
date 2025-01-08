@@ -30,10 +30,15 @@ try {
   
   // Iterate through episodes to count guest appearances
   episodes.forEach(episode => {
-    if (episode.guests) { // Check if the episode has guests
-      console.log(`Processing episode: ${episode.title}`);
-      episode.guests.forEach(guest => {
-        console.log(`Processing guest: ${guest}`);
+    const title = episode.snippet.title;
+    console.log(`Processing episode title: ${title}`);
+    
+    const guestNames = title.match(/with (.+)/i);
+    if (guestNames && guestNames[1]) { // Check if guest names are found
+      const guests = guestNames[1].split('and').map(name => name.trim());
+      console.log(`Extracted guests from title: ${guests.join(', ')}`);
+      
+      guests.forEach(guest => {
         if (guestMap[guest]) {
           guestMap[guest]++;
         } else {
