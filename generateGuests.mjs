@@ -32,8 +32,10 @@ try {
   episodes.forEach(episode => {
     const title = episode.snippet.title;
     console.log(`Processing episode title: ${title}`);
-    
-    const guestNames = title.match(/with (.+)/i);
+
+    // Updated regex to match guest names only and exclude other details
+    const guestNames = title.match(/with (.+?)\s*(?:NMP|\d|$)/i);
+
     if (guestNames && guestNames[1]) { // Check if guest names are found
       const guests = guestNames[1].split('and').map(name => name.trim());
       console.log(`Extracted guests from title: ${guests.join(', ')}`);
