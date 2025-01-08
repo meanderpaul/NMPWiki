@@ -2,7 +2,7 @@ name: Update Guests List
 
 on:
   schedule:
-    - cron: '0 * * * *' # Runs every hour
+    - cron: '0 0 * * 0' # Runs every Sunday at midnight
   push:
     branches:
       - main
@@ -21,7 +21,7 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@v3
       with:
-        node-version: '14' # Use the version of Node.js you need
+        node-version: '14'
 
     - name: Install Dependencies
       run: npm install
