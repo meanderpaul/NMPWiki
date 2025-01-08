@@ -29,7 +29,10 @@ try {
   const guestMap = {};
   
   // Helper function to clean and normalize guest names
-  const cleanGuestName = (name) => name.trim().replace(/[^a-zA-Z\s]/g, '');
+  const cleanGuestName = (name) => name
+    .replace(/(?:Guest|Guildmaster|Part)/gi, '') // Remove unwanted terms
+    .trim()
+    .replace(/[^a-zA-Z\s]/g, '');
 
   // Iterate through episodes to count guest appearances
   episodes.forEach(episode => {
