@@ -2,7 +2,7 @@ name: Update Guests List
 
 on:
   schedule:
-    - cron: '0 0 * * 0' # Runs every sunday at midnight
+    - cron: '0 * * * *' # Runs every hour
   push:
     branches:
       - main
@@ -26,9 +26,7 @@ jobs:
     - name: Install Dependencies
       run: |
         sudo apt-get update
-        sudo apt-get install python3 python3-pip
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt # If you have a requirements file
+        sudo apt-get install -y python3 python3-pip
 
     - name: Run Update Guests Script
       run: python update_guests.py
