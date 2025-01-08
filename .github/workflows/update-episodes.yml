@@ -1,4 +1,4 @@
-name: Update Episodes JSON
+name: Update Episodes and Guests JSON
 
 on:
   schedule:
@@ -35,6 +35,37 @@ jobs:
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         git add data/episodes.json
         git commit -m 'Update data/episodes.json' || echo "Nothing to commit"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  update-guests:
+    runs-on: ubuntu-latest
+    needs: update-episodes
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Install Python Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt # If you have a requirements file
+
+    - name: Run Update Guests Script
+      run: python update_guests.py
+
+    - name: Commit and Push Changes
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add sorted_guests.html
+        git commit -m 'Update sorted_guests.html' || echo "Nothing to commit"
         git push
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
