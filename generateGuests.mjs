@@ -1,5 +1,5 @@
 const fs = require('fs');
-const episodes = require('data/episodes.json');
+const episodes = require('./data/episodes.json');
 
 // Create a map to store guest appearances
 const guestMap = {};
