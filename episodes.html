@@ -3,199 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Episodes - NMP Resources</title>
+    <title>Guests - NMP Resources</title>
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        .hero {
-            background: url('css/nmp_banner_resources.jpg') no-repeat center center;
-            background-size: contain;
-            height: 25vh;
-            width: 100%;
-            max-height: 250px;
-            padding-top: 50px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: white;
-            text-align: center;
-        }
-
-        .hero-content {
-            background-color: rgba(0, 0, 0, 0.5);
-            padding: 20px;
-            border-radius: 10px;
-        }
-
-        /* Responsive Design */
-        @media (max-width: 1200px) {
-            .hero {
-                height: 20vh;
-            }
-        }
-
-        @media (max-width: 768px) {
-            .hero {
-                height: 15vh;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .hero {
-                height: 10vh;
-            }
-        }
-
-        @media (max-width: 320px) {
-            .hero {
-                height: 7.5vh;
-            }
-        }
-
-        .total-counter {
-            text-align: center;
-            color: #4CAF50;
-            margin-bottom: 20px;
-        }
-
-        .episode {
-            margin-bottom: 15px;
-        }
-    </style>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; img-src data:; connect-src 'self'">
 </head>
 <body>
     <div class="hero">
         <div class="hero-content">
+            <h1>Guest List</h1>
         </div>
     </div>
+
     <!-- Navigation Bar -->
     <div class="navbar">
         <a href="index.html">Home</a>
-        <a href="episodes.html" class="active">Episodes</a>
+        <a href="episodes.html">Episodes</a>
         <a href="literature.html">Literature</a>
         <a href="locations.html">Locations</a>
-        <a href="guests.html">Guests</a>
+        <a href="guests.html" class="active">Guests</a>
         <a href="https://www.nordicmythologypodcast.com" target="_blank">NMP</a>
         <a href="https://www.hornsofodin.com" target="_blank">Horns of Odin</a>
     </div>
 
-    <div id="episodes-container" class="container">
-        <!-- Episodes will be dynamically loaded here by JavaScript -->
+    <div class="container">
+        <div id="guests-container"></div>
     </div>
 
-    <!-- Include the JavaScript to fetch and display YouTube data -->
     <script>
-        async function fetchEpisodesFromFile() {
-            try {
-                const response = await fetch('data/episodes.json');
-                console.log(`Fetch response status: ${response.status}`);
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
-                }
-                const episodes = await response.json();
-                console.log('Fetched episodes:', episodes);
-
-                if (!Array.isArray(episodes)) {
-                    throw new Error('Invalid data format');
-                }
-
-                const episodesContainer = document.getElementById('episodes-container');
-                episodesContainer.innerHTML = '';
-
-                const totalEpisodes = episodes.length;
-                const totalCounter = document.createElement('h2');
-                totalCounter.textContent = `Total Episodes: ${totalEpisodes}`;
-                totalCounter.classList.add('total-counter');
-                episodesContainer.appendChild(totalCounter);
-
-                const filteredEpisodes = episodes.filter(episode => episode !== null);
-                console.log('Filtered episodes:', filteredEpisodes);
-
-                const episodesByYear = filteredEpisodes.reduce((acc, episode) => {
-                    const year = new Date(episode.snippet.publishedAt).getFullYear();
-                    acc[year] = acc[year] || [];
-                    acc[year].push(episode);
-                    return acc;
-                }, {});
-                console.log('Episodes by year:', episodesByYear);
-
-                const sortedYears = Object.keys(episodesByYear).sort((a, b) => b - a);
-                console.log('Sorted years:', sortedYears);
-
-                for (const year of sortedYears) {
-                    const yearContainer = document.createElement('div');
-                    yearContainer.classList.add('year-container');
-
-                    const yearHeader = document.createElement('h2');
-                    yearHeader.textContent = year;
-                    yearHeader.classList.add('year-header');
-                    yearHeader.onclick = () => {
-                        const yearContent = yearContainer.querySelector('.year-content');
-                        yearContent.style.display = yearContent.style.display === 'none' ? 'block' : 'none';
-                    };
-                    yearContainer.appendChild(yearHeader);
-
-                    const yearContent = document.createElement('div');
-                    yearContent.classList.add('year-content');
-
-                    // Sort episodes within the year in descending order
-                    episodesByYear[year].sort((a, b) => new Date(b.snippet.publishedAt) - new Date(a.snippet.publishedAt));
-
-                    for (const episode of episodesByYear[year]) {
-                        console.log('Processing episode:', episode);
-                        const episodeElement = document.createElement('div');
-                        episodeElement.classList.add('episode');
-
-                        const titleElement = document.createElement('h3');
-                        titleElement.textContent = episode.snippet.title || 'No title';
-                        episodeElement.appendChild(titleElement);
-
-                        const episodeNumberElement = document.createElement('p');
-                        episodeNumberElement.innerHTML = `<strong>Episode Number:</strong> ${episode.snippet.title.match(/\d+/) || 'N/A'}`;
-                        episodeElement.appendChild(episodeNumberElement);
-
-                        const guestNameElement = document.createElement('p');
-                        guestNameElement.innerHTML = `<strong>Guest Name:</strong> ${extractGuestName(episode.snippet.description, episode.snippet.title)}`;
-                        episodeElement.appendChild(guestNameElement);
-
-                        const descriptionElement = document.createElement('p');
-                        descriptionElement.innerHTML = `<strong>Description:</strong> ${episode.snippet.description || 'No description available'}`;
-                        episodeElement.appendChild(descriptionElement);
-
-                        const publishedAtElement = document.createElement('p');
-                        publishedAtElement.innerHTML = `<strong>Published At:</strong> ${new Date(episode.snippet.publishedAt).toLocaleDateString()}`;
-                        episodeElement.appendChild(publishedAtElement);
-
-                        yearContent.appendChild(episodeElement);
-                    }
-
-                    yearContent.style.display = 'none'; // Initially collapse year sections
-                    yearContainer.appendChild(yearContent);
-                    episodesContainer.appendChild(yearContainer);
-                }
-            } catch (error) {
-                console.error('Error fetching episodes from file:', error);
-            }
-        }
-
-        function extractGuestName(description, title) {
-            let guestName = 'N/A';
-            if (description) {
-                const descriptionGuestMatch = description.match(/guest[:]? (.+?)(\.|,|;|\n|$)/i);
-                if (descriptionGuestMatch) {
-                    guestName = descriptionGuestMatch[1].trim();
-                }
-            }
-            if (guestName === 'N/A' && title) {
-                const titleGuestMatch = title.match(/with (.+?)(\.|,|;|\n|$)/i);
-                if (titleGuestMatch) {
-                    guestName = titleGuestMatch[1].trim();
-                }
-            }
-            return guestName;
-        }
-
-        window.onload = fetchEpisodesFromFile;
+        fetch('data/guests.html')
+            .then(response => response.text())
+            .then(html => {
+                document.getElementById('guests-container').innerHTML = html;
+            })
+            .catch(error => console.error('Error fetching guests:', error));
     </script>
 </body>
 </html>
