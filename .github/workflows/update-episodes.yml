@@ -24,8 +24,11 @@ jobs:
         node-version: '14' # Use the version of Node.js you need
 
     - name: Install Dependencies
-      run: npm install
-
+      run:  |
+        npm install
+        python3 install
+        pip install
+        
     - name: Run Fetch Episodes Script
       run: node fetch-episodes.mjs
 
