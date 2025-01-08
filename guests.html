@@ -69,17 +69,26 @@
         <a href="https://www.hornsofodin.com" target="_blank">Horns of Odin</a>
     </div>
 
-    <div id="guests-container">
-    <!-- Guest names will be inserted here -->
-    <script>
-        fetch('sorted_guests.html')
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('guests-container').innerHTML = data;
-            });
-    </script>
-</div>
+    <div class="container">
+        <div id="guests-container"></div>
+    </div>
 
- 
+    <script>
+        fetch('data/guests.json')
+            .then(response => response.json())
+            .then(guests => {
+                const container = document.getElementById('guests-container');
+                const list = document.createElement('ul');
+
+                guests.forEach(guest => {
+                    const listItem = document.createElement('li');
+                    listItem.textContent = `${guest.name} - ${guest.episodes} episode(s)`;
+                    list.appendChild(listItem);
+                });
+
+                container.appendChild(list);
+            })
+            .catch(error => console.error('Error fetching guests:', error));
+    </script>
 </body>
 </html>
