@@ -1,5 +1,5 @@
 const fs = require('fs');
-const episodes = require('./data/episodes.json');
+const episodes = require('data/episodes.json');
 
 // Create a map to store guest appearances
 const guestMap = {};
@@ -27,6 +27,6 @@ const guests = Object.keys(guestMap).map(guest => ({
 guests.sort((a, b) => a.name.localeCompare(b.name));
 
 // Write the sorted guest list to data/guests.json
-fs.writeFileSync('./data/guests.json', JSON.stringify(guests, null, 2));
+fs.writeFileSync('data/guests.json', JSON.stringify(guests, null, 2));
 
 console.log('guests.json has been generated and sorted!');
