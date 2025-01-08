@@ -6,13 +6,15 @@ const guestMap = {};
 
 // Iterate through episodes to count guest appearances
 episodes.forEach(episode => {
-  episode.guests.forEach(guest => {
-    if (guestMap[guest]) {
-      guestMap[guest]++;
-    } else {
-      guestMap[guest] = 1;
-    }
-  });
+  if (episode.guests) { // Check if the episode has guests
+    episode.guests.forEach(guest => {
+      if (guestMap[guest]) {
+        guestMap[guest]++;
+      } else {
+        guestMap[guest] = 1;
+      }
+    });
+  }
 });
 
 // Convert the guest map to an array of guest objects
