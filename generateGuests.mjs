@@ -9,6 +9,12 @@ const __dirname = path.dirname(__filename);
 // Path to the episodes.json file
 const episodesPath = path.join(__dirname, 'data', 'episodes.json');
 
+// List of common stop words or phrases to filter out
+const stopWords = [
+  'Guest', 'Guildmaster', 'Part', 'Episode', 'Ep', 
+  'Return of the Ham', 'Pt', 'NMP', 'Return of the', 'Part'
+];
+
 // Ensure the file exists
 try {
   await fs.access(episodesPath);
@@ -29,11 +35,13 @@ try {
   const guestMap = {};
   
   // Helper function to clean and normalize guest names
-  const cleanGuestName = (name) => name
-    .replace(/(?:Guest|Guildmaster|Part|Episode|Ep|Return of the Ham|Pt)/gi, '') // Remove unwanted terms
-    .replace(/[-\d]/g, '') // Remove dashes and digits
-    .trim()
-    .replace(/[^a-zA-Z\s]/g, '');
+  const cleanGuestName = (name) => {
+    stopWords.forEach(word => {
+      const regex = new RegExp(`\\b${word}\\b`, 'gi');
+      name = name.replace(regex, '');
+    });
+    return name.trim().replace(/[-\d]/g, '').replace(/[^a-zA-Z\s]/g, '');
+  };
 
   // Iterate through episodes to count guest appearances
   episodes.forEach(episode => {
