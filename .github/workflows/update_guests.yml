@@ -27,7 +27,7 @@ jobs:
       run: npm install
 
     - name: Run Generate Guests Script
-      run: node generateGuests.js
+      run: node generateGuests.mjs
 
     - name: Commit and Push Changes
       run: |
