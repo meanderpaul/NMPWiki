@@ -85,6 +85,17 @@
 
     <!-- Include the JavaScript to fetch and display YouTube data -->
     <script>
+        // Add cleanDescription function here
+        function cleanDescription(description) {
+            // Find the position of the sequence of 4 or more hyphens and truncate the description
+            const separatorRegex = /-{4,}/;
+            const separatorIndex = description.search(separatorRegex);
+            if (separatorIndex !== -1) {
+                return description.substring(0, separatorIndex).trim();
+            }
+            return description;
+        }
+
         async function fetchEpisodesFromFile() {
             try {
                 const response = await fetch('data/episodes.json');
@@ -159,7 +170,8 @@
                         episodeElement.appendChild(guestNameElement);
 
                         const descriptionElement = document.createElement('p');
-                        descriptionElement.innerHTML = `<strong>Description:</strong> ${episode.snippet.description || 'No description available'}`;
+                        // Use the cleanDescription function here
+                        descriptionElement.innerHTML = `<strong>Description:</strong> ${cleanDescription(episode.snippet.description) || 'No description available'}`;
                         episodeElement.appendChild(descriptionElement);
 
                         const publishedAtElement = document.createElement('p');
