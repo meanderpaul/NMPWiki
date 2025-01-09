@@ -2,7 +2,7 @@ name: Update Literature Page
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Schedule to run daily
+    - cron: '0 0 * * 0' # Schedule to run daily
   workflow_dispatch: # Allow manual triggering
 
 jobs:
@@ -27,10 +27,10 @@ jobs:
         run: |
           npm install
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install -r video-analyzer/requirements.txt
 
       - name: Start video analyzer API
-        run: uvicorn main:app --host 0.0.0.0 --port 8000 &
+        run: uvicorn video-analyzer.main:app --host 0.0.0.0 --port 8000 &
 
       - name: Transcribe videos
         run: node scripts/transcribe_videos.mjs
