@@ -5,6 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Locations - NMP Resources</title>
     <link rel="stylesheet" href="css/style.css">
+    <script>
+    function toggleMenu() {
+        var x = document.querySelector(".navbar");
+        if (x.className === "navbar") {
+            x.className += " responsive";
+        } else {
+            x.className = "navbar";
+        }
+    }
+</script>
         <style>
         .hero {
             background: url('css/nmp_banner_resources.jpg') no-repeat center center;
@@ -68,6 +78,7 @@
         <a href="guests.html">Guests</a>
         <a href="https://www.nordicmythologypodcast.com" target="_blank">NMP</a>
         <a href="https://www.hornsofodin.com" target="_blank">Horns of Odin</a>
+        <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">&#9776;</a>
     </div>
 
     <h1>Literature</h1>
