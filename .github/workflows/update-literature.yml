@@ -2,7 +2,7 @@ name: Update Literature Page
 
 on:
   schedule:
-    - cron: '0 0 * * 0' # Schedule to run daily
+    - cron: '0 0 * * 0' # Schedule to run every sunday
   workflow_dispatch: # Allow manual triggering
 
 jobs:
