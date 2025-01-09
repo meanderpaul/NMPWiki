@@ -10,3 +10,4 @@ function extractInformation(transcription) {
 const transcription1 = fs.readFileSync('data/transcription1.txt', 'utf8');
 const data = [extractInformation(transcription1)];
 fs.writeFileSync('data/literature.json', JSON.stringify(data, null, 2));
+console.log('Extracted information saved to data/literature.json');
