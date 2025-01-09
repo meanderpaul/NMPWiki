@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
-        .hero {
+            .hero {
             background: url('css/nmp_banner_resources.jpg') no-repeat center center;
             background-size: contain;
             height: 25vh;
@@ -77,8 +77,19 @@
         <a href="guests.html">Guests</a>
         <a href="https://www.nordicmythologypodcast.com" target="_blank">NMP</a>
         <a href="https://www.hornsofodin.com" target="_blank">Horns of Odin</a>
+        <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">&#9776;</a>
     </div>
-
+<script>
+    function toggleMenu() {
+        var x = document.querySelector(".navbar");
+        if (x.className === "navbar") {
+            x.className += " responsive";
+        } else {
+            x.className = "navbar";
+        }
+    }
+</script>
+    
     <div id="episodes-container" class="container">
         <!-- Episodes will be dynamically loaded here by JavaScript -->
     </div>
