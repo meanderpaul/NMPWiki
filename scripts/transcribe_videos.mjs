@@ -1,15 +1,21 @@
 import fetch from 'node-fetch';
 import fs from 'fs';
 
-async function transcribeAudio(audioFilePath) {
-    const response = await fetch('https://api.example.com/transcribe', {
+async function transcribeVideo(videoPath) {
+    const response = await fetch('http://localhost:8000/api/v1/videos', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ audioFilePath })
+        body: JSON.stringify({ videoPath })
     });
-    const transcription = await response.json();
-    return transcription.text;
+    if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    const data = await response.json();
+    const transcription = data.transcription;
+    return transcription;
 }
 
-const transcription1 = await transcribeAudio('path/to/video1/audio');
-fs.writeFileSync('data/transcription1.txt', transcription1);
+const videoPath = 'path/to/video1.mp4';
+const transcription = await transcribeVideo(videoPath);
+fs.writeFileSync('data/transcription1.txt', transcription);
+console.log('Transcription saved to data/transcription1.txt');
