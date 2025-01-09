@@ -48,7 +48,7 @@ let htmlContent = `<!DOCTYPE html>
                         <p><strong>Summary:</strong> ${entry.summary || 'No summary available'}</p>
                         <h3>Key Points:</h3>
                         <ul>${entry.keyPoints.map(point => `<li>${point}</li>`).join('')}</ul>
-                        <h3>Books Mentioned:</h>
+                        <h3>Books Mentioned:</h3>
                         <ul>${entry.books.map(book => `<li>${book}</li>`).join('')}</ul>
                         <h3>Authors Mentioned:</h3>
                         <ul>${entry.authors.map(author => `<li>${author}</li>`).join('')}</ul>
