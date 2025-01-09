@@ -18,6 +18,7 @@ h1, h2, h3 {
     overflow: hidden;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap; /* Allow the navbar to wrap on smaller screens */
 }
 
 .navbar a {
@@ -37,6 +38,10 @@ h1, h2, h3 {
 .navbar a.active {
     background-color: #4CAF50;
     color: white;
+}
+
+.navbar .icon {
+    display: none;
 }
 
 /* Container and Sections */
@@ -105,30 +110,6 @@ h1, h2, h3 {
     color: #f2f2f2;
 }
 
-
-/* Episode Styling */
-.episode {
-    margin-bottom: 15px;
-    padding: 10px;
-    background-color: #222;
-    border-radius: 5px;
-}
-
-/* Style the episode title */
-.episode h3 {
-    color: #4CAF50;
-}
-
-/* Style the episode details */
-.episode p {
-    margin: 5px 0;
-}
-
-/* Ensure strong elements are readable */
-.episode strong {
-    color: #f2f2f2;
-}
-
 /* Footer */
 footer {
     background-color: #333;
@@ -170,5 +151,32 @@ footer {
 
     .episode {
         padding: 15px;
+    }
+}
+
+/* Responsive Navigation Bar */
+@media screen and (max-width: 600px) {
+    .navbar a:not(:first-child) {
+        display: none;
+    }
+    .navbar a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navbar.responsive {
+        position: relative;
+    }
+    .navbar.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .navbar.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
     }
 }
