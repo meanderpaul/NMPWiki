@@ -22,30 +22,48 @@ let htmlContent = `<!DOCTYPE html>
     </div>
 
     <div class="container">
-        <h1>Literature Discussed in Videos</h1>`;
-
-literatureData.forEach(entry => {
-    htmlContent += `
-        <div class="video-summary">
-            <h2>Video Title: Exploring the Viking Age Literature</h2>
-            <p><strong>Summary:</strong> In this video, Dan interviews Rebeca Franco Valle about the literature from the Viking Age.</p>
-            <h3>Key Points:</h3>
-            <ul>${entry.keyPoints.map(point => `<li>${point}</li>`).join('')}</ul>
-            <h3>Books Mentioned:</h3>
-            <ul>${entry.books.map(book => `<li>${book}</li>`).join('')}</ul>
-            <h3>Authors Mentioned:</h3>
-            <ul>${entry.authors.map(author => `<li>${author}</li>`).join('')}</ul>
-            <h3>Additional Resources:</h3>
-            <ul>
-                <li><a href="https://example.com/article1" target="_blank">Article on Viking Age Literature</a></li>
-                <li><a href="https://example.com/article2" target="_blank">Interview with Rebeca Franco Valle</a></li>
-            </ul>
-        </div>`;
-});
-
-htmlContent += `
+        <h1>Literature</h1>
+        <div id="literature-container">
+            <!-- Content will be dynamically loaded here by JavaScript -->
+        </div>
     </div>
-</body>
-</html>`;
 
-fs.writeFileSync('literature.html', htmlContent);
+    <script>
+        async function loadLiterature() {
+            try {
+                const response = await fetch('data/literature.json');
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const literatureData = await response.json();
+                
+                const container = document.getElementById('literature-container');
+
+                literatureData.forEach(entry => {
+                    const videoSummary = document.createElement('div');
+                    videoSummary.classList.add('video-summary');
+
+                    videoSummary.innerHTML = `
+                        <h2>Video Title: ${entry.videoTitle || 'Unknown Title'}</h2>
+                        <p><strong>Summary:</strong> ${entry.summary || 'No summary available'}</p>
+                        <h3>Key Points:</h3>
+                        <ul>${entry.keyPoints.map(point => `<li>${point}</li>`).join('')}</ul>
+                        <h3>Books Mentioned:</h>
+                        <ul>${entry.books.map(book => `<li>${book}</li>`).join('')}</ul>
+                        <h3>Authors Mentioned:</h3>
+                        <ul>${entry.authors.map(author => `<li>${author}</li>`).join('')}</ul>
+                        <h3>Additional Resources:</h3>
+                        <ul>${entry.additionalResources.map(resource => `<li><a href="${resource}" target="_blank">${resource}</a></li>`).join('')}</ul>
+                    `;
+                    container.appendChild(videoSummary);
+                });
+            } catch (error) {
+                console.error('Failed to load literature data:', error);
+                document.getElementById('literature-container').innerHTML = '<p>Error loading literature data. Please try again later.</p>';
+            }
+        }
+
+        window.onload = loadLiterature;
+    </script>
+</body>
+</html>
