@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Locations - NMP Resources</title>
+    <title>Literature - NMP Resources</title>
     <link rel="stylesheet" href="css/style.css">
     <script>
     function toggleMenu() {
@@ -14,8 +14,8 @@
             x.className = "navbar";
         }
     }
-</script>
-        <style>
+    </script>
+    <style>
         .hero {
             background: url('css/nmp_banner_resources.jpg') no-repeat center center;
             background-size: contain; /* Ensure the image fits within the borders */
@@ -67,13 +67,12 @@
         <div class="hero-content">
         </div>
     </div>
-</head>
-<body>
+    
     <!-- Navigation Bar -->
     <div class="navbar">
         <a href="index.html">Home</a>
         <a href="episodes.html">Episodes</a>
-        <a href="literature.html"class="active">Literature</a>
+        <a href="literature.html" class="active">Literature</a>
         <a href="locations.html">Locations</a>
         <a href="guests.html">Guests</a>
         <a href="https://www.nordicmythologypodcast.com" target="_blank">NMP</a>
@@ -81,7 +80,41 @@
         <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">&#9776;</a>
     </div>
 
-    <h1>Literature</h1>
+    <div class="container">
+        <h1>Literature</h1>
+        <div id="literature-container">
+            <!-- Content will be dynamically loaded here by JavaScript -->
+        </div>
+    </div>
 
+    <script>
+        async function loadLiterature() {
+            const response = await fetch('data/literature.json');
+            const literatureData = await response.json();
+            
+            const container = document.getElementById('literature-container');
+
+            literatureData.forEach(entry => {
+                const videoSummary = document.createElement('div');
+                videoSummary.classList.add('video-summary');
+
+                videoSummary.innerHTML = `
+                    <h2>Video Title: ${entry.videoTitle || 'Unknown Title'}</h2>
+                    <p><strong>Summary:</strong> ${entry.summary || 'No summary available'}</p>
+                    <h3>Key Points:</h3>
+                    <ul>${entry.keyPoints.map(point => `<li>${point}</li>`).join('')}</ul>
+                    <h3>Books Mentioned:</h3>
+                    <ul>${entry.books.map(book => `<li>${book}</li>`).join('')}</ul>
+                    <h3>Authors Mentioned:</h3>
+                    <ul>${entry.authors.map(author => `<li>${author}</li>`).join('')}</ul>
+                    <h3>Additional Resources:</h3>
+                    <ul>${entry.additionalResources.map(resource => `<li><a href="${resource}" target="_blank">${resource}</a></li>`).join('')}</ul>
+                `;
+                container.appendChild(videoSummary);
+            });
+        }
+
+        window.onload = loadLiterature;
+    </script>
 </body>
 </html>
