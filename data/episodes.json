@@ -6988,7 +6988,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "e-osULdkeKgU6s6CjlN2GlEhzew",
+    "etag": "xu9oARofKdJq9TZdL1UyBhnM4yc",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4wQjA4QkVEQ0RFREIzMjFC",
     "snippet": {
       "publishedAt": "2023-12-24T17:43:10Z",
@@ -7039,7 +7039,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "3crUplPp7aceomy-Kvj_G1V8Mss",
+    "etag": "ZxE3AWTXT11JNzq-VcXbvsgDGxo",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4wNjIzRDA1OTQ2M0UyODEw",
     "snippet": {
       "publishedAt": "2023-12-29T02:21:50Z",
@@ -9334,7 +9334,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "H5aGOfHy9eYyFXfF_00miCKG6Z0",
+    "etag": "C_zdB-tjVPApijljo7U0AO2HOvc",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5BNTZDRUVBRkUwRDU3N0FF",
     "snippet": {
       "publishedAt": "2024-11-07T03:50:16Z",
@@ -9742,7 +9742,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "nwLjggOpku-T8KZ8ekCjCQuNgD4",
+    "etag": "keRU1LDzZ-EJTP4sK8CjnXbzuok",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4zODMyNzgxRTc3QzBBMjJE",
     "snippet": {
       "publishedAt": "2025-01-07T14:05:03Z",
@@ -9895,7 +9895,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "qNiyocL291MB3whBu9TXHStGZtM",
+    "etag": "OdkQ-tU8188YiB6Cnq10fe_c-pI",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai44Q0Q0NjMwREMzREQ1RkE4",
     "snippet": {
       "publishedAt": "2025-01-26T13:19:48Z",
@@ -9946,7 +9946,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "uXTfhvayfQXAxBoDjMuwwT8oFcs",
+    "etag": "1HH4Hya-lXzaAOwW8fGUP84yyUc",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai43OEQ1OTk4ODU2N0E5RUYz",
     "snippet": {
       "publishedAt": "2025-01-30T15:41:24Z",
@@ -9992,7 +9992,58 @@
     },
     "contentDetails": {
       "videoId": "WZXVky6fGUU",
-      "videoPublishedAt": "2025-01-30T15:40:36Z"
+      "videoPublishedAt": "2025-02-06T12:07:17Z"
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "7MfMwuqsIorfH-NEiKWFSm-BTKs",
+    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5GOUJEOERGNDg1N0QyNDA3",
+    "snippet": {
+      "publishedAt": "2025-02-06T10:06:13Z",
+      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
+      "title": "Ep 250 - Being a Cnut with Magnus Bruun",
+      "description": "In this week's 250th episode special, Dan and Margrethe are joined by Magnus Bruun, actor extraordinaire known for playing the antagonist Cnut in The Last Kingdom and for voicing and performance capture for Eivor in Assassin's Creed: Valhalla.\n\n------------------------------------------------\n\nFollow Magnus on his Instagram:\n\n@magnusbruun\n\nand on his X (Twitter) page:\n\n@Magnus__Bruun\n\nFollow Margrethe on Instagram:\n\n@arkeomags\n\nFollow the Podcast on Instagram:\n\n@nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/CVeoa80auiM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/CVeoa80auiM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/CVeoa80auiM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/CVeoa80auiM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/CVeoa80auiM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Nordic Mythology Podcast",
+      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
+      "position": 196,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "CVeoa80auiM"
+      },
+      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
+      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
+    },
+    "contentDetails": {
+      "videoId": "CVeoa80auiM",
+      "videoPublishedAt": "2025-02-06T10:05:29Z"
     }
   }
 ]
