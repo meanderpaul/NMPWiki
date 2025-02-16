@@ -8620,13 +8620,13 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "fE7DI-b5O3zX0p2Jy1PQF6RJLtE",
+    "etag": "vF7IfTBf8Jx4ZbxZas-ESrA1SlQ",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai41MjA2QjlEREM3NTE0RkJG",
     "snippet": {
       "publishedAt": "2024-08-05T07:02:21Z",
       "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
       "title": "Ep 223 - Poetry And Life In Anglo Saxon Britain With Connor S  Wyrdstaef",
-      "description": "In this week's episode, Dan sits down with Connor S. Wyrdstaef. He is a historical reenactor who specialises in researching what life was like in Anglo-Saxon Britain.\n\n------------------------------------------------\n\nSubscribe to Connor on YouTube:\n@thefyrdsman9590 \n\nFollow the Podcast on Instagram:\n@nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
+      "description": "In this week's episode, Dan sits down with Connor S. Wyrdstaef. He is a historical reenactor who specialises in researching what life was like in Anglo-Saxon Britain.\n\n------------------------------------------------\n\nSubscribe to Connor on YouTube:\n@thefyrdsman \n\nFollow the Podcast on Instagram:\n@nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
       "thumbnails": {
         "default": {
           "url": "https://i.ytimg.com/vi/bJvucdlC7wI/default.jpg",
@@ -9385,7 +9385,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "AdSmyIZNio8v-79rIqP9EyfqInY",
+    "etag": "HqAAYEuAUrFFEiPzd-MOMyuGVtY",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5BMDNGMkVEMjBGMzNGNEJC",
     "snippet": {
       "publishedAt": "2024-11-14T10:56:15Z",
@@ -9793,7 +9793,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "NKjYJ9evWFJEADUbwh0B8YEU-us",
+    "etag": "diIthj33a97bXAChYLjdy41Az8E",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5EQTkxMkVFODRENEJBMERF",
     "snippet": {
       "publishedAt": "2025-01-10T00:30:00Z",
@@ -9997,7 +9997,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "7MfMwuqsIorfH-NEiKWFSm-BTKs",
+    "etag": "S9hgh6YkcrSayXeh1UbkhfoCgvE",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5GOUJEOERGNDg1N0QyNDA3",
     "snippet": {
       "publishedAt": "2025-02-06T10:06:13Z",
@@ -10043,7 +10043,58 @@
     },
     "contentDetails": {
       "videoId": "CVeoa80auiM",
-      "videoPublishedAt": "2025-02-06T10:05:29Z"
+      "videoPublishedAt": "2025-02-13T07:16:41Z"
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "VLTIMbypojypuyIxwPiPjcg5ilM",
+    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5GNzRBRjZBMTFFRDU2OERD",
+    "snippet": {
+      "publishedAt": "2025-02-13T11:41:00Z",
+      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
+      "title": "Ep 251 - Podcasting And Music Retrospective with Ed Gamester and Jonas Lorentzen",
+      "description": "In this week's episode, Dan and Margrethe sit down with long-time friends of the podcast Ed Gamester and Jonas Lorentzen to look back over their careers and reflect on how far the podcast and their music projects have come.\n\n------------------------------------------------\n\nFollow Ed on his personal and business Instagram:\n\n@thustheguild\n\n@mythos.theatre\n\nFollow Jonas on his Instagram:\n\n@nebalamusic\n\nFollow Margrethe on Instagram:\n\n@arkeomags\n\nFollow the Podcast on Instagram:\n\n@nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/gDuhvi42JDM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/gDuhvi42JDM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/gDuhvi42JDM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/gDuhvi42JDM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/gDuhvi42JDM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Nordic Mythology Podcast",
+      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
+      "position": 197,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "gDuhvi42JDM"
+      },
+      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
+      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
+    },
+    "contentDetails": {
+      "videoId": "gDuhvi42JDM",
+      "videoPublishedAt": "2025-02-13T11:40:14Z"
     }
   }
 ]
