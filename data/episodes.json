@@ -9844,7 +9844,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "YVUlzXLuVHBoHJIHL-o0YOdZ1dM",
+    "etag": "3kDlD3kdBYPfsAM1w66oQ1a7nQk",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4zNjNFN0I4ODYzQTQ3QTg2",
     "snippet": {
       "publishedAt": "2025-01-18T06:53:25Z",
@@ -10095,6 +10095,57 @@
     "contentDetails": {
       "videoId": "gDuhvi42JDM",
       "videoPublishedAt": "2025-02-13T11:40:14Z"
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "6YtlLpin5gFotNvIM8BCQXuaX48",
+    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4zMzg4MjBBNzZCQzY5MDk4",
+    "snippet": {
+      "publishedAt": "2025-02-16T23:03:45Z",
+      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
+      "title": "Ep 251 - Mythos & Music with Ed Gamester and Jonas Lorentzen",
+      "description": "In this week's episode, Dan and Margrethe sit down with long-time friends of the podcast Ed Gamester and Jonas Lorentzen to look back over their careers and reflect on how far the podcast and their music projects have come.\n\n------------------------------------------------\n\nFollow Ed on his personal and business Instagram:\n\n@thustheguild\n\n@mythos.theatre\n\nFollow Jonas on his Instagram:\n\n@nebalamusic\n\nFollow Margrethe on Instagram:\n\n@arkeomags\n\nFollow the Podcast on Instagram:\n\n@nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/blGiAgCFns8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/blGiAgCFns8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/blGiAgCFns8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/blGiAgCFns8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/blGiAgCFns8/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Nordic Mythology Podcast",
+      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
+      "position": 198,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "blGiAgCFns8"
+      },
+      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
+      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
+    },
+    "contentDetails": {
+      "videoId": "blGiAgCFns8",
+      "videoPublishedAt": "2025-02-20T02:19:34Z"
     }
   }
 ]
