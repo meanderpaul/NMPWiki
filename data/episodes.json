@@ -3418,7 +3418,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "zXYT7ilZdqo2kveXHoOCY3YHBNE",
+    "etag": "O8vABNbjKPNLg0naSn8os8Lb-Kk",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai42RTNCOEMxREI3Q0VDMjU2",
     "snippet": {
       "publishedAt": "2022-06-23T01:23:20Z",
@@ -9946,7 +9946,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "1HH4Hya-lXzaAOwW8fGUP84yyUc",
+    "etag": "lFuwYcDZiU7Nj_US5YEjTJHCZUo",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai43OEQ1OTk4ODU2N0E5RUYz",
     "snippet": {
       "publishedAt": "2025-01-30T15:41:24Z",
@@ -9997,7 +9997,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "S9hgh6YkcrSayXeh1UbkhfoCgvE",
+    "etag": "1zXacJDCPxeoC9b5o7wQFocLUXs",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5GOUJEOERGNDg1N0QyNDA3",
     "snippet": {
       "publishedAt": "2025-02-06T10:06:13Z",
@@ -10168,6 +10168,57 @@
     "contentDetails": {
       "videoId": "660_qiqgPuM",
       "videoPublishedAt": "2025-02-27T16:18:58Z"
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "vc_w_3ZtsJw_2g8yQYNiIJKjqz0",
+    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai41NEM3RjdGQ0FDRjkwNUQ5",
+    "snippet": {
+      "publishedAt": "2025-03-03T08:57:12Z",
+      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
+      "title": "Ep 253 - The Art Of Viking Warfare with Benjamin Raffield",
+      "description": "In this week's episode, Dan and Margrethe sit down with Benjamin Raffield to discuss how the Vikings waged warfare over Europe.\n\n------------------------------------------------\n\nCheck out Benjamin's published works:\n\nhttps://www.uu.se/en/contact-and-organisation/staff?query=N17-289\n\nFollow Margrethe on Instagram:\n\n@arkeomags\n\nFollow the Podcast on Instagram:\n\n@nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/Uf80BStGHyo/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Uf80BStGHyo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Uf80BStGHyo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/Uf80BStGHyo/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/Uf80BStGHyo/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Nordic Mythology Podcast",
+      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
+      "position": 200,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "Uf80BStGHyo"
+      },
+      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
+      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
+    },
+    "contentDetails": {
+      "videoId": "Uf80BStGHyo",
+      "videoPublishedAt": "2025-03-06T07:15:11Z"
     }
   }
 ]
