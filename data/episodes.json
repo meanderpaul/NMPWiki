@@ -6784,7 +6784,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "mheVAVqpO2werFq3lKGw6lQHdJ0",
+    "etag": "uowcj2QohN5WQAy74tBW9-VlZOU",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai43RjdBQTMwNUUwRTA1QkE3",
     "snippet": {
       "publishedAt": "2023-11-25T19:31:05Z",
@@ -7651,7 +7651,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "IHeEmG3oX37IffPrtwAOW9Hb27s",
+    "etag": "EtiymP1LiSrZpANVwMYLOGqtUxQ",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai40QTY5NjQzQkQzMjgwNjhD",
     "snippet": {
       "publishedAt": "2024-03-12T10:55:12Z",
@@ -9538,7 +9538,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "9uCnOqrvG268ryJ7wkDFIa-OwQQ",
+    "etag": "t8YxyE8fnBIly1e2WjTqqxCdLtY",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai44QUE0MzNDRkM4RjA0Njcy",
     "snippet": {
       "publishedAt": "2024-12-05T15:55:28Z",
@@ -9589,7 +9589,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "gbIsspOMQSZpv2bPgpQ0BC38SbI",
+    "etag": "nFRAXBYb61_S4loqtv4VyOywh84",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5EMzdGRjBBQzVCNEY2NDhG",
     "snippet": {
       "publishedAt": "2024-12-12T23:05:02Z",
@@ -10219,6 +10219,108 @@
     "contentDetails": {
       "videoId": "Uf80BStGHyo",
       "videoPublishedAt": "2025-03-06T07:15:11Z"
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "WT--3DXJ8PpYZgbOuvz88dhB99Q",
+    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai40N0VCMzcxQTEyREU1NDND",
+    "snippet": {
+      "publishedAt": "2025-03-10T18:11:50Z",
+      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
+      "title": "Ep 254 - Salme Ship Burials with Margrethe Havgar",
+      "description": "In this week's episode, Dan and Margrethe do another archaeological deep dive into the Salme Ship Burials that where discovered in Estonia.\n\n------------------------------------------------\n\nFollow Margrethe on Instagram:\n\n@arkeomags\n\nFollow the Podcast on Instagram:\n\n@nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/07HzwctdHpY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/07HzwctdHpY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/07HzwctdHpY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/07HzwctdHpY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/07HzwctdHpY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Nordic Mythology Podcast",
+      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
+      "position": 201,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "07HzwctdHpY"
+      },
+      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
+      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
+    },
+    "contentDetails": {
+      "videoId": "07HzwctdHpY",
+      "videoPublishedAt": "2025-03-13T06:00:00Z"
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "dcqtseZ5WePAT4wQKOvt7GOs0xs",
+    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai44ODU0NUVGNEZGMDI3QTdF",
+    "snippet": {
+      "publishedAt": "2025-03-13T19:20:26Z",
+      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
+      "title": "Ep 255 - Vikings In Space with Ryan Eckerson",
+      "description": "In this week's episode, Dan and Margrethe are joined by Ryan Eckerson as the three of them take a trip through the stars to discover the relationship between the Vikings and Space.\n\n------------------------------------------------\n\nCheck out Ryan's academia page\n\nhttps://independent.academia.edu/RyanEckerson\n\nFollow Margrethe on Instagram:\n\n@arkeomags\n\nFollow the Podcast on Instagram:\n\n@nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/K4-tJ5HWyQo/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/K4-tJ5HWyQo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/K4-tJ5HWyQo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/K4-tJ5HWyQo/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/K4-tJ5HWyQo/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Nordic Mythology Podcast",
+      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
+      "position": 202,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "K4-tJ5HWyQo"
+      },
+      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
+      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
+    },
+    "contentDetails": {
+      "videoId": "K4-tJ5HWyQo",
+      "videoPublishedAt": "2025-03-13T18:56:19Z"
     }
   }
 ]
