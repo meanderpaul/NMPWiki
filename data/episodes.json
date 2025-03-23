@@ -1225,7 +1225,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "T-cLg-XUD0Gnm414OiPn77WgCdA",
+    "etag": "v2aK6iVotM5TNh1bnIKHvuwcW5M",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai43MTI1NDIwOTMwQjIxMzNG",
     "snippet": {
       "publishedAt": "2021-04-08T13:20:23Z",
@@ -10070,7 +10070,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "6YtlLpin5gFotNvIM8BCQXuaX48",
+    "etag": "87we7UAKyn-xSR9ytcr9fuDDIq4",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4zMzg4MjBBNzZCQzY5MDk4",
     "snippet": {
       "publishedAt": "2025-02-16T23:03:45Z",
@@ -10121,7 +10121,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "37XZ6bqAP1mBUPqgzlBEL79fnFw",
+    "etag": "1N9W45gp59RNeqfWHo_9VMhPw3s",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4yOUY5MUNBMTM5RDMyREQ5",
     "snippet": {
       "publishedAt": "2025-02-24T17:56:57Z",
@@ -10274,7 +10274,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "dcqtseZ5WePAT4wQKOvt7GOs0xs",
+    "etag": "ZSrOAFCHxBNYE70_ReFreN_pfm0",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai44ODU0NUVGNEZGMDI3QTdF",
     "snippet": {
       "publishedAt": "2025-03-13T19:20:26Z",
@@ -10320,7 +10320,58 @@
     },
     "contentDetails": {
       "videoId": "K4-tJ5HWyQo",
-      "videoPublishedAt": "2025-03-13T18:56:19Z"
+      "videoPublishedAt": "2025-03-20T06:00:12Z"
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "zEZyPzMqajKcNyq5O-UTz2IP0m8",
+    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai43OEM5M0IwMkQ1MzBCMUI1",
+    "snippet": {
+      "publishedAt": "2025-03-19T13:55:31Z",
+      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
+      "title": "Ep 256 - Oseberg Wagon Reimagined with Luciano Pezzoli",
+      "description": "In this week's episode, Dan and Margrethe chew the fat with Luciano Pezzoli as he shows us all of the hidden details and stories behind the artwork of the Oseberg Wagon.\n\n------------------------------------------------\n\nFollow Luciano on Instagram:\n\nhttps://www.instagram.com/childrenofash\n\nAlso, check out his published works:\n\nhttps://www.oxbowbooks.com/9781789259537/the-norse-sorceress/\n\nFollow Margrethe on Instagram:\n\nhttps://www.instagram.com/arkeomags\n\nFollow the Podcast on Instagram:\n\nhttps://www.instagram.com/nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/dVTPKSJzmsM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/dVTPKSJzmsM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/dVTPKSJzmsM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/dVTPKSJzmsM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/dVTPKSJzmsM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Nordic Mythology Podcast",
+      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
+      "position": 203,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "dVTPKSJzmsM"
+      },
+      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
+      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
+    },
+    "contentDetails": {
+      "videoId": "dVTPKSJzmsM",
+      "videoPublishedAt": "2025-03-19T13:49:29Z"
     }
   }
 ]
