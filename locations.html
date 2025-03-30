@@ -6,23 +6,23 @@
     <title>Locations - NMP Resources</title>
     <link rel="stylesheet" href="css/style.css">
     <script>
-    function toggleMenu() {
-        var x = document.querySelector(".navbar");
-        if (x.className === "navbar") {
-            x.className += " responsive";
-        } else {
-            x.className = "navbar";
+        function toggleMenu() {
+            var x = document.querySelector(".navbar");
+            if (x.className === "navbar") {
+                x.className += " responsive";
+            } else {
+                x.className = "navbar";
+            }
         }
-    }
-</script>
-        <style>
+    </script>
+    <style>
         .hero {
             background: url('css/nmp_banner_resources.jpg') no-repeat center center;
-            background-size: contain; /* Ensure the image fits within the borders */
-            height: 25vh; /* Smaller height */
-            width: 100%; /* Default width */
-            max-height: 250px; /* Maximum height */
-            padding-top: 50px; /* Add padding to prevent cutoff */
+            background-size: contain;
+            height: 25vh;
+            width: 100%;
+            max-height: 250px;
+            padding-top: 50px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -39,26 +39,90 @@
         /* Responsive Design */
         @media (max-width: 1200px) {
             .hero {
-                height: 20vh; /* Adjusted height for larger screens */
+                height: 20vh;
             }
         }
 
         @media (max-width: 768px) {
             .hero {
-                height: 15vh; /* Adjusted height for medium screens */
+                height: 15vh;
             }
         }
 
         @media (max-width: 480px) {
             .hero {
-                height: 10vh; /* Adjusted height for small screens */
+                height: 10vh;
             }
         }
 
         @media (max-width: 320px) {
             .hero {
-                height: 7.5vh; /* Adjusted height for very small screens */
+                height: 7.5vh;
             }
+        }
+
+        #location-list {
+            padding: 20px;
+            margin: 0 auto;
+            max-width: 800px;
+        }
+
+        #location-list li {
+            background-color: #f7f7f7;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        #location-list li:hover {
+            background-color: #e0e0e0;
+        }
+
+        #location-list li h2 {
+            margin-bottom: 10px;
+            font-size: 1.5em;
+            color: #333;
+        }
+
+        #location-list li p {
+            margin-bottom: 10px;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        #location-list li.expanded {
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .location-details {
+            margin-top: 10px;
+            border-top: 1px solid #ddd;
+            padding-top: 10px;
+        }
+
+        .location-details h3 {
+            font-size: 1.2em;
+            margin-bottom: 5px;
+            color: #4CAF50;
+        }
+
+        .location-details ul {
+            list-style-type: disc;
+            padding-left: 20px;
+            margin-bottom: 10px;
+            color: #666;
+        }
+
+        .location-details ul li {
+            margin-bottom: 5px;
         }
     </style>
 </head>
@@ -67,9 +131,6 @@
         <div class="hero-content">
         </div>
     </div>
-</head>
-<body>
-    <!-- Navigation Bar -->
     <div class="navbar">
         <a href="index.html">Home</a>
         <a href="episodes.html">Episodes</a>
@@ -84,6 +145,52 @@
     <h1>Locations</h1>
     <ul id="location-list"></ul>
 
-    
+    <script>
+        function displayLocations(data) {
+            const locationList = document.getElementById('location-list');
+            locationList.innerHTML = '';
+
+            data.forEach(location => {
+                const listItem = document.createElement('li');
+                listItem.innerHTML = `
+                    <h2>${location.location_name}</h2>
+                    <p><strong>Location:</strong> ${location.location_of_site}</p>
+                    <div class="location-details hidden">
+                        <h3>Discovered Year:</h3>
+                        <p>${location.discovered_year}</p>
+                        <h3>Description of Relevance:</h3>
+                        <p>${location.description_of_relevance}</p>
+                        <h3>Sources:</h3>
+                        <ul>
+                            ${location.sources.map(source => `<li>${source}</li>`).join('')}
+                        </ul>
+                    </div>
+                `;
+                listItem.addEventListener('click', () => {
+                    listItem.classList.toggle('expanded');
+                    const details = listItem.querySelector('.location-details');
+                    details.classList.toggle('hidden');
+                });
+                locationList.appendChild(listItem);
+            });
+        }
+
+        function sortLocations(data) {
+            data.sort((a, b) => {
+                const countryA = a.location_of_site.split(', ').pop();
+                const countryB = b.location_of_site.split(', ').pop();
+                return countryA.localeCompare(countryB);
+            });
+            return data;
+        }
+
+        fetch('data/locations.json')
+            .then(response => response.json())
+            .then(data => {
+                const sortedData = sortLocations(data);
+                displayLocations(sortedData);
+            })
+            .catch(error => console.error('Error fetching locations:', error));
+    </script>
 </body>
 </html>
