@@ -1,7 +1,7 @@
 [
   {
     "kind": "youtube#playlistItem",
-    "etag": "Tdwr9K3VtDESytDCq7Jb37VDsHI",
+    "etag": "niinjacvNxibMm_fzn1E9yhrtAs",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai41NkI0NEY2RDEwNTU3Q0M2",
     "snippet": {
       "publishedAt": "2021-01-15T22:23:54Z",
@@ -919,7 +919,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "3nTt38txKY52q1sE4Q35mAorlO4",
+    "etag": "QJihQTKvFCpGjjpg5KRMuVNHPtw",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5ENDU4Q0M4RDExNzM1Mjcy",
     "snippet": {
       "publishedAt": "2021-02-25T06:27:59Z",
@@ -2602,7 +2602,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "VqzNT0wx5nW5MM9bOWr57MXFQpM",
+    "etag": "uzqliUX0jtLP0uvf2_Qh7BFIlqM",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai42Qzk5MkEzQjVFQjYwRDA4",
     "snippet": {
       "publishedAt": "2022-04-17T12:16:39Z",
@@ -10150,7 +10150,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "6dw-X0J49ON6xplT_OQyfro0-24",
+    "etag": "BFp6-yq5RZWgqZz_qq33oYdMvUc",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai41NEM3RjdGQ0FDRjkwNUQ5",
     "snippet": {
       "publishedAt": "2025-03-03T08:57:12Z",
@@ -10350,6 +10350,108 @@
     "contentDetails": {
       "videoId": "dVTPKSJzmsM",
       "videoPublishedAt": "2025-03-27T06:00:23Z"
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "4dqKQwAj-Rv-9f90ZdqHQWbErik",
+    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai40QUQ5MEY1QTZCMzdFNkNC",
+    "snippet": {
+      "publishedAt": "2025-04-03T02:42:02Z",
+      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
+      "title": "Ep 257 - Welsh Folk Tales with Sean Parry",
+      "description": "In this week's episode, Dan and Margrethe join Sean Parry as they travel to the land of dragons to explore tales from the folklore of Wales.\n\n------------------------------------------------\n\nFollow Sean on Instagram:\n\nhttps://www.instagram.com/sacred_knot_tattoo\n\n@sacred_knot_tattoo\n\nFollow Margrethe on Instagram:\n\nhttps://www.instagram.com/arkeomags\n\nFollow the Podcast on Instagram:\n\nhttps://www.instagram.com/nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/jNvXPtOJzjY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/jNvXPtOJzjY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/jNvXPtOJzjY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/jNvXPtOJzjY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/jNvXPtOJzjY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Nordic Mythology Podcast",
+      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
+      "position": 203,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "jNvXPtOJzjY"
+      },
+      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
+      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
+    },
+    "contentDetails": {
+      "videoId": "jNvXPtOJzjY",
+      "videoPublishedAt": "2025-04-03T05:08:57Z"
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "lWZRmgrrD83OQiz4ViMUjc9UHaE",
+    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai41MkJFMDEwMDIxMkRDREQ3",
+    "snippet": {
+      "publishedAt": "2025-04-05T07:04:34Z",
+      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
+      "title": "Ep 258 - Norse Images and Melodies with Espen Winther",
+      "description": "In this week's episode, Dan and Margrethe interview Espen Winther to talk about his art, from capturing portraits of Norwegian citizens too jamming on his bass guitar to create Nordic Folk music.\n\n------------------------------------------------\n\nFollow Espin's photography on Facebook:\n\nhttps://www.facebook.com/WinPicsPhoto\n\nAlso, check out his Instagram Page:\n\nhttps://www.instagram.com/winpics69\n\nFollow Margrethe on Instagram:\n\nhttps://www.instagram.com/arkeomags\n\nFollow the Podcast on Instagram:\n\nhttps://www.instagram.com/nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/2H1EEaQ6Ass/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/2H1EEaQ6Ass/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/2H1EEaQ6Ass/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/2H1EEaQ6Ass/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/2H1EEaQ6Ass/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Nordic Mythology Podcast",
+      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
+      "position": 204,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "2H1EEaQ6Ass"
+      },
+      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
+      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
+    },
+    "contentDetails": {
+      "videoId": "2H1EEaQ6Ass",
+      "videoPublishedAt": "2025-04-05T06:57:27Z"
     }
   }
 ]
