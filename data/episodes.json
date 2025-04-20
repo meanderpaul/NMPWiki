@@ -8263,7 +8263,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "wD7fwUSSwUPed4gzOrHNLZqtEYc",
+    "etag": "DRiHnyT6pyt5ftCkLTjaKgc_tOU",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4yM0YxNkQ4MTExRjg4RUI2",
     "snippet": {
       "publishedAt": "2024-06-20T04:01:53Z",
@@ -10252,7 +10252,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "Nh5WwNJUAWvDuROI2R-gzau5cSI",
+    "etag": "bQh_N2BZq_oO0tHhqsxBuH7u9FM",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai44ODU0NUVGNEZGMDI3QTdF",
     "snippet": {
       "publishedAt": "2025-03-13T19:20:26Z",
@@ -10452,6 +10452,108 @@
     "contentDetails": {
       "videoId": "2H1EEaQ6Ass",
       "videoPublishedAt": "2025-04-10T11:02:15Z"
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "eb5M4pHl5Q2rtGL6UNf51VVm_8k",
+    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4xODVDRjcwQzY3NkIxNjYz",
+    "snippet": {
+      "publishedAt": "2025-04-17T08:30:49Z",
+      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
+      "title": "Ep 259 - Vikings Around The World with Josh Rood and Ariya Theprangsimankul",
+      "description": "In this week's episode, Dan and Margrethe sit down with Josh Rood and Ariya Theprangsimankul to discuss Norse mythology is represented around the world, more specifically, in Thailand.\n\n------------------------------------------------\n\nFollow Josh on Instagram:\n\nhttps://www.instagram.com/josua_hrodgeir/\n\nFollow Ariya on Instagram:\n\nhttps://www.instagram.com/ariyathp/\n\nFollow Margrethe on Instagram:\n\nhttps://www.instagram.com/arkeomags\n\nFollow the Podcast on Instagram:\n\nhttps://www.instagram.com/nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions, please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/zMDUjxxaed4/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/zMDUjxxaed4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/zMDUjxxaed4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/zMDUjxxaed4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/zMDUjxxaed4/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Nordic Mythology Podcast",
+      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
+      "position": 205,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "zMDUjxxaed4"
+      },
+      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
+      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
+    },
+    "contentDetails": {
+      "videoId": "zMDUjxxaed4",
+      "videoPublishedAt": "2025-04-17T10:08:23Z"
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "VgqYOwPPiy_xCARBkutsIxyr6z8",
+    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai42QTlDMjkyRjNGMEYwQzcz",
+    "snippet": {
+      "publishedAt": "2025-04-18T12:21:15Z",
+      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
+      "title": "Ep 260 - Viking Age Slavery and Captivity with Ben Raffield",
+      "description": "In this week's episode, Dan and Margrethe catch up with Ben Raffield to tackle one of the darkest sides of history around slavery and the internal hierarchies born from forced labour.\n\n------------------------------------------------\n\nCheck out Ben's website:\n\nhttps://benraffield.wordpress.com/\n\nFollow Margrethe on Instagram:\n\nhttps://www.instagram.com/arkeomags\n\nFollow the Podcast on Instagram:\n\nhttps://www.instagram.com/nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions, please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/GjhcizIxK1c/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/GjhcizIxK1c/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/GjhcizIxK1c/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/GjhcizIxK1c/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/GjhcizIxK1c/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Nordic Mythology Podcast",
+      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
+      "position": 206,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "GjhcizIxK1c"
+      },
+      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
+      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
+    },
+    "contentDetails": {
+      "videoId": "GjhcizIxK1c",
+      "videoPublishedAt": "2025-04-18T12:11:25Z"
     }
   }
 ]
