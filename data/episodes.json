@@ -9895,7 +9895,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "_640rE5gH7D686gQEHoKchlF72s",
+    "etag": "Nb6mscVyIaWTNLxztcPXCdcu_zM",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai44Q0Q0NjMwREMzREQ1RkE4",
     "snippet": {
       "publishedAt": "2025-01-26T13:19:48Z",
@@ -9946,7 +9946,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "lFuwYcDZiU7Nj_US5YEjTJHCZUo",
+    "etag": "xrkuKz3_zHb2C5IzAu9_2zZ1Vv4",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai43OEQ1OTk4ODU2N0E5RUYz",
     "snippet": {
       "publishedAt": "2025-01-30T15:41:24Z",
@@ -10554,6 +10554,57 @@
     "contentDetails": {
       "videoId": "GjhcizIxK1c",
       "videoPublishedAt": "2025-04-24T13:48:23Z"
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "CJn2sxH2HUw64x_ocMrCpK-WQf8",
+    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai41MUY0NzFFRjMwMkI3RTI1",
+    "snippet": {
+      "publishedAt": "2025-04-27T21:54:16Z",
+      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
+      "title": "Ep 261 - God Posts and Pendants with Chris Aston",
+      "description": "In this week's episode, Dan and Margrethe sit down with Chris Aston to talk about his carvings of god posts and pendants that are inspired by various mythologies and cosmologies.\n\n------------------------------------------------\n\nCheck out Chris's Patreon page to get commissions of his work:\n\nhttps://www.patreon.com/Gungnir_Godposts\n\nAlso follow Chris on Instagram:\n\nhttps://www.instagram.com/gungnir_godposts/\n\nFollow Margrethe on Instagram:\n\nhttps://www.instagram.com/arkeomags\n\nFollow the Podcast on Instagram:\n\nhttps://www.instagram.com/nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions, please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/Kk7PPXUrClc/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Kk7PPXUrClc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Kk7PPXUrClc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/Kk7PPXUrClc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/Kk7PPXUrClc/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Nordic Mythology Podcast",
+      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
+      "position": 207,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "Kk7PPXUrClc"
+      },
+      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
+      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
+    },
+    "contentDetails": {
+      "videoId": "Kk7PPXUrClc",
+      "videoPublishedAt": "2025-04-30T11:00:36Z"
     }
   }
 ]
