@@ -7753,7 +7753,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "FMQQko7SsjYUd2CpD0L_42HaJXo",
+    "etag": "BQ7vbeV59oIAaG5vlOAAe2fMmCg",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai45NDIzMEVBNjk5NTFGRDZC",
     "snippet": {
       "publishedAt": "2024-03-17T17:50:35Z",
@@ -9946,7 +9946,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "xrkuKz3_zHb2C5IzAu9_2zZ1Vv4",
+    "etag": "FdP2TYRhect7enVvI_r7NHhwAiI",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai43OEQ1OTk4ODU2N0E5RUYz",
     "snippet": {
       "publishedAt": "2025-01-30T15:41:24Z",
@@ -10354,7 +10354,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "4dqKQwAj-Rv-9f90ZdqHQWbErik",
+    "etag": "6cMRXxh26WMofdLp8LHT7D2za1E",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai40QUQ5MEY1QTZCMzdFNkNC",
     "snippet": {
       "publishedAt": "2025-04-03T02:42:02Z",
@@ -10405,7 +10405,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "Tg1lU3sgayuQSclyWEPJAvnJURY",
+    "etag": "yU8dx8-a6lq-SIEF1AyoEJxTg-k",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai41MkJFMDEwMDIxMkRDREQ3",
     "snippet": {
       "publishedAt": "2025-04-05T07:04:34Z",
@@ -10605,6 +10605,57 @@
     "contentDetails": {
       "videoId": "Kk7PPXUrClc",
       "videoPublishedAt": "2025-04-30T11:00:36Z"
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "mFhq0zaOWt6VYS-WdY9ukkyZHMc",
+    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5DM0UwMkNDRTIwQUNDMjE2",
+    "snippet": {
+      "publishedAt": "2025-05-06T05:43:46Z",
+      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
+      "title": "Ep 262 - Viking Sorceress with Adam Bierstedt",
+      "description": "In this week's episode, Dan and Margrethe interview Adam Bierstedt about his work as a museum curator at the Museum of Danish America and their new exhibition on the Völva, the Viking Sorceress.\n\n------------------------------------------------\n\nCheck out Adam's published work:\n\nhttps://ludohistory.com/author/ludohistory/\n\nAlso check out the Museum of Danish America's website:\n\nhttps://www.danishmuseum.org/\n\nFollow Margrethe on Instagram:\n\nhttps://www.instagram.com/arkeomags\n\nFollow the Podcast on Instagram:\n\nhttps://www.instagram.com/nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions, please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/B2BernkvjU8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/B2BernkvjU8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/B2BernkvjU8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/B2BernkvjU8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/B2BernkvjU8/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Nordic Mythology Podcast",
+      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
+      "position": 208,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "B2BernkvjU8"
+      },
+      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
+      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
+    },
+    "contentDetails": {
+      "videoId": "B2BernkvjU8",
+      "videoPublishedAt": "2025-05-08T08:52:49Z"
     }
   }
 ]
