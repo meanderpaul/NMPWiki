@@ -4081,7 +4081,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "aJiR30GPjJDhdCDR7YFBt_R0zAY",
+    "etag": "v-xRH4pnF9JAOwYg1tPS-UrkWQE",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai44QTA1QTQyRTc3M0VGQzYx",
     "snippet": {
       "publishedAt": "2022-10-22T15:25:51Z",
@@ -4234,7 +4234,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "gMO2FiFwhEufoRXROZ3ClxRax-A",
+    "etag": "Y7bfC_38ZW77rldNs2k3lZaXufA",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5EMzJDRTUwQjBEOUVFQzAw",
     "snippet": {
       "publishedAt": "2022-11-14T21:42:01Z",
@@ -4387,7 +4387,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "0zb1vAtuNveHqhOfeUcu4boaxBU",
+    "etag": "Q80zSrU8EUzrjqttE1L3c64FuXM",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4wQUE0QzM4MkJGQ0YwQjUx",
     "snippet": {
       "publishedAt": "2022-12-04T11:43:31Z",
@@ -7600,7 +7600,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "7AvrFeLl4aC3BMGdns2xYnbtWQY",
+    "etag": "WmzHDXaRfme3x_kgNmY9H-hmp0Q",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5DNTU3ODQ4ODAzMjFERTI1",
     "snippet": {
       "publishedAt": "2024-03-10T16:32:49Z",
@@ -8212,7 +8212,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "16VyZ24nuJos4sxK-Mxqk-S-qSA",
+    "etag": "gGke0DSWVCJ3AjSVUmhQnlTGlrs",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4zQTkyMjEwN0U0QkU3RDg5",
     "snippet": {
       "publishedAt": "2024-06-12T18:35:29Z",
@@ -10656,6 +10656,57 @@
     "contentDetails": {
       "videoId": "B2BernkvjU8",
       "videoPublishedAt": "2025-05-08T08:52:49Z"
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "bHV_JSJv6To9uwoisml_L24S924",
+    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5FRjZBRjlFMTZFQkZCNzE5",
+    "snippet": {
+      "publishedAt": "2025-05-13T19:59:26Z",
+      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
+      "title": "Ep 263 - The Valknut: Heart of the Slain? with Eirik Westcoat",
+      "description": "In this week's episode, Dan and Margrethe speak with Eirik Westcoat to revisit his research into the Valknut and discuss if it truly means the Heart of the Slain.\n\n------------------------------------------------\n\nCheck out Eirik's website:\n\nhttps://theskaldiceagle.com/\n\nAlso, check out his academia page:\n\nhttps://independent.academia.edu/EirikWestcoat\n\nFollow Margrethe on Instagram:\n\nhttps://www.instagram.com/arkeomags\n\nFollow the Podcast on Instagram:\n\nhttps://www.instagram.com/nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions, please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/ze9cY3ka8H8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/ze9cY3ka8H8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/ze9cY3ka8H8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/ze9cY3ka8H8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/ze9cY3ka8H8/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Nordic Mythology Podcast",
+      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
+      "position": 209,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "ze9cY3ka8H8"
+      },
+      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
+      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
+    },
+    "contentDetails": {
+      "videoId": "ze9cY3ka8H8",
+      "videoPublishedAt": "2025-05-15T13:32:08Z"
     }
   }
 ]
