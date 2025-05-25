@@ -4183,7 +4183,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "qTUMzDUKSfLXyfDr9vp26780y9k",
+    "etag": "NL8dtJSh71ca2Ps1WlHklI0Owl8",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai40NzE2MTY1QTM3RUI3QkU3",
     "snippet": {
       "publishedAt": "2022-11-14T21:39:26Z",
@@ -10456,7 +10456,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "eb5M4pHl5Q2rtGL6UNf51VVm_8k",
+    "etag": "ws_7-1l9TBT6nrX6CliffTYCqcQ",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4xODVDRjcwQzY3NkIxNjYz",
     "snippet": {
       "publishedAt": "2025-04-17T08:30:49Z",
@@ -10507,7 +10507,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "UqQS4nSoISVFVQZGvVfqrpaXHCk",
+    "etag": "PyGvFGFDzpzmJlZ1s8ZjiXYhyww",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai42QTlDMjkyRjNGMEYwQzcz",
     "snippet": {
       "publishedAt": "2025-04-18T12:21:15Z",
@@ -10609,7 +10609,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "mFhq0zaOWt6VYS-WdY9ukkyZHMc",
+    "etag": "dO0CdkYYoEwikJ-Qt2B_E0YOnbA",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5DM0UwMkNDRTIwQUNDMjE2",
     "snippet": {
       "publishedAt": "2025-05-06T05:43:46Z",
@@ -10707,6 +10707,57 @@
     "contentDetails": {
       "videoId": "ze9cY3ka8H8",
       "videoPublishedAt": "2025-05-15T13:32:08Z"
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "B6nYM0COWjRcW07COaIb76-5UL8",
+    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai44MjZDNDYzQjgwQzkzQzkz",
+    "snippet": {
+      "publishedAt": "2025-05-19T13:00:04Z",
+      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
+      "title": "Ep 264 - Den Unge Herr Holm with Kim Diaz Holm",
+      "description": "In this week's episode, Dan and Margrethe sit down with Kim Diaz Hol, aka Den Unge Herr Holm, to share his love of art, rock music, and weirdly erotic folk tales.\n\n------------------------------------------------\n\nCheck out Kim's website:\n\nhttps://denungeherrholm.com/\n\nFollow Margrethe on Instagram:\n\nhttps://www.instagram.com/arkeomags\n\nFollow the Podcast on Instagram:\n\nhttps://www.instagram.com/nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions, please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/DlaBLHcEXBo/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/DlaBLHcEXBo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/DlaBLHcEXBo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/DlaBLHcEXBo/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/DlaBLHcEXBo/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Nordic Mythology Podcast",
+      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
+      "position": 210,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "DlaBLHcEXBo"
+      },
+      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
+      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
+    },
+    "contentDetails": {
+      "videoId": "DlaBLHcEXBo",
+      "videoPublishedAt": "2025-05-22T13:53:37Z"
     }
   }
 ]
