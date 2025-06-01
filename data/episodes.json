@@ -6886,7 +6886,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "Q4reld2pbx3bZJQ1YNwyJvBqnaU",
+    "etag": "yocMQ-NAuwbHEPuf_Gbwym7a2t0",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5CRjBFOTUzQTE4Mjg3RUJF",
     "snippet": {
       "publishedAt": "2023-12-12T02:16:21Z",
@@ -7243,7 +7243,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "ICsMEICP4Krjpq5Rrpvw1BYe2Ac",
+    "etag": "1jcGOPNCSsD0hBhbUHfoiZY4XOA",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4zMkY2MjA3RDJERTkxNjkz",
     "snippet": {
       "publishedAt": "2024-01-29T20:34:20Z",
@@ -10558,7 +10558,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "CJn2sxH2HUw64x_ocMrCpK-WQf8",
+    "etag": "kkclkR9IFdjHkF87exHFeosP3MU",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai41MUY0NzFFRjMwMkI3RTI1",
     "snippet": {
       "publishedAt": "2025-04-27T21:54:16Z",
@@ -10711,7 +10711,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "B6nYM0COWjRcW07COaIb76-5UL8",
+    "etag": "Apjnf-dQn-h2HSYfITOuKMU8noE",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai44MjZDNDYzQjgwQzkzQzkz",
     "snippet": {
       "publishedAt": "2025-05-19T13:00:04Z",
@@ -10758,6 +10758,57 @@
     "contentDetails": {
       "videoId": "DlaBLHcEXBo",
       "videoPublishedAt": "2025-05-22T13:53:37Z"
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "Zfq-RrJTQzPDfgGhw5h2vX6GRe0",
+    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5FRDc0QkQxMzlEMTZBMzg0",
+    "snippet": {
+      "publishedAt": "2025-05-27T13:03:22Z",
+      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
+      "title": "Ep 265 - Weland The Smith with Professor Howard Williams",
+      "description": "In this week's episode, Dan is re-joined with Professor Howard Williams to look at the artefacts that tell the fantastical tale of Weland The Smith.\n\n------------------------------------------------\n\nFollow Howard on TikTok:\n\nhttps://www.tiktok.com/@archaeodeath\n\nFollow the Podcast on Instagram:\n\nhttps://www.instagram.com/nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions, please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/DpdAg-3xxA8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/DpdAg-3xxA8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/DpdAg-3xxA8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/DpdAg-3xxA8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/DpdAg-3xxA8/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Nordic Mythology Podcast",
+      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
+      "position": 211,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "DpdAg-3xxA8"
+      },
+      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
+      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
+    },
+    "contentDetails": {
+      "videoId": "DpdAg-3xxA8",
+      "videoPublishedAt": "2025-05-29T12:45:52Z"
     }
   }
 ]
