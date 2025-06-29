@@ -3214,7 +3214,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "I4_N7koQ1Sn_CAreHqJSwvNzvd4",
+    "etag": "o8Q97LVCmPEQtoUwtJU1fxZYovQ",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5CNTcxMDQ0NThBNzMxODYz",
     "snippet": {
       "publishedAt": "2022-05-26T23:54:12Z",
@@ -11013,6 +11013,57 @@
     "contentDetails": {
       "videoId": "1_cmUHmvWIw",
       "videoPublishedAt": "2025-06-19T13:36:26Z"
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "l9T_apIYQNueeZLlCZiVvgKpntU",
+    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai44NEFDRUNBRDQwODFGNEU1",
+    "snippet": {
+      "publishedAt": "2025-06-26T02:47:30Z",
+      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
+      "title": "Ep 269 - Blåmenn with Arngrimur Vidalin",
+      "description": "In this week's episode, Dan and Margrethe sit down with Arngrimur Vidalin to examine the controversial records of Blåmenn and how people of colour were depicted in ancient texts.\n\n------------------------------------------------\n\nSee more of Arngrimur's work on his website:\n\nhttps://www.avidalin.com\n\nFollow Margrethe on Instagram:\n\nhttps://www.instagram.com/arkeomags\n\nFollow the Podcast on Instagram:\n\nhttps://www.instagram.com/nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions, please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/IfE1PiJLZzI/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/IfE1PiJLZzI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/IfE1PiJLZzI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/IfE1PiJLZzI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/IfE1PiJLZzI/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Nordic Mythology Podcast",
+      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
+      "position": 216,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "IfE1PiJLZzI"
+      },
+      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
+      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
+    },
+    "contentDetails": {
+      "videoId": "IfE1PiJLZzI",
+      "videoPublishedAt": "2025-06-26T05:00:31Z"
     }
   }
 ]
