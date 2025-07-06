@@ -10762,7 +10762,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "Zfq-RrJTQzPDfgGhw5h2vX6GRe0",
+    "etag": "EnKzF5LDLgFYeqmFfU_mugihPRA",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5FRDc0QkQxMzlEMTZBMzg0",
     "snippet": {
       "publishedAt": "2025-05-27T13:03:22Z",
@@ -10813,7 +10813,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "2zuIzfyDbV7WWM-3qTM5kc6DrE4",
+    "etag": "69TO5jiGRGypG3D46BZTFY9TIYQ",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai45REM1NzQ1MDM2OUZDNDMx",
     "snippet": {
       "publishedAt": "2025-06-02T11:24:14Z",
@@ -11064,6 +11064,108 @@
     "contentDetails": {
       "videoId": "IfE1PiJLZzI",
       "videoPublishedAt": "2025-06-26T05:00:31Z"
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "TLMgGyBgyrF143MJkjCsL13fCvg",
+    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5CNTQ4NEJFQThFNzg4Q0Qz",
+    "snippet": {
+      "publishedAt": "2025-07-02T06:42:59Z",
+      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
+      "title": "Ep 270 - Decoding Viking Art with Rebeca Franco Valle",
+      "description": "In this week's episode, Dan and Margrethe catch up with Rebeca Franco Valle to talk about various artefacts featuring Viking art and the meanings behind their symbols.\n\n------------------------------------------------\n\nFollow Rebeca on Instagram:\n\nhttps://www.instagram.com/withinthenorth\n\nFollow Margrethe on Instagram:\n\nhttps://www.instagram.com/arkeomags\n\nFollow the Podcast on Instagram:\n\nhttps://www.instagram.com/nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions, please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/r41ik3wBpEg/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/r41ik3wBpEg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/r41ik3wBpEg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/r41ik3wBpEg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/r41ik3wBpEg/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Nordic Mythology Podcast",
+      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
+      "position": 217,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "r41ik3wBpEg"
+      },
+      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
+      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
+    },
+    "contentDetails": {
+      "videoId": "r41ik3wBpEg",
+      "videoPublishedAt": "2025-07-03T05:00:50Z"
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "glqbFNG1epk80nRx3sHdNKouGVY",
+    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai40MzQwRDA4N0ZGRTNBNTE2",
+    "snippet": {
+      "publishedAt": "2025-07-04T09:18:27Z",
+      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
+      "title": "Ep 271 - Nordic Folktronica Project with Rúnahild",
+      "description": "In this week's episode, Dan and Margrethe interview Rúnahild, a musical artist who explores their own spiritual connection to nature through her music.\n\n------------------------------------------------\n\nCheck out Rúnahild on their website:\n\nhttps://runahild.com\n\nFollow Margrethe on Instagram:\n\nhttps://www.instagram.com/arkeomags\n\nFollow the Podcast on Instagram:\n\nhttps://www.instagram.com/nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions, please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/zzef5eJWfJw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/zzef5eJWfJw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/zzef5eJWfJw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/zzef5eJWfJw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/zzef5eJWfJw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Nordic Mythology Podcast",
+      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
+      "position": 218,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "zzef5eJWfJw"
+      },
+      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
+      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
+    },
+    "contentDetails": {
+      "videoId": "zzef5eJWfJw",
+      "videoPublishedAt": "2025-07-04T03:17:59Z"
     }
   }
 ]
