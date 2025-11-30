@@ -9,6 +9,10 @@
   },
   {
     "name": "Alex",
+    "episodes": 3
+  },
+  {
+    "name": "Alex Feher",
     "episodes": 1
   },
   {
@@ -40,7 +44,15 @@
     "episodes": 1
   },
   {
+    "name": "Arnas Fedaraviius",
+    "episodes": 1
+  },
+  {
     "name": "Arngrimur Vidalin",
+    "episodes": 1
+  },
+  {
+    "name": "Ben Mudge",
     "episodes": 1
   },
   {
@@ -53,14 +65,22 @@
   },
   {
     "name": "Benny Brten",
-    "episodes": 1
+    "episodes": 2
   },
   {
     "name": "Beth Rogers",
     "episodes": 1
   },
   {
+    "name": "Blackbraid",
+    "episodes": 1
+  },
+  {
     "name": "Bob van Strijen",
+    "episodes": 1
+  },
+  {
+    "name": "Bob Van Strijen",
     "episodes": 1
   },
   {
@@ -77,6 +97,10 @@
   },
   {
     "name": "Chris Aston",
+    "episodes": 1
+  },
+  {
+    "name": "Christian Frederick Nicklaus",
     "episodes": 1
   },
   {
@@ -116,7 +140,15 @@
     "episodes": 1
   },
   {
+    "name": "Dr Jenny Butler",
+    "episodes": 1
+  },
+  {
     "name": "Dr Leszek Gardela",
+    "episodes": 1
+  },
+  {
+    "name": "Dr Martin Carver",
     "episodes": 1
   },
   {
@@ -148,6 +180,10 @@
     "episodes": 1
   },
   {
+    "name": "Emilie Lorentzen",
+    "episodes": 1
+  },
+  {
     "name": "Emma Boast",
     "episodes": 1
   },
@@ -157,6 +193,10 @@
   },
   {
     "name": "er Dreymon",
+    "episodes": 2
+  },
+  {
+    "name": "er Ludwig",
     "episodes": 1
   },
   {
@@ -212,6 +252,10 @@
     "episodes": 2
   },
   {
+    "name": "Jacqui Alberts",
+    "episodes": 1
+  },
+  {
     "name": "Jameson Foster",
     "episodes": 1
   },
@@ -237,7 +281,7 @@
   },
   {
     "name": "Jonas Lorentzen",
-    "episodes": 5
+    "episodes": 7
   },
   {
     "name": "Jonathan Barendsma",
@@ -253,7 +297,7 @@
   },
   {
     "name": "Joshua Rood",
-    "episodes": 1
+    "episodes": 3
   },
   {
     "name": "Jsa Hrgeir Rood",
@@ -280,11 +324,19 @@
     "episodes": 2
   },
   {
+    "name": "Kati Ran",
+    "episodes": 1
+  },
+  {
     "name": "Kati Rn",
     "episodes": 1
   },
   {
     "name": "Katie Beard",
+    "episodes": 1
+  },
+  {
+    "name": "Katrine Stenbekk",
     "episodes": 1
   },
   {
@@ -308,6 +360,10 @@
     "episodes": 1
   },
   {
+    "name": "Kyrre Franck",
+    "episodes": 1
+  },
+  {
     "name": "Laurine Albris",
     "episodes": 1
   },
@@ -321,6 +377,10 @@
   },
   {
     "name": "Liam Waters",
+    "episodes": 2
+  },
+  {
+    "name": "LindyFey Hella",
     "episodes": 1
   },
   {
@@ -329,7 +389,7 @@
   },
   {
     "name": "Luciano Pezzoli",
-    "episodes": 3
+    "episodes": 4
   },
   {
     "name": "Magnus Bruun",
@@ -412,6 +472,10 @@
     "episodes": 1
   },
   {
+    "name": "rea Hejlskov",
+    "episodes": 1
+  },
+  {
     "name": "Rebeca Franco Valle",
     "episodes": 2
   },
@@ -425,7 +489,7 @@
   },
   {
     "name": "Rich Blackett",
-    "episodes": 1
+    "episodes": 2
   },
   {
     "name": "Richard Wakeman",
@@ -433,6 +497,10 @@
   },
   {
     "name": "Rnahild",
+    "episodes": 1
+  },
+  {
+    "name": "Rolf Warming",
     "episodes": 1
   },
   {
@@ -449,6 +517,18 @@
   },
   {
     "name": "Ruben Terlouw",
+    "episodes": 1
+  },
+  {
+    "name": "Rune Hjarn Rasmussen",
+    "episodes": 1
+  },
+  {
+    "name": "Rune Rasmussen",
+    "episodes": 1
+  },
+  {
+    "name": "Ruth Tolkien",
     "episodes": 1
   },
   {
@@ -473,7 +553,7 @@
   },
   {
     "name": "Simon Nygaard",
-    "episodes": 1
+    "episodes": 2
   },
   {
     "name": "Stine S",
@@ -516,12 +596,36 @@
     "episodes": 2
   },
   {
+    "name": "Tyson Yunkaporta",
+    "episodes": 1
+  },
+  {
+    "name": "Valhallas Silver",
+    "episodes": 1
+  },
+  {
+    "name": "Varg of Voluspa",
+    "episodes": 1
+  },
+  {
     "name": "Veronica Bjrkman",
     "episodes": 1
   },
   {
     "name": "Vicky Mikalsen",
     "episodes": 2
+  },
+  {
+    "name": "Viking Helena",
+    "episodes": 1
+  },
+  {
+    "name": "Vvaki",
+    "episodes": 1
+  },
+  {
+    "name": "y Lewis",
+    "episodes": 1
   },
   {
     "name": "Zachary Melton",
