@@ -8,7 +8,15 @@
     "episodes": 1
   },
   {
+    "name": "Alex",
+    "episodes": 1
+  },
+  {
     "name": "Allison Fox",
+    "episodes": 1
+  },
+  {
+    "name": "Amina Otto",
     "episodes": 1
   },
   {
@@ -17,6 +25,10 @@
   },
   {
     "name": "Angie Padilla",
+    "episodes": 1
+  },
+  {
+    "name": "Annicke Shireen",
     "episodes": 1
   },
   {
@@ -33,6 +45,14 @@
   },
   {
     "name": "Benjamin Raffield",
+    "episodes": 1
+  },
+  {
+    "name": "Beth Rogers",
+    "episodes": 1
+  },
+  {
+    "name": "Bob van Strijen",
     "episodes": 1
   },
   {
@@ -65,7 +85,7 @@
   },
   {
     "name": "Clare Mulley",
-    "episodes": 1
+    "episodes": 2
   },
   {
     "name": "Connor Benson",
@@ -105,7 +125,7 @@
   },
   {
     "name": "Dr Mathias Nordvig",
-    "episodes": 2
+    "episodes": 3
   },
   {
     "name": "Dr Niamh Wycherley",
@@ -117,10 +137,18 @@
   },
   {
     "name": "Ed Gamester",
-    "episodes": 2
+    "episodes": 3
   },
   {
     "name": "Eirik Westcoat",
+    "episodes": 2
+  },
+  {
+    "name": "Eivr",
+    "episodes": 1
+  },
+  {
+    "name": "Ela Sefcikova",
     "episodes": 1
   },
   {
@@ -136,6 +164,14 @@
     "episodes": 4
   },
   {
+    "name": "er Dreymon",
+    "episodes": 1
+  },
+  {
+    "name": "ers Winroth",
+    "episodes": 1
+  },
+  {
     "name": "Espen Winther",
     "episodes": 1
   },
@@ -145,6 +181,14 @@
   },
   {
     "name": "Felix Lummer",
+    "episodes": 2
+  },
+  {
+    "name": "Fredrik Gregorius",
+    "episodes": 1
+  },
+  {
+    "name": "Genevieve Gornichec",
     "episodes": 1
   },
   {
@@ -160,7 +204,19 @@
     "episodes": 1
   },
   {
+    "name": "Gwendolyne Knight",
+    "episodes": 1
+  },
+  {
     "name": "Hamish Lamley",
+    "episodes": 1
+  },
+  {
+    "name": "Howard Williams",
+    "episodes": 2
+  },
+  {
+    "name": "Jameson Foster",
     "episodes": 1
   },
   {
@@ -172,8 +228,16 @@
     "episodes": 1
   },
   {
+    "name": "Jan Kozk",
+    "episodes": 1
+  },
+  {
+    "name": "Jonas Lau Markussen",
+    "episodes": 1
+  },
+  {
     "name": "Jonas Lorentzen",
-    "episodes": 2
+    "episodes": 4
   },
   {
     "name": "Jonathan Barendsma",
@@ -196,7 +260,15 @@
     "episodes": 1
   },
   {
+    "name": "Julian PostMelbye",
+    "episodes": 2
+  },
+  {
     "name": "Kai Uwe Faust",
+    "episodes": 1
+  },
+  {
+    "name": "Kari Palsson",
     "episodes": 1
   },
   {
@@ -204,7 +276,19 @@
     "episodes": 1
   },
   {
+    "name": "Kati Rn",
+    "episodes": 1
+  },
+  {
+    "name": "Katie Beard",
+    "episodes": 1
+  },
+  {
     "name": "Kim Diaz Holm",
+    "episodes": 1
+  },
+  {
+    "name": "Kjell Brten",
     "episodes": 1
   },
   {
@@ -212,8 +296,28 @@
     "episodes": 1
   },
   {
-    "name": "Liam Waters",
+    "name": "Kristel Zilmer",
     "episodes": 1
+  },
+  {
+    "name": "Krister Vasshus",
+    "episodes": 1
+  },
+  {
+    "name": "Laurine Albris",
+    "episodes": 1
+  },
+  {
+    "name": "Lee Williams",
+    "episodes": 1
+  },
+  {
+    "name": "Leszek Gardela",
+    "episodes": 1
+  },
+  {
+    "name": "Liam Waters",
+    "episodes": 2
   },
   {
     "name": "Luca Panaro",
@@ -221,7 +325,7 @@
   },
   {
     "name": "Luciano Pezzoli",
-    "episodes": 2
+    "episodes": 3
   },
   {
     "name": "Magnus Bruun",
@@ -233,7 +337,7 @@
   },
   {
     "name": "Margrethe Havgar",
-    "episodes": 3
+    "episodes": 6
   },
   {
     "name": "Marianne Moen",
@@ -241,6 +345,14 @@
   },
   {
     "name": "Martine Vargdottir",
+    "episodes": 1
+  },
+  {
+    "name": "Mathias Nordvig",
+    "episodes": 2
+  },
+  {
+    "name": "Mathias Nordvig Jameson Foster",
     "episodes": 1
   },
   {
@@ -264,8 +376,12 @@
     "episodes": 2
   },
   {
-    "name": "Paul Mortimer",
+    "name": "Oseberg Viking Heritage",
     "episodes": 1
+  },
+  {
+    "name": "Paul Mortimer",
+    "episodes": 2
   },
   {
     "name": "Peter Franzn",
@@ -292,16 +408,28 @@
     "episodes": 1
   },
   {
+    "name": "Raymond",
+    "episodes": 1
+  },
+  {
     "name": "Rebeca Franco Valle",
     "episodes": 2
   },
   {
     "name": "Rebecca Merkelbach",
+    "episodes": 2
+  },
+  {
+    "name": "rew Munz",
+    "episodes": 1
+  },
+  {
+    "name": "Rich Blackett",
     "episodes": 1
   },
   {
     "name": "Richard Wakeman",
-    "episodes": 3
+    "episodes": 4
   },
   {
     "name": "Rnahild",
@@ -328,11 +456,23 @@
     "episodes": 1
   },
   {
+    "name": "Sarah Rowe",
+    "episodes": 1
+  },
+  {
     "name": "Sasja van der Vaart Verschoof",
     "episodes": 1
   },
   {
+    "name": "Saxon Forager",
+    "episodes": 1
+  },
+  {
     "name": "Sean Parry",
+    "episodes": 1
+  },
+  {
+    "name": "Simon Nygaard",
     "episodes": 1
   },
   {
@@ -348,11 +488,23 @@
     "episodes": 1
   },
   {
+    "name": "Tenaya Jorgensen",
+    "episodes": 1
+  },
+  {
     "name": "Terry Chittock",
     "episodes": 1
   },
   {
+    "name": "Terry Gunnell",
+    "episodes": 1
+  },
+  {
     "name": "Tim Hertogh",
+    "episodes": 1
+  },
+  {
+    "name": "Tim Nancarrow",
     "episodes": 1
   },
   {
@@ -374,5 +526,9 @@
   {
     "name": "Vicky Mikalsen",
     "episodes": 2
+  },
+  {
+    "name": "Zachary Melton",
+    "episodes": 1
   }
 ]
