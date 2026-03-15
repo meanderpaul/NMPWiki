@@ -1,7 +1,58 @@
 [
   {
     "kind": "youtube#playlistItem",
-    "etag": "opsvUqbNctHCoJGTBRyCoy7xOss",
+    "etag": "M3oTOc3wo-DKLHE0iWvrWOBSZyk",
+    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4xODJEMEQ5M0RCMDRGMzcy",
+    "snippet": {
+      "publishedAt": "2026-03-09T06:00:46Z",
+      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
+      "title": "Ep 306 - Ahmad Ibn Fadlan with Tonicha Upham",
+      "description": "In this week's episode, Dan and Mags are joined by Tonicha Upham as they explore the historical records kept by legendary Arab traveller Ahmad ibn Fadlan and his encounters with various European cultures.\n\n------------------------------------------------\n\nCheck out Tonicha's past work:\n\nhttps://www.uu.se/en/contact-and-organisation/staff?query=N24-2371\n\nAlso, check out their Google Scholar page:\n\nhttps://scholar.google.com/citations?user=XUaVCz0AAAAJ&hl=da\n\nFollow Margrethe on Instagram:\n\nhttps://www.instagram.com/arkeomags\n\nFollow the Podcast on Instagram:\n\nhttps://www.instagram.com/nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions, please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/LEfH5v9XYeQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/LEfH5v9XYeQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/LEfH5v9XYeQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/LEfH5v9XYeQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/LEfH5v9XYeQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Nordic Mythology Podcast",
+      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
+      "position": 0,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "LEfH5v9XYeQ"
+      },
+      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
+      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
+    },
+    "contentDetails": {
+      "videoId": "LEfH5v9XYeQ",
+      "videoPublishedAt": "2026-03-12T13:37:17Z"
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "0S7QF7B_PQsNkSLZIbyqHH4-89s",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4xMTE0RDU2NTlEMTkxNzZB",
     "snippet": {
       "publishedAt": "2026-03-07T08:57:28Z",
@@ -37,7 +88,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 0,
+      "position": 1,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "fmiX30OjdlM"
@@ -52,7 +103,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "ImCPj0dAzQFN_CtTOaJUAAy03A8",
+    "etag": "wWFbOsYlS9fndoFNBpkZhJoYF7g",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4zNDY1MzYwMjYwQUE2QTlD",
     "snippet": {
       "publishedAt": "2026-03-03T01:21:02Z",
@@ -88,7 +139,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 1,
+      "position": 2,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "yr0rUl64GlU"
@@ -103,7 +154,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "bk5INF8pOyatL6Z0s9mL-hBTHTw",
+    "etag": "RY8Oy0oYezHiJdt-Kds6aPBfhWc",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5EMzgyRkY2QzI3NjdDMDM4",
     "snippet": {
       "publishedAt": "2026-03-03T01:18:58Z",
@@ -113,7 +164,7 @@
       "thumbnails": {},
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 2,
+      "position": 3,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "OzluQ4FvOcg"
@@ -125,7 +176,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "Xs4k_drG3ZI9TOh3trhY3mr4C7w",
+    "etag": "pBc8reDQH5RQXX3SMwWOI-MjgD8",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4yNkZBOTQyMkYxQkQyMzc2",
     "snippet": {
       "publishedAt": "2026-02-24T14:37:05Z",
@@ -161,7 +212,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 3,
+      "position": 4,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "zZYiMOF7joM"
@@ -176,7 +227,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "zczaF9wLcreqV_-DW-1S9U7O_oU",
+    "etag": "G1kvhu3V7oH8XrYM7CHVWUZN8iY",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai43OTNDNTk0OUNGMDA1MUNG",
     "snippet": {
       "publishedAt": "2026-02-11T10:57:46Z",
@@ -212,7 +263,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 4,
+      "position": 5,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "anAD45H-gOI"
@@ -227,7 +278,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "MfQF-UGGIbon8vIMU92AKFT3GUE",
+    "etag": "908To8zNgB7f_HO6ZV5jH3-a5qs",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai41ODI2RjhGOTVBODI2NDE5",
     "snippet": {
       "publishedAt": "2026-02-05T09:25:35Z",
@@ -263,7 +314,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 5,
+      "position": 6,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "3omKe84TLWI"
@@ -278,7 +329,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "QNmjeUAsvWJ4ddNjIdVzOgJHgvQ",
+    "etag": "l8cw9ejIdyH6LJ7nqEjUX4okUag",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai45MTRCQjE3QzVGNDREODIz",
     "snippet": {
       "publishedAt": "2026-01-24T18:01:28Z",
@@ -314,7 +365,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 6,
+      "position": 7,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "1tD-dfHy81s"
@@ -329,7 +380,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "2vsSnJefpV7l9vJQUvbD6fDY0gA",
+    "etag": "5CuMyeum7XyXHmGET5DiivUlti8",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5FRkU3NjdFNDBDMjFBNTlF",
     "snippet": {
       "publishedAt": "2026-01-21T16:09:32Z",
@@ -365,7 +416,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 7,
+      "position": 8,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "xFF6WapHtm0"
@@ -380,7 +431,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "iWits-0a4WFSbI6Hu-HVA8mEeGw",
+    "etag": "vF3f2TktW-KcF0LCLuK0SMwZeKY",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4xRUU4M0JFMUQ4QTA2MjVB",
     "snippet": {
       "publishedAt": "2026-01-15T19:01:28Z",
@@ -416,7 +467,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 8,
+      "position": 9,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "hnMKF3kbZnc"
@@ -431,7 +482,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "ITAFQ4tP35yym6QTDeZWhvI5Yq8",
+    "etag": "L8bQoSDBuE4kuif6HBuHLMhazhU",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai44OEI3NUQ0QTlFM0FCOUU4",
     "snippet": {
       "publishedAt": "2026-01-08T11:11:40Z",
@@ -467,7 +518,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 9,
+      "position": 10,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "wVOOhQZOIlE"
@@ -482,7 +533,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "ovbGi1eytwQJvvcT5Bmd0C1d1I0",
+    "etag": "Qg78XRVE7vlxanobT-6uuEpnF7g",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5FRkIzNkJFQkQ3RkUwOUY5",
     "snippet": {
       "publishedAt": "2025-12-22T12:40:56Z",
@@ -518,7 +569,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 10,
+      "position": 11,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "USfQjO1vuuU"
@@ -533,7 +584,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "Ps84H9Yii9uIsVGCs6sQmHQJ4CU",
+    "etag": "YF3uhDrfkcxJY-ItpdHW64drB20",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4yQjdDRUQyQ0M0MEZCQkEx",
     "snippet": {
       "publishedAt": "2025-12-18T09:37:40Z",
@@ -569,7 +620,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 11,
+      "position": 12,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "gCWhATAzsAk"
@@ -584,7 +635,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "1qnPAlXOJSTLUwZ1Yxlk23vC4Ms",
+    "etag": "Te3vrMpqNZAaV7svNE2V7q_DKWY",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4xM0YyQUYxQTg5OTgyQ0Y5",
     "snippet": {
       "publishedAt": "2025-12-17T13:45:27Z",
@@ -620,7 +671,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 12,
+      "position": 13,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "uwsIP0hpNxg"
@@ -635,7 +686,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "Z0AsUE5Ic8avQOl9kbu3IOK3rh8",
+    "etag": "hA-I1ZFX5arlF3ETNtqG-I8WnMc",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4xMUQ5ODk0Q0I0MjZBQjhG",
     "snippet": {
       "publishedAt": "2025-11-29T16:16:11Z",
@@ -671,7 +722,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 13,
+      "position": 14,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "YE6I3ttUZvs"
@@ -686,7 +737,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "lz4DOeo9QSwDvm8xra7bXaxUqb8",
+    "etag": "pM30L5zZow0rerEfTc-DGMsBghY",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai45NTBGQjA2RDUzMTJFM0VF",
     "snippet": {
       "publishedAt": "2025-11-26T01:30:22Z",
@@ -722,7 +773,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 14,
+      "position": 15,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "UgIy4LphIEs"
@@ -737,7 +788,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "4gB6-zbMLrneXrW2GskHZFDUapo",
+    "etag": "IMHu1MnaLzQbrCurF9A1-cJ4KrU",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4yNDgyN0RCRjQ1QTUxRUMy",
     "snippet": {
       "publishedAt": "2025-11-25T18:44:05Z",
@@ -773,7 +824,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 15,
+      "position": 16,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "QdDlaWPXqXw"
@@ -788,7 +839,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "yaOsxhmdmjiweTuzwTJZc-0reF4",
+    "etag": "8oIcW7zdJnbp3F7FliTAuutyYAc",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai42MTk5OTRCREQ5RkNFODZF",
     "snippet": {
       "publishedAt": "2025-11-18T17:07:46Z",
@@ -824,7 +875,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 16,
+      "position": 17,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "FuQ4nSs9OJg"
@@ -839,7 +890,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "SbFb8HRaPxol8sCphEvbDC24-WE",
+    "etag": "ANnVIONtI6kAaKOOItot5yKI3ro",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5EQjk2Mzc4OTUzQTQ4NDlB",
     "snippet": {
       "publishedAt": "2025-11-05T13:16:00Z",
@@ -875,7 +926,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 17,
+      "position": 18,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "pc_iKTj4-qY"
@@ -890,7 +941,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "8lSiZaVJdUBhC9U0J2JyLtanZuo",
+    "etag": "Bhoze_SBGQ-chdq747CAe4_0BYo",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4yRjU0MzcwMkYwRkVDNDhC",
     "snippet": {
       "publishedAt": "2025-11-04T16:09:16Z",
@@ -926,7 +977,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 18,
+      "position": 19,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "sc64RjJh3lc"
@@ -941,7 +992,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "GGf7bpd4Sqr0vuhmKYSYeknzTig",
+    "etag": "hfLQJ2tEtX_DAI-hxeV77rC7qAg",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4wMjVEMzc2NzY2ODVBOERB",
     "snippet": {
       "publishedAt": "2025-10-21T15:59:33Z",
@@ -977,7 +1028,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 19,
+      "position": 20,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "gxnlSy1bc6g"
@@ -992,7 +1043,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "7YjwpJM231ape4gmtg0NAypzPSo",
+    "etag": "c0wVq9kJYSkS0R1kW9yYy2Mjkzc",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5BNEEyNDAyQThDNDA5MEU0",
     "snippet": {
       "publishedAt": "2025-10-16T13:31:09Z",
@@ -1028,7 +1079,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 20,
+      "position": 21,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "tOfh4O27I0s"
@@ -1043,7 +1094,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "PFSekDJSxzaEKsfPGIaxFEL1rBo",
+    "etag": "DQn7UyZfhpCkIIORFx9uPZnA3jo",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai40NjI5ODZCQUE5NkRBMDI0",
     "snippet": {
       "publishedAt": "2025-10-15T13:06:32Z",
@@ -1079,7 +1130,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 21,
+      "position": 22,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "qUxmQShYpRU"
@@ -1094,7 +1145,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "NPl2mexUdjRu_4b-2vyzaTC8taM",
+    "etag": "J2umpBE7Z0X0NP-g_SDhtp_DrMA",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai45QUZGQkMzMEZDNTZBREY3",
     "snippet": {
       "publishedAt": "2025-10-06T05:02:26Z",
@@ -1130,7 +1181,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 22,
+      "position": 23,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "GUUZqadyGZU"
@@ -1145,7 +1196,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "QIe1GNUKNThLiXjApoch7GN5LwM",
+    "etag": "f7poafySuXBWP2xOfWY4VqVDJGA",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4xNUMzRTJBOEYwRTBDOTBD",
     "snippet": {
       "publishedAt": "2025-09-30T18:59:38Z",
@@ -1181,7 +1232,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 23,
+      "position": 24,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "3GTO0XoHBn8"
@@ -1196,7 +1247,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "B7mByvJ5ZkfjkPh3rl8DFsuCgdI",
+    "etag": "pJTLT18VFxjNHCvES-qQYIKwlVs",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4yQUYyOTAwNjkwNDE5QjlE",
     "snippet": {
       "publishedAt": "2025-09-24T21:08:08Z",
@@ -1232,7 +1283,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 24,
+      "position": 25,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "v_jNEyUFsWk"
@@ -1247,7 +1298,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "eENDmu-g4B3pig7CYWt0ZCnMtxo",
+    "etag": "aMp8Ej0wzk1p83vgWyqkBZdQiAU",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5FN0MwOEIwNDJFMDI5RDhB",
     "snippet": {
       "publishedAt": "2025-09-15T11:33:23Z",
@@ -1283,7 +1334,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 25,
+      "position": 26,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "JJkwf0HJbZo"
@@ -1298,7 +1349,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "g6lEFU8dr-oss1cpWlEtvo39Fkc",
+    "etag": "DFAE5Gv3v3miiupe9Pkgew5kstc",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5GMzY4RDIwMjU1MkMwOTRB",
     "snippet": {
       "publishedAt": "2025-09-11T06:00:12Z",
@@ -1334,7 +1385,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 26,
+      "position": 27,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "CCIC3eq4oZs"
@@ -1349,7 +1400,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "pxMaPlsgLNCnXgsNi38F5GG03NI",
+    "etag": "aiVZk3fCjYO9QkNF-nwa04hawko",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5FRUEzOUYxQTE4OEIyMTI3",
     "snippet": {
       "publishedAt": "2025-09-02T02:15:15Z",
@@ -1385,7 +1436,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 27,
+      "position": 28,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "9y5mYzaUeV4"
@@ -1400,7 +1451,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "xhnFr6O4j3o0W-_2lzPuWxLF5p8",
+    "etag": "3A133MhtpgczEr4NvM4bsjWj4qw",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai43RjgyNkZCNjkwMkZDMzcz",
     "snippet": {
       "publishedAt": "2025-08-26T23:33:07Z",
@@ -1436,7 +1487,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 28,
+      "position": 29,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "xdHcwiNLHvM"
@@ -1451,7 +1502,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "-ua8SsI3NHUjmI8La2Zf9eqaurs",
+    "etag": "B4eGHIAnMl_xBo7edA9NRkKEekQ",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai42ODgwQ0RBNTY1OTRERDQy",
     "snippet": {
       "publishedAt": "2025-08-18T16:49:07Z",
@@ -1487,7 +1538,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 29,
+      "position": 30,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "6Cb_MlgSlb0"
@@ -1502,7 +1553,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "OD3YBxL3PLFrfTs-KOGXx0W040g",
+    "etag": "UB5hTcEDh1Qs1x-P1dlpwFCaJks",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4wMkM3QkFEQzQ4QTU0MTNB",
     "snippet": {
       "publishedAt": "2025-08-14T14:02:06Z",
@@ -1538,7 +1589,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 30,
+      "position": 31,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "_TrTStXmm3s"
@@ -1553,7 +1604,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "lsOnS6N5lHIYkxRWtqECvGmZE-w",
+    "etag": "7oYq7KbJxeUAo599BIrCg5gDwtk",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai44RDBENkUzRTI5QTNGMTI4",
     "snippet": {
       "publishedAt": "2025-08-06T16:09:04Z",
@@ -1589,7 +1640,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 31,
+      "position": 32,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "CBchioRy_I0"
@@ -1604,7 +1655,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "1lMjTazIoQhc7QIMM6-Xilixq_Y",
+    "etag": "B-n7l3XbfAGqfWv4PB91gXX5duo",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5GNEUwNzhEMDZFMDNDQTM1",
     "snippet": {
       "publishedAt": "2025-07-31T03:59:04Z",
@@ -1640,7 +1691,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 32,
+      "position": 33,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "KV5kBvE1Mjg"
@@ -1655,7 +1706,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "LTkD-6hKvdVh7FeSEYsYVkKm9cQ",
+    "etag": "Yr7pdRByZI_7cE14GHfAVYWSL5Q",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai41RTFEM0JFNjc4MDNBMzA5",
     "snippet": {
       "publishedAt": "2025-07-24T04:19:14Z",
@@ -1691,7 +1742,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 33,
+      "position": 34,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "baHZv_mTCbU"
@@ -1706,7 +1757,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "GLakw2lJzsopgx_1-v9IBcVmVKE",
+    "etag": "Ox6N9gZtOuGmV1E_4uN890EAig0",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai41QUU4MjI2RjNBNjFENEY3",
     "snippet": {
       "publishedAt": "2025-07-16T18:29:06Z",
@@ -1742,7 +1793,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 34,
+      "position": 35,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "SDrBMfg5_CQ"
@@ -1757,7 +1808,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "M1QhsQcPqP314v9666sSViUeqS0",
+    "etag": "1nZrtLKcInkLy71nvII390-W0oc",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai40MzQwRDA4N0ZGRTNBNTE2",
     "snippet": {
       "publishedAt": "2025-07-04T09:18:27Z",
@@ -1793,7 +1844,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 35,
+      "position": 36,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "zzef5eJWfJw"
@@ -1808,7 +1859,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "TPAtXoJI27b0o7t1eJt2UosrPBQ",
+    "etag": "jx_tA5-YotbtXk1B7bzamRk9GXU",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5CNTQ4NEJFQThFNzg4Q0Qz",
     "snippet": {
       "publishedAt": "2025-07-02T06:42:59Z",
@@ -1844,7 +1895,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 36,
+      "position": 37,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "r41ik3wBpEg"
@@ -1859,7 +1910,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "jzD-6p4h4VpGDSHRROkP3errTtc",
+    "etag": "fTA5GTpUaB8QB5a2pKx4_Q4k07U",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai44NEFDRUNBRDQwODFGNEU1",
     "snippet": {
       "publishedAt": "2025-06-26T02:47:30Z",
@@ -1895,7 +1946,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 37,
+      "position": 38,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "IfE1PiJLZzI"
@@ -1910,7 +1961,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "X_etjWWe_e8u0iWX5MN-M38uZvo",
+    "etag": "WE8RSX_xNEpwSL8J_aqsWRU_IJU",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5CMDU4Mjk2QjA2QTIwODZB",
     "snippet": {
       "publishedAt": "2025-06-16T17:20:19Z",
@@ -1946,7 +1997,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 38,
+      "position": 39,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "1_cmUHmvWIw"
@@ -1961,7 +2012,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "PIMbZCytFqFYljsoMpIlFXozRvk",
+    "etag": "WfRGHfA9PInrvW6apiueclaB6rM",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai45NkM5QURGMTI1Rjg4NDRC",
     "snippet": {
       "publishedAt": "2025-06-11T13:10:15Z",
@@ -1997,7 +2048,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 39,
+      "position": 40,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "LNfJ_qDNexw"
@@ -2012,7 +2063,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "H3um1B8vJJGelEMPCOfJIaT8mE4",
+    "etag": "nkbYrXZM-Beo12libJ4WVhwJBt8",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai45REM1NzQ1MDM2OUZDNDMx",
     "snippet": {
       "publishedAt": "2025-06-02T11:24:14Z",
@@ -2048,7 +2099,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 40,
+      "position": 41,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "EFlbmcPT0Zw"
@@ -2063,7 +2114,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "Z8FpJ2_oczC-hTy1sRg9i0uODJk",
+    "etag": "u_OBSL4L8uWMk9PSXqOIUCsylJE",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5FRDc0QkQxMzlEMTZBMzg0",
     "snippet": {
       "publishedAt": "2025-05-27T13:03:22Z",
@@ -2099,7 +2150,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 41,
+      "position": 42,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "DpdAg-3xxA8"
@@ -2114,7 +2165,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "DFKhq5NH43hAyYgK0pFMul0UJyM",
+    "etag": "1ebGhrOAA2NrPpfVdpHLyGl_QJo",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai44MjZDNDYzQjgwQzkzQzkz",
     "snippet": {
       "publishedAt": "2025-05-19T13:00:04Z",
@@ -2150,7 +2201,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 42,
+      "position": 43,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "DlaBLHcEXBo"
@@ -2165,7 +2216,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "jwee_LfdfXHzb8A2zOAo_oftbMY",
+    "etag": "r_5ycGfcWE2oNiH32bengxTUSTs",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5FRjZBRjlFMTZFQkZCNzE5",
     "snippet": {
       "publishedAt": "2025-05-13T19:59:26Z",
@@ -2201,7 +2252,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 43,
+      "position": 44,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "ze9cY3ka8H8"
@@ -2216,7 +2267,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "i6KzPxZ0Gx3XzlvfF4GpsGUUMlc",
+    "etag": "OlhXh4kFuY7M1s9GOfiqkF-j5bc",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5DM0UwMkNDRTIwQUNDMjE2",
     "snippet": {
       "publishedAt": "2025-05-06T05:43:46Z",
@@ -2252,7 +2303,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 44,
+      "position": 45,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "B2BernkvjU8"
@@ -2267,7 +2318,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "S44_jpSt98yIZ4qmjm1wy3mUMO4",
+    "etag": "Z03H9yLaxccD1gzc95o5HcZKqPI",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai41MUY0NzFFRjMwMkI3RTI1",
     "snippet": {
       "publishedAt": "2025-04-27T21:54:16Z",
@@ -2303,7 +2354,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 45,
+      "position": 46,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "Kk7PPXUrClc"
@@ -2318,7 +2369,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "ZsoMb2qxX0V819sYeiUUW2ptPR4",
+    "etag": "7N-3Suj2DzQvZMRpPe3bSbtgtWs",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai42QTlDMjkyRjNGMEYwQzcz",
     "snippet": {
       "publishedAt": "2025-04-18T12:21:15Z",
@@ -2354,7 +2405,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 46,
+      "position": 47,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "GjhcizIxK1c"
@@ -2369,7 +2420,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "oy4dwR-c0lmOa285_SEtSHUJp4Q",
+    "etag": "KQElFLsMwNm7SZ3Brtdhy3xxo_Q",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4xODVDRjcwQzY3NkIxNjYz",
     "snippet": {
       "publishedAt": "2025-04-17T08:30:49Z",
@@ -2405,7 +2456,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 47,
+      "position": 48,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "zMDUjxxaed4"
@@ -2420,7 +2471,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "5V7YlDmXh4HWGi80c0_Rbks0HGc",
+    "etag": "pEVvzkwrHcw9OuxCetSvEm6wSqY",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai41MkJFMDEwMDIxMkRDREQ3",
     "snippet": {
       "publishedAt": "2025-04-05T07:04:34Z",
@@ -2456,7 +2507,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 48,
+      "position": 49,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "2H1EEaQ6Ass"
@@ -2467,2607 +2518,6 @@
     "contentDetails": {
       "videoId": "2H1EEaQ6Ass",
       "videoPublishedAt": "2025-04-10T11:02:15Z"
-    }
-  },
-  {
-    "kind": "youtube#playlistItem",
-    "etag": "O_XRpH5l1yPJ-lAov01dq_rB8jQ",
-    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai40QUQ5MEY1QTZCMzdFNkNC",
-    "snippet": {
-      "publishedAt": "2025-04-03T02:42:02Z",
-      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
-      "title": "Ep 257 - Welsh Folk Tales with Sean Parry",
-      "description": "In this week's episode, Dan and Margrethe join Sean Parry as they travel to the land of dragons to explore tales from the folklore of Wales.\n\n------------------------------------------------\n\nFollow Sean on Instagram:\n\nhttps://www.instagram.com/sacred_knot_tattoo\n\n@sacred_knot_tattoo\n\nFollow Margrethe on Instagram:\n\nhttps://www.instagram.com/arkeomags\n\nFollow the Podcast on Instagram:\n\nhttps://www.instagram.com/nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/jNvXPtOJzjY/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/jNvXPtOJzjY/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/jNvXPtOJzjY/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/jNvXPtOJzjY/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/jNvXPtOJzjY/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      },
-      "channelTitle": "Nordic Mythology Podcast",
-      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 49,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "jNvXPtOJzjY"
-      },
-      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
-      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
-    },
-    "contentDetails": {
-      "videoId": "jNvXPtOJzjY",
-      "videoPublishedAt": "2025-04-03T05:08:57Z"
-    }
-  },
-  {
-    "kind": "youtube#playlistItem",
-    "etag": "SeKGkSjB112ha-xa1efkmg1LjwI",
-    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai43OEM5M0IwMkQ1MzBCMUI1",
-    "snippet": {
-      "publishedAt": "2025-03-19T13:55:31Z",
-      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
-      "title": "Ep 256 - Oseberg Wagon Reimagined with Luciano Pezzoli",
-      "description": "In this week's episode, Dan and Margrethe chew the fat with Luciano Pezzoli as he shows us all of the hidden details and stories behind the artwork of the Oseberg Wagon.\n\n------------------------------------------------\n\nFollow Luciano on Instagram:\n\nhttps://www.instagram.com/childrenofash\n\nAlso, check out his published works:\n\nhttps://www.oxbowbooks.com/9781789259537/the-norse-sorceress/\n\nFollow Margrethe on Instagram:\n\nhttps://www.instagram.com/arkeomags\n\nFollow the Podcast on Instagram:\n\nhttps://www.instagram.com/nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/dVTPKSJzmsM/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/dVTPKSJzmsM/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/dVTPKSJzmsM/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/dVTPKSJzmsM/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/dVTPKSJzmsM/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      },
-      "channelTitle": "Nordic Mythology Podcast",
-      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 50,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "dVTPKSJzmsM"
-      },
-      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
-      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
-    },
-    "contentDetails": {
-      "videoId": "dVTPKSJzmsM",
-      "videoPublishedAt": "2025-03-27T06:00:23Z"
-    }
-  },
-  {
-    "kind": "youtube#playlistItem",
-    "etag": "VgEM0z3pW5IgWr1fFM4JA0MNAmY",
-    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai44ODU0NUVGNEZGMDI3QTdF",
-    "snippet": {
-      "publishedAt": "2025-03-13T19:20:26Z",
-      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
-      "title": "Ep 255 - Vikings In Space with Ryan Eckerson",
-      "description": "In this week's episode, Dan and Margrethe are joined by Ryan Eckerson as the three of them take a trip through the stars to discover the relationship between the Vikings and Space.\n\n------------------------------------------------\n\nCheck out Ryan's academia page\n\nhttps://independent.academia.edu/RyanEckerson\n\nFollow Margrethe on Instagram:\n\n@arkeomags\n\nFollow the Podcast on Instagram:\n\n@nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/K4-tJ5HWyQo/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/K4-tJ5HWyQo/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/K4-tJ5HWyQo/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/K4-tJ5HWyQo/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/K4-tJ5HWyQo/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      },
-      "channelTitle": "Nordic Mythology Podcast",
-      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 51,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "K4-tJ5HWyQo"
-      },
-      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
-      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
-    },
-    "contentDetails": {
-      "videoId": "K4-tJ5HWyQo",
-      "videoPublishedAt": "2025-03-20T06:00:12Z"
-    }
-  },
-  {
-    "kind": "youtube#playlistItem",
-    "etag": "ygvHrbyDH0WeeYSS4pY6C4xsLmU",
-    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai40N0VCMzcxQTEyREU1NDND",
-    "snippet": {
-      "publishedAt": "2025-03-10T18:11:50Z",
-      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
-      "title": "Ep 254 - Salme Ship Burials with Margrethe Havgar",
-      "description": "In this week's episode, Dan and Margrethe do another archaeological deep dive into the Salme Ship Burials that where discovered in Estonia.\n\n------------------------------------------------\n\nFollow Margrethe on Instagram:\n\n@arkeomags\n\nFollow the Podcast on Instagram:\n\n@nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/07HzwctdHpY/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/07HzwctdHpY/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/07HzwctdHpY/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/07HzwctdHpY/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/07HzwctdHpY/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      },
-      "channelTitle": "Nordic Mythology Podcast",
-      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 52,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "07HzwctdHpY"
-      },
-      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
-      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
-    },
-    "contentDetails": {
-      "videoId": "07HzwctdHpY",
-      "videoPublishedAt": "2025-03-13T06:00:00Z"
-    }
-  },
-  {
-    "kind": "youtube#playlistItem",
-    "etag": "R-sSDoD41c6A2gWH8O8FN5Wpjpg",
-    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai41NEM3RjdGQ0FDRjkwNUQ5",
-    "snippet": {
-      "publishedAt": "2025-03-03T08:57:12Z",
-      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
-      "title": "Ep 253 - The Art Of Viking Warfare with Benjamin Raffield",
-      "description": "In this week's episode, Dan and Margrethe sit down with Benjamin Raffield to discuss how the Vikings waged warfare over Europe.\n\n------------------------------------------------\n\nCheck out Benjamin's published works:\n\nhttps://www.uu.se/en/contact-and-organisation/staff?query=N17-289\n\nFollow Margrethe on Instagram:\n\n@arkeomags\n\nFollow the Podcast on Instagram:\n\n@nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/Uf80BStGHyo/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/Uf80BStGHyo/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/Uf80BStGHyo/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/Uf80BStGHyo/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/Uf80BStGHyo/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      },
-      "channelTitle": "Nordic Mythology Podcast",
-      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 53,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "Uf80BStGHyo"
-      },
-      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
-      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
-    },
-    "contentDetails": {
-      "videoId": "Uf80BStGHyo",
-      "videoPublishedAt": "2025-03-06T07:15:11Z"
-    }
-  },
-  {
-    "kind": "youtube#playlistItem",
-    "etag": "NXBWBPUcgElci-lbJvlird-i_6c",
-    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4yOUY5MUNBMTM5RDMyREQ5",
-    "snippet": {
-      "publishedAt": "2025-02-24T17:56:57Z",
-      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
-      "title": "Ep 252 - Gealdýr with Jonathan Barendsma",
-      "description": "In this week's episode, Dan and Margrethe are joined by Jonathan Barendsma, better known as Gealdýr. A musician responsible for blending Nordic, Celtic, and medieval influences into ambient dark folk. He has also created the most iconic piece tune ever, our intro music.\n\n------------------------------------------------\n\nFollow Jonathan on his Instagram:\n\n@Gealdýr\n\nFollow Margrethe on Instagram:\n\n@arkeomags\n\nFollow the Podcast on Instagram:\n\n@nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/660_qiqgPuM/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/660_qiqgPuM/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/660_qiqgPuM/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/660_qiqgPuM/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/660_qiqgPuM/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      },
-      "channelTitle": "Nordic Mythology Podcast",
-      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 54,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "660_qiqgPuM"
-      },
-      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
-      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
-    },
-    "contentDetails": {
-      "videoId": "660_qiqgPuM",
-      "videoPublishedAt": "2025-02-27T16:18:58Z"
-    }
-  },
-  {
-    "kind": "youtube#playlistItem",
-    "etag": "b-QRgQi450B-V87c64gPlKUs98s",
-    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4zMzg4MjBBNzZCQzY5MDk4",
-    "snippet": {
-      "publishedAt": "2025-02-16T23:03:45Z",
-      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
-      "title": "Ep 251 - Mythos & Music with Ed Gamester and Jonas Lorentzen",
-      "description": "In this week's episode, Dan and Margrethe sit down with long-time friends of the podcast Ed Gamester and Jonas Lorentzen to look back over their careers and reflect on how far the podcast and their music projects have come.\n\n------------------------------------------------\n\nFollow Ed on his personal and business Instagram:\n\n@thustheguild\n\n@mythos.theatre\n\nFollow Jonas on his Instagram:\n\n@nebalamusic\n\nFollow Margrethe on Instagram:\n\n@arkeomags\n\nFollow the Podcast on Instagram:\n\n@nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/blGiAgCFns8/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/blGiAgCFns8/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/blGiAgCFns8/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/blGiAgCFns8/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/blGiAgCFns8/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      },
-      "channelTitle": "Nordic Mythology Podcast",
-      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 55,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "blGiAgCFns8"
-      },
-      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
-      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
-    },
-    "contentDetails": {
-      "videoId": "blGiAgCFns8",
-      "videoPublishedAt": "2025-02-20T02:19:34Z"
-    }
-  },
-  {
-    "kind": "youtube#playlistItem",
-    "etag": "JpV8-xZB4ToKju7MFmp7tDIhsTM",
-    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5GOUJEOERGNDg1N0QyNDA3",
-    "snippet": {
-      "publishedAt": "2025-02-06T10:06:13Z",
-      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
-      "title": "Ep 250 - Being a Cnut with Magnus Bruun",
-      "description": "In this week's 250th episode special, Dan and Margrethe are joined by Magnus Bruun, actor extraordinaire known for playing the antagonist Cnut in The Last Kingdom and for voicing and performance capture for Eivor in Assassin's Creed: Valhalla.\n\n------------------------------------------------\n\nFollow Magnus on his Instagram:\n\n@magnusbruun\n\nand on his X (Twitter) page:\n\n@Magnus__Bruun\n\nFollow Margrethe on Instagram:\n\n@arkeomags\n\nFollow the Podcast on Instagram:\n\n@nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/CVeoa80auiM/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/CVeoa80auiM/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/CVeoa80auiM/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/CVeoa80auiM/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/CVeoa80auiM/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      },
-      "channelTitle": "Nordic Mythology Podcast",
-      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 56,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "CVeoa80auiM"
-      },
-      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
-      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
-    },
-    "contentDetails": {
-      "videoId": "CVeoa80auiM",
-      "videoPublishedAt": "2025-02-13T07:16:41Z"
-    }
-  },
-  {
-    "kind": "youtube#playlistItem",
-    "etag": "ppmI_5qKu88gjmECPrNisHnYons",
-    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai43OEQ1OTk4ODU2N0E5RUYz",
-    "snippet": {
-      "publishedAt": "2025-01-30T15:41:24Z",
-      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
-      "title": "Ep 249 - Making Viking Mittens with Emma Boast",
-      "description": "In this week's episode, Dan and Margrethe have a chat with Emma Boast, who is the UK's leading expert in Nalbinding an ancient fibrecraft technique that was used to create anything from hats, mittens, and socks.\n\n------------------------------------------------\n\nCheck out Emma's Etsy store page:\n\nhttps://www.etsy.com/uk/shop/Nidavellnir\n\nAnd follow her on Instagram:\n\n@nidavellnir_nalbinding_uk\n\nFollow Margrethe on Instagram:\n\n@arkeomags\n\nFollow the Podcast on Instagram:\n\n@nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/WZXVky6fGUU/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/WZXVky6fGUU/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/WZXVky6fGUU/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/WZXVky6fGUU/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/WZXVky6fGUU/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      },
-      "channelTitle": "Nordic Mythology Podcast",
-      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 57,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "WZXVky6fGUU"
-      },
-      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
-      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
-    },
-    "contentDetails": {
-      "videoId": "WZXVky6fGUU",
-      "videoPublishedAt": "2025-02-06T12:07:17Z"
-    }
-  },
-  {
-    "kind": "youtube#playlistItem",
-    "etag": "_YJ7R59XpuzBJRFV1OBb44_rj9c",
-    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai44Q0Q0NjMwREMzREQ1RkE4",
-    "snippet": {
-      "publishedAt": "2025-01-26T13:19:48Z",
-      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
-      "title": "Ep 248 - Why Do Snakes Drink Milk? with Dr Leszek Gardela",
-      "description": "In this week's episode, Dan and Margrethe are joined by Dr Leszek Gardela for a presentation on the Slavic Animal Style in the Viking Age, which somehow involves snakes that drink milk.\n\n------------------------------------------------\n\nFollow Leszek on his academia page:\n\nhttps://gerda-henkel-stiftung.academia.edu/LeszekGardela\n\nFollow Margrethe on Instagram:\n\n@arkeomags\n\nFollow the Podcast on Instagram:\n\n@nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/DTpWJGcdPm4/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/DTpWJGcdPm4/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/DTpWJGcdPm4/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/DTpWJGcdPm4/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/DTpWJGcdPm4/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      },
-      "channelTitle": "Nordic Mythology Podcast",
-      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 58,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "DTpWJGcdPm4"
-      },
-      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
-      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
-    },
-    "contentDetails": {
-      "videoId": "DTpWJGcdPm4",
-      "videoPublishedAt": "2025-01-30T07:39:19Z"
-    }
-  },
-  {
-    "kind": "youtube#playlistItem",
-    "etag": "Pxc5RnqeIdpH-w9iqY4JRtZiFMY",
-    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4zNjNFN0I4ODYzQTQ3QTg2",
-    "snippet": {
-      "publishedAt": "2025-01-18T06:53:25Z",
-      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
-      "title": "Ep 247 - Old Norse Mythology Doesn't Exist!? with Dr Mathias Nordvig",
-      "description": "In this week's episode, Dan is re-joined with Dr Mathias Nordvig to talk about his new book and explain why he has made such a bold statement that Old Norse Mythology doesn't exist.\n\n------------------------------------------------\n\nFollow Mathias on his Instagram:\n\n@mathiasnordvig\n\nAlso, check out his website:\n\nhttps://mathiasnordvig.com/\n\nAnd his podcast, The Sacred Flame:\n\nhttps://thesacredflame.buzzsprout.com/\n\nFollow the Podcast on Instagram:\n\n@nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/UALn6Jfp6qQ/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/UALn6Jfp6qQ/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/UALn6Jfp6qQ/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/UALn6Jfp6qQ/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/UALn6Jfp6qQ/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      },
-      "channelTitle": "Nordic Mythology Podcast",
-      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 59,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "UALn6Jfp6qQ"
-      },
-      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
-      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
-    },
-    "contentDetails": {
-      "videoId": "UALn6Jfp6qQ",
-      "videoPublishedAt": "2025-01-23T05:51:57Z"
-    }
-  },
-  {
-    "kind": "youtube#playlistItem",
-    "etag": "oQvU1HC88LqGSrffHLQmfOLPvgc",
-    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5EQTkxMkVFODRENEJBMERF",
-    "snippet": {
-      "publishedAt": "2025-01-10T00:30:00Z",
-      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
-      "title": "Ep 246 - The Forbiden Magic Of The Galdrabók with Kári Pálsson & Giorgia Sottotetti",
-      "description": "In this week's episode, Dan and Margrethe talks with Kári Pálsson & Giorgia Sottotetti as they tell us all about the fantasifull, and often crude, magic behind The Galdrabók Grimoire.\n\n------------------------------------------------\n\nFollow Kári on his Instagram:\n\n@sagas_of_iceland\n\nAnd check out the book's publishers on their website and Instagram:\n\n@hyldyr\n\nhttps://www.hyldyr.com/the-galdrabok-kari-palsson\n\nFollow the Podcast on Instagram:\n\n@nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/g_QJ47qB3bI/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/g_QJ47qB3bI/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/g_QJ47qB3bI/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/g_QJ47qB3bI/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/g_QJ47qB3bI/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      },
-      "channelTitle": "Nordic Mythology Podcast",
-      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 60,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "g_QJ47qB3bI"
-      },
-      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
-      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
-    },
-    "contentDetails": {
-      "videoId": "g_QJ47qB3bI",
-      "videoPublishedAt": "2025-01-16T10:14:10Z"
-    }
-  },
-  {
-    "kind": "youtube#playlistItem",
-    "etag": "A9YnqNRCY1oFEHcg_j9vv16aAt4",
-    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4zODMyNzgxRTc3QzBBMjJE",
-    "snippet": {
-      "publishedAt": "2025-01-07T14:05:03Z",
-      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
-      "title": "Ep 245 - St Nicholas And The San Isidoro Box with Rebeca Franco Valle",
-      "description": "In this week's episode, Dan interviews Rebeca Franco Valle to find out what there is no know about a mysterious Viking box that has been hiding in San Isidoro for centuries.\n\n------------------------------------------------\n\nFollow Rebeca on her Instagram:\n\n@withinthenorth\n\nAnd check out her academia page:\n\nhttps://uib.academia.edu/RebecaFranco\n\nFollow the Podcast on Instagram:\n\n@nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/nZi-2I9q_mM/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/nZi-2I9q_mM/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/nZi-2I9q_mM/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/nZi-2I9q_mM/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/nZi-2I9q_mM/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      },
-      "channelTitle": "Nordic Mythology Podcast",
-      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 61,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "nZi-2I9q_mM"
-      },
-      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
-      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
-    },
-    "contentDetails": {
-      "videoId": "nZi-2I9q_mM",
-      "videoPublishedAt": "2025-01-09T07:43:01Z"
-    }
-  },
-  {
-    "kind": "youtube#playlistItem",
-    "etag": "iqH8uMtwNdDbKEmPRKQAq9sKESg",
-    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai40Mzg1NEVCNkVCNjNGNDk0",
-    "snippet": {
-      "publishedAt": "2024-12-24T17:52:49Z",
-      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
-      "title": "Ep 244 - Viking Gaming with Luca Panaro",
-      "description": "In this week's episode, Dan interviews Luca Panaro to discuss the historical path of Old Norse to modern video games.\n\n------------------------------------------------\n\nFollow Luca on X (Twitter):\n@lucaapanaro\n\nFollow the Podcast on Instagram:\n@nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/bFoTx09CuvY/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/bFoTx09CuvY/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/bFoTx09CuvY/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/bFoTx09CuvY/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/bFoTx09CuvY/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      },
-      "channelTitle": "Nordic Mythology Podcast",
-      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 62,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "bFoTx09CuvY"
-      },
-      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
-      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
-    },
-    "contentDetails": {
-      "videoId": "bFoTx09CuvY",
-      "videoPublishedAt": "2025-01-02T08:02:44Z"
-    }
-  },
-  {
-    "kind": "youtube#playlistItem",
-    "etag": "LPF52VY1rXqyFc0sT4BtP3HSFjQ",
-    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai44OEYxMzRDRDg1REM4QjIw",
-    "snippet": {
-      "publishedAt": "2024-12-19T12:52:13Z",
-      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
-      "title": "Ep 243 - Identifying Viking Burials with Emma Thompson",
-      "description": "In this week's episode, Dan and Margrethe catch up with archaeologist Emma Thompson, who tells us all about how a Viking burial is identified from the numerous burial sights around the world.\n\n------------------------------------------------\n\nFollow Emma on X (Twitter):\n@emlthom\n\nFollow Emma on Instagram:\n@archaemma\n\nFollow the Podcast on Instagram:\n@nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/blA6ytecUfA/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/blA6ytecUfA/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/blA6ytecUfA/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/blA6ytecUfA/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/blA6ytecUfA/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      },
-      "channelTitle": "Nordic Mythology Podcast",
-      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 63,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "blA6ytecUfA"
-      },
-      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
-      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
-    },
-    "contentDetails": {
-      "videoId": "blA6ytecUfA",
-      "videoPublishedAt": "2024-12-26T15:12:07Z"
-    }
-  },
-  {
-    "kind": "youtube#playlistItem",
-    "etag": "z9qvsVFfzw-T4mJEiyKUxqcCl9M",
-    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5EMzdGRjBBQzVCNEY2NDhG",
-    "snippet": {
-      "publishedAt": "2024-12-12T23:05:02Z",
-      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
-      "title": "Ep 242 - Sutton Hoo Weaponry with Paul Mortimer",
-      "description": "In this week's episode, Dan interviews Paul Mortimer. An independent scholar here to tell us all about the weapons and armour of the Sutton Hoo burial ground.\n\n------------------------------------------------\n\nFollow Paul on his Facebook page:\nwww.facebook.com/paul.mortimer.144\n\nAlso, check out his published work:\nindependent.academia.edu/PaulMortimer\n\nFollow the Podcast on Instagram:\n@nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/XAyjjlBWnI0/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/XAyjjlBWnI0/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/XAyjjlBWnI0/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/XAyjjlBWnI0/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/XAyjjlBWnI0/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      },
-      "channelTitle": "Nordic Mythology Podcast",
-      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 64,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "XAyjjlBWnI0"
-      },
-      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
-      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
-    },
-    "contentDetails": {
-      "videoId": "XAyjjlBWnI0",
-      "videoPublishedAt": "2024-12-19T08:19:44Z"
-    }
-  },
-  {
-    "kind": "youtube#playlistItem",
-    "etag": "anmfj2GXMtO1RdwGZ_BFCuZpVAg",
-    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai44QUE0MzNDRkM4RjA0Njcy",
-    "snippet": {
-      "publishedAt": "2024-12-05T15:55:28Z",
-      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
-      "title": "Ep 241 - Full Contact Huscarl Fighting with Phil McEwan & Tom Robinson",
-      "description": "In this week's episode, Dan sits down with Phil McEwan and Tom Robinson members of the independent Viking group; Blodorn Englar. Dedicated to Viking combat re-enactment and the full combat fighting style of Huscarl.\n\n------------------------------------------------\n\nFollow Blodorn Englar on their Instagram:\n@blodornenglar\n\nAlso, follow Tom on his personal Instagram:\n@tomrobinsonmetalwork\n\nFollow the Podcast on Instagram:\n@nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/UKHXKEQscRg/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/UKHXKEQscRg/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/UKHXKEQscRg/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/UKHXKEQscRg/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/UKHXKEQscRg/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      },
-      "channelTitle": "Nordic Mythology Podcast",
-      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 65,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "UKHXKEQscRg"
-      },
-      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
-      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
-    },
-    "contentDetails": {
-      "videoId": "UKHXKEQscRg",
-      "videoPublishedAt": "2024-12-12T15:08:11Z"
-    }
-  },
-  {
-    "kind": "youtube#playlistItem",
-    "etag": "Va8BccKPFpb2kYLoz3MZ05wR8B8",
-    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4zOTVGMDIwNzkzODk2QTQ1",
-    "snippet": {
-      "publishedAt": "2024-11-28T13:42:47Z",
-      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
-      "title": "Ep 240 - Experimental Archeology with Dr James Dilley",
-      "description": "In this week's episode, Dan talks with Dr James Diley to dive into his work with experimental archaeology and to answer the question, who exactly is Dr James Dilley?\n\n------------------------------------------------\n\nCheck out James on his website:\nhttps://www.ancientcraft.co.uk\n\nFollow James on his Instagram:\n@ancientcraftUK\n\nFollow the Podcast on Instagram:\n@nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/A0_JBMHWi4Q/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/A0_JBMHWi4Q/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/A0_JBMHWi4Q/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/A0_JBMHWi4Q/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/A0_JBMHWi4Q/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      },
-      "channelTitle": "Nordic Mythology Podcast",
-      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 66,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "A0_JBMHWi4Q"
-      },
-      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
-      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
-    },
-    "contentDetails": {
-      "videoId": "A0_JBMHWi4Q",
-      "videoPublishedAt": "2024-12-05T11:03:49Z"
-    }
-  },
-  {
-    "kind": "youtube#playlistItem",
-    "etag": "u_jZAXr8xdPfii2CMUyWBunn2UU",
-    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai43OTQxRDdENkQwNEZGMkQy",
-    "snippet": {
-      "publishedAt": "2024-11-21T18:13:13Z",
-      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
-      "title": "Ep 239 - Orkney Folktales with Tom Muir",
-      "description": "In this week's episode, Dan and Margrethe are joined by recurring guest Tom Muir for another visit to Orkney and the folktales surrounding the island.\n\n------------------------------------------------\n\nFind more of Tom's stories on his website:\nhttps://www.orkneyology.com\n\nFollow Margrethe on Instagram:\n@arkeomags\n\nFollow the Podcast on Instagram:\n@nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/yxRC1LmuFx8/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/yxRC1LmuFx8/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/yxRC1LmuFx8/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/yxRC1LmuFx8/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/yxRC1LmuFx8/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      },
-      "channelTitle": "Nordic Mythology Podcast",
-      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 67,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "yxRC1LmuFx8"
-      },
-      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
-      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
-    },
-    "contentDetails": {
-      "videoId": "yxRC1LmuFx8",
-      "videoPublishedAt": "2024-11-28T09:10:42Z"
-    }
-  },
-  {
-    "kind": "youtube#playlistItem",
-    "etag": "7LY69btMaJ0rh0-biiVfVdsNZh4",
-    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5BMDNGMkVEMjBGMzNGNEJC",
-    "snippet": {
-      "publishedAt": "2024-11-14T10:56:15Z",
-      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
-      "title": "Ep 238 - Ancestral North & Ritual Folk Music with Ross Hagen",
-      "description": "In this week's episode, Dan is joined by Associate Professor of Music Studies Dr. Ross Hagen to talk about his published book on the world of Nordic ritual folk music. \n\n------------------------------------------------\n\nCheck out the book on Amazon:\nhttps://www.amazon.co.uk/Ancestral-North-Spirituality-Socio-Cultural-Explorations/dp/1666917567\n\nFollow the Podcast on Instagram:\n@nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/NWaeKqHECYw/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/NWaeKqHECYw/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/NWaeKqHECYw/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/NWaeKqHECYw/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/NWaeKqHECYw/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      },
-      "channelTitle": "Nordic Mythology Podcast",
-      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 68,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "NWaeKqHECYw"
-      },
-      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
-      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
-    },
-    "contentDetails": {
-      "videoId": "NWaeKqHECYw",
-      "videoPublishedAt": "2024-11-21T13:00:32Z"
-    }
-  },
-  {
-    "kind": "youtube#playlistItem",
-    "etag": "SCHgL2-HyEh_mP7ftuhWct0yK-4",
-    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5BNTZDRUVBRkUwRDU3N0FF",
-    "snippet": {
-      "publishedAt": "2024-11-07T03:50:16Z",
-      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
-      "title": "Ep 237 - Viking Isle of Man with Allison Fox & Vicky Mikalsen",
-      "description": "In this week's episode, Dan sits down with Allison Fox, curator of archaeology at Manx National Heritage. Along with surprise guest Vicky Mikalsen, they discuss the Isle of Man, an island rich with Viking history.\n\n------------------------------------------------\n\nCheck out Manx National Heritage on their website:\nhttps://manxnationalheritage.im/\n\nFollow the Podcast on Instagram:\n@nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/L5S2s8u1ids/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/L5S2s8u1ids/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/L5S2s8u1ids/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/L5S2s8u1ids/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/L5S2s8u1ids/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      },
-      "channelTitle": "Nordic Mythology Podcast",
-      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 69,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "L5S2s8u1ids"
-      },
-      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
-      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
-    },
-    "contentDetails": {
-      "videoId": "L5S2s8u1ids",
-      "videoPublishedAt": "2024-11-14T13:00:20Z"
-    }
-  },
-  {
-    "kind": "youtube#playlistItem",
-    "etag": "tKgdtYmRBCNK8w3rmDltLXNMWl0",
-    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai44QjI0MDE3MzFCMUVBQTkx",
-    "snippet": {
-      "publishedAt": "2024-10-31T14:22:54Z",
-      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
-      "title": "Ep 236 - Repton Warrior: A Viking Burial with Emma Thompson",
-      "description": "In this week's episode, Dan talks with Emma Thompson as they discuss the Repton Warrior, a rare Viking burial found in the middle of England.\n\n------------------------------------------------\n\nFollow Emma on her Instagram and Twitter/X page:\nInstagram: @archaemma\nTwitter/X: @emlthom\n\nFollow the Podcast on Instagram:\n@nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/4qv_rUWYWBo/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/4qv_rUWYWBo/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/4qv_rUWYWBo/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/4qv_rUWYWBo/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/4qv_rUWYWBo/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      },
-      "channelTitle": "Nordic Mythology Podcast",
-      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 70,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "4qv_rUWYWBo"
-      },
-      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
-      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
-    },
-    "contentDetails": {
-      "videoId": "4qv_rUWYWBo",
-      "videoPublishedAt": "2024-11-07T13:08:20Z"
-    }
-  },
-  {
-    "kind": "youtube#playlistItem",
-    "etag": "FF_M9nO3-nmfw4XJcgbEFXi8adM",
-    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai42MzE1QTJBMEI3NjI4Rjk5",
-    "snippet": {
-      "publishedAt": "2024-10-24T08:18:51Z",
-      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
-      "title": "Ep 235 - Spook-Tacular Storytime With Clare Mulley",
-      "description": "In this week's special Halloween episode, Dan and Margrethe are once again joined by Clare Mulley, who tells us spooky stories about ghost seals and hauntings involving nude cooking.\n------------------------------------------------\n\nFollow Clare on her Instagram:\n@clareify\n\nFollow Margrethe on her Instagram:\n@arkeomags \n\nFollow the Podcast on Instagram:\n@nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/Gj5Lxbc219o/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/Gj5Lxbc219o/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/Gj5Lxbc219o/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/Gj5Lxbc219o/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/Gj5Lxbc219o/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      },
-      "channelTitle": "Nordic Mythology Podcast",
-      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 71,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "Gj5Lxbc219o"
-      },
-      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
-      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
-    },
-    "contentDetails": {
-      "videoId": "Gj5Lxbc219o",
-      "videoPublishedAt": "2024-10-31T06:51:39Z"
-    }
-  },
-  {
-    "kind": "youtube#playlistItem",
-    "etag": "CkqrdSUkVfrbHniy2W7vfk-1ngA",
-    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4wM0I0QUQ0RDU2REQxNjJC",
-    "snippet": {
-      "publishedAt": "2024-10-17T07:18:05Z",
-      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
-      "title": "Ep 234 - Old World Remains with Gloria Notarangelo and Richard Wakeman",
-      "description": "In this week's episode, Dan sits down with Gloria Notarangelo and Richard Wakeman as they discuss the remnants of the old worlds and how they inspire their tattoo art.\n\n------------------------------------------------\n\nFollow Gloria on her Instagram:\n@dyrs_hjarta_art\n\nFollow Richard on his Instagram:\n@richardkwakeman\n\nAnd follow the both of them on their shared Instagram:\n@old.world.remains\n\nFollow the Podcast on Instagram:\n@nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/Q2OhP-TjF2Y/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/Q2OhP-TjF2Y/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/Q2OhP-TjF2Y/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/Q2OhP-TjF2Y/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/Q2OhP-TjF2Y/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      },
-      "channelTitle": "Nordic Mythology Podcast",
-      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 72,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "Q2OhP-TjF2Y"
-      },
-      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
-      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
-    },
-    "contentDetails": {
-      "videoId": "Q2OhP-TjF2Y",
-      "videoPublishedAt": "2024-10-24T08:04:22Z"
-    }
-  },
-  {
-    "kind": "youtube#playlistItem",
-    "etag": "qHhqowuncZjcJGBJkWUjtNP6HHM",
-    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai41NEI5MkYxNzc0MDczQUUw",
-    "snippet": {
-      "publishedAt": "2024-10-10T01:43:26Z",
-      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
-      "title": "Ep 233 - Raunchy Runes and The Orkneys with Tom Muir",
-      "description": "In this week's episode, Dan is joined by Tom Muir, a professional storyteller and Orcadian Folklorist to discuss the Viking tales from the Orkney Islands of Scotland.\n\n------------------------------------------------\n\nFollow Tom on their website:\nhttps://www.orkneyology.com\n\nFollow the Podcast on Instagram:\n@nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/VLKB08hs8og/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/VLKB08hs8og/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/VLKB08hs8og/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/VLKB08hs8og/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/VLKB08hs8og/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      },
-      "channelTitle": "Nordic Mythology Podcast",
-      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 73,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "VLKB08hs8og"
-      },
-      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
-      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
-    },
-    "contentDetails": {
-      "videoId": "VLKB08hs8og",
-      "videoPublishedAt": "2024-10-17T05:00:18Z"
-    }
-  },
-  {
-    "kind": "youtube#playlistItem",
-    "etag": "HjuZi5_leTyunn74A2kwu_3jJwU",
-    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai43RjU3NEIyMjFBMEIxQ0ZF",
-    "snippet": {
-      "publishedAt": "2024-10-03T13:07:45Z",
-      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
-      "title": "Ep 232 - What is Human Sacrifice? With Marianne Moen",
-      "description": "In this week's episode, Dan and Margrethe talk with Marianne Moen to discuss the rather morbid subject of human sacrifices.\n\n------------------------------------------------\n\nFollow Margrethe on Instagram:\n@arkeomags\n\nFollow the Podcast on Instagram:\n@nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/uyEJ18UDFuU/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/uyEJ18UDFuU/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/uyEJ18UDFuU/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/uyEJ18UDFuU/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/uyEJ18UDFuU/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      },
-      "channelTitle": "Nordic Mythology Podcast",
-      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 74,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "uyEJ18UDFuU"
-      },
-      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
-      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
-    },
-    "contentDetails": {
-      "videoId": "uyEJ18UDFuU",
-      "videoPublishedAt": "2024-10-10T05:00:38Z"
-    }
-  },
-  {
-    "kind": "youtube#playlistItem",
-    "etag": "HXJuvOlAlcyYKPmOiCxk32Hdpoc",
-    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5ENjg2QjQ3OTVDOUE2QzYw",
-    "snippet": {
-      "publishedAt": "2024-09-25T23:47:40Z",
-      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
-      "title": "Ep 231 - Invading Ireland with Dr. Niamh Wycherley",
-      "description": "In this week's episode, Dan sits down and talks with Dr. Niamh Wycherley, host of The Medieval Irish History Podcast, about the cultural and historical impacts of the Viking's journies across Ireland.\n------------------------------------------------\n\nFollow the Podcast on Instagram:\n@nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/U_NKZiA4tNg/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/U_NKZiA4tNg/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/U_NKZiA4tNg/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/U_NKZiA4tNg/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/U_NKZiA4tNg/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      },
-      "channelTitle": "Nordic Mythology Podcast",
-      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 75,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "U_NKZiA4tNg"
-      },
-      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
-      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
-    },
-    "contentDetails": {
-      "videoId": "U_NKZiA4tNg",
-      "videoPublishedAt": "2024-10-03T04:05:14Z"
-    }
-  },
-  {
-    "kind": "youtube#playlistItem",
-    "etag": "YajgdlVnzDGDSoUkpuLpTSwoYTA",
-    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5DQTIzMEQyQTJBNDA4ODdF",
-    "snippet": {
-      "publishedAt": "2024-09-12T06:52:54Z",
-      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
-      "title": "Ep 229 - Njordr's Naked Attraction with Dan Coultas",
-      "description": "In this week's episode, Dan sits down with sea deities expert Dan Coultas, as they discuss their history and the weird and unusual aspects you might never have heard before.\n\n------------------------------------------------\n\nFollow Dan on Instagram:\n\n @thegodsowncounty\n\nFollow the Podcast on Instagram:\n\n@nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/75kPtc9Eyl8/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/75kPtc9Eyl8/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/75kPtc9Eyl8/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/75kPtc9Eyl8/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/75kPtc9Eyl8/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      },
-      "channelTitle": "Nordic Mythology Podcast",
-      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 76,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "75kPtc9Eyl8"
-      },
-      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
-      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
-    },
-    "contentDetails": {
-      "videoId": "75kPtc9Eyl8",
-      "videoPublishedAt": "2024-09-19T06:26:53Z"
-    }
-  },
-  {
-    "kind": "youtube#playlistItem",
-    "etag": "8-FLZBtAqU-dzZOhEojW9KbsmPs",
-    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai43MjE3M0ZBOUE4MjY1QTA1",
-    "snippet": {
-      "publishedAt": "2024-09-11T20:03:38Z",
-      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
-      "title": "Ep 228 - Nebala Goes Full Donkey with Jonas Lorentzen",
-      "description": "In this week's episode, Dan catches up with recurring guest Jonas Lorentzen to discuss their latest music project, Nebala.\n\n------------------------------------------------\n\nFollow Jonas on Instagram:\n@Nebalamusic \n\nFollow the Podcast on Instagram:\n@nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/W6RiR9grgPQ/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/W6RiR9grgPQ/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/W6RiR9grgPQ/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/W6RiR9grgPQ/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/W6RiR9grgPQ/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      },
-      "channelTitle": "Nordic Mythology Podcast",
-      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 77,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "W6RiR9grgPQ"
-      },
-      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
-      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
-    },
-    "contentDetails": {
-      "videoId": "W6RiR9grgPQ",
-      "videoPublishedAt": "2024-09-12T04:53:56Z"
-    }
-  },
-  {
-    "kind": "youtube#playlistItem",
-    "etag": "4xpVqo52VTqAQBwtID97pL92sZE",
-    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai40NUU5MjUxOUU1MDRGQzM0",
-    "snippet": {
-      "publishedAt": "2024-09-04T17:36:46Z",
-      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
-      "title": "Ep 227 - Jarlsberg - Now With Even More Holes! with Christian Løchsen Rødsrud",
-      "description": "In this week's episode, Dan and Margrethe sit down with Christian Løchsen Rødsrud to discuss the history and recovery process of ancient ship burials.\n\n------------------------------------------------\n\nFollow Margrethe on Instagram:\n@arkeomags\n\nFollow the Podcast on Instagram:\n@nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/4nCfW3pV2l8/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/4nCfW3pV2l8/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/4nCfW3pV2l8/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/4nCfW3pV2l8/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/4nCfW3pV2l8/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      },
-      "channelTitle": "Nordic Mythology Podcast",
-      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 78,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "4nCfW3pV2l8"
-      },
-      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
-      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
-    },
-    "contentDetails": {
-      "videoId": "4nCfW3pV2l8",
-      "videoPublishedAt": "2024-09-05T08:02:32Z"
-    }
-  },
-  {
-    "kind": "youtube#playlistItem",
-    "etag": "3jglkPGuaVE6X9qpFcFuuGVqtmM",
-    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5BNTdEMTYxNTdFRkRFMUQ0",
-    "snippet": {
-      "publishedAt": "2024-08-28T09:46:36Z",
-      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
-      "title": "Ep 226 - The Post Classical Sagas Of Icelanders With Rebecca Merkelbach",
-      "description": "In this week's episode, Dan and Margrethe have a talk with Rebecca Merkelbach about the research they have done into the post-classical sagas for their new book.\n\n------------------------------------------------\n\nFollow the Rebecca on X:\n@beccamerkelbach\n\nFollow Margrethe on Instagram:\n@arkeomags\n\nFollow the Podcast on Instagram:\n@nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/pTtYB_wyG0k/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/pTtYB_wyG0k/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/pTtYB_wyG0k/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/pTtYB_wyG0k/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/pTtYB_wyG0k/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      },
-      "channelTitle": "Nordic Mythology Podcast",
-      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 79,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "pTtYB_wyG0k"
-      },
-      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
-      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
-    },
-    "contentDetails": {
-      "videoId": "pTtYB_wyG0k",
-      "videoPublishedAt": "2024-08-29T05:22:41Z"
-    }
-  },
-  {
-    "kind": "youtube#playlistItem",
-    "etag": "KP56Sx-2VALsomZhHW7tbEox7T0",
-    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4zNTI2QjhBOThBN0JGQTEx",
-    "snippet": {
-      "publishedAt": "2024-08-22T10:54:35Z",
-      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
-      "title": "Ep 225 - Birka Historical Tattoo Festival With Veronica Björkman and Żaneta Reliszko",
-      "description": "In this week's episode, Dan and Margrethe have a discussion with Veronica Björkman and Żaneta Reliszko, who are the founders of the Birka Historical Tattoo Festival.\n\n------------------------------------------------\n\nFollow the festival on Instagram:\n@@birkahistoricaltattoofest\n\nFollow Margrethe on Instagram:\n@arkeomags\n\nFollow the Podcast on Instagram:\n@nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/MhWNXSWtEnk/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/MhWNXSWtEnk/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/MhWNXSWtEnk/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/MhWNXSWtEnk/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/MhWNXSWtEnk/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      },
-      "channelTitle": "Nordic Mythology Podcast",
-      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 80,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "MhWNXSWtEnk"
-      },
-      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
-      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
-    },
-    "contentDetails": {
-      "videoId": "MhWNXSWtEnk",
-      "videoPublishedAt": "2024-08-22T12:12:28Z"
-    }
-  },
-  {
-    "kind": "youtube#playlistItem",
-    "etag": "2wLg8XiPOU014ba16CS-z8r0wSU",
-    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai40MkJFNUMzMTJDNkVFQjEy",
-    "snippet": {
-      "publishedAt": "2024-08-07T16:55:11Z",
-      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
-      "title": "Ep 224 - All About Týr With Joshua Rood",
-      "description": "In this week's episode, Dan and Margrethe sit down with Joshua Rood, who is not only the vocalist for the Icelandic black metal band Nexion but is also a Norse religion expert who is here to talk all about Týr, the Norse god of war.\n\n------------------------------------------------\n\nFollow Joshua on Instagram:\n@josua_hrodgeir\n\nFollow  Nexion on Instagram:\n@nexioniceland\n\nFollow Margrethe on Instagram:\n@arkeomags\n\nFollow the Podcast on Instagram:\n@nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/d1Aw6IOt0dM/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/d1Aw6IOt0dM/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/d1Aw6IOt0dM/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/d1Aw6IOt0dM/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/d1Aw6IOt0dM/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      },
-      "channelTitle": "Nordic Mythology Podcast",
-      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 81,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "d1Aw6IOt0dM"
-      },
-      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
-      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
-    },
-    "contentDetails": {
-      "videoId": "d1Aw6IOt0dM",
-      "videoPublishedAt": "2024-08-19T20:19:00Z"
-    }
-  },
-  {
-    "kind": "youtube#playlistItem",
-    "etag": "exfe72coSe-N-d0wfArS4nRD2kQ",
-    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai41MjA2QjlEREM3NTE0RkJG",
-    "snippet": {
-      "publishedAt": "2024-08-05T07:02:21Z",
-      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
-      "title": "Ep 223 - Poetry And Life In Anglo Saxon Britain With Connor S  Wyrdstaef",
-      "description": "In this week's episode, Dan sits down with Connor S. Wyrdstaef. He is a historical reenactor who specialises in researching what life was like in Anglo-Saxon Britain.\n\n------------------------------------------------\n\nSubscribe to Connor on YouTube:\n@thefyrdsman \n\nFollow the Podcast on Instagram:\n@nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/bJvucdlC7wI/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/bJvucdlC7wI/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/bJvucdlC7wI/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/bJvucdlC7wI/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/bJvucdlC7wI/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      },
-      "channelTitle": "Nordic Mythology Podcast",
-      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 82,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "bJvucdlC7wI"
-      },
-      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
-      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
-    },
-    "contentDetails": {
-      "videoId": "bJvucdlC7wI",
-      "videoPublishedAt": "2024-08-09T04:22:37Z"
-    }
-  },
-  {
-    "kind": "youtube#playlistItem",
-    "etag": "pejtz72LDOlvtEbm4D6ESolNFzs",
-    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4yMkNBN0M4QUJEQzYxMjA3",
-    "snippet": {
-      "publishedAt": "2024-07-31T16:53:53Z",
-      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
-      "title": "Ep 222 - Heilung Drumming and Spiritualuty With Nicolas Schipper",
-      "description": "In this week's episode, Dan and Margrethe talk with Nicolas Schipper. Though he is mainly known as the drummer for Heilung, he is also a teacher of spirituality.\n\n------------------------------------------------\n\nFollow Nicolas on Instagram:\n@schippermusik\n\nFollow Margrethe on Instagram:\n@arkeomags\n\nFollow the Podcast on Instagram:\n@nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/IQLP-MUbyeY/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/IQLP-MUbyeY/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/IQLP-MUbyeY/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/IQLP-MUbyeY/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/IQLP-MUbyeY/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      },
-      "channelTitle": "Nordic Mythology Podcast",
-      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 83,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "IQLP-MUbyeY"
-      },
-      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
-      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
-    },
-    "contentDetails": {
-      "videoId": "IQLP-MUbyeY",
-      "videoPublishedAt": "2024-08-01T05:00:10Z"
-    }
-  },
-  {
-    "kind": "youtube#playlistItem",
-    "etag": "WSTqzkeM2VXFJpCPpcMdbMlzNts",
-    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5BNjBCMUFCN0Q5QzUyMjlG",
-    "snippet": {
-      "publishedAt": "2024-07-22T14:25:09Z",
-      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
-      "title": "Ep 221 - Hand Tool Art With Guy Dugmore",
-      "description": "In this week's episode, Dan chats with Guy Dugmore. An artist who creates Nordic-inspired bone and antler pendants entirely using hand tools.\n\n------------------------------------------------\n\nFollow Guy on Instagram:\n@Hedgeandcave \n\nFollow the Podcast on Instagram:\n@nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/zu_wfOwkBak/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/zu_wfOwkBak/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/zu_wfOwkBak/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/zu_wfOwkBak/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/zu_wfOwkBak/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      },
-      "channelTitle": "Nordic Mythology Podcast",
-      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 84,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "zu_wfOwkBak"
-      },
-      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
-      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
-    },
-    "contentDetails": {
-      "videoId": "zu_wfOwkBak",
-      "videoPublishedAt": "2024-07-31T16:08:38Z"
-    }
-  },
-  {
-    "kind": "youtube#playlistItem",
-    "etag": "F6Q5GTxR_QkX6jEL8f_QmmCL-ws",
-    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai40MkQ0RjUwRTlGMUU4N0ZG",
-    "snippet": {
-      "publishedAt": "2024-07-11T13:21:55Z",
-      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
-      "title": "Ep 220 - Viking Culture Photography With Martine Vargdottir",
-      "description": "In this week's episode, Dan and Margrethe sit down with seamstress and photographer Martine Vargdottir to talk about how they recreate past cultures through still images.\n\n------------------------------------------------\n\nFollow Martine on Instagram:\n@vargdatter\n\nFollow Margrethe on Instagram:\n@arkeomags\n\nFollow the Podcast on Instagram:\n@nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/5BU6bOm0W-s/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/5BU6bOm0W-s/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/5BU6bOm0W-s/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/5BU6bOm0W-s/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/5BU6bOm0W-s/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      },
-      "channelTitle": "Nordic Mythology Podcast",
-      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 85,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "5BU6bOm0W-s"
-      },
-      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
-      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
-    },
-    "contentDetails": {
-      "videoId": "5BU6bOm0W-s",
-      "videoPublishedAt": "2024-07-18T12:23:31Z"
-    }
-  },
-  {
-    "kind": "youtube#playlistItem",
-    "etag": "Y-_UsWepymoE50b4i_W_mAdLCTo",
-    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4wOTkzRUNGQkU5QzI1QTA3",
-    "snippet": {
-      "publishedAt": "2024-07-09T09:43:12Z",
-      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
-      "title": "Ep 219 - Happy Birthday Oseberg With Jan Bill",
-      "description": "In this week's episode, Dan and Margrethe celebrate the Oseberg Ship's 120th Birthday! With guest Jan Bill, they deeply dive into this archaeological wonder.\n\n------------------------------------------------\n\nFollow Margrethe on Instagram:\n@arkeomags\n\nFollow the Podcast on Instagram:\n@nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/IKgUeA3OICQ/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/IKgUeA3OICQ/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/IKgUeA3OICQ/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/IKgUeA3OICQ/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/IKgUeA3OICQ/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      },
-      "channelTitle": "Nordic Mythology Podcast",
-      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 86,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "IKgUeA3OICQ"
-      },
-      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
-      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
-    },
-    "contentDetails": {
-      "videoId": "IKgUeA3OICQ",
-      "videoPublishedAt": "2024-07-11T09:02:09Z"
-    }
-  },
-  {
-    "kind": "youtube#playlistItem",
-    "etag": "rAdXoESQBbzPUAA-znHw0WOLUJk",
-    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5DQzY2RDZFRUQyRDlDQkMw",
-    "snippet": {
-      "publishedAt": "2024-07-01T05:54:30Z",
-      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
-      "title": "EP 218 - Big VS Small Museums With Richard Wakeman",
-      "description": "In this week's episode, Richard Wakeman joins Dan and Margrethe again to discuss their time working in various big and small museums across the UK.\n\n------------------------------------------------\n\nFollow Richard on Instagram:\n@richardkwakeman\n\nFollow Margrethe on Instagram:\n@arkeomags\n\nFollow the Podcast on Instagram:\n@nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/Tuz6fxJjb0o/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/Tuz6fxJjb0o/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/Tuz6fxJjb0o/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/Tuz6fxJjb0o/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/Tuz6fxJjb0o/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      },
-      "channelTitle": "Nordic Mythology Podcast",
-      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 87,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "Tuz6fxJjb0o"
-      },
-      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
-      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
-    },
-    "contentDetails": {
-      "videoId": "Tuz6fxJjb0o",
-      "videoPublishedAt": "2024-07-04T20:13:14Z"
-    }
-  },
-  {
-    "kind": "youtube#playlistItem",
-    "etag": "gnTbIa7HTTUoL3qQ-sSBIQexNzg",
-    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai43Q0UyODJENjc3NDRCODU0",
-    "snippet": {
-      "publishedAt": "2024-06-20T05:56:14Z",
-      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
-      "title": "Ep 217 - Asatru Revisited With Dr Mathias Nordvig",
-      "description": "In this week's episode, Dan and new co-host Margrethe are joined by old co-host Dr Mathias Nordvig to revisit Asatru and talk about some mistakes and misconceptions made during their first analysis.\n\n------------------------------------------------\n\nFollow Mathias on Instagram:\n@mathiasnordvig\n\nFollow Margrethe on Instagram:\n@arkeomags\n\nFollow the Podcast on Instagram:\n@nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/BOgl4UpkynU/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/BOgl4UpkynU/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/BOgl4UpkynU/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/BOgl4UpkynU/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/BOgl4UpkynU/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      },
-      "channelTitle": "Nordic Mythology Podcast",
-      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 88,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "BOgl4UpkynU"
-      },
-      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
-      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
-    },
-    "contentDetails": {
-      "videoId": "BOgl4UpkynU",
-      "videoPublishedAt": "2024-06-20T05:50:46Z"
-    }
-  },
-  {
-    "kind": "youtube#playlistItem",
-    "etag": "zlno-GG3ZVgGmfxIyiJXDN68f3A",
-    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4yM0YxNkQ4MTExRjg4RUI2",
-    "snippet": {
-      "publishedAt": "2024-06-20T04:01:53Z",
-      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
-      "title": "Ep 216 - History Inspired Pottery With Rose Lovegrove",
-      "description": "In this week's episode, Dan chats with Rose Lovegrove as they talk about her inspiration for her pottery works of art.\n\n------------------------------------------------\n\nFollow the Rose on Instagram:\n@arkeomags\n\nFollow the Podcast on Instagram:\n@nordicmythologypodcast\n\nFollow Jameson on Instagram:\n@nordicsoundchannel / @banjodruid\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/Ti5Ok0MevDo/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/Ti5Ok0MevDo/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/Ti5Ok0MevDo/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/Ti5Ok0MevDo/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/Ti5Ok0MevDo/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      },
-      "channelTitle": "Nordic Mythology Podcast",
-      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 89,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "Ti5Ok0MevDo"
-      },
-      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
-      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
-    },
-    "contentDetails": {
-      "videoId": "Ti5Ok0MevDo",
-      "videoPublishedAt": "2024-06-20T05:05:21Z"
-    }
-  },
-  {
-    "kind": "youtube#playlistItem",
-    "etag": "4rkBzo8L9HfLVuxX4u-y7qCUhJw",
-    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4zQTkyMjEwN0U0QkU3RDg5",
-    "snippet": {
-      "publishedAt": "2024-06-12T18:35:29Z",
-      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
-      "title": "Ep 215 - Latin Animal Charms And Incantations With Tim Hertogh",
-      "description": "In this week's episode, Dan and Margrethe talk with Tim Hertogh as he discusses his work on charms and incantations that range from controlling bees to checking for infidelity.\n\n------------------------------------------------\n\nFollow the Margrethe on Instagram:\n@arkeomags\n\nFollow the Podcast on Instagram:\n@nordicmythologypodcast\n\nFollow Jameson on Instagram:\n@nordicsoundchannel / @banjodruid\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/VBn9bbWNV3M/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/VBn9bbWNV3M/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/VBn9bbWNV3M/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/VBn9bbWNV3M/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/VBn9bbWNV3M/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      },
-      "channelTitle": "Nordic Mythology Podcast",
-      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 90,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "VBn9bbWNV3M"
-      },
-      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
-      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
-    },
-    "contentDetails": {
-      "videoId": "VBn9bbWNV3M",
-      "videoPublishedAt": "2024-06-13T05:43:23Z"
-    }
-  },
-  {
-    "kind": "youtube#playlistItem",
-    "etag": "W3Krz53DNjZ0ftDY1ozn8QWACFw",
-    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5DNzNDRDE1NzhGODQzODI2",
-    "snippet": {
-      "publishedAt": "2024-06-05T14:18:19Z",
-      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
-      "title": "Ep 214 - Doggerland With Sasja van der Vaart Verschoof",
-      "description": "In this week's episode, Dan and Margrethe are joined by Sasja van der Vaart-Verschoof to discuss the archaeologist treasure trove that is Doggerland.\n\n------------------------------------------------\n\nFollow the Sasja on Instagram:\n@theoverdressedarcheologist\n\nFollow the Margrethe on Instagram:\n@arkeomags\n\nFollow the Podcast on Instagram:\n@nordicmythologypodcast\n\nFollow Jameson on Instagram:\n@nordicsoundchannel / @banjodruid\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/KLN57BrVXTM/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/KLN57BrVXTM/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/KLN57BrVXTM/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/KLN57BrVXTM/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/KLN57BrVXTM/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      },
-      "channelTitle": "Nordic Mythology Podcast",
-      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 91,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "KLN57BrVXTM"
-      },
-      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
-      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
-    },
-    "contentDetails": {
-      "videoId": "KLN57BrVXTM",
-      "videoPublishedAt": "2024-06-06T08:22:29Z"
-    }
-  },
-  {
-    "kind": "youtube#playlistItem",
-    "etag": "1qVH-VirsTLSR9wEbpyjKvDWvzg",
-    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai43MzBFRTZDMUM3OTY2RjQ4",
-    "snippet": {
-      "publishedAt": "2024-05-29T03:12:00Z",
-      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
-      "title": "Ep 213 - Troll Magic With Jameson Foster (Scuzzlebutt)",
-      "description": "In this week's episode, Dan has a chat with Jameson Foster, AKA Scuzzlebutt, to talk troll magic, its musical properties, and how it relates to his musical persona.\n\n------------------------------------------------\n\nFollow the Podcast on Instagram:\n@nordicmythologypodcast\n\nFollow Jameson on Instagram:\n@nordicsoundchannel / @banjodruid\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/Vid2Rymur2o/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/Vid2Rymur2o/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/Vid2Rymur2o/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/Vid2Rymur2o/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/Vid2Rymur2o/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      },
-      "channelTitle": "Nordic Mythology Podcast",
-      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 92,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "Vid2Rymur2o"
-      },
-      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
-      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
-    },
-    "contentDetails": {
-      "videoId": "Vid2Rymur2o",
-      "videoPublishedAt": "2024-05-30T09:52:52Z"
-    }
-  },
-  {
-    "kind": "youtube#playlistItem",
-    "etag": "iHc80qHtXZ7ksXjzBUwMp2cmlwc",
-    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai45QzM0OUZCRDUyMTgwREVG",
-    "snippet": {
-      "publishedAt": "2024-05-15T08:40:23Z",
-      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
-      "title": "Ep 211 - Scandinavia and the Muslim World With Karl Farrugia",
-      "description": "In this week's episode, Dan is joined by Karl Farrugia to discuss how Scandinavians have left their mark on the Muslim World.\n\n------------------------------------------------\n\nFollow the Podcast on Instagram:\n@nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/jK2-Hzz3S2o/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/jK2-Hzz3S2o/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/jK2-Hzz3S2o/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/jK2-Hzz3S2o/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/jK2-Hzz3S2o/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      },
-      "channelTitle": "Nordic Mythology Podcast",
-      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 93,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "jK2-Hzz3S2o"
-      },
-      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
-      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
-    },
-    "contentDetails": {
-      "videoId": "jK2-Hzz3S2o",
-      "videoPublishedAt": "2024-05-16T06:03:07Z"
-    }
-  },
-  {
-    "kind": "youtube#playlistItem",
-    "etag": "c4m5xJPauUIEnEA5H_itv7_cHK8",
-    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5DMkM0MjQ3OTgwQzBCMEZB",
-    "snippet": {
-      "publishedAt": "2024-04-27T19:34:51Z",
-      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
-      "title": "Ep 210 - Gender Past And Present With Marianne Moen",
-      "description": "In this week's episode, Dan and Margrethe are joined by the magnificent Marianne Moen to discuss gender in archeology and modern day.\n\n------------------------------------------------\n\nFollow Margrethe on Instagram:\n@arkeomags\n\nFollow the Podcast on Instagram:\n@nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/-Ri9YRqrs7E/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/-Ri9YRqrs7E/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/-Ri9YRqrs7E/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/-Ri9YRqrs7E/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/-Ri9YRqrs7E/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      },
-      "channelTitle": "Nordic Mythology Podcast",
-      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 94,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "-Ri9YRqrs7E"
-      },
-      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
-      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
-    },
-    "contentDetails": {
-      "videoId": "-Ri9YRqrs7E",
-      "videoPublishedAt": "2024-05-09T23:34:58Z"
-    }
-  },
-  {
-    "kind": "youtube#playlistItem",
-    "etag": "xfThYeWGfqL4iSlUFo1KPlgZIYM",
-    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5BRjY4NjdBRjA5RTdCMUMx",
-    "snippet": {
-      "publishedAt": "2024-04-14T15:25:31Z",
-      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
-      "title": "Ep 209 - Einarr's Journey With Connor Benson",
-      "description": "In this week's episode, Dan is joined by Connor Benson to discuss his journey through establishing a business within the Viking community.\n\n------------------------------------------------\n\nFollow the Connor on Instagram:\n@einarrs_journey\n\nFollow the Podcast on Instagram:\n@nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/9ELGkyjgraU/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/9ELGkyjgraU/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/9ELGkyjgraU/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/9ELGkyjgraU/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/9ELGkyjgraU/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      },
-      "channelTitle": "Nordic Mythology Podcast",
-      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 95,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "9ELGkyjgraU"
-      },
-      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
-      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
-    },
-    "contentDetails": {
-      "videoId": "9ELGkyjgraU",
-      "videoPublishedAt": "2024-05-02T09:10:28Z"
-    }
-  },
-  {
-    "kind": "youtube#playlistItem",
-    "etag": "Rs9FNsLhK5RObQ49SD9UQX1Vb80",
-    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai41RjU0OTVCQThDNUUwQzBD",
-    "snippet": {
-      "publishedAt": "2024-04-14T14:33:10Z",
-      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
-      "title": "Ep 208 - Prehistoric Clothing With Nicole DeRushie",
-      "description": "In this week's episode, Dan and Margrethe are joined by Nicole DeRushie to discuss \"Bog fashion\", clothing found in archeology, and the techniques that would have been used.\n\n------------------------------------------------\n\nFollow Nicole on Instagram:\n@grounded_history\n\nCheck out Bog Fashion on Facebook:\nhttps://www.facebook.com/profile.php?id=61558079490504\n\nFollow Margrethe on Instagram:\n@arkeomags\n\nFollow the Podcast on Instagram:\n@nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/lVU1Ncx2w4Q/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/lVU1Ncx2w4Q/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/lVU1Ncx2w4Q/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/lVU1Ncx2w4Q/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/lVU1Ncx2w4Q/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      },
-      "channelTitle": "Nordic Mythology Podcast",
-      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 96,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "lVU1Ncx2w4Q"
-      },
-      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
-      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
-    },
-    "contentDetails": {
-      "videoId": "lVU1Ncx2w4Q",
-      "videoPublishedAt": "2024-04-25T08:59:52Z"
-    }
-  },
-  {
-    "kind": "youtube#playlistItem",
-    "etag": "fJkTMK0kiUuC_McnWUu625_G46M",
-    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5EREU0QjZERDMzRDBGNTMz",
-    "snippet": {
-      "publishedAt": "2024-04-02T11:57:47Z",
-      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
-      "title": "Ep 207 - Tora Viking Girl With Morten Myklebust and Vicky Mikalsen",
-      "description": "In this week's episode, Dan and Margrethe are joined by Morten Myklebust and Vicky Mikalsen to discuss their awesome collaboration on Tora Viking Girl!\n\n------------------------------------------------\n\nFollow Midgard Viking Centre on Instagram:\n@midgardvikingsenter\n\nFollow Margrethe on Instagram:\n@arkeomags\n\nFollow the Podcast on Instagram:\n@nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/GvbalQsou9M/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/GvbalQsou9M/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/GvbalQsou9M/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/GvbalQsou9M/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/GvbalQsou9M/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      },
-      "channelTitle": "Nordic Mythology Podcast",
-      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 97,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "GvbalQsou9M"
-      },
-      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
-      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
-    },
-    "contentDetails": {
-      "videoId": "GvbalQsou9M",
-      "videoPublishedAt": "2024-04-18T08:31:00Z"
-    }
-  },
-  {
-    "kind": "youtube#playlistItem",
-    "etag": "OomYPn7Kz3DuhdYnQwAIn9Jvtpk",
-    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5CNEFEOUNDRUMzMjVGMjc2",
-    "snippet": {
-      "publishedAt": "2024-03-24T20:50:14Z",
-      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
-      "title": "Ep 206 - A Thor Subject With Declan Taggart",
-      "description": "In this week's episode, Dan sits down with Margrethe Havgar and Declan Taggart to talk about Thor! \n\n------------------------------------------------\n\nFollow Margrethe on Instagram:\n@arkeomags\n\nFollow the Podcast on Instagram:\n@nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/iSYjBPd23nY/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/iSYjBPd23nY/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/iSYjBPd23nY/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/iSYjBPd23nY/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/iSYjBPd23nY/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      },
-      "channelTitle": "Nordic Mythology Podcast",
-      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 98,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "iSYjBPd23nY"
-      },
-      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
-      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
-    },
-    "contentDetails": {
-      "videoId": "iSYjBPd23nY",
-      "videoPublishedAt": "2024-04-11T08:23:14Z"
-    }
-  },
-  {
-    "kind": "youtube#playlistItem",
-    "etag": "V37HwbOlocS3MVT4fHAui03CRCA",
-    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai45NDIzMEVBNjk5NTFGRDZC",
-    "snippet": {
-      "publishedAt": "2024-03-17T17:50:35Z",
-      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
-      "title": "Ep 205 - The Misuse Of Rune Magic With Angie Padilla",
-      "description": "In this week's episode, Dan sits down with Margrethe Havgar and Angie Padillato to discuss the origins of runes and how they have been misused in modern day.\n\n------------------------------------------------\n\nFollow Margrethe on Instagram:\n@arkeomags\n\nFollow Angie on Instagram:\n@angie.hervor\n\nFollow the Podcast on Instagram:\n@nordicmythologypodcast\n\nIf you like what we do, and would like to be in the audience for live streams of new episodes to ask questions please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/zRnHJbh9H34/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/zRnHJbh9H34/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/zRnHJbh9H34/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/zRnHJbh9H34/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/zRnHJbh9H34/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      },
-      "channelTitle": "Nordic Mythology Podcast",
-      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 99,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "zRnHJbh9H34"
-      },
-      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
-      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
-    },
-    "contentDetails": {
-      "videoId": "zRnHJbh9H34",
-      "videoPublishedAt": "2024-04-04T08:11:48Z"
     }
   }
 ]
