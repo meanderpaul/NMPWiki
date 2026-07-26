@@ -1,7 +1,109 @@
 [
   {
     "kind": "youtube#playlistItem",
-    "etag": "6Vi2CE8kaYBgSe3wI8hGlrSQqeo",
+    "etag": "SpdWZswDKKf3G5Hg0yCRQQebUvo",
+    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5DRTc1MTUyMTJBMzRERTVE",
+    "snippet": {
+      "publishedAt": "2026-07-23T01:21:30Z",
+      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
+      "title": "Q&A - Viking Mania with Adam Bierstedt",
+      "description": "In this week's episode, Dan and Mags are joined by good friend of the podcast, Adam Bierstedt, to discuss how much of an impact Viking Mania has had around the world.\n\n------------------------------------------------\n\nFollow Adam on the Museum of Danish America's Instagram:\n\nhttps://www.instagram.com/danishmuseum\n\nFollow Margrethe on Instagram:\n\nhttps://www.instagram.com/arkeomags\n\nFollow the Podcast on Instagram:\n\nhttps://www.instagram.com/nordicmythologypodcast\n\nIf you like what we do and would like to be in the audience for live streams of new episodes to ask questions, please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/C9G3ZEBQs88/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/C9G3ZEBQs88/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/C9G3ZEBQs88/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/C9G3ZEBQs88/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/C9G3ZEBQs88/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Nordic Mythology Podcast",
+      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
+      "position": 0,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "C9G3ZEBQs88"
+      },
+      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
+      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
+    },
+    "contentDetails": {
+      "videoId": "C9G3ZEBQs88",
+      "videoPublishedAt": "2026-07-23T01:20:55Z"
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "5gXDpQHBh_QU72tgZ4D-mfKve4M",
+    "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5GNkE1RDlGNkFDMUQ5NjhD",
+    "snippet": {
+      "publishedAt": "2026-07-23T01:20:10Z",
+      "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
+      "title": "Ep 325 - Viking Mania with Adam Bierstedt",
+      "description": "In this week's episode, Dan and Mags are joined by good friend of the podcast, Adam Bierstedt, to discuss how much of an impact Viking Mania has had around the world.\n\n------------------------------------------------\n\nFollow Adam on the Museum of Danish America's Instagram:\n\nhttps://www.instagram.com/danishmuseum\n\nFollow Margrethe on Instagram:\n\nhttps://www.instagram.com/arkeomags\n\nFollow the Podcast on Instagram:\n\nhttps://www.instagram.com/nordicmythologypodcast\n\nIf you like what we do and would like to be in the audience for live streams of new episodes to ask questions, please consider supporting us on Patreon: https://www.patreon.com/NordicMythologypodcast\n\nCheck out Dan's company, Horns of Odin, and the wide range of handmade items inspired by Nordic Mythology and the Viking Age. Visit: https://www.hornsofodin.com",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/VQzGBynUc3E/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/VQzGBynUc3E/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/VQzGBynUc3E/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/VQzGBynUc3E/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/VQzGBynUc3E/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Nordic Mythology Podcast",
+      "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
+      "position": 1,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "VQzGBynUc3E"
+      },
+      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
+      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
+    },
+    "contentDetails": {
+      "videoId": "VQzGBynUc3E",
+      "videoPublishedAt": "2026-07-23T05:00:21Z"
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "yW4E24M0FB-F6yBL-XPJNeRnJPI",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai44QzA1MTlDRDBERERGNDhG",
     "snippet": {
       "publishedAt": "2026-07-16T21:44:54Z",
@@ -37,7 +139,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 0,
+      "position": 2,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "79PewW9AF-E"
@@ -52,7 +154,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "v9mZwTznhVMEwm7q0vX7sfJPGic",
+    "etag": "M6s3afmqCTCZvc1-3d-hS_KTF1I",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5FQTk3MjE5N0NBMTU2NjMz",
     "snippet": {
       "publishedAt": "2026-07-09T13:07:15Z",
@@ -88,7 +190,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 1,
+      "position": 3,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "mvDesMu9fxw"
@@ -103,7 +205,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "Vd6zJIJovtWBYr8wAplTple3RNo",
+    "etag": "rEB7xgBmqSWH3EeUEmTcOqWgM1g",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4zQzRFNTU5MDI0RUU0N0E0",
     "snippet": {
       "publishedAt": "2026-07-02T00:54:15Z",
@@ -139,7 +241,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 2,
+      "position": 4,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "9BfdDmAZt78"
@@ -154,7 +256,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "EnF-YeU1aRPL1wLVvxMtoy7G_8I",
+    "etag": "iBJ4Zj0i3gSzaFAs1_COv_FwiwY",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4wNTk4QjhCMzFDNkQ2MDg3",
     "snippet": {
       "publishedAt": "2026-07-02T00:11:14Z",
@@ -164,7 +266,7 @@
       "thumbnails": {},
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 3,
+      "position": 5,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "4_bIKShARbA"
@@ -176,7 +278,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "tcvzWsqDMWEqmFz6OE_vcOiQUg4",
+    "etag": "TZPTkrngR_GDtnP9Rsfb0KOgBk0",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai40NzEyNzI1NzVCNTRBODVD",
     "snippet": {
       "publishedAt": "2026-07-01T23:39:51Z",
@@ -186,7 +288,7 @@
       "thumbnails": {},
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 4,
+      "position": 6,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "71aFJ1AhK_A"
@@ -198,7 +300,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "PdaYmf5V8CgWWFCtx_vupKOeGs8",
+    "etag": "Njy_MquCbF6LAaBn3bdTYDem7EE",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5CNzJDRTExMkJBNTBENTI2",
     "snippet": {
       "publishedAt": "2026-06-23T05:37:52Z",
@@ -234,7 +336,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 5,
+      "position": 7,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "cxXd67cExSg"
@@ -249,7 +351,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "F0YR9zKxxc04UbvbuGS3WZiIPkk",
+    "etag": "QSAjPN8uFEi3Z6bp936C4YMcFK4",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5GOUFFM0FFNzI5RkU1NjAx",
     "snippet": {
       "publishedAt": "2026-06-12T01:12:11Z",
@@ -285,7 +387,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 6,
+      "position": 8,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "KR-piZv4-pM"
@@ -300,7 +402,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "S7Dg9nqIMnmJtYhXNni7Xyr9aVE",
+    "etag": "wEfx0wgZ4oTamBTEAHiSc-JEQ2o",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5GMERFODY1RUUxNDYwM0VD",
     "snippet": {
       "publishedAt": "2026-06-11T11:43:03Z",
@@ -336,7 +438,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 7,
+      "position": 9,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "gO7YdCcmnkQ"
@@ -351,7 +453,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "lsjPAc18crH41fwcWonyT4Cy_PA",
+    "etag": "RIf62aunC-RX8AGI_NXw47RlKPU",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5GQkE1RUQxMTA5RkRDNDZB",
     "snippet": {
       "publishedAt": "2026-06-04T09:43:00Z",
@@ -387,7 +489,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 8,
+      "position": 10,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "AInwauyRSbM"
@@ -402,7 +504,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "OH0oP3XG0YeXaER5zb3DdE5KGf4",
+    "etag": "gihJEfjnBYHBxD5VbjRxKRqtGlk",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai40MkE4OTk2MUZBMEQ4NEFE",
     "snippet": {
       "publishedAt": "2026-05-25T16:55:52Z",
@@ -438,7 +540,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 9,
+      "position": 11,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "RhGLThWvCwQ"
@@ -453,7 +555,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "7W4XUjHz70Anf30ZAwSIbyGhhZA",
+    "etag": "2iXjpifb5NDe53oW2BxCNHK-vEY",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4zNEM4RkZDQUU4MEYwQzJE",
     "snippet": {
       "publishedAt": "2026-05-20T23:38:31Z",
@@ -489,7 +591,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 10,
+      "position": 12,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "8Ob6NoqmXGg"
@@ -504,7 +606,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "HU0N7HiHqPDh1yHn98ow7NjLvw0",
+    "etag": "0dCK26O9C9lU5ONSG1XuwkaO19w",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5CNDEwQURGQjkwNDIzRUYw",
     "snippet": {
       "publishedAt": "2026-05-08T22:12:21Z",
@@ -540,7 +642,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 11,
+      "position": 13,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "ZXZM8jRBBWk"
@@ -555,7 +657,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "FG-uhyEHaVlq5hGlq28B-HteDP4",
+    "etag": "K_sS8XoLGucDyD6x-aOThH0O3b8",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5COUU4NzEzMzg1MkZFQjlE",
     "snippet": {
       "publishedAt": "2026-04-30T01:25:35Z",
@@ -591,7 +693,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 12,
+      "position": 14,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "RDLDP2Lg0Qc"
@@ -606,7 +708,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "_EbaJqX96LBnbNB6Qc1oFm6k6sg",
+    "etag": "B3eIht3foL5-DOjX_Yv12N5FSOo",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai40OEMzNzFDQjA5Q0YxMjQ3",
     "snippet": {
       "publishedAt": "2026-04-28T22:05:04Z",
@@ -642,7 +744,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 13,
+      "position": 15,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "3l8WjYx1xy8"
@@ -657,7 +759,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "QrZtr42mFu2bsFolJ9lehBORiiU",
+    "etag": "PEIZZFbltuvvAM3rC6-bGmMAdAs",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4xNzI4OTE0NTlBN0QyQUY0",
     "snippet": {
       "publishedAt": "2026-04-23T12:34:14Z",
@@ -693,7 +795,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 14,
+      "position": 16,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "HVfInh_FZYE"
@@ -708,7 +810,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "Q-EycKaUWMQOIJcOf4SNDLJjsw4",
+    "etag": "Ugk-kvsST-mS-YGVJFEEUOjAWDc",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai43NkI3M0NGOUE4ODY2OTE1",
     "snippet": {
       "publishedAt": "2026-04-15T23:37:08Z",
@@ -744,7 +846,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 15,
+      "position": 17,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "RuRvCUC5s3Q"
@@ -759,7 +861,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "VM1iYSPcwiftAANvD_3lhO3x098",
+    "etag": "UyxBRcFU_EC9wXelF4ExxWHMSWM",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai42MzYyQ0E2MUE4ODAzQkU5",
     "snippet": {
       "publishedAt": "2026-04-11T09:51:38Z",
@@ -795,7 +897,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 16,
+      "position": 18,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "rFu0FipSBP0"
@@ -810,7 +912,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "pBpL0uJQNoLaDwJST9Q7BYB9sgQ",
+    "etag": "KsOhCUpse67u72lZzkkCktnkLp0",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4wMUIwQkI1NEQ1RTFBNTND",
     "snippet": {
       "publishedAt": "2026-04-02T08:15:27Z",
@@ -846,7 +948,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 17,
+      "position": 19,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "Oy8g06fhcOw"
@@ -861,7 +963,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "ZB_rSSj6AP48uqZdQZ50Fj-qRmQ",
+    "etag": "j0suYf8ZqYVqWXUx0FGJv14jZ5g",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai43RDFFNUM4NkUwRDhEMjRD",
     "snippet": {
       "publishedAt": "2026-03-28T19:53:33Z",
@@ -897,7 +999,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 18,
+      "position": 20,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "jlLGZzEUlZg"
@@ -912,7 +1014,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "iBFRHnPww2TS6ZYYem2ZLlJsx6o",
+    "etag": "QKNZkmKkB3Fm5NRHFKE5F3soYrE",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5EQkEyODM0NTk2MUFEQkYz",
     "snippet": {
       "publishedAt": "2026-03-18T22:35:25Z",
@@ -948,7 +1050,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 19,
+      "position": 21,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "aG-N0IOLOUA"
@@ -963,7 +1065,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "6DVTQuNW1zvnY4QlCmkBZowUNPY",
+    "etag": "QvNkW9i1_pyAh83fE1pADWBtQpU",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4xODJEMEQ5M0RCMDRGMzcy",
     "snippet": {
       "publishedAt": "2026-03-09T06:00:46Z",
@@ -999,7 +1101,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 20,
+      "position": 22,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "LEfH5v9XYeQ"
@@ -1014,7 +1116,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "hLUgJvi-M33KOVB1pO6hraxKmm8",
+    "etag": "nHOoaX1k_hDLM-o3jBAcCuUEe4E",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4xMTE0RDU2NTlEMTkxNzZB",
     "snippet": {
       "publishedAt": "2026-03-07T08:57:28Z",
@@ -1050,7 +1152,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 21,
+      "position": 23,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "fmiX30OjdlM"
@@ -1065,7 +1167,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "S0BbDHz3UqGcLNs-Qvv-AtmNtT8",
+    "etag": "pxI3z4KIiwapjkTPoA4vku5Pcy8",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4zNDY1MzYwMjYwQUE2QTlD",
     "snippet": {
       "publishedAt": "2026-03-03T01:21:02Z",
@@ -1101,7 +1203,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 22,
+      "position": 24,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "yr0rUl64GlU"
@@ -1116,7 +1218,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "CbTrLzUGif1uxez99NOXDOMPKZA",
+    "etag": "sGuK7GHicYSQ8i977q8GwYuOrTk",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4yNkZBOTQyMkYxQkQyMzc2",
     "snippet": {
       "publishedAt": "2026-02-24T14:37:05Z",
@@ -1152,7 +1254,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 23,
+      "position": 25,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "zZYiMOF7joM"
@@ -1167,7 +1269,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "mLGqYZ2QQfEJ3UKrMSxQjZBp8b4",
+    "etag": "8prorIncQsZIBjAPSoFQkkgLGuk",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai43OTNDNTk0OUNGMDA1MUNG",
     "snippet": {
       "publishedAt": "2026-02-11T10:57:46Z",
@@ -1203,7 +1305,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 24,
+      "position": 26,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "anAD45H-gOI"
@@ -1218,7 +1320,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "lTE2eS2mmHWvy145hbSyLhQgvYg",
+    "etag": "Z4pWSis0idSFjQ_58XDBfEgwP_g",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai41ODI2RjhGOTVBODI2NDE5",
     "snippet": {
       "publishedAt": "2026-02-05T09:25:35Z",
@@ -1254,7 +1356,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 25,
+      "position": 27,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "3omKe84TLWI"
@@ -1269,7 +1371,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "1E6idlwvgGQGE1fNXmbAOyced-M",
+    "etag": "uErscmfFpqJ_wANCSIUNTaM62lA",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai45MTRCQjE3QzVGNDREODIz",
     "snippet": {
       "publishedAt": "2026-01-24T18:01:28Z",
@@ -1305,7 +1407,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 26,
+      "position": 28,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "1tD-dfHy81s"
@@ -1320,7 +1422,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "RANy7LXZcVknenAoO-hVkP1n59o",
+    "etag": "2N2emK7BCNK7HVGG6rXT6hjVfFU",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5FRkU3NjdFNDBDMjFBNTlF",
     "snippet": {
       "publishedAt": "2026-01-21T16:09:32Z",
@@ -1356,7 +1458,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 27,
+      "position": 29,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "xFF6WapHtm0"
@@ -1371,7 +1473,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "mWtYwFW2ikAXDjF-1zJnJBCIseQ",
+    "etag": "4i4OFYX4q3wRdKtmtOzqFnL6QkM",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4xRUU4M0JFMUQ4QTA2MjVB",
     "snippet": {
       "publishedAt": "2026-01-15T19:01:28Z",
@@ -1407,7 +1509,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 28,
+      "position": 30,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "hnMKF3kbZnc"
@@ -1422,7 +1524,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "RYgR5p3NPuHL4FbD5ra_V57IX1Y",
+    "etag": "47P6uF3OGdkxKzP-1fFQuiRIl-k",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai44OEI3NUQ0QTlFM0FCOUU4",
     "snippet": {
       "publishedAt": "2026-01-08T11:11:40Z",
@@ -1458,7 +1560,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 29,
+      "position": 31,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "wVOOhQZOIlE"
@@ -1473,7 +1575,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "y02GJI7bnjVkXOICVoXyyjs8wag",
+    "etag": "Z0gcQDIysKjPzHGfFJIbuZ2jBi0",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5FRkIzNkJFQkQ3RkUwOUY5",
     "snippet": {
       "publishedAt": "2025-12-22T12:40:56Z",
@@ -1509,7 +1611,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 30,
+      "position": 32,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "USfQjO1vuuU"
@@ -1524,7 +1626,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "I9NSmWwnfJgGkRAm3f97vm4PdKQ",
+    "etag": "Bf-qJlr6k05cUF14VieF-mPJ8nE",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4yQjdDRUQyQ0M0MEZCQkEx",
     "snippet": {
       "publishedAt": "2025-12-18T09:37:40Z",
@@ -1560,7 +1662,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 31,
+      "position": 33,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "gCWhATAzsAk"
@@ -1575,7 +1677,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "Unf2tgEbvcYDQloetI2ozVT_Fbc",
+    "etag": "T-Cp-k05y0fLPC729pFrASmQ_Sw",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4xM0YyQUYxQTg5OTgyQ0Y5",
     "snippet": {
       "publishedAt": "2025-12-17T13:45:27Z",
@@ -1611,7 +1713,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 32,
+      "position": 34,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "uwsIP0hpNxg"
@@ -1626,7 +1728,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "0-S73oFuBn60KL1OQ0kOwD08WE0",
+    "etag": "lPyeu5GcLXH4Adovly9tRbNRGjs",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4xMUQ5ODk0Q0I0MjZBQjhG",
     "snippet": {
       "publishedAt": "2025-11-29T16:16:11Z",
@@ -1662,7 +1764,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 33,
+      "position": 35,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "YE6I3ttUZvs"
@@ -1677,7 +1779,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "JMkhLYW8cc_4vrB6rSOX_ebZWAM",
+    "etag": "ywZa2-RexbrV3PtLiDS04P6FRgc",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai45NTBGQjA2RDUzMTJFM0VF",
     "snippet": {
       "publishedAt": "2025-11-26T01:30:22Z",
@@ -1713,7 +1815,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 34,
+      "position": 36,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "UgIy4LphIEs"
@@ -1728,7 +1830,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "kDy9O9tKVPvJxGBhUlNaoqcEc1M",
+    "etag": "rVDnSkHixXn9wkjdRsIYquU_AG0",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4yNDgyN0RCRjQ1QTUxRUMy",
     "snippet": {
       "publishedAt": "2025-11-25T18:44:05Z",
@@ -1764,7 +1866,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 35,
+      "position": 37,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "QdDlaWPXqXw"
@@ -1779,7 +1881,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "Z_NEuTLlwa7HZBtV3BuFCKG3UvI",
+    "etag": "rECYVu4cfpuhLjB8JC3vINv6ig8",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai42MTk5OTRCREQ5RkNFODZF",
     "snippet": {
       "publishedAt": "2025-11-18T17:07:46Z",
@@ -1815,7 +1917,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 36,
+      "position": 38,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "FuQ4nSs9OJg"
@@ -1830,7 +1932,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "YLAM3FyiFNTVv4WxXx-li5mQyDg",
+    "etag": "3YFX7N4VlOLt2hkc8JIRxBZPmnY",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5EQjk2Mzc4OTUzQTQ4NDlB",
     "snippet": {
       "publishedAt": "2025-11-05T13:16:00Z",
@@ -1866,7 +1968,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 37,
+      "position": 39,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "pc_iKTj4-qY"
@@ -1881,7 +1983,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "O3P0wlZjOrQp53pjEL9Y_0VzVMM",
+    "etag": "IlfS54u_urzkkfv6Eitg00ZWkh8",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4yRjU0MzcwMkYwRkVDNDhC",
     "snippet": {
       "publishedAt": "2025-11-04T16:09:16Z",
@@ -1917,7 +2019,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 38,
+      "position": 40,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "sc64RjJh3lc"
@@ -1932,7 +2034,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "Tq53FickZZMztmOCzDEsDYaEaG0",
+    "etag": "niEAqPFjHIxxZ9LwpT1k0bgXGFk",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4wMjVEMzc2NzY2ODVBOERB",
     "snippet": {
       "publishedAt": "2025-10-21T15:59:33Z",
@@ -1968,7 +2070,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 39,
+      "position": 41,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "gxnlSy1bc6g"
@@ -1983,7 +2085,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "-t8X6a0DF6t4KsvuWmauqj9lRkE",
+    "etag": "OHtVCAH4WQFc3drYzAi-kq3ar04",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5BNEEyNDAyQThDNDA5MEU0",
     "snippet": {
       "publishedAt": "2025-10-16T13:31:09Z",
@@ -2019,7 +2121,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 40,
+      "position": 42,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "tOfh4O27I0s"
@@ -2034,7 +2136,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "CFMll_QcbPwpUPm4TYgAjeOfGpA",
+    "etag": "hyIsGWFXsdINC_dsmxzWQMBewl4",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai40NjI5ODZCQUE5NkRBMDI0",
     "snippet": {
       "publishedAt": "2025-10-15T13:06:32Z",
@@ -2070,7 +2172,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 41,
+      "position": 43,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "qUxmQShYpRU"
@@ -2085,7 +2187,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "xHSdp2yd_Nomo50wg_Di-lpq1fA",
+    "etag": "7J_8nPg6CZ5ecSlqF0zm--rMgN4",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai45QUZGQkMzMEZDNTZBREY3",
     "snippet": {
       "publishedAt": "2025-10-06T05:02:26Z",
@@ -2121,7 +2223,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 42,
+      "position": 44,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "GUUZqadyGZU"
@@ -2136,7 +2238,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "5rytFYhAW80wGz7gyIHOCPctVoQ",
+    "etag": "TL5jJV4g1y_H6j6hB4HRlc2JUfk",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4xNUMzRTJBOEYwRTBDOTBD",
     "snippet": {
       "publishedAt": "2025-09-30T18:59:38Z",
@@ -2172,7 +2274,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 43,
+      "position": 45,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "3GTO0XoHBn8"
@@ -2187,7 +2289,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "YQUAaCo0VOFCDlmxbDlR9-h5atI",
+    "etag": "uZRSp24DrKVFzzuxfd64rsOfwdY",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4yQUYyOTAwNjkwNDE5QjlE",
     "snippet": {
       "publishedAt": "2025-09-24T21:08:08Z",
@@ -2223,7 +2325,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 44,
+      "position": 46,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "v_jNEyUFsWk"
@@ -2238,7 +2340,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "tAyOasLIQW1Jb326cV0lCzHyIuc",
+    "etag": "rtIjUrgd6Avzii8ybWHCHqNh5-U",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5FN0MwOEIwNDJFMDI5RDhB",
     "snippet": {
       "publishedAt": "2025-09-15T11:33:23Z",
@@ -2274,7 +2376,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 45,
+      "position": 47,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "JJkwf0HJbZo"
@@ -2289,7 +2391,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "Op4TOU61Ef_ZeYKc9IHUtvz0puY",
+    "etag": "82IJ43oE6riSalbIdsvyxaXEtIQ",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5GMzY4RDIwMjU1MkMwOTRB",
     "snippet": {
       "publishedAt": "2025-09-11T06:00:12Z",
@@ -2325,7 +2427,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 46,
+      "position": 48,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "CCIC3eq4oZs"
@@ -2340,7 +2442,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "uDQFlDiQoRjfQPk_1j_wiU3WLYs",
+    "etag": "qKMMmN7s08yyJB8vzAEfAXnOzds",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5FRUEzOUYxQTE4OEIyMTI3",
     "snippet": {
       "publishedAt": "2025-09-02T02:15:15Z",
@@ -2376,7 +2478,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 47,
+      "position": 49,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "9y5mYzaUeV4"
@@ -2391,7 +2493,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "RLwOdtblSxcL_TeLgcyWTyOS4kU",
+    "etag": "RE3mtbQcrBpWI2_E3EFDei2bYyE",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai43RjgyNkZCNjkwMkZDMzcz",
     "snippet": {
       "publishedAt": "2025-08-26T23:33:07Z",
@@ -2427,7 +2529,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 48,
+      "position": 50,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "xdHcwiNLHvM"
@@ -2442,7 +2544,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "-9Yw9x4yDsHTxT8jsEzi8ikgV4w",
+    "etag": "fOw7mF0DC4ZlCRvKcQJ-55S7JLM",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai42ODgwQ0RBNTY1OTRERDQy",
     "snippet": {
       "publishedAt": "2025-08-18T16:49:07Z",
@@ -2478,7 +2580,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 49,
+      "position": 51,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "6Cb_MlgSlb0"
@@ -2493,7 +2595,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "LmWCtE6OPUWeniYvcXf-AJlV10g",
+    "etag": "xCxVSMWHbNnPr8sP2Gf57sB0IGg",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4wMkM3QkFEQzQ4QTU0MTNB",
     "snippet": {
       "publishedAt": "2025-08-14T14:02:06Z",
@@ -2529,7 +2631,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 50,
+      "position": 52,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "_TrTStXmm3s"
@@ -2544,7 +2646,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "D_bzcCeT6JTbPzS8AYomHBUpsMw",
+    "etag": "ZJXxOSdyJf8kqVl75ZVjp82PYBA",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai44RDBENkUzRTI5QTNGMTI4",
     "snippet": {
       "publishedAt": "2025-08-06T16:09:04Z",
@@ -2580,7 +2682,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 51,
+      "position": 53,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "CBchioRy_I0"
@@ -2595,7 +2697,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "u-481ghoBuVEzAkk-CvgEbVG-Oo",
+    "etag": "HblXhXRb-Hdb1RmBZiSQGWTczFo",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5GNEUwNzhEMDZFMDNDQTM1",
     "snippet": {
       "publishedAt": "2025-07-31T03:59:04Z",
@@ -2631,7 +2733,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 52,
+      "position": 54,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "KV5kBvE1Mjg"
@@ -2646,7 +2748,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "QWYnbFXN1Ak3jmflaNGKp4MDgzg",
+    "etag": "Hxi5UXT2KlnyqTKaN7eTH01tKoM",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai41RTFEM0JFNjc4MDNBMzA5",
     "snippet": {
       "publishedAt": "2025-07-24T04:19:14Z",
@@ -2682,7 +2784,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 53,
+      "position": 55,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "baHZv_mTCbU"
@@ -2697,7 +2799,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "h1vNEjJUXKS5booocVr9TxDEfdU",
+    "etag": "3GD5vJz30R2-duqx2lNO26GiISo",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai41QUU4MjI2RjNBNjFENEY3",
     "snippet": {
       "publishedAt": "2025-07-16T18:29:06Z",
@@ -2733,7 +2835,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 54,
+      "position": 56,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "SDrBMfg5_CQ"
@@ -2748,7 +2850,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "b_g922JIoz9W73i9THp1gEuTWS8",
+    "etag": "_h72jVlVo9jk23dvUmjGWLhPHDw",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai40MzQwRDA4N0ZGRTNBNTE2",
     "snippet": {
       "publishedAt": "2025-07-04T09:18:27Z",
@@ -2784,7 +2886,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 55,
+      "position": 57,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "zzef5eJWfJw"
@@ -2799,7 +2901,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "vnQMY8IW8NF-8HIt4MMkW8bSy8A",
+    "etag": "ZHWgkjN2TEzJR_q4gMGuXEpMK40",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5CNTQ4NEJFQThFNzg4Q0Qz",
     "snippet": {
       "publishedAt": "2025-07-02T06:42:59Z",
@@ -2835,7 +2937,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 56,
+      "position": 58,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "r41ik3wBpEg"
@@ -2850,7 +2952,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "yPf8tnenegfYmu-_OlwM84J2bwI",
+    "etag": "oCN3GldGG3kSj7rv_db7Zd3kZ5k",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai44NEFDRUNBRDQwODFGNEU1",
     "snippet": {
       "publishedAt": "2025-06-26T02:47:30Z",
@@ -2886,7 +2988,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 57,
+      "position": 59,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "IfE1PiJLZzI"
@@ -2901,7 +3003,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "oulornj-OsMQTne_-bEGqHOvEoE",
+    "etag": "UGUu756Up8tAJ7aH0j9fFW3BRmY",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5CMDU4Mjk2QjA2QTIwODZB",
     "snippet": {
       "publishedAt": "2025-06-16T17:20:19Z",
@@ -2937,7 +3039,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 58,
+      "position": 60,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "1_cmUHmvWIw"
@@ -2952,7 +3054,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "Bb5TwumNgOcOEuMazYLTNHszM80",
+    "etag": "P6CG8eeNdgE59XFU5E89qH2SHeQ",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai45NkM5QURGMTI1Rjg4NDRC",
     "snippet": {
       "publishedAt": "2025-06-11T13:10:15Z",
@@ -2988,7 +3090,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 59,
+      "position": 61,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "LNfJ_qDNexw"
@@ -3003,7 +3105,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "B2c0cOIlRKaUT0EY87yKeLlx-H8",
+    "etag": "eXpxcaulnB63jQG-NYPu1eKpSVw",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai45REM1NzQ1MDM2OUZDNDMx",
     "snippet": {
       "publishedAt": "2025-06-02T11:24:14Z",
@@ -3039,7 +3141,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 60,
+      "position": 62,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "EFlbmcPT0Zw"
@@ -3054,7 +3156,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "D8-NhU3aShc264GpzO8cwqiy3TI",
+    "etag": "BYRvXQX5nuHQFWhOHr9m9xlSFm4",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5FRDc0QkQxMzlEMTZBMzg0",
     "snippet": {
       "publishedAt": "2025-05-27T13:03:22Z",
@@ -3090,7 +3192,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 61,
+      "position": 63,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "DpdAg-3xxA8"
@@ -3105,7 +3207,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "ZgZq9T9wFMQGZZ1nxfNxkaAAoJs",
+    "etag": "rOrFnHjPp4MtqbTzyxOhlgFurpg",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai44MjZDNDYzQjgwQzkzQzkz",
     "snippet": {
       "publishedAt": "2025-05-19T13:00:04Z",
@@ -3141,7 +3243,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 62,
+      "position": 64,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "DlaBLHcEXBo"
@@ -3156,7 +3258,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "0XQsQuLTeEYAuBlLfdhbbqmnLiY",
+    "etag": "0BSDPItXtT7elxyPf5tHSkC658w",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5FRjZBRjlFMTZFQkZCNzE5",
     "snippet": {
       "publishedAt": "2025-05-13T19:59:26Z",
@@ -3192,7 +3294,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 63,
+      "position": 65,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "ze9cY3ka8H8"
@@ -3207,7 +3309,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "Lm7Cn2_JUfyGlV4g1ckOYUlOZvU",
+    "etag": "r_thmeTrlvS2i8qiGiElup8Gi50",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5DM0UwMkNDRTIwQUNDMjE2",
     "snippet": {
       "publishedAt": "2025-05-06T05:43:46Z",
@@ -3243,7 +3345,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 64,
+      "position": 66,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "B2BernkvjU8"
@@ -3258,7 +3360,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "yhsHXN76Su1FtSe3LmmW7xTfUXg",
+    "etag": "5YOVdqvGNR-Hknk16DGR4IdKWCY",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai41MUY0NzFFRjMwMkI3RTI1",
     "snippet": {
       "publishedAt": "2025-04-27T21:54:16Z",
@@ -3294,7 +3396,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 65,
+      "position": 67,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "Kk7PPXUrClc"
@@ -3309,7 +3411,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "DgkOJ9516DWfW73NZPNmzzX5awQ",
+    "etag": "R8sWVxNMmkZ0vve22yMI6yWt8FI",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai42QTlDMjkyRjNGMEYwQzcz",
     "snippet": {
       "publishedAt": "2025-04-18T12:21:15Z",
@@ -3345,7 +3447,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 66,
+      "position": 68,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "GjhcizIxK1c"
@@ -3360,7 +3462,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "1FE_GSiw0yKGfXD7g-Mw2vbXXLI",
+    "etag": "GiR4ey5pv-N1MspH3iPA7i1Letk",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4xODVDRjcwQzY3NkIxNjYz",
     "snippet": {
       "publishedAt": "2025-04-17T08:30:49Z",
@@ -3396,7 +3498,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 67,
+      "position": 69,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "zMDUjxxaed4"
@@ -3411,7 +3513,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "U1lPHqORG0JcV_s3q_5vt3py7t8",
+    "etag": "P6GaxIBPqGzOh4anuaX6wVuGjmQ",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai41MkJFMDEwMDIxMkRDREQ3",
     "snippet": {
       "publishedAt": "2025-04-05T07:04:34Z",
@@ -3447,7 +3549,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 68,
+      "position": 70,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "2H1EEaQ6Ass"
@@ -3462,7 +3564,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "XbrzSYZIS6es2cKcHlrpWjPoCwQ",
+    "etag": "oN1LbQRtk0htmC5ZuLXa8MMRMzQ",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai40QUQ5MEY1QTZCMzdFNkNC",
     "snippet": {
       "publishedAt": "2025-04-03T02:42:02Z",
@@ -3498,7 +3600,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 69,
+      "position": 71,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "jNvXPtOJzjY"
@@ -3513,7 +3615,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "9C8QPupMyL0aDVaMOt_AIIc7X6M",
+    "etag": "mrWwsmNpwwHkKfkUN0suc1frR_s",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai43OEM5M0IwMkQ1MzBCMUI1",
     "snippet": {
       "publishedAt": "2025-03-19T13:55:31Z",
@@ -3549,7 +3651,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 70,
+      "position": 72,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "dVTPKSJzmsM"
@@ -3564,7 +3666,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "jrBxTIbJDLPenkLpPoO2aR6C_is",
+    "etag": "BrEz2jMSeVbJ-pgYPWbPYH43zzs",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai44ODU0NUVGNEZGMDI3QTdF",
     "snippet": {
       "publishedAt": "2025-03-13T19:20:26Z",
@@ -3600,7 +3702,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 71,
+      "position": 73,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "K4-tJ5HWyQo"
@@ -3615,7 +3717,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "FCq6nPhyw9CC23kafOEyactykIw",
+    "etag": "F2lzvWqh40rPoo5rBYtF8OhPO2U",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai40N0VCMzcxQTEyREU1NDND",
     "snippet": {
       "publishedAt": "2025-03-10T18:11:50Z",
@@ -3651,7 +3753,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 72,
+      "position": 74,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "07HzwctdHpY"
@@ -3666,7 +3768,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "xYDy8hQkZ050rzZP4z8D5jaYokQ",
+    "etag": "Y8gttpd8sf3tFrSpVXytQUeSQP4",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai41NEM3RjdGQ0FDRjkwNUQ5",
     "snippet": {
       "publishedAt": "2025-03-03T08:57:12Z",
@@ -3702,7 +3804,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 73,
+      "position": 75,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "Uf80BStGHyo"
@@ -3717,7 +3819,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "aoTe1nv29HsdDkmhpmUSHdIlvGc",
+    "etag": "AxRJAseaZ9ZnqCp9DN3lDuH3wuA",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4yOUY5MUNBMTM5RDMyREQ5",
     "snippet": {
       "publishedAt": "2025-02-24T17:56:57Z",
@@ -3753,7 +3855,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 74,
+      "position": 76,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "660_qiqgPuM"
@@ -3768,7 +3870,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "moLftsb7jQY_2frk_pQOLayOLJY",
+    "etag": "joLMY2yhk_Wuri_RJDl4EgXvOco",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4zMzg4MjBBNzZCQzY5MDk4",
     "snippet": {
       "publishedAt": "2025-02-16T23:03:45Z",
@@ -3804,7 +3906,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 75,
+      "position": 77,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "blGiAgCFns8"
@@ -3819,7 +3921,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "WV0hLi42jTio0ztnQLc1kYW4WjQ",
+    "etag": "LEpfdieYiHJMCIuAjgtggYu8sOM",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5GOUJEOERGNDg1N0QyNDA3",
     "snippet": {
       "publishedAt": "2025-02-06T10:06:13Z",
@@ -3855,7 +3957,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 76,
+      "position": 78,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "CVeoa80auiM"
@@ -3870,7 +3972,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "8sOizXGCfbRO7c-bKYujAAEwOOo",
+    "etag": "efWhiyr03OgSB3msraQ1ryrHqeQ",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai43OEQ1OTk4ODU2N0E5RUYz",
     "snippet": {
       "publishedAt": "2025-01-30T15:41:24Z",
@@ -3906,7 +4008,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 77,
+      "position": 79,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "WZXVky6fGUU"
@@ -3921,7 +4023,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "7ekX2KaFGjiZKWXqHeAM0J3e6Bk",
+    "etag": "AFOFCXL961nroOCOOtSymsmMORg",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai44Q0Q0NjMwREMzREQ1RkE4",
     "snippet": {
       "publishedAt": "2025-01-26T13:19:48Z",
@@ -3957,7 +4059,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 78,
+      "position": 80,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "DTpWJGcdPm4"
@@ -3972,7 +4074,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "iY31fpQ92pY6fkPq01Obi1W1Crc",
+    "etag": "yn7DGe1M4p1FjoNFUE3-8SCakNM",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4zNjNFN0I4ODYzQTQ3QTg2",
     "snippet": {
       "publishedAt": "2025-01-18T06:53:25Z",
@@ -4008,7 +4110,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 79,
+      "position": 81,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "UALn6Jfp6qQ"
@@ -4023,7 +4125,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "EDplhlbptO0a3G9Ol7GVW-PTVLQ",
+    "etag": "oNB8AlW2SbZTsHpE1kQEcEBP74o",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5EQTkxMkVFODRENEJBMERF",
     "snippet": {
       "publishedAt": "2025-01-10T00:30:00Z",
@@ -4059,7 +4161,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 80,
+      "position": 82,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "g_QJ47qB3bI"
@@ -4074,7 +4176,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "uC34BwcuYJ1A5BclIa7LZtKQtsM",
+    "etag": "Mmq-rSesOX6KR5aBoMzjymYNhrY",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4zODMyNzgxRTc3QzBBMjJE",
     "snippet": {
       "publishedAt": "2025-01-07T14:05:03Z",
@@ -4110,7 +4212,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 81,
+      "position": 83,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "nZi-2I9q_mM"
@@ -4125,7 +4227,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "HKuhZCfbGxq5lbCV8Pw-rB_0mF8",
+    "etag": "8Ew3sR3A7WW_8iufqUw5E4WJeH0",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai40Mzg1NEVCNkVCNjNGNDk0",
     "snippet": {
       "publishedAt": "2024-12-24T17:52:49Z",
@@ -4161,7 +4263,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 82,
+      "position": 84,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "bFoTx09CuvY"
@@ -4176,7 +4278,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "0ZmUrtGUKs4_JCGQf_U9xFpIq3A",
+    "etag": "lLoak4MmlIA0B96mIleftBJANDk",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai44OEYxMzRDRDg1REM4QjIw",
     "snippet": {
       "publishedAt": "2024-12-19T12:52:13Z",
@@ -4212,7 +4314,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 83,
+      "position": 85,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "blA6ytecUfA"
@@ -4227,7 +4329,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "ygy8tF6ik91ZHwouDL9zIyeHEok",
+    "etag": "mMNN6ZVfZGd8f5yh_VAmB9dVLUI",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5EMzdGRjBBQzVCNEY2NDhG",
     "snippet": {
       "publishedAt": "2024-12-12T23:05:02Z",
@@ -4263,7 +4365,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 84,
+      "position": 86,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "XAyjjlBWnI0"
@@ -4278,7 +4380,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "5frJJF5ENV8wT0Tp8l2xAq7pIz8",
+    "etag": "q80J9dCLsy4TCLE2g4jir0V3EIc",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai44QUE0MzNDRkM4RjA0Njcy",
     "snippet": {
       "publishedAt": "2024-12-05T15:55:28Z",
@@ -4314,7 +4416,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 85,
+      "position": 87,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "UKHXKEQscRg"
@@ -4329,7 +4431,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "1IkMmCktl1ZYfbF1D2RI1ehEhng",
+    "etag": "kLp7Z4OwAiSaGBKWqBN9kXBPvmY",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4zOTVGMDIwNzkzODk2QTQ1",
     "snippet": {
       "publishedAt": "2024-11-28T13:42:47Z",
@@ -4365,7 +4467,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 86,
+      "position": 88,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "A0_JBMHWi4Q"
@@ -4380,7 +4482,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "2kS2KucGLrf6S2XlOZ3c7ykBHrM",
+    "etag": "ZOcPILQLkLEnnocwMyRT-Lgh6JQ",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai43OTQxRDdENkQwNEZGMkQy",
     "snippet": {
       "publishedAt": "2024-11-21T18:13:13Z",
@@ -4416,7 +4518,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 87,
+      "position": 89,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "yxRC1LmuFx8"
@@ -4431,7 +4533,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "0ginLfch6ZhNlCVFlQum9MApyYw",
+    "etag": "fNDzi1Ydbee72xZHAXpwLXCAQx8",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5BMDNGMkVEMjBGMzNGNEJC",
     "snippet": {
       "publishedAt": "2024-11-14T10:56:15Z",
@@ -4467,7 +4569,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 88,
+      "position": 90,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "NWaeKqHECYw"
@@ -4482,7 +4584,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "G2GIxcH88jlNlOkUB2oYPWpnfmc",
+    "etag": "uzvMQLdPdssv2Q9de0arnepGiH0",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5BNTZDRUVBRkUwRDU3N0FF",
     "snippet": {
       "publishedAt": "2024-11-07T03:50:16Z",
@@ -4518,7 +4620,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 89,
+      "position": 91,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "L5S2s8u1ids"
@@ -4533,7 +4635,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "snKbpqnfHp5i2dELp7WtGSPwTqY",
+    "etag": "wvKFh-csv-yc6UI6gr695zvn-vo",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai44QjI0MDE3MzFCMUVBQTkx",
     "snippet": {
       "publishedAt": "2024-10-31T14:22:54Z",
@@ -4569,7 +4671,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 90,
+      "position": 92,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "4qv_rUWYWBo"
@@ -4584,7 +4686,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "KkVhGfxNugCTQQ1HNE5n7wmnWBs",
+    "etag": "tRcNQfPNVq2cCqPdUzzph7lQYE4",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai42MzE1QTJBMEI3NjI4Rjk5",
     "snippet": {
       "publishedAt": "2024-10-24T08:18:51Z",
@@ -4620,7 +4722,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 91,
+      "position": 93,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "Gj5Lxbc219o"
@@ -4635,7 +4737,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "nMLytC1PQpQOvbyYrdS-fdEIj4U",
+    "etag": "1qImQ4UrpH1q6Y-EAc2Xa8F5EgI",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4wM0I0QUQ0RDU2REQxNjJC",
     "snippet": {
       "publishedAt": "2024-10-17T07:18:05Z",
@@ -4671,7 +4773,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 92,
+      "position": 94,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "Q2OhP-TjF2Y"
@@ -4686,7 +4788,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "_fGSxAcMv1ivK0P5n_X_xlTWS5c",
+    "etag": "_UZfn50Ik2M0YUYh8plrQ4XPjOE",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai41NEI5MkYxNzc0MDczQUUw",
     "snippet": {
       "publishedAt": "2024-10-10T01:43:26Z",
@@ -4722,7 +4824,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 93,
+      "position": 95,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "VLKB08hs8og"
@@ -4737,7 +4839,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "lfeAESH-Ajy53YT4z4MJp7fVfpA",
+    "etag": "-jXkVIPKMmKfCKqwvXpst813ULc",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai43RjU3NEIyMjFBMEIxQ0ZF",
     "snippet": {
       "publishedAt": "2024-10-03T13:07:45Z",
@@ -4773,7 +4875,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 94,
+      "position": 96,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "uyEJ18UDFuU"
@@ -4788,7 +4890,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "xt3cd9ueYvNEYiVMtHvbKOsavws",
+    "etag": "qahgA5OKcPosFE1wOTI5kmgPJvs",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5ENjg2QjQ3OTVDOUE2QzYw",
     "snippet": {
       "publishedAt": "2024-09-25T23:47:40Z",
@@ -4824,7 +4926,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 95,
+      "position": 97,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "U_NKZiA4tNg"
@@ -4839,7 +4941,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "jWu8uTeg1kvXcJJSmVPMfNoe2ds",
+    "etag": "oz9zUntvgAi-ZGqqTjFELbfglGQ",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5DQTIzMEQyQTJBNDA4ODdF",
     "snippet": {
       "publishedAt": "2024-09-12T06:52:54Z",
@@ -4875,7 +4977,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 96,
+      "position": 98,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "75kPtc9Eyl8"
@@ -4890,7 +4992,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "pxPZEMa-zjhwF7ZBG4GZA9RpxRs",
+    "etag": "cWK6928C2IJ6dPXQFUZNzyYye7k",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai43MjE3M0ZBOUE4MjY1QTA1",
     "snippet": {
       "publishedAt": "2024-09-11T20:03:38Z",
@@ -4926,7 +5028,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 97,
+      "position": 99,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "W6RiR9grgPQ"
@@ -4941,7 +5043,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "0cA50XKvsmX1E9iZ1yBsQO87_K8",
+    "etag": "5l43qN4CStISC6NnIE_vwe1Qhek",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai40NUU5MjUxOUU1MDRGQzM0",
     "snippet": {
       "publishedAt": "2024-09-04T17:36:46Z",
@@ -4977,7 +5079,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 98,
+      "position": 100,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "4nCfW3pV2l8"
@@ -4992,7 +5094,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "C92oZHkMoH3aWinvp_zT7kFc8rA",
+    "etag": "vrLPBuAcnvTtPOjOZnwwzs7GU5E",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5BNTdEMTYxNTdFRkRFMUQ0",
     "snippet": {
       "publishedAt": "2024-08-28T09:46:36Z",
@@ -5028,7 +5130,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 99,
+      "position": 101,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "pTtYB_wyG0k"
@@ -5043,7 +5145,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "fnr1LxuYIJ0QXi7clGjf1Zq97xE",
+    "etag": "E2NqjT8Jc1XMsm0s4dR-TwyNXhA",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4zNTI2QjhBOThBN0JGQTEx",
     "snippet": {
       "publishedAt": "2024-08-22T10:54:35Z",
@@ -5079,7 +5181,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 100,
+      "position": 102,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "MhWNXSWtEnk"
@@ -5094,7 +5196,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "fpOQ_TgC8JpleD8RbpJ__imPncc",
+    "etag": "zrG9FdmCjFPUjkRrLswW4FK3JXs",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai40MkJFNUMzMTJDNkVFQjEy",
     "snippet": {
       "publishedAt": "2024-08-07T16:55:11Z",
@@ -5130,7 +5232,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 101,
+      "position": 103,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "d1Aw6IOt0dM"
@@ -5145,7 +5247,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "2zSv3z2Xjs_355jB6SAh52k_xVY",
+    "etag": "DIUyKagGmfLMkm2u8hMLg1mUmhk",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai41MjA2QjlEREM3NTE0RkJG",
     "snippet": {
       "publishedAt": "2024-08-05T07:02:21Z",
@@ -5181,7 +5283,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 102,
+      "position": 104,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "bJvucdlC7wI"
@@ -5196,7 +5298,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "VLXAXrVWSaooHmbwgaLCG2CbAh0",
+    "etag": "04dtmOJ7RGms4LIv3GRGpScA1_U",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4yMkNBN0M4QUJEQzYxMjA3",
     "snippet": {
       "publishedAt": "2024-07-31T16:53:53Z",
@@ -5232,7 +5334,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 103,
+      "position": 105,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "IQLP-MUbyeY"
@@ -5247,7 +5349,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "s2EBKsW0P5wopVLJ7PTz2IOrbqY",
+    "etag": "iTup2insYzjJBqfnT3_FuBdTlgs",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5BNjBCMUFCN0Q5QzUyMjlG",
     "snippet": {
       "publishedAt": "2024-07-22T14:25:09Z",
@@ -5283,7 +5385,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 104,
+      "position": 106,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "zu_wfOwkBak"
@@ -5298,7 +5400,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "nSEwsl3Ta3twVirsfUuyG6qoWBU",
+    "etag": "hK_vqbwCeAvttlWxuUrrSPRdH6k",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai40MkQ0RjUwRTlGMUU4N0ZG",
     "snippet": {
       "publishedAt": "2024-07-11T13:21:55Z",
@@ -5334,7 +5436,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 105,
+      "position": 107,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "5BU6bOm0W-s"
@@ -5349,7 +5451,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "M3_bV4sLjc9W-nX_AAPSwrQg0qM",
+    "etag": "hPQgQi9lYJt0fs1NvDLZ4xKMBIk",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4wOTkzRUNGQkU5QzI1QTA3",
     "snippet": {
       "publishedAt": "2024-07-09T09:43:12Z",
@@ -5385,7 +5487,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 106,
+      "position": 108,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "IKgUeA3OICQ"
@@ -5400,7 +5502,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "WukuEb_-q5nWWugOGPIe2AC0gKo",
+    "etag": "lgOycll9l7BMY_6maRCpqaYoneQ",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5DQzY2RDZFRUQyRDlDQkMw",
     "snippet": {
       "publishedAt": "2024-07-01T05:54:30Z",
@@ -5436,7 +5538,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 107,
+      "position": 109,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "Tuz6fxJjb0o"
@@ -5451,7 +5553,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "NF1zxBfa_eU_7s32GmzkaxaPir0",
+    "etag": "saIOaFmhOd93NYohqupl5oC8Syg",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai43Q0UyODJENjc3NDRCODU0",
     "snippet": {
       "publishedAt": "2024-06-20T05:56:14Z",
@@ -5487,7 +5589,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 108,
+      "position": 110,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "BOgl4UpkynU"
@@ -5502,7 +5604,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "2VQP-GlSIUNyIWpx9SAIkizjlTc",
+    "etag": "Z4_9N0-kNYLXrq6zLgoZdcRYCII",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4yM0YxNkQ4MTExRjg4RUI2",
     "snippet": {
       "publishedAt": "2024-06-20T04:01:53Z",
@@ -5538,7 +5640,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 109,
+      "position": 111,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "Ti5Ok0MevDo"
@@ -5553,7 +5655,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "VotCYRg2FGaX7upATZNR5lZ0yIM",
+    "etag": "tmT4UHrVKP3zO4cHG6WerpoM7xI",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4zQTkyMjEwN0U0QkU3RDg5",
     "snippet": {
       "publishedAt": "2024-06-12T18:35:29Z",
@@ -5589,7 +5691,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 110,
+      "position": 112,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "VBn9bbWNV3M"
@@ -5604,7 +5706,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "JpZwKH8NZbSuvaqiXQFTYDu0Tv4",
+    "etag": "3O3yEThB9akWMGn5Xz8JsUwY0Ho",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5DNzNDRDE1NzhGODQzODI2",
     "snippet": {
       "publishedAt": "2024-06-05T14:18:19Z",
@@ -5640,7 +5742,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 111,
+      "position": 113,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "KLN57BrVXTM"
@@ -5655,7 +5757,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "7B08-A_ZVx0uYMA8dpp1yJDqCVI",
+    "etag": "3nzA8cS_pXWlPZpVwdzKsTYi8nI",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai43MzBFRTZDMUM3OTY2RjQ4",
     "snippet": {
       "publishedAt": "2024-05-29T03:12:00Z",
@@ -5691,7 +5793,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 112,
+      "position": 114,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "Vid2Rymur2o"
@@ -5706,7 +5808,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "C2WpeEL0VD6mV0sTzH8h6ska_gw",
+    "etag": "tHR58ISukVo4pS5lhcVMzGe_3ho",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai45QzM0OUZCRDUyMTgwREVG",
     "snippet": {
       "publishedAt": "2024-05-15T08:40:23Z",
@@ -5742,7 +5844,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 113,
+      "position": 115,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "jK2-Hzz3S2o"
@@ -5757,7 +5859,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "csu5JMQKgbARB5z8_WxRMGkpTOk",
+    "etag": "FmQz3LpBhgPu4q1XhXpFyQJ2NNI",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5DMkM0MjQ3OTgwQzBCMEZB",
     "snippet": {
       "publishedAt": "2024-04-27T19:34:51Z",
@@ -5793,7 +5895,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 114,
+      "position": 116,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "-Ri9YRqrs7E"
@@ -5808,7 +5910,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "ZkR2q2oij8LnZ3XTA6-5eud4mUk",
+    "etag": "tJZqjxUkrqizugKXecIgV28iuEs",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5BRjY4NjdBRjA5RTdCMUMx",
     "snippet": {
       "publishedAt": "2024-04-14T15:25:31Z",
@@ -5844,7 +5946,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 115,
+      "position": 117,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "9ELGkyjgraU"
@@ -5859,7 +5961,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "c_4vt4yuLhrjXANmVydJSHn0khc",
+    "etag": "0STAIuJ8OUXmnQs99LHAiNRmysM",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai41RjU0OTVCQThDNUUwQzBD",
     "snippet": {
       "publishedAt": "2024-04-14T14:33:10Z",
@@ -5895,7 +5997,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 116,
+      "position": 118,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "lVU1Ncx2w4Q"
@@ -5910,7 +6012,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "BfNK8gQnnRWVTcKwxJ4db4BFKVQ",
+    "etag": "GEASxM0zLVKwqdzuZwCCDNUdEsM",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5EREU0QjZERDMzRDBGNTMz",
     "snippet": {
       "publishedAt": "2024-04-02T11:57:47Z",
@@ -5946,7 +6048,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 117,
+      "position": 119,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "GvbalQsou9M"
@@ -5961,7 +6063,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "5S7nXE_0mMxR80W_29Xqp3IlJ5Q",
+    "etag": "LOt2HaQdKx2nu2OQRrRxx3ukrhA",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5CNEFEOUNDRUMzMjVGMjc2",
     "snippet": {
       "publishedAt": "2024-03-24T20:50:14Z",
@@ -5997,7 +6099,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 118,
+      "position": 120,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "iSYjBPd23nY"
@@ -6012,7 +6114,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "ozJ5iA31LmYlx81JE29MlysOkzE",
+    "etag": "PRHJMszXbq5Se5NOgj6VmzW8LyA",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai45NDIzMEVBNjk5NTFGRDZC",
     "snippet": {
       "publishedAt": "2024-03-17T17:50:35Z",
@@ -6048,7 +6150,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 119,
+      "position": 121,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "zRnHJbh9H34"
@@ -6063,7 +6165,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "KgVI48vhJqeTB3CQPym4Ysie67U",
+    "etag": "5Fl7YoZ9l9uDTNSmszB9CEh2Um4",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5CODNEOTFERDNCQjU2ODhE",
     "snippet": {
       "publishedAt": "2024-03-17T17:27:41Z",
@@ -6099,7 +6201,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 120,
+      "position": 122,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "pLo4IkFeSUU"
@@ -6114,7 +6216,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "2N1go_QXZn6-OuePale6FDXSbqU",
+    "etag": "8Zi84MLx62FHh5AA7ldJuEs0SJM",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai40QTY5NjQzQkQzMjgwNjhD",
     "snippet": {
       "publishedAt": "2024-03-12T10:55:12Z",
@@ -6150,7 +6252,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 121,
+      "position": 123,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "XFY8HbDlqP8"
@@ -6165,7 +6267,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "kyZENM64XjHWiENurgKDRbp2JSQ",
+    "etag": "dVZ--ZxWixwuBlu6CpgVXt9dFlo",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5DNTU3ODQ4ODAzMjFERTI1",
     "snippet": {
       "publishedAt": "2024-03-10T16:32:49Z",
@@ -6201,7 +6303,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 122,
+      "position": 124,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "w0zBMo3YJl8"
@@ -6216,7 +6318,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "MQVG6MtNXTbN7fEJFFuoMrX7y2Q",
+    "etag": "q_8pWMdpUwnIOB1QcGvqeXb58aU",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4wMTIyMTBBMTA3RDUxNjlD",
     "snippet": {
       "publishedAt": "2024-03-05T18:58:56Z",
@@ -6252,7 +6354,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 123,
+      "position": 125,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "9OKfDnpFDN8"
@@ -6267,7 +6369,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "_1Rgox2dSONkGGXylbwTBwOJI_Q",
+    "etag": "V8EejsE5LhMSlOfNicDh6UviWDI",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai40Q0JERDMxNzcwNTk1M0Y0",
     "snippet": {
       "publishedAt": "2024-02-27T08:53:55Z",
@@ -6303,7 +6405,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 124,
+      "position": 126,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "JqS7Y9329Pg"
@@ -6318,7 +6420,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "x38dw6SoWE8MmvzfTM10pH_XOzk",
+    "etag": "sInJJe7fDgAGKc8eKqARK7FVPgU",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5BNTRGQTE1QjY2NUE5NTAz",
     "snippet": {
       "publishedAt": "2024-02-13T17:16:35Z",
@@ -6354,7 +6456,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 125,
+      "position": 127,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "89laYNrnuyE"
@@ -6369,7 +6471,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "Y4TNUEqYQxLFLPjZo5hLkYPdUQM",
+    "etag": "L4MAHHMAt6quOAF-t1nEStLQ_VE",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5FMjFERkYxMjI2NjkyMjg5",
     "snippet": {
       "publishedAt": "2024-02-04T20:16:45Z",
@@ -6405,7 +6507,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 126,
+      "position": 128,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "G_HU4nlEfiU"
@@ -6420,7 +6522,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "lBCuft_p4edLDtc0U7ec8EIKPME",
+    "etag": "LBPFnmvaVBcpH7zM0_mOZv41cSs",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4zMkY2MjA3RDJERTkxNjkz",
     "snippet": {
       "publishedAt": "2024-01-29T20:34:20Z",
@@ -6456,7 +6558,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 127,
+      "position": 129,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "DnVjDIdN11M"
@@ -6471,7 +6573,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "VfJgZyIzs1Wm3DjVn_L6QcF3wPs",
+    "etag": "AbHPZu8YW1nyhFXwZ8QKfkzZnmw",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5DNUEzOUFFNkIyOUUzOTRC",
     "snippet": {
       "publishedAt": "2024-01-22T10:52:49Z",
@@ -6507,7 +6609,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 128,
+      "position": 130,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "CR9sgcCVfZ4"
@@ -6522,7 +6624,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "6sl6RKFXPfEaRXnGuiQcFJD8_gI",
+    "etag": "5N_QB5TUUKbTHAKzi9pKvQ6AdrU",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4xRjE1NzQ4MjRCMUNFRDdB",
     "snippet": {
       "publishedAt": "2024-01-16T09:26:56Z",
@@ -6558,7 +6660,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 129,
+      "position": 131,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "8zO3gQprgoA"
@@ -6573,7 +6675,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "DcLe26KfNekB2NXP4l7gRcBcKIk",
+    "etag": "6PjQzWjLc1eXvAaHORSfHJzgwjs",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5EQTdFNDU3M0Y3MTM1QjlG",
     "snippet": {
       "publishedAt": "2024-01-08T18:55:48Z",
@@ -6609,7 +6711,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 130,
+      "position": 132,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "opoMn8o4SWw"
@@ -6624,7 +6726,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "axjYDPdXPJyhCELr_2PumGL5KVM",
+    "etag": "btU_U1BPbY4kkvyyKyBBB4aXujI",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4wNjIzRDA1OTQ2M0UyODEw",
     "snippet": {
       "publishedAt": "2023-12-29T02:21:50Z",
@@ -6660,7 +6762,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 131,
+      "position": 133,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "oWSX35e6PR0"
@@ -6675,7 +6777,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "aKzL3sgX3Ay5Y9Ho2V9K8H8eiwc",
+    "etag": "lQ6seLdTG3w7TSY2d8NcLxjQ22g",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4wQjA4QkVEQ0RFREIzMjFC",
     "snippet": {
       "publishedAt": "2023-12-24T17:43:10Z",
@@ -6711,7 +6813,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 132,
+      "position": 134,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "vkIr0eMuwyM"
@@ -6726,7 +6828,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "KMOneOH17JPSKghIh2qF6W3O-cE",
+    "etag": "TJ_xL6H05_iMbJiPbPUDIRuTJsA",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai41QTQ4QTIyM0Y1RTBGMUNE",
     "snippet": {
       "publishedAt": "2023-12-17T20:45:50Z",
@@ -6762,7 +6864,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 133,
+      "position": 135,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "xwpaWV5VCT0"
@@ -6777,7 +6879,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "lDbUqY2SZvAoTr0ACPYtULDQuc4",
+    "etag": "bZ6bdbzg6CXAOgmNrudUe-DSBJo",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5CRjBFOTUzQTE4Mjg3RUJF",
     "snippet": {
       "publishedAt": "2023-12-12T02:16:21Z",
@@ -6813,7 +6915,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 134,
+      "position": 136,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "AiM2HxHhU80"
@@ -6828,7 +6930,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "Q709ve5DuVXtEkn4vEKYnG95yN8",
+    "etag": "mEEsEsK9Pa5ms8BHXxl6u1xqlmM",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5ENUI5OTFCQkYxNDUxQjQ3",
     "snippet": {
       "publishedAt": "2023-12-06T15:51:28Z",
@@ -6864,7 +6966,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 135,
+      "position": 137,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "t8lY2rMBniE"
@@ -6879,7 +6981,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "awLeaxcjBgBZ4hygJ6A0n08jPkw",
+    "etag": "c69CsZBSJ_bucUF4Xq93J5hFCNs",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai43RjdBQTMwNUUwRTA1QkE3",
     "snippet": {
       "publishedAt": "2023-11-25T19:31:05Z",
@@ -6915,7 +7017,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 136,
+      "position": 138,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "B7AxbTbCmeY"
@@ -6930,7 +7032,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "gFBONsTzucf6HrfllqUH0tBPWgo",
+    "etag": "HkQCWsnCP9GAl9bixP5zXXATJug",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5CMDk1Q0MxREYyOTVEOTZF",
     "snippet": {
       "publishedAt": "2023-11-18T12:55:50Z",
@@ -6966,7 +7068,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 137,
+      "position": 139,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "JzwMEUb7TaE"
@@ -6981,7 +7083,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "C2nswmL5aZsL3N0_eIeh3SjA-yw",
+    "etag": "0kdiPmMUAqAOH-nJhrWVk5N-m5U",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai44NzQ1OTI1OUFFM0NFRTc5",
     "snippet": {
       "publishedAt": "2023-11-12T15:10:46Z",
@@ -7017,7 +7119,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 138,
+      "position": 140,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "FF89jvbX45A"
@@ -7032,7 +7134,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "5UOWmup-ddW0fG9jWEPAmBwLjXQ",
+    "etag": "Epy5eEk-akektqJZuKGEL4tCqlk",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5DODY2Qzc5Mzc1QkZEQ0NF",
     "snippet": {
       "publishedAt": "2023-11-05T16:00:03Z",
@@ -7068,7 +7170,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 139,
+      "position": 141,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "e4d_78OBD94"
@@ -7083,7 +7185,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "htpqeL4iwUS8c3SthUfuPOm-W4k",
+    "etag": "6mRGKWDuM20yM5sqPiPSzfDujxE",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai40MzEwNkU4RUE0MjhBRjg4",
     "snippet": {
       "publishedAt": "2023-10-28T23:50:05Z",
@@ -7119,7 +7221,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 140,
+      "position": 142,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "RngYpbJXL6c"
@@ -7134,7 +7236,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "18xOYf-xJrA7IosZW3lkOca_gTs",
+    "etag": "Xint7HrWnLo6_1BLd5vVH99iXxk",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai42RDgxQ0M2OUIwREZCNjZF",
     "snippet": {
       "publishedAt": "2023-10-21T18:52:17Z",
@@ -7170,7 +7272,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 141,
+      "position": 143,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "UcEHLywtz1w"
@@ -7185,7 +7287,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "UTLEdks43PQUGIHbz2eMB6f9KQc",
+    "etag": "Q-64YOTMPSofZ7lTMrlcUoxFyTE",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai40ODU2MTBGM0M5MkIwQzU0",
     "snippet": {
       "publishedAt": "2023-10-16T10:55:28Z",
@@ -7221,7 +7323,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 142,
+      "position": 144,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "yFgBGP3t96A"
@@ -7236,7 +7338,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "HRBC4ydOuigYzgIsxhR-FE0WdSI",
+    "etag": "pduwI4jIfqYd1mBVQo3bkaZLwVM",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai44REI4QUZDRDI5MDc4Q0NF",
     "snippet": {
       "publishedAt": "2023-10-08T14:43:24Z",
@@ -7272,7 +7374,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 143,
+      "position": 145,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "Ly3d1UVSBlI"
@@ -7287,7 +7389,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "qndtgb_jQDM7mYqqBlYH89-xoVM",
+    "etag": "53ZEbpN2sVrDeuUnnQ2GeUr8iLE",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5FQjcyRDZBMEMyNTY3OTdE",
     "snippet": {
       "publishedAt": "2023-10-03T10:57:22Z",
@@ -7323,7 +7425,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 144,
+      "position": 146,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "8RXowHKuo3k"
@@ -7338,7 +7440,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "CcZq9_dB6KRveKzo2lgXtdD73Iw",
+    "etag": "In-EgnlwVpfv9JySQe_sNUUG6vc",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4wMEMyQTBBOTUwNTM0OUFG",
     "snippet": {
       "publishedAt": "2023-09-24T20:41:10Z",
@@ -7374,7 +7476,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 145,
+      "position": 147,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "xmn_ip6cArs"
@@ -7389,7 +7491,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "cwxxLf4oEZVkteoS0Pv0HGf4gmE",
+    "etag": "VUA3ZsASTt9Onb8RJkRk7Egfw0A",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai44M0Q5MzQ0QTcwQzFDMjc5",
     "snippet": {
       "publishedAt": "2023-09-16T13:08:24Z",
@@ -7425,7 +7527,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 146,
+      "position": 148,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "61oYRCeTySw"
@@ -7440,7 +7542,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "SeEsku1nVQV_A0sLKSBPdkP4fe4",
+    "etag": "CletAAm_S_0PxZV-wtiSLJfk6CU",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5EN0U0NTk3NzIwMjUxN0M3",
     "snippet": {
       "publishedAt": "2023-09-09T17:36:39Z",
@@ -7476,7 +7578,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 147,
+      "position": 149,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "VEtJuduCUEc"
@@ -7491,7 +7593,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "pp65MyD_92LM7YFgwRUKKXMX4bU",
+    "etag": "xX0O27iaTGnIZteC8jPIE637TVc",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5BQzRBQzNEOTgzNTU2QkZB",
     "snippet": {
       "publishedAt": "2023-09-05T11:05:50Z",
@@ -7527,7 +7629,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 148,
+      "position": 150,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "2EPJBdoIFCU"
@@ -7542,7 +7644,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "QHqB8oxagzuyg6YaIVg4Z0HJ_XE",
+    "etag": "tgqDVaapngbCz-o2f8gTFt2zdN8",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4zNEMzQ0FDREY1MkE1RkQ1",
     "snippet": {
       "publishedAt": "2023-08-14T11:04:51Z",
@@ -7578,7 +7680,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 149,
+      "position": 151,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "VGYGOU0aCRQ"
@@ -7593,7 +7695,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "B9XoN-E9en8OtQ-w3CDbOvbxuM4",
+    "etag": "CkoWUJjDj_L5ccRx6mOyVE8v5I0",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai45MEI3NjgzMTVFQkZGODYx",
     "snippet": {
       "publishedAt": "2023-08-06T19:40:20Z",
@@ -7629,7 +7731,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 150,
+      "position": 152,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "0Dir0fmx0n0"
@@ -7644,7 +7746,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "y5dhHnlTLJYhB0MxzyMyETtOLrE",
+    "etag": "idrrCLKCpGFrSVjOSfxwv1d3Bt0",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5ENjg3MEUyQ0IzODMzQThB",
     "snippet": {
       "publishedAt": "2023-08-06T13:32:45Z",
@@ -7680,7 +7782,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 151,
+      "position": 153,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "6GkaayEwhZ8"
@@ -7695,7 +7797,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "TcL__SgthBnKaNC7PjXWwwHwhAo",
+    "etag": "SKqFq_ciWIU1PMMVBfUXYVwCUMA",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai41MzJFNEYxODEyNzA0QUUx",
     "snippet": {
       "publishedAt": "2023-07-24T13:15:18Z",
@@ -7731,7 +7833,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 152,
+      "position": 154,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "4sGP2WBh3IM"
@@ -7746,7 +7848,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "lNfAqAUKkACGlvFPk__0sh895dk",
+    "etag": "v3-TLtrLjflYsyXoPYb_SqScR9k",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5EODkyNDMzRkJBNkQ2NkMz",
     "snippet": {
       "publishedAt": "2023-07-16T16:56:03Z",
@@ -7782,7 +7884,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 153,
+      "position": 155,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "PlsMGIapC-4"
@@ -7797,7 +7899,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "_4cZOu_TuTQ6cZoh4YGcnN4lYgY",
+    "etag": "-rgGGfH3-jif4kkx8HtrGofJbmg",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5BRUVCN0E0MzEwQzAwNjMy",
     "snippet": {
       "publishedAt": "2023-07-09T19:30:39Z",
@@ -7833,7 +7935,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 154,
+      "position": 156,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "e0T7d-kqsJQ"
@@ -7848,7 +7950,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "NWtoJnK_M66HbBHeQ8TJZokKhF8",
+    "etag": "fwKb0Dbsoig6CvDxztnRnHdJqoo",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai41NUMwNTVERDNBRDc4REM0",
     "snippet": {
       "publishedAt": "2023-07-04T10:09:13Z",
@@ -7884,7 +7986,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 155,
+      "position": 157,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "FoRP1HgPJdM"
@@ -7899,7 +8001,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "cfbqXxBYcx1twC8a3XL9JGH4RyQ",
+    "etag": "dI93uNO7u5t7xiEFKBi-WKCSMhQ",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4wQTI4OEZFRUE0Q0Q3ODQw",
     "snippet": {
       "publishedAt": "2023-06-25T20:14:50Z",
@@ -7935,7 +8037,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 156,
+      "position": 158,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "_nF0CYEvD3w"
@@ -7950,7 +8052,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "_aJO0P4pbGxJuzqTNmscouSleh0",
+    "etag": "ftFpYUQONYSHsMPuXiEC05zicD8",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4xRDJGOTc4RkUxMzUwMUFG",
     "snippet": {
       "publishedAt": "2023-06-18T19:16:16Z",
@@ -7986,7 +8088,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 157,
+      "position": 159,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "SXglkGX4VFw"
@@ -8001,7 +8103,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "f7JryTir3qSyWP3vQnaCpWZh6sw",
+    "etag": "_AFS9-ssf-rwIKzusra1rbjFMcM",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4wMDkwRkI3NzExODA2MTFG",
     "snippet": {
       "publishedAt": "2023-06-18T10:03:40Z",
@@ -8037,7 +8139,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 158,
+      "position": 160,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "oIbmELFI9EM"
@@ -8052,7 +8154,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "AGqw74jc9c2MZzA8fJSExCijQd4",
+    "etag": "_SC0qwVejyW4RFwbrycn86xEBqg",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5ERkRDQjY0N0Y0Q0VFOTdC",
     "snippet": {
       "publishedAt": "2023-05-20T20:29:34Z",
@@ -8088,7 +8190,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 159,
+      "position": 161,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "21jJJ7IMm4c"
@@ -8103,7 +8205,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "6fMYoTxt8DNGAUO-qYLmRxAwg6o",
+    "etag": "z2erTgrY28K9rtzXKrIDsfy3QXE",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5BRDg1NUY1OTY2QzgzOEM0",
     "snippet": {
       "publishedAt": "2023-05-15T09:00:45Z",
@@ -8139,7 +8241,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 160,
+      "position": 162,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "qyDBIiQjrfQ"
@@ -8154,7 +8256,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "kbCj7pwIg6qht8rEtavwzzQpflc",
+    "etag": "-_gKaVbQ1PL3u8JwO_ujbTI4PJE",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai42NEZDNTU0RTRENDUzRjMz",
     "snippet": {
       "publishedAt": "2023-05-11T07:59:13Z",
@@ -8190,7 +8292,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 161,
+      "position": 163,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "HECna2POTZ4"
@@ -8205,7 +8307,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "ueGLDkVZtHW5gDhb1oEr2RV4nPE",
+    "etag": "GigJquvG_bDlwRFwWKGRerGQHuY",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5ENEEyOTIwNkY4NzFGMkQ2",
     "snippet": {
       "publishedAt": "2023-05-07T14:22:35Z",
@@ -8241,7 +8343,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 162,
+      "position": 164,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "X7AbVCPL78c"
@@ -8256,7 +8358,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "vlaLCmzSTN6CsDtLVYqr5eZu8CY",
+    "etag": "1nmszgbdEZhUuctzRpD5aO0lIrE",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai43NjE5NDdDRTdENjQ3RTkw",
     "snippet": {
       "publishedAt": "2023-05-06T13:30:12Z",
@@ -8292,7 +8394,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 163,
+      "position": 165,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "k1QudHiOP18"
@@ -8307,7 +8409,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "PNEY5Pz0KBD2N8Robk7IZJgNt2A",
+    "etag": "QvzdxYvzHN64pDn9Fhakq2cM3mk",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4wRkVBNUY4OTkzN0JCNTA2",
     "snippet": {
       "publishedAt": "2023-05-06T11:25:44Z",
@@ -8343,7 +8445,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 164,
+      "position": 166,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "_jI3VpQvc-g"
@@ -8358,7 +8460,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "gx8QTPJdf8Jaaasxl9qr0CfUpZk",
+    "etag": "0kmD6H4YPVXvON5dKE_0RElIyUo",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai43RDg3MzJDMTRFMTZFOTAw",
     "snippet": {
       "publishedAt": "2023-04-23T14:42:51Z",
@@ -8394,7 +8496,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 165,
+      "position": 167,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "CtzCLeyl9Wc"
@@ -8409,7 +8511,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "RFlp-stqAnwA5pf0MO2g50Bqbgc",
+    "etag": "9Owb3oZqmttmzok8Gm9sqxaA6lc",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5BNzdEQzY0REQzQTEyN0U3",
     "snippet": {
       "publishedAt": "2023-04-22T16:18:24Z",
@@ -8445,7 +8547,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 166,
+      "position": 168,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "CxJ_3I3r1DU"
@@ -8460,7 +8562,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "a-POtNt9oTp_UraT2io-zU68xpQ",
+    "etag": "QNlIk5l3vWiqYdEH0Jq0ek-LgIA",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5EODgyNjY4MzA3QzY5RTkx",
     "snippet": {
       "publishedAt": "2023-04-09T15:03:17Z",
@@ -8496,7 +8598,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 167,
+      "position": 169,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "Fh36SXMYHy0"
@@ -8511,7 +8613,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "mUUaNvGuNcTrARodQZGNcIE1o88",
+    "etag": "0GiC6ZcQQGI4jRZLGTBWrLsQ3kE",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4wN0FBRUVFNEVBMTZBQ0Mx",
     "snippet": {
       "publishedAt": "2023-04-02T21:05:53Z",
@@ -8547,7 +8649,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 168,
+      "position": 170,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "jKbNCLKb0Q0"
@@ -8562,7 +8664,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "t1F_40ElEgxa2Dbr_IYfXRJHGyQ",
+    "etag": "yFCwPAFjAmXdZ4RLdlAXg7cG7sU",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4zNDIxRUJGQThFRTg1QzAy",
     "snippet": {
       "publishedAt": "2023-03-22T18:33:29Z",
@@ -8598,7 +8700,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 169,
+      "position": 171,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "2xZOYvDsYzA"
@@ -8613,7 +8715,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "zAwRIDv5UliKWcyP-XJgskyRj5E",
+    "etag": "k9HWRbt-0RF55tbkEOSHUMzGKKI",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4yOTZGRTNEQ0ZGNUM5RDgw",
     "snippet": {
       "publishedAt": "2023-03-21T15:35:41Z",
@@ -8649,7 +8751,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 170,
+      "position": 172,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "GGfqXWo5YoM"
@@ -8664,7 +8766,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "XJqq6DT_mJFelMm1Gx62sFgEDVI",
+    "etag": "-THrtilVkbl52Kl7O0n-VcwKBhQ",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5CQzUwREI3MzkxQjdBM0E0",
     "snippet": {
       "publishedAt": "2023-03-12T17:10:54Z",
@@ -8700,7 +8802,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 171,
+      "position": 173,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "oxg90YcLvTQ"
@@ -8715,7 +8817,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "kfB5VnaZjQSJ8WcZjzAIeCIUSug",
+    "etag": "Nt3MCuLkKBB4wl3HaFsfpkf0Xvc",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai40OTQ5QjlEMDgzN0FBNUIw",
     "snippet": {
       "publishedAt": "2023-03-04T15:37:50Z",
@@ -8751,7 +8853,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 172,
+      "position": 174,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "vZRCjJhrMRs"
@@ -8766,7 +8868,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "qRqheaH4mWgJgDWY8dQBY1ULcW8",
+    "etag": "rinS2mSTnxRl2alv8x7i-fA_9wo",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai43ODA2MDVCQzY5QzZDMjUw",
     "snippet": {
       "publishedAt": "2023-02-26T10:29:41Z",
@@ -8802,7 +8904,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 173,
+      "position": 175,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "-FtUkobgg00"
@@ -8817,7 +8919,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "qhs2-NMzl1D2gIEncqQsJ9TMqPM",
+    "etag": "deT1CV8FuBFDIHFiz_tNyUIeHjw",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5GNzk2RTlDQTNCQzJCQzJG",
     "snippet": {
       "publishedAt": "2023-02-19T21:34:34Z",
@@ -8853,7 +8955,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 174,
+      "position": 176,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "SxESJaJEryA"
@@ -8868,7 +8970,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "aekhxPTze-mMS_XKvHdHSJRpx8U",
+    "etag": "JzlL52SRLDmQ6PXZpVIbnjN_Rck",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai44QjNCNkRENjNFQTBEMUND",
     "snippet": {
       "publishedAt": "2023-02-12T13:02:42Z",
@@ -8904,7 +9006,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 175,
+      "position": 177,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "PWuqzqD2in4"
@@ -8919,7 +9021,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "11COG2olQ8LNi4WBfXAxkGj7oaA",
+    "etag": "t99y_RDVZq6JFKqbdQtIo_SOBJ8",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5EMUJFNzRCNDRFQjE5RjM4",
     "snippet": {
       "publishedAt": "2023-02-04T21:40:40Z",
@@ -8955,7 +9057,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 176,
+      "position": 178,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "4IwbxfCvHok"
@@ -8970,7 +9072,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "2FbQrquA6Vvo-eysvw31rQVRu80",
+    "etag": "7GGHBZWLiEihvQe5T23ZpOTfdLQ",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5CNEYyNTVBNDdGMDI1MDNC",
     "snippet": {
       "publishedAt": "2023-01-29T22:41:34Z",
@@ -9006,7 +9108,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 177,
+      "position": 179,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "UJ0XRK69b0Q"
@@ -9021,7 +9123,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "zPmQ_xKqzw76VpkAIMgRiooD-c4",
+    "etag": "ZNmfcB4Htdt2NQdIvUfybecu9AY",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai41ODIyMTgwQzA4NjJCQkZC",
     "snippet": {
       "publishedAt": "2023-01-22T21:54:32Z",
@@ -9057,7 +9159,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 178,
+      "position": 180,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "porHrcX24v8"
@@ -9072,7 +9174,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "5pyBfY05or4E8MO72-Q4yFMtSRw",
+    "etag": "7MKjJNGtsS3KPRQslwoLUWyqTXU",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5FRjdGNDMzN0I2RTI3MDlG",
     "snippet": {
       "publishedAt": "2023-01-22T15:01:41Z",
@@ -9108,7 +9210,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 179,
+      "position": 181,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "JIogL2FiAls"
@@ -9123,7 +9225,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "wXL1lgF4KChMGAzSaXRujtZ5pMc",
+    "etag": "2ibJUpcZljobiuJp3-rI1g9OpBE",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai41RDUzRjJFQ0Y0MUI3NzU1",
     "snippet": {
       "publishedAt": "2023-01-15T19:45:47Z",
@@ -9159,7 +9261,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 180,
+      "position": 182,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "EY9COujDflE"
@@ -9174,7 +9276,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "ec9EIV2H2sm1jGIhPzZlBgEaB7U",
+    "etag": "WkUK4dSyW_UsUk0fZKMKdpTxF3o",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5ERENFNTk4Q0Q2MTZDMTA5",
     "snippet": {
       "publishedAt": "2023-01-08T12:39:13Z",
@@ -9210,7 +9312,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 181,
+      "position": 183,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "PnsEvJVKSMk"
@@ -9225,7 +9327,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "izorWU9JtB2AkeVyBjJVy1nOcvY",
+    "etag": "UBZVaMlbK9kxkuaiJ5_4vHHd3GM",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4yM0EyQ0U1M0I2RkIwNTQ0",
     "snippet": {
       "publishedAt": "2022-12-11T12:31:17Z",
@@ -9261,7 +9363,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 182,
+      "position": 184,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "yx9FtLcwOSo"
@@ -9276,7 +9378,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "9gCOUPvay3j6hfEE2wLeWZnEqP4",
+    "etag": "mljdN_imm6De-P2G56rEw6xcwbM",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4wQUE0QzM4MkJGQ0YwQjUx",
     "snippet": {
       "publishedAt": "2022-12-04T11:43:31Z",
@@ -9312,7 +9414,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 183,
+      "position": 185,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "6k8UHQ3lE1U"
@@ -9327,7 +9429,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "1aetKQE_T6j3yJSQpfU-4qpEELw",
+    "etag": "sezDstfl47E16Z-4BKtG0q9Cv0U",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5GMDBDNkJGMzYzREUyMTYw",
     "snippet": {
       "publishedAt": "2022-11-27T13:49:52Z",
@@ -9363,7 +9465,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 184,
+      "position": 186,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "4W3nv8d8EvM"
@@ -9378,7 +9480,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "xB2Rv-tOdzLH8V50jzQY2KyOYEw",
+    "etag": "kAGm1wUqH97UMPUEb4d1veQ2e4o",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5CMUM0NzY5NzdEQzlGRjAx",
     "snippet": {
       "publishedAt": "2022-11-20T16:33:57Z",
@@ -9414,7 +9516,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 185,
+      "position": 187,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "y6gLgl56V3c"
@@ -9429,7 +9531,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "aQiP_m1_YAiwgK9L2gC2bU2t4Wk",
+    "etag": "A5qvdeYHLh54-gkMy-W8ceOVmIk",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5EMzJDRTUwQjBEOUVFQzAw",
     "snippet": {
       "publishedAt": "2022-11-14T21:42:01Z",
@@ -9465,7 +9567,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 186,
+      "position": 188,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "eVPw_UFZGb0"
@@ -9480,7 +9582,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "8AUHGleYT-yaJ-E_i3uV3qk2gp4",
+    "etag": "OYM6s82hUgx4IvN7vdzlDJfkdtE",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai40NzE2MTY1QTM3RUI3QkU3",
     "snippet": {
       "publishedAt": "2022-11-14T21:39:26Z",
@@ -9516,7 +9618,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 187,
+      "position": 189,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "ltGOxbi-aWg"
@@ -9531,7 +9633,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "RBVHE1p8reRGFbqw5pxQYC1cb5w",
+    "etag": "YN467qm7SrRcB1NUnY4PR2L89VU",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai44MkM2RjVEQkQ5N0I2MjVE",
     "snippet": {
       "publishedAt": "2022-10-29T21:00:43Z",
@@ -9567,7 +9669,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 188,
+      "position": 190,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "LXr7TKBg6gk"
@@ -9582,7 +9684,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "MHfXcIdR-8uSQ9eYGdVfyJ6mfQM",
+    "etag": "VfkmdbL_9rr35BuHxF6fDao_YHo",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai44QTA1QTQyRTc3M0VGQzYx",
     "snippet": {
       "publishedAt": "2022-10-22T15:25:51Z",
@@ -9618,7 +9720,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 189,
+      "position": 191,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "YjyPshP_Ul4"
@@ -9633,7 +9735,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "e3DzCbRKLEGGn9hBEOY4Mv8VTiw",
+    "etag": "jEoFzfuED2XpRY6lEwU-4i6gOkM",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4wMDFGNzBEOTU4Q0Y1Q0RG",
     "snippet": {
       "publishedAt": "2022-10-15T18:25:24Z",
@@ -9669,7 +9771,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 190,
+      "position": 192,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "YKNz_0E5cQ0"
@@ -9684,7 +9786,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "F7uVvWuaU1Rp1OkSMNjYJwOlNOo",
+    "etag": "xh9qgNFrBXS8X5-Btay0Df3Odbk",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4xNTZBNUQxMDZBQzFGMjkw",
     "snippet": {
       "publishedAt": "2022-10-15T17:51:28Z",
@@ -9720,7 +9822,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 191,
+      "position": 193,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "G3N8WUzQNZE"
@@ -9735,7 +9837,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "UibYFGctx1GApPTO_A73_VupukE",
+    "etag": "K_LSqkaVzEAUYiJzhaNpIPk6m3U",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4zQTkzRjgxRTY0OEU0MkM3",
     "snippet": {
       "publishedAt": "2022-10-01T22:47:25Z",
@@ -9771,7 +9873,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 192,
+      "position": 194,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "mDh1PD8epPw"
@@ -9786,7 +9888,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "Xv__1TfA4K7lL7jFF5rEMgCC6V0",
+    "etag": "M6D75knYXO8ilkyV9QQg7_GEbko",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai44QTY2MEEzNzBFQUJCMUQ2",
     "snippet": {
       "publishedAt": "2022-10-01T22:44:52Z",
@@ -9822,7 +9924,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 193,
+      "position": 195,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "CRlwwq3bfZQ"
@@ -9837,7 +9939,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "4ORx9IZBPfALX6Lz8-i0s8YaW4A",
+    "etag": "0DJnv3GbBIgQ4vZL9b3kFUjfguY",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4xNjIyNEE0MDEyRDlCMjBE",
     "snippet": {
       "publishedAt": "2022-09-25T14:45:45Z",
@@ -9873,7 +9975,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 194,
+      "position": 196,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "ZGiT-MwR7tM"
@@ -9888,7 +9990,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "7Avga6TYbihzqHe28_7lPYJ6guc",
+    "etag": "GObaCq_7vN7abz4lPlko4HsVhK8",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5CMEVBRUJERkUyNTBENTkz",
     "snippet": {
       "publishedAt": "2022-09-18T14:25:30Z",
@@ -9924,7 +10026,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 195,
+      "position": 197,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "E3XCvd3MUDI"
@@ -9939,7 +10041,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "zZbzQqo83Ixp5AtYp4rFWQsW0Ow",
+    "etag": "cvj9BgBBV1cQFzoHNOVvj9qCnpQ",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5FQUY2Qzk4RUFDN0ZFRkZF",
     "snippet": {
       "publishedAt": "2022-09-18T08:53:11Z",
@@ -9975,7 +10077,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 196,
+      "position": 198,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "-nJwwFR-IGE"
@@ -9990,7 +10092,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "Tqcq3C5h1lhQ9PIe_n_yW4gpENk",
+    "etag": "aVXQXzzHGE0-LGeVzHVbCAUW0dI",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4xN0Y2QjVBOEI2MzQ5OUM5",
     "snippet": {
       "publishedAt": "2022-09-11T21:59:00Z",
@@ -10026,7 +10128,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 197,
+      "position": 199,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "ML-6G1IKV24"
@@ -10041,7 +10143,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "BwCC6UW8SluEP4q_-3lrLu8tfcE",
+    "etag": "jZ2zuel3Ls16A_BJ0wyM_O9qdfM",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai45NDlDQUFFOThDMTAxQjUw",
     "snippet": {
       "publishedAt": "2022-08-27T20:48:53Z",
@@ -10077,7 +10179,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 198,
+      "position": 200,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "Qo9ieNYJaV4"
@@ -10092,7 +10194,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "3-B0m3dfO6qODtdFPDAW2uMQCdE",
+    "etag": "dzYIsrgXDgrJSasvuoceEqXOfMI",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4yQzk4QTA5QjkzMTFFOEI1",
     "snippet": {
       "publishedAt": "2022-07-14T03:33:24Z",
@@ -10128,7 +10230,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 199,
+      "position": 201,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "YnsbUzGQXPI"
@@ -10143,7 +10245,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "A_zWutrFf6c6SUk35GDm3OjOPkA",
+    "etag": "YirugOcG8e0Oj9RMEx6d46XAg58",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5EQkE3RTJCQTJEQkFBQTcz",
     "snippet": {
       "publishedAt": "2022-07-06T18:39:20Z",
@@ -10179,7 +10281,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 200,
+      "position": 202,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "Nqciyj8pic8"
@@ -10194,7 +10296,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "Q5DfivY9BApshN4GK7WwNsoixs8",
+    "etag": "KJa1YVRSuGcluZ5UKu7C9_vsF-E",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai43QzNCNkZENzIyMDY2MjZB",
     "snippet": {
       "publishedAt": "2022-06-30T16:09:09Z",
@@ -10230,7 +10332,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 201,
+      "position": 203,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "Txh3oH8WMvE"
@@ -10245,7 +10347,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "E_z35EkbFnYFyk0JtrHTn_bNAvY",
+    "etag": "CRFKRP3IpY14vdQvOcRhyt2nMos",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai42RTNCOEMxREI3Q0VDMjU2",
     "snippet": {
       "publishedAt": "2022-06-23T01:23:20Z",
@@ -10281,7 +10383,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 202,
+      "position": 204,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "xoXdWHAPTrA"
@@ -10296,7 +10398,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "IbFLjXmntixTAccMrQxSt6BTdcE",
+    "etag": "W6F8DCDGzVjcOy_X-P_zoyd3Agg",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai42MjYzMTMyQjA0QURCN0JF",
     "snippet": {
       "publishedAt": "2022-06-16T00:51:36Z",
@@ -10332,7 +10434,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 203,
+      "position": 205,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "QAiisth9Slo"
@@ -10347,7 +10449,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "h_CNT9gpLMpcU9OXla9-1tkYxTE",
+    "etag": "1PTlDzb4qY52bz-8xJjU9cZzzw0",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4xM0YyM0RDNDE4REQ1NDA0",
     "snippet": {
       "publishedAt": "2022-06-07T01:25:54Z",
@@ -10383,7 +10485,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 204,
+      "position": 206,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "sQLMLyZW6aI"
@@ -10398,7 +10500,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "EMj3Re1Od2vtRGA4XEVsoZ7jkG8",
+    "etag": "tMPZ_WFF39F9Q3iCe_PtdufXk5g",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5ERkUyQTM0MzEwQjZCMTY5",
     "snippet": {
       "publishedAt": "2022-06-02T00:12:36Z",
@@ -10434,7 +10536,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 205,
+      "position": 207,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "vlV8NNGggbQ"
@@ -10449,7 +10551,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "JvuvbotLEgSayGPtZT08eYEU2Wk",
+    "etag": "vKMjEyyYGojQAiQLe3RTUu_CGak",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5CNTcxMDQ0NThBNzMxODYz",
     "snippet": {
       "publishedAt": "2022-05-26T23:54:12Z",
@@ -10485,7 +10587,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 206,
+      "position": 208,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "wEHEdX61-5M"
@@ -10500,7 +10602,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "1zscnBjcpZdrGGK3SadLK9RA9XE",
+    "etag": "HykqMRcXxeQE8-QR1fx9-Uj84Mo",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5CNTZFOTNGQzZEODg1RUQx",
     "snippet": {
       "publishedAt": "2022-05-19T11:14:05Z",
@@ -10536,7 +10638,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 207,
+      "position": 209,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "fDRDvr4B1vE"
@@ -10551,7 +10653,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "StAMyCsxlvQOp-GRC9fvT5x8z7I",
+    "etag": "TEOjWeH09nj4SXIrev1prVUJI14",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4wRjhFM0MxMTU1MEUzQ0VB",
     "snippet": {
       "publishedAt": "2022-05-19T11:13:53Z",
@@ -10587,7 +10689,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 208,
+      "position": 210,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "TmwEYuvOrVA"
@@ -10602,7 +10704,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "mN5P_I1_6lHaF57gjIceX6DGcRQ",
+    "etag": "LZLiGhVn6tXZWC0Li8IOdxciXps",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai41OURENDc2NEM1MDI5Mjky",
     "snippet": {
       "publishedAt": "2022-05-19T11:13:13Z",
@@ -10638,7 +10740,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 209,
+      "position": 211,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "M8B1i0Y5QnI"
@@ -10653,7 +10755,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "HR1Hw9Od2xDKvFQe3vORI_zADjY",
+    "etag": "xNneiquHntD-bjor96eumSj1qts",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai42QzdBMzlBQzQzRjQ0QkQy",
     "snippet": {
       "publishedAt": "2022-05-19T11:12:45Z",
@@ -10689,7 +10791,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 210,
+      "position": 212,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "jVkm7_O96w0"
@@ -10704,7 +10806,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "UhvbOZjKqlNKD7yaHxNX4RtlNkE",
+    "etag": "xljT9XGkto2L3s00XAhOhlEl_eI",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4zMUEyMkQwOTk0NTg4MDgw",
     "snippet": {
       "publishedAt": "2022-05-12T00:00:20Z",
@@ -10740,7 +10842,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 211,
+      "position": 213,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "yJSKm6pC3qc"
@@ -10755,7 +10857,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "vn2CjKYJ8wYInOQh1US7zUc3siM",
+    "etag": "voawLQR4yqMbGFxuLM87GTnZ-mY",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4wMTYxQzVBRDI1NEVDQUZE",
     "snippet": {
       "publishedAt": "2022-04-28T00:08:29Z",
@@ -10791,7 +10893,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 212,
+      "position": 214,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "ZCRHfAEgJQc"
@@ -10806,7 +10908,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "fua5CaaE7RKCBDtPYXW8LWPsEek",
+    "etag": "9o8tLw-z7nZBWb8lIxCD4k_nWbk",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4wNEU1MTI4NkZEMzVBN0JF",
     "snippet": {
       "publishedAt": "2022-04-17T12:17:06Z",
@@ -10842,7 +10944,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 213,
+      "position": 215,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "xCUlTkebpQE"
@@ -10857,7 +10959,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "Kbxg0_klNUcHSnb7fbO7GKzJFT4",
+    "etag": "7dtcgnumTd-PzXG-Hg7Umg6AhSQ",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5CQkEwRDA0MDkwNUM2MDY1",
     "snippet": {
       "publishedAt": "2022-04-17T12:17:01Z",
@@ -10893,7 +10995,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 214,
+      "position": 216,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "4lmRvNn_mrs"
@@ -10908,7 +11010,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "C_tmpJ2I8sB7H7zCJBQRIGKEeR4",
+    "etag": "WNvgLe3wKz93WihxLbVCFUnbiqM",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5GNjAwN0Y0QTFGOTVDMEMy",
     "snippet": {
       "publishedAt": "2022-04-17T12:16:57Z",
@@ -10944,7 +11046,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 215,
+      "position": 217,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "fpSMZt_VgDU"
@@ -10959,7 +11061,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "7MnRhRXoj_0IoZjdcoCnJymtE9A",
+    "etag": "V3D6cGBtAKmeDgfhe_xqWiv99Hc",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai43NERCMDIzQzFBMERCMEE3",
     "snippet": {
       "publishedAt": "2022-04-17T12:16:52Z",
@@ -10995,7 +11097,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 216,
+      "position": 218,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "HDMRTmtMFGY"
@@ -11010,7 +11112,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "D-UfwjmXQVg3RiciobyL9rwvalQ",
+    "etag": "cw04o9FlmmXSH2rfgJz9XxVWI9I",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai41NTZEOThBNThFOUVGQkVB",
     "snippet": {
       "publishedAt": "2022-04-17T12:16:47Z",
@@ -11046,7 +11148,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 217,
+      "position": 219,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "yW5FcePvFwo"
@@ -11061,7 +11163,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "VwbPTq9h3BoxSu_ct4SVMOwwjbw",
+    "etag": "nrVhkpeH1zeChvreX_4Ey_LBxmE",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai42Qzk5MkEzQjVFQjYwRDA4",
     "snippet": {
       "publishedAt": "2022-04-17T12:16:39Z",
@@ -11097,7 +11199,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 218,
+      "position": 220,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "XcruQDwhrwc"
@@ -11112,7 +11214,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "isw2ipGwc57quLqw9pmtX2bz9JU",
+    "etag": "5w4g0lknf5gYzp3AaOPWCgCnSV8",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4zMEQ1MEIyRTFGNzhDQzFB",
     "snippet": {
       "publishedAt": "2022-04-17T12:16:26Z",
@@ -11148,7 +11250,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 219,
+      "position": 221,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "so10gC-3JAo"
@@ -11163,7 +11265,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "eUAex6_lW0kznOFBdvTRKJC9dNI",
+    "etag": "Z7960Ie_PUN8Ee4wlSJYA2SHE5M",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4xMzgwMzBERjQ4NjEzNUE5",
     "snippet": {
       "publishedAt": "2022-04-17T12:16:13Z",
@@ -11199,7 +11301,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 220,
+      "position": 222,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "VgaZ2kA3KZo"
@@ -11214,7 +11316,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "csgaWFn-2A9JBEe0PeOFJ7z2gLA",
+    "etag": "bBFwrFbZYpf5VAkJQ0v6Wsf8w2U",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai44QzVGQUU2QjE2NDgxM0M4",
     "snippet": {
       "publishedAt": "2022-04-17T12:15:38Z",
@@ -11250,7 +11352,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 221,
+      "position": 223,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "0NLH72CIqDA"
@@ -11265,7 +11367,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "sCj28u7sq2shthLWndbA4nS0_l8",
+    "etag": "cbXH2-FHDwzq_MxJE76ZThiFYbQ",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5ENjI1QUI0MDI5NEQzODFE",
     "snippet": {
       "publishedAt": "2022-04-14T15:52:19Z",
@@ -11301,7 +11403,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 222,
+      "position": 224,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "XQlT26Yjvo8"
@@ -11316,7 +11418,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "IuWifAYLTofmK1aeMLBTLWG_57Q",
+    "etag": "11PBquSLNrSG-20qAMTke7h5Fqo",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai41RTNBREYwMkI5QzU3RkY2",
     "snippet": {
       "publishedAt": "2022-03-24T04:40:56Z",
@@ -11352,7 +11454,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 223,
+      "position": 225,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "20A8KEgk_Do"
@@ -11367,7 +11469,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "pSkl09ee3fAojkXabJDLcLthC4I",
+    "etag": "NQdZTuQ2PWBW_crk3N3HmtvcVJo",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai40QzRDOEU0QUYwNUIxN0M1",
     "snippet": {
       "publishedAt": "2022-03-16T23:07:31Z",
@@ -11403,7 +11505,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 224,
+      "position": 226,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "8c82bDIzKRM"
@@ -11418,7 +11520,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "5IDcL5FbQyJhpTTyVWrBYiqploA",
+    "etag": "l_8nFpsnBNeHigAsumJlzKlS7Xw",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4yQUJFNUVCMzVDNjcxRTlF",
     "snippet": {
       "publishedAt": "2022-02-24T04:43:36Z",
@@ -11454,7 +11556,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 225,
+      "position": 227,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "1dPv0Hkq5G8"
@@ -11469,7 +11571,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "gtlFqaB6Q-rNdfPgaDX_ktjBfj8",
+    "etag": "JjTyUDxjhEHuR4jWkNAMJuLGmJs",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4yQjZFRkExQjFGODk3RUFD",
     "snippet": {
       "publishedAt": "2022-02-17T16:43:31Z",
@@ -11505,7 +11607,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 226,
+      "position": 228,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "Hzgrv2PxbcE"
@@ -11520,7 +11622,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "0rtwNSVLySWDSi-JJoo9Mimel48",
+    "etag": "c-1RxFkzsAOH_bLrpSlHmNh11dw",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai41MzY4MzcwOUFFRUU3QzEx",
     "snippet": {
       "publishedAt": "2022-02-10T05:10:23Z",
@@ -11556,7 +11658,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 227,
+      "position": 229,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "ZX7d3ezRaoA"
@@ -11571,7 +11673,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "RAIkx2DnanWcIwENJ59yUK-wmaw",
+    "etag": "t0TOo1uzfDNUWuUX45tInkVL5Ww",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5DRUQwODMxQzUyRTlGRkY3",
     "snippet": {
       "publishedAt": "2022-02-06T01:51:51Z",
@@ -11607,7 +11709,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 228,
+      "position": 230,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "TY0XoMyEl_M"
@@ -11622,7 +11724,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "2j-StdO6hLI2dJZAKWCp9P9bHy0",
+    "etag": "1fxpHbtCLM5asSFwgFiaUf06CNU",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5DNkMwRUI2MkI4QkI4NDFG",
     "snippet": {
       "publishedAt": "2022-01-27T00:59:29Z",
@@ -11658,7 +11760,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 229,
+      "position": 231,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "WxXZB6j6e7k"
@@ -11673,7 +11775,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "CDOEQYBSoCzFimjSJ0E6hh3NYzE",
+    "etag": "CytOfBPLIEuTbh5AlF4o6hxndTQ",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai45NkVENTkxRDdCQUFBMDY4",
     "snippet": {
       "publishedAt": "2022-01-21T05:18:22Z",
@@ -11709,7 +11811,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 230,
+      "position": 232,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "zGtu9JHI7ok"
@@ -11724,7 +11826,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "BJtkeWY9ojuZZpMLXD_m0YHhhs8",
+    "etag": "lJY_z1rocxBZImH62TQE2OQpw4s",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4zQzFBN0RGNzNFREFCMjBE",
     "snippet": {
       "publishedAt": "2021-11-18T22:31:17Z",
@@ -11760,7 +11862,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 231,
+      "position": 233,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "hc5zzrb1aCM"
@@ -11775,7 +11877,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "tGCBF9-ipdbhFzE0yXFw8ZWpGF8",
+    "etag": "pDnRfAeT0InhZiSFGoYZfFTsXjA",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5BRjJDODk5REM0NjkzMUIy",
     "snippet": {
       "publishedAt": "2021-11-18T22:30:49Z",
@@ -11811,7 +11913,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 232,
+      "position": 234,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "BHJYml5rK0Q"
@@ -11826,7 +11928,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "xFv8y2MH1cgrrkrig9I2UAIIapE",
+    "etag": "VjnxG-ND5RAFHBzaZWrEH4Ur2M8",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5GNDg1Njc1QzZERjlFRjE5",
     "snippet": {
       "publishedAt": "2021-11-18T22:30:49Z",
@@ -11862,7 +11964,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 233,
+      "position": 235,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "VZc-VP-dvzk"
@@ -11877,7 +11979,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "kkF99vjryzVKD0519cbPxzBe9ro",
+    "etag": "IJF8rM7qAPHIUMv3N7aDzn7CUjo",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4xOTEzQzhBQzU3MDNDNjcz",
     "snippet": {
       "publishedAt": "2021-11-18T22:30:49Z",
@@ -11913,7 +12015,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 234,
+      "position": 236,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "Ug7KCnDxtSE"
@@ -11928,7 +12030,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "4JpuDZfFGkjR9pHflgPFdAfjxqY",
+    "etag": "mifXdlbY_GoWqmKfMLd9dYY3-ZY",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai45RjNFMDhGQ0Q2RkFCQTc1",
     "snippet": {
       "publishedAt": "2021-09-06T15:59:53Z",
@@ -11964,7 +12066,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 235,
+      "position": 237,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "CfBcdYU3fMM"
@@ -11979,7 +12081,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "uVL-NO-jpPBit-mrYv4DL9tulZs",
+    "etag": "nTIFf4qG5K5vQZ4qGuU59qi6K1E",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai42MTI4Njc2QjM1RjU1MjlG",
     "snippet": {
       "publishedAt": "2021-07-15T14:41:07Z",
@@ -12015,7 +12117,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 236,
+      "position": 238,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "g6E5vb6RRmc"
@@ -12030,7 +12132,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "KnxQ6oj_DeLj09ejYajT64l18Kw",
+    "etag": "yWrOOJGBp9afKH80ahuEeXhPpzs",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5CMEQ2Mjk5NTc3NDZFRUNB",
     "snippet": {
       "publishedAt": "2021-07-08T18:21:44Z",
@@ -12066,7 +12168,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 237,
+      "position": 239,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "K3WZ4DtTzbI"
@@ -12081,7 +12183,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "CbO6vjodTU8Jqga-z5CGDcj9Pyc",
+    "etag": "zIsqK9a4ZNfnUQDosXj3fdYI2Ps",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4zRDBDOEZDOUM0MDY5NEEz",
     "snippet": {
       "publishedAt": "2021-05-26T16:40:12Z",
@@ -12117,7 +12219,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 238,
+      "position": 240,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "oZUFAYmGQ9Q"
@@ -12132,7 +12234,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "JxTPKcFtWBqYdQSnnrTDJ0yI1zE",
+    "etag": "sb1j8i1fNiPiPJqqeZEHm55-270",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai41QUZGQTY5OTE4QTREQUU4",
     "snippet": {
       "publishedAt": "2021-05-19T21:58:50Z",
@@ -12168,7 +12270,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 239,
+      "position": 241,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "vAoz-vlkkoM"
@@ -12183,7 +12285,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "7rB3Qq_NawW9fafW4EzLKyJYb6E",
+    "etag": "X_YytUSvFGUMZCz7pJ4HFNRAonU",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai43NDhFRTgwOTRERTU4Rjg3",
     "snippet": {
       "publishedAt": "2021-05-13T02:11:46Z",
@@ -12219,7 +12321,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 240,
+      "position": 242,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "iLFBPryMX2M"
@@ -12234,7 +12336,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "_-QYp9INvmhLpLO8aMFQKuvqTjc",
+    "etag": "tAeiCEeFBiCXHPkZ4nYmLWg4qEM",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai44Mjc5REFBRUE2MTdFRDU0",
     "snippet": {
       "publishedAt": "2021-05-06T07:12:19Z",
@@ -12270,7 +12372,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 241,
+      "position": 243,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "ghMlpTPcKtM"
@@ -12285,7 +12387,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "dK5YvrjdEm-gdD7qUje-7zkHFVw",
+    "etag": "N6IRvRulsq8OjD3k376gAy5Z7yo",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5DMkU4NTY1QUFGQTYwMDE3",
     "snippet": {
       "publishedAt": "2021-04-28T20:31:22Z",
@@ -12321,7 +12423,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 242,
+      "position": 244,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "svTU7hVl76A"
@@ -12336,7 +12438,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "-7ItbkDophWMJ3RHMTushMhbp-4",
+    "etag": "W8ND6iOsEbo_ORbE1orrfG5lhWA",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4yQUE2Q0JEMTk4NTM3RTZC",
     "snippet": {
       "publishedAt": "2021-04-28T20:25:25Z",
@@ -12372,7 +12474,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 243,
+      "position": 245,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "63VqpA_g17s"
@@ -12387,7 +12489,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "6BBBTi6gPT7HhyP2Yt2TQ7gGpXU",
+    "etag": "Y7cwBZyLv-4dl9J0ez08JMzNz9o",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5DQ0MyQ0Y4Mzg0M0VGOEYw",
     "snippet": {
       "publishedAt": "2021-04-15T17:11:57Z",
@@ -12423,7 +12525,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 244,
+      "position": 246,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "EJArSww4rBA"
@@ -12438,7 +12540,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "96khbDDKKoV2suzJ7AXBHlgykdE",
+    "etag": "CldgjN4t-SOYNwFO2-oGSfTVReg",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai43MTI1NDIwOTMwQjIxMzNG",
     "snippet": {
       "publishedAt": "2021-04-08T13:20:23Z",
@@ -12474,7 +12576,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 245,
+      "position": 247,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "vfmDZzFyPo4"
@@ -12489,7 +12591,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "WBIO6ZXxSgxt4d42FWptF7JT2R8",
+    "etag": "1Bk5WZ9TGFjNU0JsFGmZFtszFK4",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5DNzE1RjZEMUZCMjA0RDBB",
     "snippet": {
       "publishedAt": "2021-04-01T06:13:33Z",
@@ -12525,7 +12627,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 246,
+      "position": 248,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "HC_YBTBP4sA"
@@ -12540,7 +12642,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "q2Lvzw7z5nkyaePI0k4bFIG9PYE",
+    "etag": "6bJX8EaQmEKj7rScmUipm4XJkoE",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai45NzUwQkI1M0UxNThBMkU0",
     "snippet": {
       "publishedAt": "2021-03-25T00:19:00Z",
@@ -12576,7 +12678,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 247,
+      "position": 249,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "gpjwEHd_UqE"
@@ -12591,7 +12693,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "ZT0VteB-Rqaz_UzNHOqmKojWA4M",
+    "etag": "wH4AjAcYdbv7QMDIWqoA42B8DyE",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4zRjM0MkVCRTg0MkYyQTM0",
     "snippet": {
       "publishedAt": "2021-03-18T03:57:54Z",
@@ -12627,7 +12729,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 248,
+      "position": 250,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "f5JKzY-_GkE"
@@ -12642,7 +12744,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "lEdxafUhUlbfiTKRuIvC-SxZBPY",
+    "etag": "RvI4JYzimzmaqVl6sU2VAV-BJAA",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5GM0Q3M0MzMzY5NTJFNTdE",
     "snippet": {
       "publishedAt": "2021-03-11T04:54:34Z",
@@ -12678,7 +12780,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 249,
+      "position": 251,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "0q8u_PKBBss"
@@ -12693,7 +12795,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "1PKxpItK5mnAlG4-v6HgoxxsqYE",
+    "etag": "SG7cx2UzsiJHwrHlP7_O741DcM8",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4yMDhBMkNBNjRDMjQxQTg1",
     "snippet": {
       "publishedAt": "2021-03-04T08:55:28Z",
@@ -12729,7 +12831,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 250,
+      "position": 252,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "Ibh28gyMqQA"
@@ -12744,7 +12846,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "ca6_o8ddozjRkx24sJGwlI67kBM",
+    "etag": "uSLLmNebPM5x25kURnHDc_MfCGM",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5ENDU4Q0M4RDExNzM1Mjcy",
     "snippet": {
       "publishedAt": "2021-02-25T06:27:59Z",
@@ -12780,7 +12882,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 251,
+      "position": 253,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "AofUjfBzFPM"
@@ -12795,7 +12897,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "EDN5u7-yVNk7eKFvvIrVQjNBou8",
+    "etag": "hb7wO3IfAgB_9omaxiW65nj0pVQ",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai45RTgxNDRBMzUwRjQ0MDhC",
     "snippet": {
       "publishedAt": "2021-02-20T07:49:53Z",
@@ -12831,7 +12933,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 252,
+      "position": 254,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "Hftx30vXEwg"
@@ -12846,7 +12948,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "IxidYnXDaG9XrT17l7-OgNsfSEQ",
+    "etag": "ndHMZPI-BDtxHeg3CaKcS_EoFR8",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4yMUQyQTQzMjRDNzMyQTMy",
     "snippet": {
       "publishedAt": "2021-02-18T05:14:08Z",
@@ -12882,7 +12984,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 253,
+      "position": 255,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "fAzK_npEYvo"
@@ -12897,7 +12999,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "FZ1CW5xJy8f2sgfYoiNIDIrYM9o",
+    "etag": "xcrOmVfQXqDXOSuZe1jPc0PWcME",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai41QTY1Q0UxMTVCODczNThE",
     "snippet": {
       "publishedAt": "2021-02-15T08:51:19Z",
@@ -12933,7 +13035,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 254,
+      "position": 256,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "Eoz_p2N_fhY"
@@ -12948,7 +13050,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "OqwEfy75c-8aJcV28Pl3JroLlAk",
+    "etag": "kOd88fjz14HZ-Djyw117R9ZLrIA",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5EQUE1NTFDRjcwMDg0NEMz",
     "snippet": {
       "publishedAt": "2021-02-11T05:29:40Z",
@@ -12984,7 +13086,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 255,
+      "position": 257,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "cUQXTPn_YrA"
@@ -12999,7 +13101,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "NKkjBxrHFnoh024mc7NEKY6P-NM",
+    "etag": "GPc6zt-_E-VpGXbuJu0-vaw6ziM",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai41Mzk2QTAxMTkzNDk4MDhF",
     "snippet": {
       "publishedAt": "2021-02-04T05:01:10Z",
@@ -13035,7 +13137,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 256,
+      "position": 258,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "sgUD0y_fU3s"
@@ -13050,7 +13152,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "RYfXGzKH9VRGDgPFLCfsppnnUB0",
+    "etag": "eor61nNkAwqNEEDA-540iFpzhic",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4zMDg5MkQ5MEVDMEM1NTg2",
     "snippet": {
       "publishedAt": "2021-01-28T04:18:42Z",
@@ -13086,7 +13188,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 257,
+      "position": 259,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "Tvug2KeA-0E"
@@ -13101,7 +13203,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "MzNJ6TBXlRIC4dYKX6B8Nnx5RTo",
+    "etag": "TNFqilzcSvvAPilAxiNIK3Pdhns",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai45ODRDNTg0QjA4NkFBNkQy",
     "snippet": {
       "publishedAt": "2021-01-20T23:52:30Z",
@@ -13137,7 +13239,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 258,
+      "position": 260,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "GlKazZVGTf4"
@@ -13152,7 +13254,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "TRuLrZXZIIUZJ7oBiU1c3WR-8Og",
+    "etag": "p_8BGhe0vzDwM-NrXl2FA0_WyT4",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5EMEEwRUY5M0RDRTU3NDJC",
     "snippet": {
       "publishedAt": "2021-01-15T22:26:23Z",
@@ -13188,7 +13290,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 259,
+      "position": 261,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "yFPzbC91N9g"
@@ -13203,7 +13305,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "PK3FnqV_vyuBe_eHbgp0cZ1H5tU",
+    "etag": "7sPX6veAa3gQ-38NKnLzYwpHAEw",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai40NzZCMERDMjVEN0RFRThB",
     "snippet": {
       "publishedAt": "2021-01-15T22:26:15Z",
@@ -13239,7 +13341,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 260,
+      "position": 262,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "zp-IvShHdyo"
@@ -13254,7 +13356,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "Z5wvCJ9QpuKCmgprOSdIVufoHmc",
+    "etag": "229vtYOE0aAf9zlKnIbdZCeGvEY",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5GNjNDRDREMDQxOThCMDQ2",
     "snippet": {
       "publishedAt": "2021-01-15T22:26:06Z",
@@ -13290,7 +13392,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 261,
+      "position": 263,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "NUGY39mJw1Q"
@@ -13305,7 +13407,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "dWvXrioU0sGCan1ixgSyinQKEJ0",
+    "etag": "rXX9dN0CHLa7YpacwWlzCImCVUo",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5DQUNERDQ2NkIzRUQxNTY1",
     "snippet": {
       "publishedAt": "2021-01-15T22:25:45Z",
@@ -13341,7 +13443,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 262,
+      "position": 264,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "vHIxxyN2H-U"
@@ -13356,7 +13458,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "6mn46FUboe2eqPZwVL2yOtANcl4",
+    "etag": "opJZgulc6PEJVYTt3JCHqI57_Uc",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai41MzJCQjBCNDIyRkJDN0VD",
     "snippet": {
       "publishedAt": "2021-01-15T22:25:34Z",
@@ -13392,7 +13494,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 263,
+      "position": 265,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "sW-7Pz_FNpg"
@@ -13407,7 +13509,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "6b_IANbmcAEV-3a9WlFeajU3Rcs",
+    "etag": "BUP-MSKUYgsP4piBvFEdrEKEWFk",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4xMkVGQjNCMUM1N0RFNEUx",
     "snippet": {
       "publishedAt": "2021-01-15T22:25:18Z",
@@ -13443,7 +13545,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 264,
+      "position": 266,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "NluI3FTTS6Y"
@@ -13458,7 +13560,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "SqAMmw2rph5Zh858-Ez966OUado",
+    "etag": "e09l7Xum_09OH0mpL5ltD0kA4mk",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4wOTA3OTZBNzVEMTUzOTMy",
     "snippet": {
       "publishedAt": "2021-01-15T22:25:06Z",
@@ -13494,7 +13596,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 265,
+      "position": 267,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "rebWuZV8JE0"
@@ -13509,7 +13611,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "oDL5OQIpIyWe1JnPopsKn0BXTew",
+    "etag": "MH0tAOgBlNnHd639iJAOgU6M9e0",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai41MjE1MkI0OTQ2QzJGNzNG",
     "snippet": {
       "publishedAt": "2021-01-15T22:24:51Z",
@@ -13545,7 +13647,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 266,
+      "position": 268,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "ilOTTZN33AU"
@@ -13560,7 +13662,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "Q8KYbjpni7Wt3p7qQNCuEWsdlmA",
+    "etag": "amGZypUKD_hYgxiXDtUhTkVDsPs",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4wMTcyMDhGQUE4NTIzM0Y5",
     "snippet": {
       "publishedAt": "2021-01-15T22:24:33Z",
@@ -13596,7 +13698,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 267,
+      "position": 269,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "MKhK6ztYCsA"
@@ -13611,7 +13713,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "DvJJbIBOaQBxsTEITTDL5W-iRSk",
+    "etag": "Cl7xfEG8bZ6rC8TfJCGQu_Kia8E",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4yODlGNEE0NkRGMEEzMEQy",
     "snippet": {
       "publishedAt": "2021-01-15T22:24:19Z",
@@ -13647,7 +13749,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 268,
+      "position": 270,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "OQscZ9_BhpA"
@@ -13662,7 +13764,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "LXwUjFRDkA4tpTq9JNwgGtHBByY",
+    "etag": "agpEDNz0wASNHxiONawUtKV61js",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai41NkI0NEY2RDEwNTU3Q0M2",
     "snippet": {
       "publishedAt": "2021-01-15T22:23:54Z",
@@ -13698,7 +13800,7 @@
       },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
-      "position": 269,
+      "position": 271,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "dXjziX-C0G0"
