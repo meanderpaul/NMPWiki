@@ -1,50 +1,46 @@
-name: Update Literature Page
+name: Update Literature JSON
 
 on:
   schedule:
-    - cron: '0 0 * * 0' # Schedule to run every sunday
-  workflow_dispatch: # Allow manual triggering
+    - cron: '0 2 * * 0'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'scripts/extract-literature.mjs'
+      - 'public/data/episodes.json'
+      - '.github/workflows/update-literature.yml'
+
+permissions:
+  contents: write
 
 jobs:
   update-literature:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
+      - name: Checkout Repository
+        uses: actions/checkout@v4
 
       - name: Set up Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
-          node-version: '14'
+          node-version: '20'
+          cache: npm
 
-      - name: Set up Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: '3.x'
+      - name: Install Dependencies
+        run: npm ci
 
-      - name: Install dependencies
-        run: |
-          npm install
-          python -m pip install --upgrade pip
-          pip install -r video-analyzer/requirements.txt
+      - name: Extract literature
+        run: npm run literature
 
-      - name: Start video analyzer API
-        run: uvicorn video-analyzer.main:app --host 0.0.0.0 --port 8000 &
-
-      - name: Transcribe videos
-        run: node scripts/transcribe_videos.mjs
-
-      - name: Extract information
-        run: node scripts/extract_information.mjs
-
-      - name: Update HTML
-        run: node scripts/update_html.mjs
-
-      - name: Commit and push changes
+      - name: Commit and Push Changes
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add .
-          git commit -m 'Update literature page with new video information'
+          git add public/data/literature.json
+          git commit -m 'Update literature data' || echo "Nothing to commit"
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

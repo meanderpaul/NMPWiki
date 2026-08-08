@@ -2,101 +2,120 @@ import { promises as fs } from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
-// Helper variables to get directory name
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+const episodesPath = path.join(__dirname, 'public/data', 'episodes.json');
 
-// Path to the episodes.json file
-const episodesPath = path.join(__dirname, 'data', 'episodes.json');
+const JUNK_PATTERNS = [
+  /\b(facebook|instagram|website|please|consider|minute|cancel|appearance|checking|spoiler|introduction|inclusion|significance|secrets|folktales|lucky|impression|speak of|refers to|deadpool)\b/i,
+  /\b(to discuss|to talk|to speak|heading over|last minute|wearing|academic papers)\b/i,
+];
 
-// Ensure the file exists
+function normalizeKey(name) {
+  return name
+    .normalize('NFD')
+    .replace(/\p{M}/gu, '')
+    .toLowerCase()
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function cleanGuestName(name) {
+  return name
+    .replace(/\b(?:Guest|Guildmaster|Part|Pt\.?)\b/gi, '')
+    .replace(/[|–—:].*$/, '')
+    .replace(/["'`]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function looksLikePersonName(name) {
+  if (!name || name.length < 3 || name.length > 60) return false;
+  if (/^\d+$/.test(name)) return false;
+  if (JUNK_PATTERNS.some((re) => re.test(name))) return false;
+  if (/[!?/]/.test(name)) return false;
+
+  const words = name.split(/\s+/).filter(Boolean);
+  if (words.length < 1 || words.length > 5) return false;
+  if (words.length === 1 && words[0].toLowerCase() === 'host') return false;
+
+  // Prefer names that start with a capital letter (allow lowercase after cleaning edge cases)
+  const capitalized = words.filter((w) => /^[\p{Lu}(]/u.test(w)).length;
+  if (capitalized === 0) return false;
+
+  return true;
+}
+
+function extractGuestsFromTitle(title) {
+  const match = title.match(/\bwith\s+(.+?)(?:\s+NMP|\s+#?\d|$)/i);
+  if (!match?.[1]) return [];
+
+  return match[1]
+    .split(/\s+(?:and|&|with)\s+/i)
+    .map(cleanGuestName)
+    .filter(looksLikePersonName);
+}
+
+function extractGuestsFromDescription(description = '') {
+  // Strict "Guest:" / "Guests:" line style only
+  const match = description.match(/(?:^|\n)\s*guests?\s*:\s*(.+?)(?:\.|,|;|\n|$)/i);
+  if (!match?.[1]) return [];
+
+  return match[1]
+    .split(/\s+(?:and|&|with)\s+/i)
+    .map(cleanGuestName)
+    .filter(looksLikePersonName);
+}
+
 try {
   await fs.access(episodesPath);
-  console.log('Successfully found data/episodes.json');
 } catch {
-  console.error('Error: Cannot find data/episodes.json');
+  console.error('Error: Cannot find public/data/episodes.json');
   process.exit(1);
 }
 
-// Read and parse the episodes.json file
 try {
-  const episodesData = await fs.readFile(episodesPath, 'utf8');
-  console.log('Successfully read data/episodes.json');
-  const episodes = JSON.parse(episodesData);
-  console.log('Successfully parsed episodes.json');
-  
-  // Create a map to store guest appearances
-  const guestMap = {};
-  
-  // Helper function to clean and normalize guest names
-  const cleanGuestName = (name) => name
-    .replace(/(?:Guest|Guildmaster|Part)/gi, '') // Remove unwanted terms
-    .trim()
-    .replace(/[^a-zA-Z\s]/g, '');
+  const episodes = JSON.parse(await fs.readFile(episodesPath, 'utf8'));
+  const guestMap = new Map();
 
-  // Iterate through episodes to count guest appearances
-  episodes.forEach(episode => {
-    const title = episode.snippet.title;
-    console.log(`Processing episode title: ${title}`);
+  for (const episode of episodes) {
+    const title = episode?.snippet?.title || '';
+    const description = episode?.snippet?.description || '';
 
-    // Extract guest names and split by "and", "&", or "with"
-    const guestNames = title.match(/with (.+?)(?:\s*NMP|\s*\d|$)/i);
-    if (guestNames && guestNames[1]) {
-      const guests = guestNames[1]
-        .split(/and|&|with/i)
-        .map(name => cleanGuestName(name))
-        .filter(name => name.length > 0); // Remove any empty names
-      
-      console.log(`Extracted guests from title: ${guests.join(', ')}`);
-      
-      guests.forEach(guest => {
-        if (guestMap[guest]) {
-          guestMap[guest]++;
-        } else {
-          guestMap[guest] = 1;
+    const fromTitle = extractGuestsFromTitle(title);
+    const fromDescription = extractGuestsFromDescription(description);
+    // Prefer title guests when present; otherwise fall back to strict description tags
+    const guests = fromTitle.length > 0 ? fromTitle : fromDescription;
+
+    for (const guest of guests) {
+      const key = normalizeKey(guest);
+      if (!key) continue;
+
+      const existing = guestMap.get(key);
+      if (existing) {
+        existing.episodes += 1;
+        if (guest.length > existing.name.length) {
+          existing.name = guest;
         }
-      });
+      } else {
+        guestMap.set(key, { name: guest, episodes: 1 });
+      }
     }
-  });
-  
-  console.log('Guest map:', guestMap);
-  
-  // Convert the guest map to an array of guest objects
-  const guests = Object.keys(guestMap).map(guest => ({
-    name: guest,
-    episodes: guestMap[guest]
-  }));
-  
-  console.log('Guests array:', guests);
-  
-  // Write the sorted guest list to data/guests.json
-  if (guests.length > 0) {
-    // Sort guests alphabetically by name
-    guests.sort((a, b) => a.name.localeCompare(b.name));
-    
-    const guestsPath = path.join(__dirname, 'data', 'guests.json');
-    await fs.writeFile(guestsPath, JSON.stringify(guests, null, 2));
-    console.log('guests.json has been generated and sorted!');
-  } else {
-    console.error('Error: No guests found to write to guests.json');
   }
 
-  // Generate HTML for grid layout
-  let gridHTML = '<div class="grid-container">';
-  guests.forEach(guest => {
-    gridHTML += `
-      <div class="grid-item">
-        ${guest.name} - ${guest.episodes} episode(s)
-      </div>
-    `;
-  });
-  gridHTML += '</div>';
+  const guests = [...guestMap.values()].sort((a, b) =>
+    a.name.localeCompare(b.name, undefined, { sensitivity: 'base' })
+  );
 
-  // Write the HTML grid to a file in the root directory
-  const guestsGridPath = path.join(__dirname, 'guests.html');
-  await fs.writeFile(guestsGridPath, gridHTML);
+  if (guests.length === 0) {
+    console.error('Error: No guests found to write to guests.json');
+    process.exit(1);
+  }
 
-  console.log('guests.html has been generated with the grid layout!');
+  const guestsPath = path.join(__dirname, 'public/data', 'guests.json');
+  await fs.writeFile(guestsPath, JSON.stringify(guests, null, 2));
+  console.log(`guests.json generated with ${guests.length} guests`);
 } catch (error) {
   console.error('Error processing episodes or generating guests:', error);
+  process.exit(1);
 }

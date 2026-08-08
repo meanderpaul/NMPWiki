@@ -1,21 +1,30 @@
 {
-  "name": "youtube-episode-fetcher",
-  "version": "1.0.0",
-  "description": "A project to fetch and display episodes from the Nordic Mythology Podcast YouTube playlist.",
-  "main": "fetch-episodes.mjs",
+  "name": "nmp-resources",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Nordic Mythology Podcast resources site — episodes, guests, literature, and locations.",
+  "type": "module",
   "scripts": {
-    "start": "node server.js",
-    "fetch": "node fetch-episodes.mjs"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "fetch": "node fetch-episodes.mjs",
+    "guests": "node generateGuests.mjs",
+    "literature": "node scripts/extract-literature.mjs",
+    "data": "npm run guests && npm run literature"
   },
   "dependencies": {
-    "dotenv": "^10.0.0",
-    "express": "^4.17.1",
-    "mongoose": "^6.13.5",
-    "node-fetch": "^3.3.*"
+    "dotenv": "^16.6.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.18.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.5.2",
+    "vite": "^6.4.3"
   },
   "engines": {
-    "node": ">=14.0.0"
+    "node": ">=20.0.0"
   },
-  "author": "",
   "license": "ISC"
 }
