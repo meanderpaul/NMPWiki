@@ -2,10 +2,14 @@ name: Update Episodes JSON
 
 on:
   schedule:
-    - cron: '0 0 * * 0' # Runs every Sunday at midnight
+    - cron: '0 0 * * 0'
+  workflow_dispatch:
   push:
     branches:
       - main
+    paths:
+      - 'fetch-episodes.mjs'
+      - '.github/workflows/update-episodes.yml'
 
 permissions:
   contents: write
@@ -15,26 +19,32 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v2
+      - name: Checkout Repository
+        uses: actions/checkout@v4
 
-    - name: Set up Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: '14' # Use the version of Node.js you need
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
 
-    - name: Install Dependencies
-      run: npm install
+      - name: Install Dependencies
+        run: npm ci
 
-    - name: Run Fetch Episodes Script
-      run: node fetch-episodes.mjs
+      - name: Run Fetch Episodes Script
+        run: npm run fetch
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
 
-    - name: Commit and Push Changes
-      run: |
-        git config --global user.name 'github-actions[bot]'
-        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git add data/episodes.json
-        git commit -m 'Update data/episodes.json' || echo "Nothing to commit"
-        git push
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Regenerate guests and literature
+        run: npm run data
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add public/data/episodes.json public/data/guests.json public/data/literature.json
+          git commit -m 'Update episode data' || echo "Nothing to commit"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,31 +1,64 @@
-Since its inception in 2019, the Nordic Mythology Podcast has become a beacon of accurate information and engaging discussions about Nordic Mythology and the Viking Age. 
-Hosted initially by Daniel Farrand, owner of Horns of Odin, and Dr. Mathias Nordvig, a respected scholar in Nordic studies, the podcast was born out of a shared frustration with the 
-widespread misuse and misrepresentation of these fascinating historical topics.
+# NMP Resources
 
-After three years and over 130 episodes, Dr. Nordvig departed the podcast to explore new endeavors. Daniel, with his insatiable curiosity, continued the journey solo. 
-Episode 163 marked a pivotal moment when Margrethe Havgar joined Daniel as a co-host, bringing new energy and insights to the show. 
-Her impressive contributions in the longest episode in NMP history made her the perfect addition.
+Companion site for the [Nordic Mythology Podcast](https://www.nordicmythologypodcast.com): browse episodes, guests, literature references, and historic locations.
 
-Beyond the hosts, NMP has built a beautiful community of listeners and is supported by an incredibly talented behind-the-scenes team, without whom the podcast simply couldn’t exist.
+## Stack
 
-<h2>About NMP Resources</h2>
+- Vite + React + React Router
+- Static JSON data under `public/data/`
+- Node scripts + GitHub Actions to refresh YouTube-derived data
 
-The NMP Resources site was created to expand on the wealth of knowledge shared in each episode. Here, 
-listeners can dive deeper into the subjects discussed by exploring detailed information about historic sites, books, manuscripts, research papers, and more.
-This resource site captures and presents the essence of the podcast’s content, allowing you to:
+## Setup
 
---Explore historic sites discussed in episodes.
+Requirements: **Node.js 20+**
 
---Access and read referenced books and manuscripts.
+```bash
+cp .env.example .env
+# Add your YouTube Data API v3 key to .env
+npm install
+npm run dev
+```
 
---Delve into academic research papers and scholarly articles.
+Open the printed local URL (default `http://localhost:5173`).
 
---Follow up on topics with comprehensive resources and insights.
+### Required secret
 
-Daniel’s relentless curiosity and the expertise of co-hosts come together to answer burning questions and debunk myths, 
-ensuring historical accuracy and entertainment go hand-in-hand. The podcast has welcomed a variety of distinguished guests, 
-including world-leading scholars, tattoo artists, authors, and actors, providing listeners with diverse perspectives and insights.
-Join us on this journey through history and myth, and enrich your understanding of the rich tapestry that is Nordic Mythology. 
-Whether you're a long-time listener or new to the world of NMP, our resources site is here to enhance your experience and deepen your knowledge.
+| Name | Where |
+|------|--------|
+| `YOUTUBE_API_KEY` | Local `.env` and GitHub Actions repository secret |
 
-Welcome to NMP Resources, your comprehensive guide to everything discussed on the Nordic Mythology Podcast. Let's explore the past together!
+The old committed API key must be treated as compromised: revoke/rotate it in Google Cloud and store only the new key as a secret.
+
+## Scripts
+
+| Command | Purpose |
+|---------|---------|
+| `npm run dev` | Local Vite dev server |
+| `npm run build` | Production build to `dist/` |
+| `npm run preview` | Preview the production build |
+| `npm run fetch` | Fetch playlist episodes → `public/data/episodes.json` |
+| `npm run guests` | Rebuild `public/data/guests.json` from episodes |
+| `npm run literature` | Rebuild `public/data/literature.json` from episode descriptions |
+| `npm run data` | Run guests + literature |
+
+## Deploy
+
+```bash
+npm run build
+```
+
+Serve the `dist/` folder with any static host (GitHub Pages, Netlify, nginx, etc.). Data files are copied from `public/` into the build output.
+
+## CI
+
+Weekly (and manual) workflows:
+
+- `.github/workflows/update-episodes.yml` — fetch episodes, then regenerate guests + literature
+- `.github/workflows/update_guests.yml` — guests only
+- `.github/workflows/update-literature.yml` — literature only
+
+Configure `YOUTUBE_API_KEY` under repository **Settings → Secrets and variables → Actions**.
+
+## About the podcast
+
+Since 2019, NMP has shared accurate discussions of Nordic mythology and the Viking Age. This site expands on episode content so listeners can follow guests, places, books, and papers referenced on the show.

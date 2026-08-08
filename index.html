@@ -1,125 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="NMP Resources — explore episodes, guests, literature, and historic sites from the Nordic Mythology Podcast."
+    />
     <title>NMP Resources</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-<script>
-    function toggleMenu() {
-        var x = document.querySelector(".navbar");
-        if (x.className === "navbar") {
-            x.className += " responsive";
-        } else {
-            x.className = "navbar";
-        }
-    }
-</script>
-    <style>
-        .hero {
-            background: url('css/nmp_banner_resources.jpg') no-repeat center center;
-            background-size: contain; /* Ensure the image fits within the borders */
-            height: 25vh; /* Smaller height */
-            width: 100%; /* Default width */
-            max-height: 250px; /* Maximum height */
-            padding-top: 50px; /* Add padding to prevent cutoff */
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: white;
-            text-align: center;
-        }
-
-        .hero-content {
-            background-color: rgba(0, 0, 0, 0.5);
-            padding: 20px;
-            border-radius: 10px;
-        }
-
-        /* Responsive Design */
-        @media (max-width: 1200px) {
-            .hero {
-                height: 20vh; /* Adjusted height for larger screens */
-            }
-        }
-
-        @media (max-width: 768px) {
-            .hero {
-                height: 15vh; /* Adjusted height for medium screens */
-            }
-        }
-
-        @media (max-width: 480px) {
-            .hero {
-                height: 10vh; /* Adjusted height for small screens */
-            }
-        }
-
-        @media (max-width: 320px) {
-            .hero {
-                height: 7.5vh; /* Adjusted height for very small screens */
-            }
-        }
-    </style>
-</head>
-<body>
-    <div class="hero">
-        <div class="hero-content">
-        </div>
-    </div>
-
-    <!-- Navigation Bar -->
-    <div class="navbar">
-        <a href="index.html" class="active">Home</a>
-        <a href="episodes.html">Episodes</a>
-        <a href="literature.html">Literature</a>
-        <a href="locations.html">Locations</a>
-        <a href="guests.html">Guests</a>
-        <a href="https://www.nordicmythologypodcast.com" target="_blank">NMP</a>
-        <a href="https://www.hornsofodin.com" target="_blank">Horns of Odin</a>
-        <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">&#9776;</a>
-    </div>
-
-    <div class="container">
-        <div class="section">
-            
-            <p><h2>Welcome to NMP Resources!</h2>
-
-Since its inception in 2019, the Nordic Mythology Podcast has become a beacon of accurate information and engaging discussions about Nordic Mythology and the Viking Age. 
-Hosted initially by Daniel Farrand, owner of Horns of Odin, and Dr. Mathias Nordvig, a respected scholar in Nordic studies, the podcast was born out of a shared frustration with the 
-widespread misuse and misrepresentation of these fascinating historical topics.
-
-After three years and over 130 episodes, Dr. Nordvig departed the podcast to explore new endeavors. Daniel, with his insatiable curiosity, continued the journey solo. 
-Episode 163 marked a pivotal moment when Margrethe Havgar joined Daniel as a co-host, bringing new energy and insights to the show. 
-Her impressive contributions in the longest episode in NMP history made her the perfect addition.
-
-Beyond the hosts, NMP has built a beautiful community of listeners and is supported by an incredibly talented behind-the-scenes team, without whom the podcast simply couldn’t exist.
-
-<h2>About NMP Resources</h2>
-
-The NMP Resources site was created to expand on the wealth of knowledge shared in each episode. Here, 
-listeners can dive deeper into the subjects discussed by exploring detailed information about historic sites, books, manuscripts, research papers, and more.
-This resource site captures and presents the essence of the podcast’s content, allowing you to:
-
---Explore historic sites discussed in episodes.
-
---Access and read referenced books and manuscripts.
-
---Delve into academic research papers and scholarly articles.
-
---Follow up on topics with comprehensive resources and insights.
-
-Daniel’s relentless curiosity and the expertise of co-hosts come together to answer burning questions and debunk myths, 
-ensuring historical accuracy and entertainment go hand-in-hand. The podcast has welcomed a variety of distinguished guests, 
-including world-leading scholars, tattoo artists, authors, and actors, providing listeners with diverse perspectives and insights.
-Join us on this journey through history and myth, and enrich your understanding of the rich tapestry that is Nordic Mythology. 
-Whether you're a long-time listener or new to the world of NMP, our resources site is here to enhance your experience and deepen your knowledge.
-
-Welcome to NMP Resources, your comprehensive guide to everything discussed on the Nordic Mythology Podcast. Let's explore the past together!</p>
-        </div>
-        <br><br><br><br>
-
-
-</body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>

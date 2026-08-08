@@ -1,11 +1,16 @@
-name: Update Guests List
+name: Update Guests JSON
 
 on:
   schedule:
-    - cron: '0 0 * * 0' # Runs every Sunday at midnight
+    - cron: '0 1 * * 0'
+  workflow_dispatch:
   push:
     branches:
       - main
+    paths:
+      - 'generateGuests.mjs'
+      - 'public/data/episodes.json'
+      - '.github/workflows/update_guests.yml'
 
 permissions:
   contents: write
@@ -15,26 +20,27 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v2
+      - name: Checkout Repository
+        uses: actions/checkout@v4
 
-    - name: Set up Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: '14'
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
 
-    - name: Install Dependencies
-      run: npm install
+      - name: Install Dependencies
+        run: npm ci
 
-    - name: Run Generate Guests Script
-      run: node generateGuests.mjs
+      - name: Generate guests
+        run: npm run guests
 
-    - name: Commit and Push Changes
-      run: |
-        git config --global user.name 'github-actions[bot]'
-        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git add data/guests.json
-        git commit -m 'Update data/guests.json' || echo "Nothing to commit"
-        git push
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add public/data/guests.json
+          git commit -m 'Update guests data' || echo "Nothing to commit"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
