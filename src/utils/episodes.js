@@ -15,11 +15,6 @@ export function extractEpisodeNumber(title = '') {
 }
 
 export function extractGuestName(description = '', title = '') {
-  const descriptionGuestMatch = description.match(/guest[s]?[:\s]+(.+?)(?:\.|,|;|\n|$)/i);
-  if (descriptionGuestMatch?.[1]) {
-    return descriptionGuestMatch[1].trim();
-  }
-
   const titleMatch = title.match(/\bwith\s+(.+?)(?:\s+NMP|\s+#?\d|$)/i);
   if (titleMatch?.[1]) {
     return titleMatch[1]
@@ -27,6 +22,13 @@ export function extractGuestName(description = '', title = '') {
       .map((part) => part.trim())
       .filter(Boolean)
       .join(', ');
+  }
+
+  const descriptionGuestMatch = description.match(
+    /(?:^|\n)\s*guests?\s*:\s*(.+?)(?:\.|,|;|\n|$)/i
+  );
+  if (descriptionGuestMatch?.[1]) {
+    return descriptionGuestMatch[1].trim();
   }
 
   return 'N/A';

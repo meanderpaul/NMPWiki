@@ -283,19 +283,33 @@ input {
 .year-panel__body,
 .location-item__body {
   display: grid;
-  gap: 0.85rem;
-  max-height: 0;
-  overflow: hidden;
+  grid-template-rows: 0fr;
   opacity: 0;
-  padding: 0 1.15rem;
-  transition: max-height 320ms ease, opacity 240ms ease, padding 240ms ease;
+  transition: grid-template-rows 280ms ease, opacity 220ms ease;
+}
+
+.year-panel__body > .year-panel__inner,
+.location-item__body > .location-item__inner {
+  overflow: hidden;
+  min-height: 0;
 }
 
 .year-panel.is-open .year-panel__body,
 .location-item.is-open .location-item__body {
-  max-height: 4000px;
+  grid-template-rows: 1fr;
   opacity: 1;
-  padding: 0 1.15rem 1.15rem;
+}
+
+.year-panel__inner,
+.location-item__inner {
+  display: grid;
+  gap: 0.85rem;
+  padding: 0 1.15rem;
+}
+
+.year-panel.is-open .year-panel__inner,
+.location-item.is-open .location-item__inner {
+  padding-bottom: 1.15rem;
 }
 
 .episode-card,

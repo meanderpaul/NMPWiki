@@ -92,43 +92,45 @@ export default function EpisodesPage() {
                 <span className="year-panel__count">{yearEpisodes.length}</span>
               </button>
               <div className="year-panel__body">
-                {yearEpisodes.map((episode) => {
-                  const title = episode.snippet?.title || 'No title';
-                  const description = episode.snippet?.description || '';
-                  const videoId =
-                    episode.contentDetails?.videoId ||
-                    episode.snippet?.resourceId?.videoId;
-                  return (
-                    <article key={episode.id || videoId || title} className="episode-card">
-                      <h3>{title}</h3>
-                      <p>
-                        <strong>Episode:</strong> {extractEpisodeNumber(title) || 'N/A'}
-                      </p>
-                      <p>
-                        <strong>Guest:</strong> {extractGuestName(description, title)}
-                      </p>
-                      <p>
-                        <strong>Published:</strong>{' '}
-                        {episode.snippet?.publishedAt
-                          ? new Date(episode.snippet.publishedAt).toLocaleDateString()
-                          : 'Unknown'}
-                      </p>
-                      <p className="episode-card__description">
-                        {cleanDescription(description) || 'No description available'}
-                      </p>
-                      {videoId ? (
-                        <a
-                          className="text-link"
-                          href={`https://www.youtube.com/watch?v=${videoId}`}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          Watch on YouTube
-                        </a>
-                      ) : null}
-                    </article>
-                  );
-                })}
+                <div className="year-panel__inner">
+                  {yearEpisodes.map((episode) => {
+                    const title = episode.snippet?.title || 'No title';
+                    const description = episode.snippet?.description || '';
+                    const videoId =
+                      episode.contentDetails?.videoId ||
+                      episode.snippet?.resourceId?.videoId;
+                    return (
+                      <article key={episode.id || videoId || title} className="episode-card">
+                        <h3>{title}</h3>
+                        <p>
+                          <strong>Episode:</strong> {extractEpisodeNumber(title) || 'N/A'}
+                        </p>
+                        <p>
+                          <strong>Guest:</strong> {extractGuestName(description, title)}
+                        </p>
+                        <p>
+                          <strong>Published:</strong>{' '}
+                          {episode.snippet?.publishedAt
+                            ? new Date(episode.snippet.publishedAt).toLocaleDateString()
+                            : 'Unknown'}
+                        </p>
+                        <p className="episode-card__description">
+                          {cleanDescription(description) || 'No description available'}
+                        </p>
+                        {videoId ? (
+                          <a
+                            className="text-link"
+                            href={`https://www.youtube.com/watch?v=${videoId}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            Watch on YouTube
+                          </a>
+                        ) : null}
+                      </article>
+                    );
+                  })}
+                </div>
               </div>
             </section>
           );

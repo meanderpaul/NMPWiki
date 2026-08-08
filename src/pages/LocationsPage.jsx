@@ -73,20 +73,22 @@ export default function LocationsPage() {
                 </span>
               </button>
               <div className="location-item__body">
-                <p>
-                  <strong>Discovered:</strong> {location.discovered_year || 'Unknown'}
-                </p>
-                <p>{location.description_of_relevance}</p>
-                {location.sources?.length > 0 ? (
-                  <>
-                    <h4>Sources</h4>
-                    <ul>
-                      {location.sources.map((source) => (
-                        <li key={source}>{source}</li>
-                      ))}
-                    </ul>
-                  </>
-                ) : null}
+                <div className="location-item__inner">
+                  <p>
+                    <strong>Discovered:</strong> {location.discovered_year || 'Unknown'}
+                  </p>
+                  <p>{location.description_of_relevance}</p>
+                  {location.sources?.length > 0 ? (
+                    <>
+                      <h4>Sources</h4>
+                      <ul>
+                        {location.sources.map((source) => (
+                          <li key={source}>{source}</li>
+                        ))}
+                      </ul>
+                    </>
+                  ) : null}
+                </div>
               </div>
             </article>
           );

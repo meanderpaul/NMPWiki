@@ -6,6 +6,11 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const episodesPath = path.join(__dirname, 'public/data', 'episodes.json');
 
+const JUNK_PATTERNS = [
+  /\b(facebook|instagram|website|please|consider|minute|cancel|appearance|checking|spoiler|introduction|inclusion|significance|secrets|folktales|lucky|impression|speak of|refers to|deadpool)\b/i,
+  /\b(to discuss|to talk|to speak|heading over|last minute|wearing|academic papers)\b/i,
+];
+
 function normalizeKey(name) {
   return name
     .normalize('NFD')
@@ -24,6 +29,23 @@ function cleanGuestName(name) {
     .trim();
 }
 
+function looksLikePersonName(name) {
+  if (!name || name.length < 3 || name.length > 60) return false;
+  if (/^\d+$/.test(name)) return false;
+  if (JUNK_PATTERNS.some((re) => re.test(name))) return false;
+  if (/[!?/]/.test(name)) return false;
+
+  const words = name.split(/\s+/).filter(Boolean);
+  if (words.length < 1 || words.length > 5) return false;
+  if (words.length === 1 && words[0].toLowerCase() === 'host') return false;
+
+  // Prefer names that start with a capital letter (allow lowercase after cleaning edge cases)
+  const capitalized = words.filter((w) => /^[\p{Lu}(]/u.test(w)).length;
+  if (capitalized === 0) return false;
+
+  return true;
+}
+
 function extractGuestsFromTitle(title) {
   const match = title.match(/\bwith\s+(.+?)(?:\s+NMP|\s+#?\d|$)/i);
   if (!match?.[1]) return [];
@@ -31,17 +53,18 @@ function extractGuestsFromTitle(title) {
   return match[1]
     .split(/\s+(?:and|&|with)\s+/i)
     .map(cleanGuestName)
-    .filter((name) => name.length > 1 && !/^\d+$/.test(name));
+    .filter(looksLikePersonName);
 }
 
 function extractGuestsFromDescription(description = '') {
-  const match = description.match(/guest[s]?[:\s]+(.+?)(?:\.|,|;|\n|$)/i);
+  // Strict "Guest:" / "Guests:" line style only
+  const match = description.match(/(?:^|\n)\s*guests?\s*:\s*(.+?)(?:\.|,|;|\n|$)/i);
   if (!match?.[1]) return [];
 
   return match[1]
     .split(/\s+(?:and|&|with)\s+/i)
     .map(cleanGuestName)
-    .filter((name) => name.length > 1 && !/^\d+$/.test(name));
+    .filter(looksLikePersonName);
 }
 
 try {
@@ -59,8 +82,10 @@ try {
     const title = episode?.snippet?.title || '';
     const description = episode?.snippet?.description || '';
 
+    const fromTitle = extractGuestsFromTitle(title);
     const fromDescription = extractGuestsFromDescription(description);
-    const guests = fromDescription.length > 0 ? fromDescription : extractGuestsFromTitle(title);
+    // Prefer title guests when present; otherwise fall back to strict description tags
+    const guests = fromTitle.length > 0 ? fromTitle : fromDescription;
 
     for (const guest of guests) {
       const key = normalizeKey(guest);
@@ -69,7 +94,6 @@ try {
       const existing = guestMap.get(key);
       if (existing) {
         existing.episodes += 1;
-        // Prefer the longer / more complete display name
         if (guest.length > existing.name.length) {
           existing.name = guest;
         }
