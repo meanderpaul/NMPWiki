@@ -57,24 +57,58 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "N5qhJ28LvpB16Q69NdC9zaZ613Q",
+    "etag": "cwlXWlQjOaRjRl47tS2g5xSOCMA",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai41MkY4MEFEMzE4Q0IyQ0E4",
     "snippet": {
       "publishedAt": "2026-10-05T00:24:24Z",
       "channelId": "UCKSGsloyMpiQlfr5ZCoB3eQ",
-      "title": "Private video",
-      "description": "This video is private.",
-      "thumbnails": {},
+      "title": "Secrets of the Oseberg Tapestries: Surviving an Archaeology PhD w/ Mags Havgar",
+      "description": "What can fragmented, 1,100-year-old textiles tell us about how Viking Age people visualized their world—and what does it actually take to write a doctoral dissertation on them? Host Daniel Farrand sits down with co-host and in-house archaeologist Margrethe (Mags) Havgar to unpack her newly submitted PhD dissertation: \"Tracing Threads of Thought: A visual exploratory reanalysis of the creatures of the Oseberg tapestries and their rhythms\".\n\nMags breaks down the reality of doctoral research in archaeology, from the difference between a thesis and a dissertation to surviving a four-year academic deadline. We dive deep into the world-famous 9th-century Oseberg ship burial: debunking the myth that the ship was merely a fragile \"pleasure craft\" for women, examining the gendered biases in early 20th-century archaeology, and discovering the surprising physical dimensions of the tapestries (which measure only 6 to 9 inches tall). Mags reveals her ground-breaking research on the visual \"rhythms\" of the cloth—including the discovery that bird beaks point strictly up or down to direct the viewer’s gaze—proving that early medieval textile artists worked with deliberate, sophisticated compositional logic.\n\nTIMESTAMPS:\n00:00 - Grilling Mags on Her PhD Journey | Dan Farrand & Mags Havgar\n01:04 - Thesis vs. Dissertation: What’s the Technical Difference?\n02:34 - The Title: \"Tracing Threads of Thought\"\n05:44 - Defining \"Creatures\": Human, Animal & Mythological Beings\n08:09 - The Academic Ladder: Bachelor’s, Master’s & The PhD Process\n11:00 - PhD Systems Compared: Paid Employment in Norway vs. The UK & US\n16:42 - How Academic Positions Work: Open Grants vs. Museum-Specific Research\n20:00 - Master's Grades, Supervisors & Independent Research\n23:00 - What Counts as Archaeology? Lab Analysis vs. Fieldwork\n26:28 - Working as a Viking Ship Museum Guide & Falling in Love with Oseberg\n30:56 - Why Tapestries? Bridging the Gap Between Wood, Metal & Textiles\n33:30 - Two Women in a Mound: Challenging Male-Centric History\n36:50 - The \"Leisure Yacht\" Myth: Gender Bias & Hull Reconstruction Errors\n40:12 - Breaking Free from Sagas: Valuing Artifacts Over Legendary Names\n43:29 - The Oseberg Tapestry Corpus: Piles of Rare 9th-Century Fragments\n46:49 - Size Reality: Why These Tapestries Are Only 6 to 9 Inches Tall\n50:17 - Niching Down: Visual Components & Storytelling Comics\n53:43 - Visual Rhythms: Waves, Cascades & Structural Echoes\n56:30 - The Bird Beak Code: Directing the Viewer's Gaze Up & Down\n01:00:19 - Anthropocentrism in Art: Humans as One Creature Among Many\n01:03:37 - What Happens Next? The Committee, Evaluation & Public Defense\n01:07:58 - Monograph vs. Article-Based Dissertations\n01:09:07 - Calling Her \"Dr. Mags\" & Life After Deadlines\n01:12:33 - The Time Machine Question: Rebuilding the Original Tapestries\n\n⚔️ JOIN OUR PATREON & UNLOCK OVER 300+ VAULT EPISODES:\nGet instant access to our complete back catalogue, unedited livestreams, exclusive guest Q&As, and our private research Discord:\n👉 https://www.patreon.com/nordicmythologypodcast\n\n🛡️ AUTHENTIC HANDCRAFTED NORDIC GOODS:\nExplore handcrafted drinking horns, cast historical bronze and silver jewelry, and leathercraft from Horns of Odin:\n👉 https://www.hornsofodin.com\n\n📱 FOLLOW THE TEAM ON INSTAGRAM:\n• Nordic Mythology Podcast: https://www.instagram.com/nordicmythologypodcast\n• Horns of Odin: https://www.instagram.com/hornsofodin\n• Dan Farrand: https://www.instagram.com/dandoeshistory\n• Mags Havgar: https://www.instagram.com/arkeomags\n\n#Oseberg #VikingArchaeology #OsebergShip #VikingTextiles #ArchaeologyPhD #NorseMythology #HornsOfOdin #VikingAge #Ep337",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/-27vkd_Cnik/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/-27vkd_Cnik/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/-27vkd_Cnik/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/-27vkd_Cnik/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/-27vkd_Cnik/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        "fhd": {
+          "url": "https://i.ytimg.com/vi/-27vkd_Cnik/fhddefault.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      },
       "channelTitle": "Nordic Mythology Podcast",
       "playlistId": "PLhyCI_UmTvojuAANuiG6sG1XgRTZNZ4Pj",
       "position": 1,
       "resourceId": {
         "kind": "youtube#video",
         "videoId": "-27vkd_Cnik"
-      }
+      },
+      "videoOwnerChannelTitle": "Nordic Mythology Podcast",
+      "videoOwnerChannelId": "UCKSGsloyMpiQlfr5ZCoB3eQ"
     },
     "contentDetails": {
-      "videoId": "-27vkd_Cnik"
+      "videoId": "-27vkd_Cnik",
+      "videoPublishedAt": "2026-10-15T07:32:13Z"
     }
   },
   {
@@ -247,7 +281,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "fBuMPiP0t2adu8AOks1suSSdo6Y",
+    "etag": "b4f-s7xRDgYklEvMBrAhkdxwoAI",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4xNjRENUU2RTk5MUNEMkQ0",
     "snippet": {
       "publishedAt": "2026-09-10T00:57:52Z",
@@ -359,7 +393,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "PBejLcFwzN1z7Ac5eEE17LiRJrw",
+    "etag": "0yww9Tyxv48xgO1NwvEP3FeknPo",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4xRjcxOEFDOTNDQUMxNjMz",
     "snippet": {
       "publishedAt": "2026-09-02T18:43:19Z",
@@ -583,7 +617,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "N-PpA52yintfAZQTAusb6sphBuw",
+    "etag": "j67X6DiGOblvZWC9DlepKD30114",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5GMkVFQzU1MUIxMThDMjQ5",
     "snippet": {
       "publishedAt": "2026-07-31T13:23:12Z",
@@ -751,7 +785,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "0XO4GL7ehlcfb4yr-7_O1m_OTk4",
+    "etag": "-iPcNnepEjoM499eWFc3bTnd_Fw",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5GNkE1RDlGNkFDMUQ5NjhD",
     "snippet": {
       "publishedAt": "2026-07-23T01:20:10Z",
@@ -919,7 +953,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "00MQtC8hgkEpC-qEYi-ueDBe7Ro",
+    "etag": "St7FbM-ErW5RRAw7dqZr1rTdt2g",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4zQzRFNTU5MDI0RUU0N0E0",
     "snippet": {
       "publishedAt": "2026-07-02T00:54:15Z",
@@ -970,7 +1004,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "wzlbo8Q2QfyNO2OX_hBIZ8FIdXk",
+    "etag": "w6UylMfav8XqTlnnCxNfYODVzso",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5CNzJDRTExMkJBNTBENTI2",
     "snippet": {
       "publishedAt": "2026-06-23T05:37:52Z",
@@ -1021,7 +1055,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "zJi7QcnOK1vokuQVNQ4Kk_dSHx0",
+    "etag": "RyipoWXJgn6y0MpCH_4lY7yQkZM",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5GOUFFM0FFNzI5RkU1NjAx",
     "snippet": {
       "publishedAt": "2026-06-12T01:12:11Z",
@@ -1077,7 +1111,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "FuI9431U-hBoNqbTatpdNTa1shQ",
+    "etag": "Md5WoiPmpY67EyNmzF1_0xnverQ",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5GMERFODY1RUUxNDYwM0VD",
     "snippet": {
       "publishedAt": "2026-06-11T11:43:03Z",
@@ -1245,7 +1279,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "mCADMWtNtDoDWbUuIXlSzdiN0uA",
+    "etag": "mj7wb4NinUh7KbRiRmsNmvJiqng",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai4zNEM4RkZDQUU4MEYwQzJE",
     "snippet": {
       "publishedAt": "2026-05-20T23:38:31Z",
@@ -1301,7 +1335,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "9CvokJhtuSd-VIYyd1_I1Xn1RoY",
+    "etag": "pokMw-2sa3NsKOae70BZt6XskF0",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai5CNDEwQURGQjkwNDIzRUYw",
     "snippet": {
       "publishedAt": "2026-05-08T22:12:21Z",
@@ -1413,7 +1447,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "Eru-Cw_JiMxESBA1xB8x04hV82Q",
+    "etag": "mLU9j7XFYAaTjO5jDDcANkh-nzo",
     "id": "UExoeUNJX1VtVHZvanVBQU51aUc2c0cxWGdSVFpOWjRQai40OEMzNzFDQjA5Q0YxMjQ3",
     "snippet": {
       "publishedAt": "2026-04-28T22:05:04Z",
